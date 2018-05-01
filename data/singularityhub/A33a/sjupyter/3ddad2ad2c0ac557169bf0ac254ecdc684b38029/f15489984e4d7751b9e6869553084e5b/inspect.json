@@ -1,0 +1,21 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap: docker\nFrom: ubuntu:latest\n\n%post\n\napt-get -y update\napt-get -y install python3-pip net-tools\n\npip3 install --upgrade pip\npip3 install jupyter\npip3 install numpy scipy matplotlib\npip3 install ipyparallel\n\nipcluster nbextension enable\n\n%environment\n\nXDG_RUNTIME_DIR=\"\"\nPATH=${PATH}:${LSF_BINDIR}\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "org.label-schema.usage.singularity.deffile": "Singularity",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.from": "ubuntu:latest",
+                "org.label-schema.build-date": "2017-10-19T19:13:06+00:00",
+                "org.label-schema.usage.singularity.version": "2.4-feature-squashbuild-secbuild.g217367c",
+                "org.label-schema.build-size": "1005MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n\nXDG_RUNTIME_DIR=\"\"\nPATH=${PATH}:${LSF_BINDIR}\n",
+            "runscript": "#!/bin/sh\n\nexec \"/bin/bash\"\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

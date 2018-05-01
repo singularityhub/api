@@ -89,7 +89,7 @@ for blob in blobs:
     bucket, repo, user, repo, commit, hashy, filename = blob.name.split('/')
 
     # We want to organize based on the same path!
-    path = os.path.join(data, bucket, repo, user, commit, hashy)
+    path = os.path.join(data, bucket, user, repo, commit, hashy)
     uri = os.path.join(user, repo)
     print(filename)
 
@@ -115,7 +115,7 @@ for blob in blobs:
         if not os.path.exists(output_files):
 
             print('Found new container version %s --> %s' %(uri, hashy))
-            container = '/tmp/%s' %blob.name
+            container = '/tmp/%s' %os.path.basename(blob.name)
             blob.download_to_filename(container)
 
             #container = Client.pull('shub://%s' %uri, pull_folder='/tmp')
