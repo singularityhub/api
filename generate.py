@@ -91,6 +91,7 @@ for blob in blobs:
     # We want to organize based on the same path!
     path = os.path.join(data, bucket, repo, user, commit, hashy)
     uri = os.path.join(user, repo)
+    print(filename)
 
     # Create a folder for the metadata to extract
     if not os.path.exists(path):
@@ -116,8 +117,10 @@ for blob in blobs:
             print('Found new container version %s --> %s' %(uri, hashy))
             container = Client.pull('shub://%s' %uri, pull_folder='/tmp')
 
-            # Run the analyze-singularity.sh for each of files and packages
-            run_analyze(container, dest=output_files)
-            run_analyze(container, files=False, dest=output_packages)
+            if os.path.exists(container):
 
-            os.remove(container)
+                # Run the analyze-singularity.sh for each of files and packages
+                run_analyze(container, dest=output_files)
+                run_analyze(container, files=False, dest=output_packages)
+
+                os.remove(container)
