@@ -1,0 +1,27 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap: docker\nFrom: bids/ndmg\n\n%help\nYou are in the BIDS-ndmg container. To see help run\nsingularity run BIDS-ndmg.simg -h\n\n%runscript\n    exec ndmg_bids \"$@\"\n\n%labels\nAuthor greg.kiar@mail.mcgill.ca\nBuild-date 30/01/2018\nVendor Ubuntu\nVersion v0.1.0\n\n%post\n    echo \"For more information on ndmg, go to:\"\n    echo \"http://m2g.io\"\n",
+            "help": "\n\nYou are in the BIDS-ndmg container. To see help run\nsingularity run BIDS-ndmg.simg -h\n\n",
+            "labels": {
+                "BUILD_DATE": "30/01/2018",
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "VENDOR": "Ubuntu",
+                "org.label-schema.usage.singularity.deffile": "Singularity.v0.1.0",
+                "AUTHOR": "greg.kiar@mail.mcgill.ca",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage": "/.singularity.d/runscript.help",
+                "VERSION": "v0.1.0",
+                "org.label-schema.usage.singularity.deffile.from": "bids/ndmg",
+                "org.label-schema.build-date": "Tue,_30_Jan_2018_22:00:37_+0000",
+                "org.label-schema.usage.singularity.runscript.help": "/.singularity.d/runscript.help",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.gaa08d4d",
+                "org.label-schema.build-size": "2018MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n",
+            "runscript": "#!/bin/sh \n\n    exec ndmg_bids \"$@\"\n\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

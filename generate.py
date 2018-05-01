@@ -115,7 +115,10 @@ for blob in blobs:
         if not os.path.exists(output_files):
 
             print('Found new container version %s --> %s' %(uri, hashy))
-            container = Client.pull('shub://%s' %uri, pull_folder='/tmp')
+            container = '/tmp/%s' %blob.name
+            blob.download_to_filename(container)
+
+            #container = Client.pull('shub://%s' %uri, pull_folder='/tmp')
 
             if os.path.exists(container):
 

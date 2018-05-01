@@ -1,0 +1,21 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap: docker\nFROM: openjdk:alpine\n\n%post\n    apk --update --no-cache add bash\n    wget https://jaist.dl.sourceforge.net/project/snpeff/snpEff_latest_core.zip\n    unzip snpEff_latest_core.zip\n    rm -rf snpEff_latest_core.zip\n    sed -i \"s/.\\/data\\/$/~\\/\\.snpEff\\/data/g\" /snpEff/snpEff.config\n\n%runscript\n    /snpEff/scripts/snpEff \"$@\"\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "org.label-schema.usage.singularity.deffile": "Singularity.snpeff",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.from": "openjdk:alpine",
+                "org.label-schema.build-date": "Tue,_27_Mar_2018_02:52:40_+0000",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "org.label-schema.build-size": "264MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n",
+            "runscript": "#!/bin/sh \n\n    /snpEff/scripts/snpEff \"$@\"\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

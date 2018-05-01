@@ -1,0 +1,21 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap: shub\nFrom: CNC-UMCG/cnc_base\n\n\n%post\n\n\tapt-get update \\\n\t    && apt-get install -y wget\n\twget -qO- https://surfer.nmr.mgh.harvard.edu/pub/dist/freesurfer/6.0.1/freesurfer-Linux-centos6_x86_64-stable-pub-v6.0.1.tar.gz | tar zxv --no-same-owner -C /opt \\\n\t    --exclude='freesurfer/trctrain' \\\n\t    --exclude='freesurfer/subjects/fsaverage_sym' \\\n\t    --exclude='freesurfer/subjects/fsaverage3' \\\n\t    --exclude='freesurfer/subjects/fsaverage4' \\\n\t    --exclude='freesurfer/subjects/fsaverage5' \\\n\t    --exclude='freesurfer/subjects/fsaverage6' \\\n\t    --exclude='freesurfer/subjects/cvs_avg35' \\\n\t    --exclude='freesurfer/subjects/cvs_avg35_inMNI152' \\\n\t    --exclude='freesurfer/subjects/bert' \\\n\t    --exclude='freesurfer/subjects/V1_average' \\\n\t    --exclude='freesurfer/average/mult-comp-cor' \\\n\t    --exclude='freesurfer/lib/cuda' \\\n\t    --exclude='freesurfer/lib/qt'\n\n\tapt-get install -y python3\n\tapt-get install -y python3-pip\n\tpip3 install nibabel pandas\n\tapt-get install -y python2.7\n\tapt-get install -y python-pip\n\n\tapt-get install -y tcsh\n\tapt-get install -y bc\n\tapt-get install -y tar libgomp1 perl-modules\n\n\tapt-get install -y curl\n\tcurl -sL https://deb.nodesource.com/setup_6.x | bash -\n\tapt-get install -y nodejs\n\tnpm install -g bids-validator@0.19.8\n\n\t# Configure environment\n\tFSLDIR=/usr/share/fsl/5.0\n\tFSLOUTPUTTYPE=NIFTI_GZ\n\tPATH=/usr/lib/fsl/5.0:$PATH\n\tFSLMULTIFILEQUIT=TRUE\n\tPOSSUMDIR=/usr/share/fsl/5.0\n\tLD_LIBRARY_PATH=/usr/lib/fsl/5.0:$LD_LIBRARY_PATH\n\tFSLTCLSH=/usr/bin/tclsh\n\tFSLWISH=/usr/bin/wish\n\tFSLOUTPUTTYPE=NIFTI_GZ\n\n#ENV SUBJECTS_DIR /opt/freesurfer/subjects\n#ENV FSF_OUTPUT_FORMAT nii.gz\n#ENV MNI_DIR /opt/freesurfer/mni\n#ENV LOCAL_DIR /opt/freesurfer/local\n#ENV FREESURFER_HOME /opt/freesurfer\n#ENV FSFAST_HOME /opt/freesurfer/fsfast\n#ENV MINC_BIN_DIR /opt/freesurfer/mni/bin\n#ENV MINC_LIB_DIR /opt/freesurfer/mni/lib\n#ENV MNI_DATAPATH /opt/freesurfer/mni/data\n#ENV FMRI_ANALYSIS_DIR /opt/freesurfer/fsfast\n#ENV PERL5LIB /opt/freesurfer/mni/lib/perl5/5.8.5\n#ENV MNI_PERL5LIB /opt/freesurfer/mni/lib/perl5/5.8.5\n#ENV PATH /opt/freesurfer/bin:/opt/freesurfer/fsfast/bin:/opt/freesurfer/tktools:/opt/freesurfer/mni/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\n#ENV PYTHONPATH=\"\"\n\n\tmkdir /scratch\n\tmkdir /local-scratch\n\n#\trun.py /run.py\n#\tchmod +x /run.py\n\n#\tversion /version\n\n#ENTRYPOINT [\"/run.py\"]\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "shub",
+                "org.label-schema.usage.singularity.deffile": "Singularity",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.from": "CNC-UMCG/cnc_base",
+                "org.label-schema.build-date": "Sun,_25_Mar_2018_20:24:15_+0000",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "org.label-schema.build-size": "7236MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n    SINGULARITY_SHELL=\"/bin/bash\"\n    PATH=$PATH:/usr/bin/cnc\n\n",
+            "runscript": "#!/bin/sh\n\nexec \"/bin/bash\" \"$@\"\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

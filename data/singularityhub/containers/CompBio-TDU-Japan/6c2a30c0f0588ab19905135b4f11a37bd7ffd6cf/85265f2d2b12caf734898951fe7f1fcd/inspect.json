@@ -1,0 +1,21 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap:docker\nFrom:alpine\n\n%post\n    apk add --update --no-cache --virtual build-deps build-base zlib-dev\n    wget https://github.com/lh3/bwa/releases/download/v0.7.17/bwa-0.7.17.tar.bz2\n    tar xf bwa-0.7.17.tar.bz2\n    cd bwa-0.7.17\n    make\n    apk del build-deps\n    mv bwa /usr/local/bin/\n    cd / ; rm -rf bwa-0.7.17\n\n%runscript\n    bwa \"$@\"\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "org.label-schema.usage.singularity.deffile": "Singularity.bwa",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.from": "alpine",
+                "org.label-schema.build-date": "Tue,_27_Mar_2018_02:41:16_+0000",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "org.label-schema.build-size": "8MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n",
+            "runscript": "#!/bin/sh \n\n    bwa \"$@\"\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

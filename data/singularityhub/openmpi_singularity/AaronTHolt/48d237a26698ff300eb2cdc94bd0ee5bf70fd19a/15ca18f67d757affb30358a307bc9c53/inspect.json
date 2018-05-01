@@ -1,0 +1,25 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "BootStrap:docker\nFrom:centos:centos7\n\n\n%post\n\n#yum check-update\n#yum -y update\n#yum -y upgrade\n\n# Speed up yum\nyum install -y yum-plugin-fastestmirror\nyum install -y deltarpm\n\n# Epel\nyum install -y epel-release\n\n# Omnipath and OpenMPI user libraries for Summit\nyum install -y libhfi1 libpsm2 libpsm2-devel libpsm2-compat\nyum install -y perftest qperf\nyum install -y libibverbs libibverbs-devel rdma\nyum install -y numactl-libs numactl-devel\n\n# Environment modules\nyum install -y Lmod\nsource /etc/profile.d/z00_lmod.sh\n\n# Other useful libraries\nyum install -y pciutils\nyum install -y which\n\n# Editors\nyum install -y vim emacs\n\n# GCC make bison flex etc\nyum groupinstall -y 'Development Tools'\nyum install -y wget\n\n## SPACK install GCC, cmake, OpenMPI\n# Define versions\n#export gcc_ver=6.4.0\n#export cmake_ver=3.10.1\n#export openmpi_ver=2.1.0\n\n# Environment for Spack/Mfix\nmkdir -p /app\ncd /app\n\nuseradd spack\nchown -R spack:spack /app\n\n# Install Spack\nsu - spack\nwhoami\ncd /app\n\ngit clone https://github.com/spack/spack.git\nexport SPACK_ROOT=/app/spack\nexport PATH=$SPACK_ROOT/bin:$PATH\nspack bootstrap\nsource $SPACK_ROOT/share/spack/setup-env.sh\n\n# Configure Spack Modules\ncp -r $SPACK_ROOT/etc/spack/defaults/* $SPACK_ROOT/etc/spack/\nsed -i '/prefix_inspections:/ i \\ \\ tcl: \\\n    hash_length: 0' $SPACK_ROOT/etc/spack/modules.yaml\n\n# Exit spack user\nexit\n\n# Edit command prompt so its short and shows you in a container\nexport PS1=\"Singularity > \"\n\n\n\n######################################################\n%environment\n\nsource /etc/profile\nSPACK_ROOT=/app/spack\nexport SPACK_ROOT\nsource $SPACK_ROOT/share/spack/setup-env.sh\n\n\n\n\n\n#\n\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "vendor": "CentOS",
+                "name": "CentOS Base Image",
+                "license": "GPLv2",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.from": "centos:centos7",
+                "org.label-schema.build-date": "Fri,_23_Feb_2018_16:07:42_+0000",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.gaa08d4d",
+                "build-date": "20180107",
+                "org.label-schema.build-size": "1020MB",
+                "org.label-schema.usage.singularity.deffile": "Singularity.spack_base"
+            },
+            "environment": "# Custom environment shell code should follow\n\n\nsource /etc/profile\nSPACK_ROOT=/app/spack\nexport SPACK_ROOT\nsource $SPACK_ROOT/share/spack/setup-env.sh\n\n\n\n\n\n#\n\n",
+            "runscript": "#!/bin/sh\n\nexec \"/bin/bash\" \"$@\"\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "# bootstrap from docker ubuntu image\nBootStrap: docker\nFrom: ubuntu:latest\n\n%post\n    apt-get update  --fix-missing\n\n    apt-get install -y tar git curl libcurl4-openssl-dev wget dialog \\\n    net-tools build-essential python python-dev python-distribute \\\n    python-pip zlib1g-dev libxslt1-dev libffi-dev libssl-dev\n\n    mkdir -p /srv/ga4gh-server\n\n    git clone -b auth-deploy-stable-test https://github.com/Bio-Core/ga4gh-server.git /srv/ga4gh-server\n\n    # install python package requirements\n    pip install -r /srv/ga4gh-server/requirements.txt\n\n    pip install /srv/ga4gh-server\n\n    # prepare sample/compliance data\n    cd /srv/ga4gh-server/scripts\n\n    python prepare_compliance_data.py -o /srv/ga4gh-compliance-data\n\n%runscript\n\n    exec ga4gh_server -P \"${GA4GH_PORT}\" -H \"${GA4GH_IP}\" -f \"${GA4GH_CONFIG}\"\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "org.label-schema.usage.singularity.deffile": "Singularity",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.from": "ubuntu:latest",
+                "org.label-schema.build-date": "2017-12-18T17:46:49+00:00",
+                "org.label-schema.usage.singularity.version": "2.4-feature-squashbuild-secbuild.g818b648",
+                "org.label-schema.build-size": "843MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n",
+            "runscript": "#!/bin/sh \n\n\n    exec ga4gh_server -P \"${GA4GH_PORT}\" -H \"${GA4GH_IP}\" -f \"${GA4GH_CONFIG}\"\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

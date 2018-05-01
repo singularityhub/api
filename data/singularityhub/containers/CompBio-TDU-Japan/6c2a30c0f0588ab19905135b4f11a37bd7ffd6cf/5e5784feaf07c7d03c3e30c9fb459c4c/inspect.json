@@ -1,0 +1,21 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap: docker\nFROM: openjdk:alpine\n\n%post\n    apk --update --no-cache add python python3\n    export JAVA_HOME=/usr/lib/jvm/java-1.8-openjdk\n    wget https://github.com/broadinstitute/gatk/releases/download/4.0.1.2/gatk-4.0.1.2.zip\n    unzip gatk-4.0.1.2.zip\n    rm -f gatk-4.0.1.2.zip\n    mv gatk-4.0.1.2 /data/\n\n%runscript\n    /data/gatk \"$@\"\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "org.label-schema.usage.singularity.deffile": "Singularity.gatk",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.from": "openjdk:alpine",
+                "org.label-schema.build-date": "Tue,_27_Mar_2018_02:43:58_+0000",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "org.label-schema.build-size": "591MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n",
+            "runscript": "#!/bin/sh \n\n    /data/gatk \"$@\"\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

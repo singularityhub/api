@@ -1,0 +1,21 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "BootStrap:docker\nFrom:caisrgit/ccr-minc:v20171120\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "org.label-schema.usage.singularity.deffile": "Singularity",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.from": "caisrgit/ccr-minc:v20171120",
+                "org.label-schema.build-date": "2017-11-24T06:42:04+00:00",
+                "org.label-schema.usage.singularity.version": "2.4-feature-squashbuild-secbuild.g818b648",
+                "org.label-schema.build-size": "2777MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n",
+            "runscript": "#!/bin/sh\n\nexec \"/neurodocker/startup.sh\"\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}
