@@ -1,0 +1,23 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap: docker\nFROM: debian:9.3-slim \n# Debian Stretch without manpages and other files\n# usually not needed in containers.\n\n%help\nContains ANTs (Advanced Normalization Tools) version 2.2.0.\nInstallation is at /opt/bin/ants.\n\n%post\n\n# Set build specific variables\nexport BUILD_SOFTWARE=\"git cmake lib32z1-dev g++\"\nexport CONTAINER_SOFTWARE=\"\"\nexport ANTS_VERSION=\"v2.2.0\"\n# Set paths to facilitate the build process.\nexport BUILDHOME=\"/opt\"\nexport CLONE_DIR=/opt\nexport ANTS_GIT_REPOSITORY=${CLONE_DIR}/ANTs\nexport ANTS_GIT_REMOTE=\"https://github.com/stnava/ANTs.git\"\nexport ANTS_HOME=${BUILDHOME}/ants\n\n# Install build requirements.\napt-get update -y\napt-get install $BUILD_SOFTWARE $CONTAINER_SOFTWARE -y \n\n# Get ANTs from GitHub.\ncd $CLONE_DIR\ngit clone $ANTS_GIT_REMOTE\n\n# Select desired version.\ncd $ANTS_GIT_REPOSITORY\ngit checkout $ANTS_VERSION\n\n# Build ANTs in $ANTS directory\nmkdir -p $ANTS_HOME\ncd $ANTS_HOME\n# Move copyright notice into ANTs Home\ncp ${ANTS_GIT_REPOSITORY}/ANTSCopyright.txt ${ANTS_HOME}/\ncmake ${ANTS_GIT_REPOSITORY}\nmake\n\n# Move scripts into the ANTs path.\nmv ${ANTS_GIT_REPOSITORY}/Scripts/* $ANTS_HOME/bin/\n\n# Set the path environment variables for ANTs.\n\necho \"export ANTSPATH=${ANTS_HOME}/bin\" >> $SINGULARITY_ENVIRONMENT\necho 'export PATH=${ANTSPATH}:$PATH' >> $SINGULARITY_ENVIRONMENT\n\n\n\n#cleanup\ncd\nrm -rf ${ANTS_GIT_REPOSITORY}\napt-get purge $BUILD_SOFTWARE -y\napt-get autoclean -y\napt-get autoremove -y\nrm -rf /var/lib/apt/lists/*\n\n\n%test\n\n# Is antsRegistration in its place and executable?\nexport ANTS_HOME=/opt/ants/bin/\nif [ -d \"$ANTS_HOME\" ]; then\n\t/opt/ants/bin/antsRegistration -h\nfi",
+            "help": "\n\nContains ANTs (Advanced Normalization Tools) version 2.2.0.\nInstallation is at /opt/bin/ants.\n\n",
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "org.label-schema.usage.singularity.deffile": "Singularity.2.2.0",
+                "org.label-schema.usage": "/.singularity.d/runscript.help",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.from": "debian:9.3-slim",
+                "org.label-schema.build-date": "Tue,_06_Mar_2018_09:54:17_+0000",
+                "org.label-schema.usage.singularity.runscript.help": "/.singularity.d/runscript.help",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "org.label-schema.build-size": "3520MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n",
+            "runscript": "#!/bin/sh\n\nexec \"bash\" \"$@\"\n",
+            "test": "#!/bin/sh\n\n\n# Is antsRegistration in its place and executable?\nexport ANTS_HOME=/opt/ants/bin/\nif [ -d \"$ANTS_HOME\" ]; then\n\t/opt/ants/bin/antsRegistration -h\nfi"
+        },
+        "type": "container"
+    }
+}

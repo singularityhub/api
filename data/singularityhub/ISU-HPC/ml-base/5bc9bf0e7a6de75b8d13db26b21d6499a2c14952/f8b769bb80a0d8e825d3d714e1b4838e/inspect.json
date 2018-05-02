@@ -1,0 +1,28 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "bootstrap:docker\nFrom:nvidia/cuda:7.5-cudnn6-devel-centos7\n\n%labels\n\nAUTHOR Yasasvy Nanyam ynanyam@iastate.edu\n\n%environment\n\n    LD_LIBRARY_PATH=/host-libs:/usr/local/cuda/extras/CUPTI/lib64:/usr/local/cuda-7.5/lib64:/usr/local/lib:/usr/local/lib64\n    export LD_LIBRARY_PATH\n    PATH=/usr/local/cuda-7.5/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin\n    export PATH\n    PYTHONPATH=/usr/local:/usr/local/lib/python2.7/site-packages\n    export PYTHONPATH\n\n%post\n\n    yum update -y\n\n    yum install -y epel-release\n\n        yum install -y \\\n            cmake \\\n            cuda-drivers \\\n            curl \\\n            git \\\n            freetype-devel \\\n            libpng-devel \\\n            openssl-devel \\\n            libXpm-devel \\\n            zeromq3-devel \\\n            module-init-tools \\\n            pkgconfig \\\n            python \\\n            python-devel \\\n            python-pip \\\n            python36 \\\n            python36-devel \\\n            rsync \\\n            unzip \\\n            zip \\\n            zlib-devel \\\n            vim \\\n            wget \\\n            java \\\n            pygtk2 \\\n            cmake3 \\\n            boost \\\n            boost-devel\n    yum clean all\n    rm -rf /var/cache/yum\n\n\n    curl https://bootstrap.pypa.io/get-pip.py | python36\n\n    pip3 --no-cache-dir install --upgrade pip\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "maintainer": "NVIDIA CORPORATION <cudatools@nvidia.com>",
+                "org.label-schema.usage.singularity.deffile": "Singularity.cu75",
+                "AUTHOR": "Yasasvy Nanyam ynanyam@iastate.edu",
+                "org.label-schema.schema-version": "1.0",
+                "com.nvidia.volumes.needed": "nvidia_driver",
+                "org.label-schema.usage.singularity.deffile.from": "nvidia/cuda:7.5-cudnn6-devel-centos7",
+                "com.nvidia.build.id": "63756821",
+                "org.label-schema.build-date": "Fri,_20_Apr_2018_19:31:36_+0000",
+                "com.nvidia.cuda.version": "7.5.18",
+                "com.nvidia.build.ref": "dbce8e751aae08dfe56ad96039c1538814af757f",
+                "com.nvidia.cudnn.version": "6.0.21",
+                "org.label-schema.build-size": "2179MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n\n    LD_LIBRARY_PATH=/host-libs:/usr/local/cuda/extras/CUPTI/lib64:/usr/local/cuda-7.5/lib64:/usr/local/lib:/usr/local/lib64\n    export LD_LIBRARY_PATH\n    PATH=/usr/local/cuda-7.5/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin\n    export PATH\n    PYTHONPATH=/usr/local:/usr/local/lib/python2.7/site-packages\n    export PYTHONPATH\n\n",
+            "runscript": "#!/bin/sh\n\nexec \"/bin/bash\" \"$@\"\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

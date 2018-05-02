@@ -1,0 +1,23 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap: docker\nFrom: python:3.4-slim\n\n%help\nPegamoid is an orbital viewer\nUse the -vgl option to run with vglrun\n\n%post\n# update apt for installing packages\napt-get update\n# install packages needed for compiling pyside\ndeps=\"wget make cmake gcc g++ qt4-default\"\napt-get install -y --no-install-recommends $deps\n# install packages needed for OpenGL and vglrun\napt-get install -y --no-install-recommends libqtgui4 mesa-utils libgl1-mesa-dri libxv1\n# install vglrun\nwget https://downloads.sourceforge.net/project/virtualgl/2.5.2/virtualgl_2.5.2_amd64.deb\ndpkg -i virtualgl_2.5.2_amd64.deb\nrm virtualgl_2.5.2_amd64.deb\n# install required python packages\npip install --upgrade pip\npip install qtpy pyside vtk numpy h5py\n# remove build dependencies\napt-get purge -y --auto-remove $deps\n\n%files\npegamoid.py /bin\n\n%runscript\nulimit -c 0\nif [ \"$1\" = \"-vgl\" ]; then\n  shift\n  vglrun python /bin/pegamoid.py \"$@\"\nelse\n  python /bin/pegamoid.py \"$@\"\nfi\n",
+            "help": "\n\nPegamoid is an orbital viewer\nUse the -vgl option to run with vglrun\n\n",
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "org.label-schema.usage.singularity.deffile": "Singularity",
+                "org.label-schema.usage": "/.singularity.d/runscript.help",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.from": "python:3.4-slim",
+                "org.label-schema.build-date": "Sat,_21_Apr_2018_14:12:05_+0000",
+                "org.label-schema.usage.singularity.runscript.help": "/.singularity.d/runscript.help",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "org.label-schema.build-size": "628MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n",
+            "runscript": "#!/bin/sh \n\nulimit -c 0\nif [ \"$1\" = \"-vgl\" ]; then\n  shift\n  vglrun python /bin/pegamoid.py \"$@\"\nelse\n  python /bin/pegamoid.py \"$@\"\nfi\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

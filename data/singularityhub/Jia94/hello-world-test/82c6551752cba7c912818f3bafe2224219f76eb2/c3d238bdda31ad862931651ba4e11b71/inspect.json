@@ -1,0 +1,24 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap:docker\nFrom:ubuntu:latest\n\n%labels\nMAINTAINER Jia94\n\n%help\n\nHelp me . Im in the container.\n",
+            "help": "\n\n\nHelp me . Im in the container.\n",
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "MAINTAINER": "Jia94",
+                "org.label-schema.usage.singularity.deffile": "Singularity",
+                "org.label-schema.usage": "/.singularity.d/runscript.help",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.from": "ubuntu:latest",
+                "org.label-schema.build-date": "Fri,_27_Apr_2018_15:09:25_+0000",
+                "org.label-schema.usage.singularity.runscript.help": "/.singularity.d/runscript.help",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "org.label-schema.build-size": "121MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n",
+            "runscript": "#!/bin/sh\n\nexec \"/bin/bash\" \"$@\"\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

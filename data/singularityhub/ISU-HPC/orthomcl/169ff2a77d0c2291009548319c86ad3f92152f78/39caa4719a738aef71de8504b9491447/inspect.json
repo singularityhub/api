@@ -1,0 +1,25 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap: docker\nFrom: granek/orthomcl\n\n%help\nA containerized version of OrthoMCL.\nDocumentation: https://www.hpc.iastate.edu/guides/containers\n\n\n%labels\n    Maintainer Iowa State University High-Performance Computing Group\n    Version  v1.0\n",
+            "help": "\n\nA containerized version of OrthoMCL.\nDocumentation: https://www.hpc.iastate.edu/guides/containers\n\n\n",
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "MAINTAINER": "Iowa State University High-Performance Computing Group",
+                "org.label-schema.usage.singularity.deffile": "Singularity",
+                "org.label-schema.usage": "/.singularity.d/runscript.help",
+                "org.label-schema.schema-version": "1.0",
+                "VERSION": "v1.0",
+                "org.label-schema.usage.singularity.deffile.from": "granek/orthomcl",
+                "org.label-schema.build-date": "Thu,_19_Apr_2018_19:57:05_+0000",
+                "org.label-schema.usage.singularity.runscript.help": "/.singularity.d/runscript.help",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "org.label-schema.build-size": "527MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n",
+            "runscript": "#!/bin/sh\n\nexec \"/bin/bash\" \"$@\"\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "BootStrap: docker\nFrom: ubuntu:16.04\n\n%post\n    apt-get update\n    apt-get install -y git vim bc gcc gfortran libnetcdf-dev libnetcdff-dev netcdf-bin\n\n%environment\n    export NETCDF_HOME=/usr\n    export NETCDF_FORTRAN_HOME=/usr\n\n    export FC=gfortran\n    export CC=gcc\n    export CXX=g++\n\n    # Tell GEOS-Chem where to find netCDF library files\n    export GC_BIN=$NETCDF_HOME/bin\n    export GC_INCLUDE=$NETCDF_HOME/include\n    export GC_LIB=$NETCDF_HOME/lib\n\n    # NOTE: If netCDF-Fortran was loaded as a separate module, then\n    # also define these variables.  (Otherwise comment these out.)\n    export GC_F_BIN=$NETCDF_FORTRAN_HOME/bin\n    export GC_F_INCLUDE=$NETCDF_FORTRAN_HOME/include\n    export GC_F_LIB=$NETCDF_FORTRAN_HOME/lib\n\n    # Max out the stack memory for OpenMP\n    # http://wiki.seas.harvard.edu/geos-chem/index.php/GNU_Fortran_compiler#Requesting_sufficient_stack_memory_for_GEOS-Chem\n    # ulimit -s unlimited # do we need this inside container?\n    export OMP_STACKSIZE=500m\n\n    # fix Singularity + Perl error\n    # https://groups.google.com/a/lbl.gov/forum/#!msg/singularity/58Xr72oDfBg/m3Y7Nr_PBAAJ\n    export LANG=C\n\n    # add color for interactive mode\n    alias ls='ls --color=auto'\n\n%runscript\n    echo \"Container for GEOS-Chem environment\"\n    echo \"Please use 'singularity shell container_name' to run it interactively.\"\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "org.label-schema.usage.singularity.deffile": "Singularity",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.from": "ubuntu:16.04",
+                "org.label-schema.build-date": "Sat,_21_Apr_2018_23:35:14_+0000",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "org.label-schema.build-size": "541MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n    export NETCDF_HOME=/usr\n    export NETCDF_FORTRAN_HOME=/usr\n\n    export FC=gfortran\n    export CC=gcc\n    export CXX=g++\n\n    # Tell GEOS-Chem where to find netCDF library files\n    export GC_BIN=$NETCDF_HOME/bin\n    export GC_INCLUDE=$NETCDF_HOME/include\n    export GC_LIB=$NETCDF_HOME/lib\n\n    # NOTE: If netCDF-Fortran was loaded as a separate module, then\n    # also define these variables.  (Otherwise comment these out.)\n    export GC_F_BIN=$NETCDF_FORTRAN_HOME/bin\n    export GC_F_INCLUDE=$NETCDF_FORTRAN_HOME/include\n    export GC_F_LIB=$NETCDF_FORTRAN_HOME/lib\n\n    # Max out the stack memory for OpenMP\n    # http://wiki.seas.harvard.edu/geos-chem/index.php/GNU_Fortran_compiler#Requesting_sufficient_stack_memory_for_GEOS-Chem\n    # ulimit -s unlimited # do we need this inside container?\n    export OMP_STACKSIZE=500m\n\n    # fix Singularity + Perl error\n    # https://groups.google.com/a/lbl.gov/forum/#!msg/singularity/58Xr72oDfBg/m3Y7Nr_PBAAJ\n    export LANG=C\n\n    # add color for interactive mode\n    alias ls='ls --color=auto'\n\n",
+            "runscript": "#!/bin/sh \n\n    echo \"Container for GEOS-Chem environment\"\n    echo \"Please use 'singularity shell container_name' to run it interactively.\"\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

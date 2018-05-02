@@ -1,0 +1,25 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "# Trivial Singularity image, piggy backs off of Docker container\nBootstrap: docker\nFrom: kelvinrr/isis3\n\n# handle permission issue in Singularity for Docker's home folder\n%post\n  mkdir /common /packages /scratch\n  chmod 775 /root\n\n%runscript\n  /bin/bash\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "vendor": "CentOS",
+                "name": "CentOS Base Image",
+                "license": "GPLv2",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.from": "kelvinrr/isis3",
+                "org.label-schema.build-date": "Mon,_22_Jan_2018_19:09:40_+0000",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "build-date": "20170911",
+                "org.label-schema.build-size": "3161MB",
+                "org.label-schema.usage.singularity.deffile": "Singularity"
+            },
+            "environment": "# Custom environment shell code should follow\n\n",
+            "runscript": "#!/bin/sh \n\n  /bin/bash\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

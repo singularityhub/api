@@ -1,0 +1,29 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap:shub\nFrom:ResearchIT/spack-singularity:openmpi\n\n%labels\nMAINTAINER severin@iastate.edu\nAPPLICATION genomeModules \n\n%help\nThis container contains all the necessary programs to create genome modules.\nSee https://github.com/ISUGIFsingularity/genomeModules.git for more inforation \n\n%environment\nsource /etc/profile.d/modules.sh\nSPACK_ROOT=/opt/spack\nexport SPACK_ROOT\nexport PATH=$SPACK_ROOT/bin:$PATH\nsource /etc/profile.d/modules.sh\nsource $SPACK_ROOT/share/spack/setup-env.sh\nexport PATH=$SPACK_ROOT/isugif/utilities/bin:$SPACK_ROOT/utilities/wrappers:$PATH\n#for d in /opt/spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/*/bin; do export PATH=\"$PATH:$d\"; done\n\nmodule load gmap-gsnap\nmodule load bowtie2\nmodule load bwa\nmodule load gatk\nmodule load bedtools2\nmodule load samtools\nmodule load picard\nmodule load jdk\nexport _JAVA_OPTIONS=\"-Xmx100G\"\nmodule load parallel\n\n%post\nexport SPACK_ROOT=/opt/spack\nexport SPACK_ROOT\nexport PATH=$SPACK_ROOT/bin:$PATH\n\nyum -y install bc paste\nyum clean all\n\nexport FORCE_UNSAFE_CONFIGURE=1 \n\nsource $SPACK_ROOT/share/spack/setup-env.sh\nspack install picard\nspack install gmap-gsnap\nspack install bowtie2\nspack install bwa\nspack install gatk\nspack install bedtools2\nspack install samtools\nspack install parallel\n\n#for d in /opt/spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/*/bin; do export PATH=\"$PATH:$d\"; done\n\n\ncd $SPACK_ROOT\n\n%runscript\n",
+            "help": "\n\nThis container contains all the necessary programs to create genome modules.\nSee https://github.com/ISUGIFsingularity/genomeModules.git for more inforation \n\n",
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "shub",
+                "MAINTAINER": "severin@iastate.edu",
+                "name": "CentOS Base Image",
+                "license": "GPLv2",
+                "org.label-schema.usage": "/.singularity.d/runscript.help",
+                "org.label-schema.schema-version": "1.0",
+                "APPLICATION": "genomeModules",
+                "org.label-schema.usage.singularity.deffile.from": "ResearchIT/spack-singularity:openmpi",
+                "org.label-schema.build-date": "Wed,_04_Apr_2018_21:56:51_+0000",
+                "org.label-schema.usage.singularity.runscript.help": "/.singularity.d/runscript.help",
+                "vendor": "CentOS",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "build-date": "20180302",
+                "org.label-schema.build-size": "1624MB",
+                "org.label-schema.usage.singularity.deffile": "Singularity.1.0.2"
+            },
+            "environment": "# Custom environment shell code should follow\n\nSPACK_ROOT=/opt/spack\nexport SPACK_ROOT\nexport PATH=$SPACK_ROOT/bin:$PATH\nsource /etc/profile.d/modules.sh\nsource $SPACK_ROOT/share/spack/setup-env.sh\n\nsource /etc/profile.d/modules.sh\nmodule load openmpi\n\nsource /etc/profile.d/modules.sh\nSPACK_ROOT=/opt/spack\nexport SPACK_ROOT\nexport PATH=$SPACK_ROOT/bin:$PATH\nsource /etc/profile.d/modules.sh\nsource $SPACK_ROOT/share/spack/setup-env.sh\nexport PATH=$SPACK_ROOT/isugif/utilities/bin:$SPACK_ROOT/utilities/wrappers:$PATH\n#for d in /opt/spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/*/bin; do export PATH=\"$PATH:$d\"; done\n\nmodule load gmap-gsnap\nmodule load bowtie2\nmodule load bwa\nmodule load gatk\nmodule load bedtools2\nmodule load samtools\nmodule load picard\nmodule load jdk\nexport _JAVA_OPTIONS=\"-Xmx100G\"\nmodule load parallel\n\n",
+            "runscript": "#!/bin/sh \n\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

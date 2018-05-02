@@ -1,0 +1,21 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap: docker\nFrom: ubuntu:latest\n\n%environment\n   \n   LANG=C.UTF-8\n   LC_ALL=C.UTF-8\n   export LANG LC_ALL\n   export LD_LIBRARY_PATH=/usr/lib:/usr/lib64:/usr/local/cuda/lib64:/usr/local/cuda/lib:/opt/cudnn/lib64:$LD_LIBRARY_PATH\n   export PATH=/opt/julia-0.6/bin:/usr/local/cuda/bin:$PATH\n   export JULIA_PKGDIR=/workdir/.julia\n   export XDG_RUNTIME_DIR=\"/workdir/notebooks\"\n   export JUPYTER=/usr/local/bin/jupyter\n   export JUPYTER_PATH=/workdir/.jupyter\n   export JUPYTER_DATA_DIR=/workdir/.jupyter\n\n%runscript\nexec jupyter notebook --notebook-dir=/workdir/notebooks --ip='*' --port=8888 --no-browser\n\n%post\n \n   echo \"Here we are installing software and other dependencies for the container!\"\n   apt-get update\n   apt-get install -y \\\n    build-essential \\\n    libzmq3-dev \\\n    pkg-config \\\n    python \\\n    python-dev \\\n    python-pip \\\n    git \\\n    vim \\\n    emacs \\\n    libxml2 \\\n    wget \\\n    curl \\\n    unzip \\\n    cmake \\\n    hdf5-tools \\\n\n    pip install jupyter\n    \n    mkdir -p /opt/julia-0.6.2-dev && \\\n    curl -s -L https://julialang-s3.julialang.org/bin/linux/x64/0.6/julia-0.6.2-linux-x86_64.tar.gz | tar -C /opt/julia-0.6.2-dev -x -z --strip-components=1 -f -\n    ln -fs /opt/julia-0.6.2-dev/bin/julia /usr/bin/julia\n    \n    export JULIA_PKGDIR=/workdir/.julia\n    \n    /opt/julia-0.6.2-dev/bin/julia -e 'Pkg.init()'\n    /opt/julia-0.6.2-dev/bin/julia -e 'Pkg.add(\"CUDAapi\")'\n    /opt/julia-0.6.2-dev/bin/julia -e 'Pkg.add(\"Knet\")'\n    /opt/julia-0.6.2-dev/bin/julia -e 'Pkg.add(\"JLD\")'\n    /opt/julia-0.6.2-dev/bin/julia -e 'Pkg.add(\"ArgParse\")'\n    /opt/julia-0.6.2-dev/bin/julia -e 'Pkg.add(\"PyCall\")'\n    /opt/julia-0.6.2-dev/bin/julia -e 'Pkg.add(\"Images\")'\n\n    export JUPYTER=/usr/local/bin/jupyter\n    export JUPYTER_PATH=/workdir/.jupyter\n    export JUPYTER_DATA_DIR=/workdir/.jupyter\n    \n    /opt/julia-0.6.2-dev/bin/julia -e 'Pkg.add(\"IJulia\")'\n    /opt/julia-0.6.2-dev/bin/julia -e 'Pkg.build(\"IJulia\")'\n\n    rm -rf /workdir/.julia/.cache\n    rm -rf /workdir/.julia/lib\n\n    mkdir -p /workdir/notebooks\n\n    chmod -R 777 /workdir\n\n    mkdir -p /opt/cudnn\n    mkdir -p /usr/local/cuda\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "org.label-schema.usage.singularity.deffile": "Singularity",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.from": "ubuntu:latest",
+                "org.label-schema.build-date": "Fri,_06_Apr_2018_08:34:18_+0000",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "org.label-schema.build-size": "1684MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n   \n   LANG=C.UTF-8\n   LC_ALL=C.UTF-8\n   export LANG LC_ALL\n   export LD_LIBRARY_PATH=/usr/lib:/usr/lib64:/usr/local/cuda/lib64:/usr/local/cuda/lib:/opt/cudnn/lib64:$LD_LIBRARY_PATH\n   export PATH=/opt/julia-0.6/bin:/usr/local/cuda/bin:$PATH\n   export JULIA_PKGDIR=/workdir/.julia\n   export XDG_RUNTIME_DIR=\"/workdir/notebooks\"\n   export JUPYTER=/usr/local/bin/jupyter\n   export JUPYTER_PATH=/workdir/.jupyter\n   export JUPYTER_DATA_DIR=/workdir/.jupyter\n\n",
+            "runscript": "#!/bin/sh \n\nexec jupyter notebook --notebook-dir=/workdir/notebooks --ip='*' --port=8888 --no-browser\n\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

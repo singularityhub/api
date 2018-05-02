@@ -1,0 +1,24 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap: debootstrap\nMirrorURL: http://archive.ubuntu.com/ubuntu/\nOSVersion: xenial\n\n%help\n\nContains BRAINSTools and DTIProcess from DTIPrep version 1.2.9\n\n%post\n\nexport BUILD_SOFTWARE=\"git subversion cmake\"\nexport CONTAINER_SOFTWARE=\"g++ libglu1-mesa lib32z1-dev libxt-dev qt4-dev-tools\"\n\nexport DTIPREP_VERSION=\"DTIPrep1.2.9\"\n#export DTIPREP_VERSION=\"497b9782b9c27be172e9df7fb1a800c35cdeff47\"\n\nexport WORKING_DIRECTORY=/opt\nexport DTIPREP_BUILD_DIRECTORY=$WORKING_DIRECTORY/dtiprep\nexport DTIPREP_REPO_NAME=\"DTIPrep\"\nexport DTIPREP_CLONE_DIRECTORY=$WORKING_DIRECTORY/$DTIPREP_REPO_NAME\nexport GITHUB_REPO=\"https://github.com/NIRALUser/DTIPrep.git\"\n\napt-get update\napt-get install $BUILD_SOFTWARE $CONTAINER_SOFTWARE -y\n\n\n# Clone repository.\ncd $WORKING_DIRECTORY\ngit clone $GITHUB_REPO\ncd $DTIPREP_CLONE_DIRECTORY\n#get desired version\ngit checkout $DTIPREP_VERSION\n\n# Set up build directory\nmkdir $DTIPREP_BUILD_DIRECTORY\ncd $DTIPREP_BUILD_DIRECTORY\nmkdir bin\n\n# Build DTIProcess and BRAINSTools\ncmake  $DTIPREP_CLONE_DIRECTORY\nmake BRAINSTools\nmake DTIProcess\n\necho \"export PATH=${DTIPREP_BUILD_DIRECTORY}/bin:$PATH\" >> $SINGULARITY_ENVIRONMENT\n\n\n# Removing installation overhead.\n \ncd\nrm -rf $DTIPREP_CLONE_DIRECTORY\nrm -rf /tmp/*\napt-get purge $BUILD_SOFTWARE -y\napt-get autoclean -y\napt-get autoremove -y\nrm -rf /var/lib/apt/lists/*",
+            "help": "\n\n\nContains BRAINSTools and DTIProcess from DTIPrep version 1.2.9\n\n",
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "debootstrap",
+                "org.label-schema.usage.singularity.deffile": "Singularity.1.2.9",
+                "org.label-schema.usage": "/.singularity.d/runscript.help",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.osversion": "xenial",
+                "org.label-schema.build-date": "Tue,_13_Mar_2018_10:17:37_+0000",
+                "org.label-schema.usage.singularity.deffile.mirrorurl": "http://archive.ubuntu.com/ubuntu/",
+                "org.label-schema.usage.singularity.runscript.help": "/.singularity.d/runscript.help",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "org.label-schema.build-size": "4702MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n",
+            "runscript": "#!/bin/sh\n\necho \"There is no runscript defined for this container\\n\";\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

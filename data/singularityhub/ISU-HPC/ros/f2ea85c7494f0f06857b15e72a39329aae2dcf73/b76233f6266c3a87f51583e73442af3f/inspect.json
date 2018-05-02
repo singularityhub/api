@@ -1,0 +1,22 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "bootstrap:docker\nFrom:ros:indigo-robot\n\n%labels\n\nAUTHOR Yasasvy Nanyam ynanyam@iastate.edu\n\n%environment\n\n        ROS_ROOT=/opt/ros/indigo/share/ros\n        export ROS_ROOT\n        ROS_PACKAGE_PATH=/opt/ros/indigo/share:/opt/ros/indigo/stacks\n        export ROS_PACKAGE_PATH\n        ROS_MASTER_URI=http://localhost:11311\n        export ROS_MASTER_URI\n        LD_LIBRARY_PATH=/opt/ros/indigo/lib:/.singularity.d/libs\n        export LD_LIBRARY_PATH\n        CPATH=/opt/ros/indigo/include\n        export CPATH\n        PATH=/opt/ros/indigo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\n        export PATH\n        PYTHONPATH=/opt/ros/indigo/lib/python2.7/dist-packages\n        export PYTHONPATH\n        PKG_CONFIG_PATH=/opt/ros/indigo/lib/pkgconfig\n        export PKG_CONFIG_PATH\n        CMAKE_PREFIX_PATH=/opt/ros/indigo\n        export CMAKE_PREFIX_PATH\n        ROS_ETC_DIR=/opt/ros/indigo/etc/ros\n        export ROS_ETC_DIR\n\n\n\n\n\n%post\n\n    sh -c 'echo \"deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main\" > /etc/apt/sources.list.d/ros-latest.list'\n    apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 421C365BD9FF1F717815A3895523BAEEB01FA116\n    apt-get update\n    apt-get install -y ros-indigo-desktop-full\n\n\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "org.label-schema.usage.singularity.deffile": "Singularity.indigo",
+                "AUTHOR": "Yasasvy Nanyam ynanyam@iastate.edu",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.from": "ros:indigo-robot",
+                "org.label-schema.build-date": "Mon,_23_Apr_2018_18:44:35_+0000",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "org.label-schema.build-size": "2223MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n\n        ROS_ROOT=/opt/ros/indigo/share/ros\n        export ROS_ROOT\n        ROS_PACKAGE_PATH=/opt/ros/indigo/share:/opt/ros/indigo/stacks\n        export ROS_PACKAGE_PATH\n        ROS_MASTER_URI=http://localhost:11311\n        export ROS_MASTER_URI\n        LD_LIBRARY_PATH=/opt/ros/indigo/lib:/.singularity.d/libs\n        export LD_LIBRARY_PATH\n        CPATH=/opt/ros/indigo/include\n        export CPATH\n        PATH=/opt/ros/indigo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin\n        export PATH\n        PYTHONPATH=/opt/ros/indigo/lib/python2.7/dist-packages\n        export PYTHONPATH\n        PKG_CONFIG_PATH=/opt/ros/indigo/lib/pkgconfig\n        export PKG_CONFIG_PATH\n        CMAKE_PREFIX_PATH=/opt/ros/indigo\n        export CMAKE_PREFIX_PATH\n        ROS_ETC_DIR=/opt/ros/indigo/etc/ros\n        export ROS_ETC_DIR\n\n\n\n\n\n",
+            "runscript": "#!/bin/sh\n\nexec \"bash\" \"$@\"\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

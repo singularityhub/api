@@ -1,0 +1,21 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "BootStrap: docker\nFrom: i386/debian:unstable\n\n# so if image is executed we just enter the environment\n%runscript\n    echo \"Welcome to the Debian unstable VW devel env. (Architecture: i386)\"\n    echo \"Just cd to your vw sources or\"\n    echo \" git clone git://github.com/JohnLangford/vowpal_wabbit\"\n    /bin/bash\n\n\n%post\n    echo \"Configuring the environment\"\n    sed -e  's,^deb ,deb-src ,g' /etc/apt/sources.list > /etc/apt/sources.list.d/sources.list\n    apt-get update\n    apt-get -y install eatmydata\n    # just useful little tools\n    eatmydata apt-get -y install vim wget strace time ncdu gnupg curl procps netcat\n    eatmydata apt-get -y build-dep vowpal-wabbit\n    # some external depends might have not been needed then\n    eatmydata apt-get -y install markdown html2text rapidjson-dev libboost-python-dev  git\n    chmod a+rX -R /etc/apt/sources.list.d\n    rm -rf /var/lib/apt/lists/*\n    apt-get clean\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "org.label-schema.usage.singularity.deffile": "Singularity.debian-unstable-i386",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.from": "i386/debian:unstable",
+                "org.label-schema.build-date": "Tue,_24_Apr_2018_01:59:09_+0000",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "org.label-schema.build-size": "787MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n",
+            "runscript": "#!/bin/sh \n\n    echo \"Welcome to the Debian unstable VW devel env. (Architecture: i386)\"\n    echo \"Just cd to your vw sources or\"\n    echo \" git clone git://github.com/JohnLangford/vowpal_wabbit\"\n    /bin/bash\n\n\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

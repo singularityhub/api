@@ -1,0 +1,26 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "BootStrap: docker\nFrom: nvidia/cuda:8.0-devel\n\n%post\n    apt-get update\n    apt-get -y install wget build-essential zlib1g-dev\n    wget https://vorboss.dl.sourceforge.net/project/seqbarracuda/Source%20Code/Version%200.7.0/barracuda_0.7.107h.tar.gz\n    tar xvf barracuda_0.7.107h.tar.gz \n    cd barracuda\n    make all\n    mv bin/barracuda /usr/local/bin/barracuda\n\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "maintainer": "NVIDIA CORPORATION <cudatools@nvidia.com>",
+                "org.label-schema.usage.singularity.deffile": "Singularity",
+                "org.label-schema.schema-version": "1.0",
+                "com.nvidia.volumes.needed": "nvidia_driver",
+                "org.label-schema.usage.singularity.deffile.from": "nvidia/cuda:8.0-devel",
+                "com.nvidia.build.id": "36081806",
+                "org.label-schema.build-date": "2017-10-18T16:53:43+00:00",
+                "com.nvidia.cuda.version": "8.0.61",
+                "com.nvidia.build.ref": "02956afb0ac5e3f04aeb2256a009f1065622fadd",
+                "org.label-schema.usage.singularity.version": "2.4-feature-squashbuild-secbuild.g217367c",
+                "org.label-schema.build-size": "1755MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n",
+            "runscript": "#!/bin/sh\n\nexec \"/bin/bash\"\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

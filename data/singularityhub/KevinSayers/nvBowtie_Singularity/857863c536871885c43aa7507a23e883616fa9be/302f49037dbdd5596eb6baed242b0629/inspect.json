@@ -1,0 +1,26 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "BootStrap: docker\nFrom: nvidia/cuda:8.0-devel\n\n%post\n    apt-get update\n    apt-get -y install wget build-essential zlib1g-dev\n    wget http://www.cmake.org/files/v3.2/cmake-3.2.2.tar.gz\n    tar xf cmake-3.2.2.tar.gz\n    cd cmake-3.2.2\n    ./configure\n    make install\n    wget https://github.com/NVlabs/nvbio/archive/v1.1.00.tar.gz\n    tar -xvf v1.1.00.tar.gz \n    cd nvbio-1.1.00/\n    mkdir build\n    cd build/\n    cmake ..\n    cd nvBowtie/\n    make\n    mv nvBowtie /usr/local/bin/nvBowtie\n    cd ../nvBWT\n    make\n    mv nvBWT /usr/local/bin/nvBWT\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "maintainer": "NVIDIA CORPORATION <cudatools@nvidia.com>",
+                "org.label-schema.usage.singularity.deffile": "Singularity",
+                "org.label-schema.schema-version": "1.0",
+                "com.nvidia.volumes.needed": "nvidia_driver",
+                "org.label-schema.usage.singularity.deffile.from": "nvidia/cuda:8.0-devel",
+                "com.nvidia.build.id": "38006078",
+                "org.label-schema.build-date": "2017-11-03T15:25:15+00:00",
+                "com.nvidia.cuda.version": "8.0.61",
+                "com.nvidia.build.ref": "17c965bec070ce2bd50e9db79563e851b69d1a62",
+                "org.label-schema.usage.singularity.version": "2.4-feature-squashbuild-secbuild.g818b648",
+                "org.label-schema.build-size": "2141MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n",
+            "runscript": "#!/bin/sh\n\nexec \"/bin/bash\"\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

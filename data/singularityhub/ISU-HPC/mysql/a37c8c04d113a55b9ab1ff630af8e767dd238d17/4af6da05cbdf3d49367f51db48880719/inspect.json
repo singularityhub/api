@@ -1,0 +1,25 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap: docker\nFrom: mysql:5.7.21\n\n%help\nMariaDB (MySQL) server.\nDocumentation: https://www.hpc.iastate.edu/guides/containers\n\n\n%labels\n    Maintainer Iowa State University High-Performance Computing Group\n    Version  v1.0\n\n\n%setup\n    touch ${SINGULARITY_ROOTFS}/my.cnf\n    touch ${SINGULARITY_ROOTFS}/mysqlrootpw\n    touch ${SINGULARITY_ROOTFS}/usr/local/bin/create_remote_admin_user.sh\n\n\n%files\n    my.cnf /my.cnf\n    mysqlrootpw /mysqlrootpw\n    create_remote_admin_user.sh /usr/local/bin/create_remote_admin_user.sh\n\n\n%post\n    chmod +x /usr/local/bin/create_remote_admin_user.sh\n\n\n%runscript\n    if [ ! -f ${HOME}/.my.cnf ]\n    then\n        echo \"Copying my.cnf to ${HOME}\"\n        cp /my.cnf ${HOME}/.my.cnf\n    else\n        echo \"${HOME}/.my.cnf already exists.  Using that version.\"\n    fi\n\n    if [ ! -f ${HOME}/.mysqlrootpw ]\n    then\n        echo \"Copying mysqlrootpw to ${HOME}\"\n        cp /mysqlrootpw ${HOME}/.mysqlrootpw\n    else\n        echo \"${HOME}/.mysqlrootpw already exists.  Using that version.\"\n    fi\n\n    if [ ! -d /var/lib/mysql/mysql ]\n    then\n        echo \"Initializing mysqld\"\n        mysqld --initialize  --init-file=${HOME}/.mysqlrootpw\n    fi\n\n    echo \"\"\n    echo \"Start mysqld\"\n    mysqld  --init-file=${HOME}/.mysqlrootpw &\n",
+            "help": "\n\nMariaDB (MySQL) server.\nDocumentation: https://www.hpc.iastate.edu/guides/containers\n\n\n",
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "MAINTAINER": "Iowa State University High-Performance Computing Group",
+                "org.label-schema.usage.singularity.deffile": "Singularity",
+                "org.label-schema.usage": "/.singularity.d/runscript.help",
+                "org.label-schema.schema-version": "1.0",
+                "VERSION": "v1.0",
+                "org.label-schema.usage.singularity.deffile.from": "mysql:5.7.21",
+                "org.label-schema.build-date": "Thu,_19_Apr_2018_20:09:46_+0000",
+                "org.label-schema.usage.singularity.runscript.help": "/.singularity.d/runscript.help",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "org.label-schema.build-size": "364MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n",
+            "runscript": "#!/bin/sh \n\n    if [ ! -f ${HOME}/.my.cnf ]\n    then\n        echo \"Copying my.cnf to ${HOME}\"\n        cp /my.cnf ${HOME}/.my.cnf\n    else\n        echo \"${HOME}/.my.cnf already exists.  Using that version.\"\n    fi\n\n    if [ ! -f ${HOME}/.mysqlrootpw ]\n    then\n        echo \"Copying mysqlrootpw to ${HOME}\"\n        cp /mysqlrootpw ${HOME}/.mysqlrootpw\n    else\n        echo \"${HOME}/.mysqlrootpw already exists.  Using that version.\"\n    fi\n\n    if [ ! -d /var/lib/mysql/mysql ]\n    then\n        echo \"Initializing mysqld\"\n        mysqld --initialize  --init-file=${HOME}/.mysqlrootpw\n    fi\n\n    echo \"\"\n    echo \"Start mysqld\"\n    mysqld  --init-file=${HOME}/.mysqlrootpw &\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

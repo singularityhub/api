@@ -1,0 +1,27 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap:docker  \nFrom:jeffersonlab/remoll:develop\n\n%files\n\n%labels\nMAINTAINER Erik Stevenson\n\n%environment\n\n%runscript\nexec /entrypoint.sh \"$@\"\n\n%post\n\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "MAINTAINER": "Erik Stevenson",
+                "name": "CentOS Base Image",
+                "license": "GPLv2",
+                "org.label-schema.schema-version": "1.0",
+                "vendor": "CentOS",
+                "org.label-schema.usage.singularity.deffile.from": "jeffersonlab/remoll:develop",
+                "org.label-schema.build-date": "2017-12-07T22:19:52+00:00",
+                "maintainer": "David Lawrence <davidl@jlab.org>",
+                "org.label-schema.usage.singularity.version": "2.4-feature-squashbuild-secbuild.ga0e7055",
+                "build-date": "20170406",
+                "org.label-schema.build-size": "4566MB",
+                "org.label-schema.usage.singularity.deffile": "Singularity.develop"
+            },
+            "environment": "# Custom environment shell code should follow\n\n\n",
+            "runscript": "#!/bin/sh \n\nexec /entrypoint.sh \"$@\"\n\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

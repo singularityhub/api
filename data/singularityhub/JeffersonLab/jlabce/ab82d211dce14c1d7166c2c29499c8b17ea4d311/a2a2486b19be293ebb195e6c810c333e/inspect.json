@@ -1,0 +1,27 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap: docker\nFrom: jeffersonlab/jlabce:2.1\n\n%files\n\n%labels\nMAINTAINER EIC Softare Consortium Containers Working Group\n\n%environment\n\n%runscript\nexec /bin/bash \"$@\"\n\n%post\n\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "MAINTAINER": "EIC Softare Consortium Containers Working Group",
+                "name": "CentOS Base Image",
+                "license": "GPLv2",
+                "org.label-schema.schema-version": "1.0",
+                "vendor": "CentOS",
+                "org.label-schema.usage.singularity.deffile.from": "jeffersonlab/jlabce:2.1",
+                "org.label-schema.build-date": "Tue,_12_Dec_2017_18:07:58_+0000",
+                "maintainer": "David Lawrence <davidl@jlab.org>",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.gaa08d4d",
+                "build-date": "20170406",
+                "org.label-schema.build-size": "4436MB",
+                "org.label-schema.usage.singularity.deffile": "Singularity"
+            },
+            "environment": "# Custom environment shell code should follow\n\n\n",
+            "runscript": "#!/bin/sh \n\nexec /bin/bash \"$@\"\n\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}
