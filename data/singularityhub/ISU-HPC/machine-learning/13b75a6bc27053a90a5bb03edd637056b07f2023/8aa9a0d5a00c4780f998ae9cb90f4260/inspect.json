@@ -1,0 +1,28 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "bootstrap:shub\nFrom:ISU-HPC/ml-base:cu90\n\n%labels\n\nAUTHOR Yasasvy Nanyam ynanyam@iastate.edu\n\n%post\n\n    pip3 --no-cache-dir install \\\n            h5py \\\n            ipykernel \\\n            jupyter \\\n            matplotlib \\\n            numpy \\\n            pandas \\\n            Pillow \\\n            scipy \\\n            sklearn \\\n            opencv-python \\\n            mxnet-cu90 \\\n            common \\\n            python-utils \\\n            requests \\\n            future \\\n            hypothesis \\\n            scikit-learn\n\n    python36 -m ipykernel.kernelspec\n\n    echo \"/usr/local/cuda-9.0/lib64/\" >/etc/ld.so.conf.d/cuda.conf\n    echo \"/usr/local/cuda/extras/CUPTI/lib64/\" >>/etc/ld.so.conf.d/cuda.conf\n\n    # Install TensorFlow GPU version\n    pip3 --no-cache-dir install --upgrade tensorflow-gpu==1.7\n\n    # keras\n    pip3 --no-cache-dir install --upgrade keras\n\n    # Lasagne\n    pip3 --no-cache-dir install git+git://github.com/Lasagne/Lasagne\n\n    # dlib\n    pip3 --no-cache-dir install dlib\n    \n    # pytorch\n    pip3 --no-cache-dir install torch torchvision\n\n    ############################\n    # for pip2\n\n    pip2 --no-cache-dir install --upgrade pip\n\n    pip2 --no-cache-dir install \\\n            h5py \\\n            ipykernel \\\n            jupyter \\\n            matplotlib \\\n            numpy \\\n            pandas \\\n            Pillow \\\n            scipy \\\n            sklearn \\\n            opencv-python \\\n            mxnet-cu90 \\\n            common \\\n            requests \\\n            future \\\n            hypothesis \\\n            scikit-learn\n\n\n    # Install TensorFlow GPU version\n    pip2 --no-cache-dir install --upgrade tensorflow-gpu==1.7\n\n    # keras\n    pip2 --no-cache-dir install --upgrade keras\n\n   \n  # Lasagne\n  pip2 --no-cache-dir install git+git://github.com/Lasagne/Lasagne\n\n  # dlib\n  pip2 --no-cache-dir install dlib\n  \n  #pytorch\n  pip2 --no-cache-dir install torch torchvision\n\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "org.label-schema.usage.singularity.deffile.bootstrap": "shub",
+                "maintainer": "NVIDIA CORPORATION <cudatools@nvidia.com>",
+                "org.label-schema.usage.singularity.deffile": "Singularity.cu90",
+                "AUTHOR": "Yasasvy Nanyam ynanyam@iastate.edu",
+                "org.label-schema.schema-version": "1.0",
+                "com.nvidia.volumes.needed": "nvidia_driver",
+                "org.label-schema.usage.singularity.deffile.from": "ISU-HPC/ml-base:cu90",
+                "com.nvidia.build.id": "63756825",
+                "org.label-schema.build-date": "Wed,_25_Apr_2018_19:42:49_+0000",
+                "com.nvidia.cuda.version": "9.0.176",
+                "com.nvidia.build.ref": "dbce8e751aae08dfe56ad96039c1538814af757f",
+                "com.nvidia.cudnn.version": "7.1.3.16",
+                "org.label-schema.build-size": "9691MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n\n    LD_LIBRARY_PATH=/host-libs:/usr/local/cuda/extras/CUPTI/lib64:/usr/local/cuda-9.0/lib64:/usr/local/lib:/usr/local/lib64\n    export LD_LIBRARY_PATH\n    PATH=/usr/local/cuda-9.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin\n    export PATH\n    PYTHONPATH=/usr/local:/usr/local/lib/python2.7/site-packages\n    export PYTHONPATH\n\n",
+            "runscript": "#!/bin/sh\n\nexec \"/bin/bash\" \"$@\"\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

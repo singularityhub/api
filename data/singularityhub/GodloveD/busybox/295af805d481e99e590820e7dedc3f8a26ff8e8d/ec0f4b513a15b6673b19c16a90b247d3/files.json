@@ -1,0 +1,1544 @@
+[
+  {
+    "Image": "/tmp/tmp.DOGlCFsy3I/668ae7a5453cc7a575b9bc6f9cf449b8c61e0ed60aba0f3660567b142fb3db87.tar",
+    "AnalyzeType": "File",
+    "Analysis": [
+      {
+        "Name": "/bin",
+        "Size": 360305920
+      },
+      {
+        "Name": "/bin/[",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/[[",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/acpid",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/add-shell",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/addgroup",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/adduser",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/adjtimex",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/arp",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/arping",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/ash",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/awk",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/base64",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/basename",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/beep",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/blkdiscard",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/blkid",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/blockdev",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/bootchartd",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/brctl",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/bunzip2",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/busybox",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/bzcat",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/bzip2",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/cal",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/cat",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/catv",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/chat",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/chattr",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/chgrp",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/chmod",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/chown",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/chpasswd",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/chpst",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/chroot",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/chrt",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/chvt",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/cksum",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/clear",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/cmp",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/comm",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/conspy",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/cp",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/cpio",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/crond",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/crontab",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/cryptpw",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/cttyhack",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/cut",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/date",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/dc",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/dd",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/deallocvt",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/delgroup",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/deluser",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/depmod",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/devmem",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/df",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/dhcprelay",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/diff",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/dirname",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/dmesg",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/dnsd",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/dnsdomainname",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/dos2unix",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/dpkg",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/dpkg-deb",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/du",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/dumpkmap",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/dumpleases",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/echo",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/ed",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/egrep",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/eject",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/env",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/envdir",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/envuidgid",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/ether-wake",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/expand",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/expr",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/fakeidentd",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/false",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/fatattr",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/fbset",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/fbsplash",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/fdflush",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/fdformat",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/fdisk",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/fgconsole",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/fgrep",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/find",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/findfs",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/flock",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/fold",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/free",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/freeramdisk",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/fsck",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/fsck.minix",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/fstrim",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/fsync",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/ftpd",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/ftpget",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/ftpput",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/fuser",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/getopt",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/getty",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/grep",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/groups",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/gunzip",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/gzip",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/halt",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/hd",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/hdparm",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/head",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/hexdump",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/hostid",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/hostname",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/httpd",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/hush",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/hwclock",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/i2cdetect",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/i2cdump",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/i2cget",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/i2cset",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/id",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/ifconfig",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/ifdown",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/ifenslave",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/ifplugd",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/ifup",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/inetd",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/init",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/insmod",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/install",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/ionice",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/iostat",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/ip",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/ipaddr",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/ipcalc",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/ipcrm",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/ipcs",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/iplink",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/ipneigh",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/iproute",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/iprule",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/iptunnel",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/kbd_mode",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/kill",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/killall",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/killall5",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/klogd",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/less",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/linux32",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/linux64",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/linuxrc",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/ln",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/loadfont",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/loadkmap",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/logger",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/login",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/logname",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/logread",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/losetup",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/lpd",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/lpq",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/lpr",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/ls",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/lsattr",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/lsmod",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/lsof",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/lspci",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/lsusb",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/lzcat",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/lzma",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/lzop",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/lzopcat",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/makedevs",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/makemime",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/man",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/md5sum",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/mdev",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/mesg",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/microcom",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/mkdir",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/mkdosfs",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/mke2fs",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/mkfifo",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/mkfs.ext2",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/mkfs.minix",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/mkfs.vfat",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/mknod",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/mkpasswd",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/mkswap",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/mktemp",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/modinfo",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/modprobe",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/more",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/mount",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/mountpoint",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/mpstat",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/mt",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/mv",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/nameif",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/nanddump",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/nandwrite",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/nbd-client",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/nc",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/netstat",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/nice",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/nmeter",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/nohup",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/nsenter",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/nslookup",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/ntpd",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/od",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/openvt",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/passwd",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/patch",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/pgrep",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/pidof",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/ping",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/ping6",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/pipe_progress",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/pivot_root",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/pkill",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/pmap",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/popmaildir",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/poweroff",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/powertop",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/printenv",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/printf",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/ps",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/pscan",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/pstree",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/pwd",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/pwdx",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/raidautorun",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/rdate",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/rdev",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/readahead",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/readlink",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/readprofile",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/realpath",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/reboot",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/reformime",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/remove-shell",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/renice",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/reset",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/resize",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/rev",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/rm",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/rmdir",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/rmmod",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/route",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/rpm",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/rpm2cpio",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/rtcwake",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/run-parts",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/runsv",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/runsvdir",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/rx",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/script",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/scriptreplay",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/sed",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/sendmail",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/seq",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/setarch",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/setconsole",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/setfont",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/setkeycodes",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/setlogcons",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/setserial",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/setsid",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/setuidgid",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/sh",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/sha1sum",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/sha256sum",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/sha3sum",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/sha512sum",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/showkey",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/shuf",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/slattach",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/sleep",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/smemcap",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/softlimit",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/sort",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/split",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/start-stop-daemon",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/stat",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/strings",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/stty",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/su",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/sulogin",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/sum",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/sv",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/svc",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/svlogd",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/swapoff",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/swapon",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/switch_root",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/sync",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/sysctl",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/syslogd",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/tac",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/tail",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/tar",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/tcpsvd",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/tee",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/telnet",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/telnetd",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/test",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/tftp",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/tftpd",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/time",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/timeout",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/top",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/touch",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/tr",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/traceroute",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/traceroute6",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/true",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/truncate",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/tty",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/ttysize",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/tunctl",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/ubiattach",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/ubidetach",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/ubimkvol",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/ubirename",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/ubirmvol",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/ubirsvol",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/ubiupdatevol",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/udhcpc",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/udhcpd",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/udpsvd",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/uevent",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/umount",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/uname",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/unexpand",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/uniq",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/unix2dos",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/unlink",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/unlzma",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/unlzop",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/unshare",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/unxz",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/unzip",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/uptime",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/usleep",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/uudecode",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/uuencode",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/vconfig",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/vi",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/vlock",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/volname",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/watch",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/watchdog",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/wc",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/wget",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/which",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/whoami",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/whois",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/xargs",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/xz",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/xzcat",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/yes",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/zcat",
+        "Size": 981760
+      },
+      {
+        "Name": "/bin/zcip",
+        "Size": 981760
+      },
+      {
+        "Name": "/dev",
+        "Size": 0
+      },
+      {
+        "Name": "/environment",
+        "Size": -1
+      },
+      {
+        "Name": "/etc",
+        "Size": 69
+      },
+      {
+        "Name": "/etc/group",
+        "Size": 11
+      },
+      {
+        "Name": "/etc/hosts",
+        "Size": 0
+      },
+      {
+        "Name": "/etc/mtab",
+        "Size": 28
+      },
+      {
+        "Name": "/etc/passwd",
+        "Size": 30
+      },
+      {
+        "Name": "/etc/resolv.conf",
+        "Size": 0
+      },
+      {
+        "Name": "/home",
+        "Size": 0
+      },
+      {
+        "Name": "/proc",
+        "Size": 0
+      },
+      {
+        "Name": "/root",
+        "Size": 0
+      },
+      {
+        "Name": "/singularity",
+        "Size": -1
+      },
+      {
+        "Name": "/sys",
+        "Size": 0
+      },
+      {
+        "Name": "/tmp",
+        "Size": 0
+      },
+      {
+        "Name": "/var",
+        "Size": 0
+      },
+      {
+        "Name": "/var/tmp",
+        "Size": 0
+      }
+    ]
+  }
+]

@@ -1,0 +1,23 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap: docker\nFrom: scilifelab/ngi-rnaseq:1.4\n\n%post\n    mkdir /athena\n    mkdir /scratchLocal\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "description": "Docker image containing all requirements for the NGI-RNAseq pipeline",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.from": "scilifelab/ngi-rnaseq:1.4",
+                "org.label-schema.build-date": "Mon,_23_Apr_2018_05:42:43_+0000",
+                "authors": "phil.ewels@scilifelab.se",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "org.label-schema.build-size": "3609MB",
+                "org.label-schema.usage.singularity.deffile": "Singularity"
+            },
+            "environment": "# Custom environment shell code should follow\n\n",
+            "runscript": "#!/bin/sh\n\nexec \"/bin/bash\" \"$@\"\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

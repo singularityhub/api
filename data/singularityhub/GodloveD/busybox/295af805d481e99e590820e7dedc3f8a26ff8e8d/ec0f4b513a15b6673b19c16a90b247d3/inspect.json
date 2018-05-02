@@ -1,0 +1,21 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "BootStrap: busybox\nMirrorURL: https://www.busybox.net/downloads/binaries/1.26.1-defconfig-multiarch/busybox-x86_64\n\n%post\n    echo \"Hello from inside the container\"\n\n%runscript\n    echo \"Running command: $*\"\n    exec \"$@\"\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "busybox",
+                "org.label-schema.usage.singularity.deffile": "Singularity",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.build-date": "2017-10-18T15:16:57+00:00",
+                "org.label-schema.usage.singularity.deffile.mirrorurl": "https://www.busybox.net/downloads/binaries/1.26.1-defconfig-multiarch/busybox-x86_64",
+                "org.label-schema.usage.singularity.version": "2.4-feature-squashbuild-secbuild.g217367c",
+                "org.label-schema.build-size": "176MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n",
+            "runscript": "#!/bin/sh \n\n    echo \"Running command: $*\"\n    exec \"$@\"\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

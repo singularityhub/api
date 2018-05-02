@@ -1,0 +1,21 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "BootStrap: docker\nFrom: ubuntu:latest\n\n%post\n    apt-get update\n    apt-get -y install python3 python3-pip\n    pip3 install jupyter\n\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "org.label-schema.usage.singularity.deffile": "Singularity",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.from": "ubuntu:latest",
+                "org.label-schema.build-date": "2017-10-17T19:24:04+00:00",
+                "org.label-schema.usage.singularity.version": "2.4-feature-squashbuild-secbuild.g217367c",
+                "org.label-schema.build-size": "625MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n",
+            "runscript": "#!/bin/sh\n\nexec \"/bin/bash\"\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

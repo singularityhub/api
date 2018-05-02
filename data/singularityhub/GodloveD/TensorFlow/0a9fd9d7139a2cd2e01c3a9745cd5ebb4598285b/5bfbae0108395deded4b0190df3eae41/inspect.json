@@ -1,0 +1,27 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "BootStrap: docker\nFrom: nvidia/cuda:8.0-cudnn6-devel\n\n%post\n\n    apt-get -y update\n    apt-get -y install vim wget perl python python-pip python-dev\n\n    # install tensorflow\n    pip install --upgrade pip\n    pip install tensorflow-gpu\n\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.gaa08d4d",
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "maintainer": "NVIDIA CORPORATION <cudatools@nvidia.com>",
+                "org.label-schema.usage.singularity.deffile": "Singularity",
+                "org.label-schema.schema-version": "1.0",
+                "com.nvidia.volumes.needed": "nvidia_driver",
+                "org.label-schema.usage.singularity.deffile.from": "nvidia/cuda:8.0-cudnn6-devel",
+                "com.nvidia.build.id": "44656614",
+                "org.label-schema.build-date": "Mon,_18_Dec_2017_21:11:04_+0000",
+                "com.nvidia.cuda.version": "8.0.61",
+                "com.nvidia.build.ref": "dbf5353f9d10b52f242a50d20920ee08ddc4d2a1",
+                "com.nvidia.cudnn.version": "6.0.21",
+                "org.label-schema.build-size": "2978MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n",
+            "runscript": "#!/bin/sh\n\nexec \"/bin/bash\" \"$@\"\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

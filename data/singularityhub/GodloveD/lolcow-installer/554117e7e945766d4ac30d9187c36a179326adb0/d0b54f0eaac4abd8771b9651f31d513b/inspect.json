@@ -1,0 +1,21 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap: docker\nFrom: godlovedc/lolcow:latest\n\n%runscript\n    echo\n    echo ===============================================\n    echo Attempting to install lolcow in ~/lolcow\n    echo ===============================================\n    echo\n\n    if [ -d \"/home/$USER/lolcow\" ]; then \n         echo \"~/lolcow already exists\"\n         echo \"will not overwrite\"\n         echo\n         exit 1\n    fi\n  \n    mkdir ~/lolcow\n    cp -r GodloveD-lolcow-installer* ~/lolcow/image\n\n    cd ~/lolcow\n    cat > lolcow.sh <<\"EOF\"\n#!/bin/bash\n# if you want to bind some host directories...\n# export SINGULARTY_BINDPATH=/some,/dirs,/to,/bind\ndir=$(dirname  \"$0\")\ncmd=$(basename \"$0\")\narg=\"$@\"\nsingularity exec $dir/image $cmd $arg\nEOF\n    \n    chmod 755 lolcow.sh\n\n    ln -s lolcow.sh fortune\n    ln -s lolcow.sh cowsay\n    ln -s lolcow.sh lolcat\n\n    cowsay 'type \"export PATH=~/lolcow:$PATH\" and enjoy fortune, cowsay, and lolcat!' |\\\n    lolcat\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "org.label-schema.usage.singularity.deffile": "Singularity",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.from": "godlovedc/lolcow:latest",
+                "org.label-schema.build-date": "Thu,_19_Apr_2018_18:20:44_+0000",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.gaa08d4d",
+                "org.label-schema.build-size": "253MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n",
+            "runscript": "#!/bin/sh \n\n    echo\n    echo ===============================================\n    echo Attempting to install lolcow in ~/lolcow\n    echo ===============================================\n    echo\n\n    if [ -d \"/home/$USER/lolcow\" ]; then \n         echo \"~/lolcow already exists\"\n         echo \"will not overwrite\"\n         echo\n         exit 1\n    fi\n  \n    mkdir ~/lolcow\n    cp -r GodloveD-lolcow-installer* ~/lolcow/image\n\n    cd ~/lolcow\n    cat > lolcow.sh <<\"EOF\"\n#!/bin/bash\n# if you want to bind some host directories...\n# export SINGULARTY_BINDPATH=/some,/dirs,/to,/bind\ndir=$(dirname  \"$0\")\ncmd=$(basename \"$0\")\narg=\"$@\"\nsingularity exec $dir/image $cmd $arg\nEOF\n    \n    chmod 755 lolcow.sh\n\n    ln -s lolcow.sh fortune\n    ln -s lolcow.sh cowsay\n    ln -s lolcow.sh lolcat\n\n    cowsay 'type \"export PATH=~/lolcow:$PATH\" and enjoy fortune, cowsay, and lolcat!' |\\\n    lolcat\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

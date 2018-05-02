@@ -1,0 +1,21 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap: docker\nFrom: neubiaswg5/icy-base:latest\n\n%files\n\tprotocol.protocol /icy/protocols/protocol.protocol\n\trun.sh /icy/run.sh\n\n%post\n\tcd /icy && chmod a+x run.sh\n\n%runscript\n\techo \"start\"\n\t/bin/sh ./icy/run.sh\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "org.label-schema.usage.singularity.deffile": "Singularity",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.from": "neubiaswg5/icy-base:latest",
+                "org.label-schema.build-date": "Tue,_06_Mar_2018_10:26:23_+0000",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "org.label-schema.build-size": "1356MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n",
+            "runscript": "#!/bin/sh \n\n\techo \"start\"\n\t/bin/sh ./icy/run.sh\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap: docker\nFrom: gmichiels/python-client-base:latest\n\n%files\n    detect_sample.py /\n\n%runscript\n    python /detect_sample.py\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "org.label-schema.usage.singularity.deffile": "Singularity",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.from": "gmichiels/python-client-base:latest",
+                "org.label-schema.build-date": "Sat,_21_Apr_2018_14:55:20_+0000",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "org.label-schema.build-size": "2495MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n",
+            "runscript": "#!/bin/sh \n\n    python /detect_sample.py\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}
