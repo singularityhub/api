@@ -1,0 +1,21 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap: docker\nFrom: python\n\n%setup\n    mkdir ${SINGULARITY_ROOTFS}/scratch0\n    mkdir ${SINGULARITY_ROOTFS}/tools\n\n%files\n    Word2vec /tools/Word2Vec\n    Scripts/pass.py /tools/pass.py\n    InVita/bin/InVita /tools/invita\n\n%post \n    cd /tools/Word2Vec/dav-word2vec\n    make build\n\n%runscript\n    cp -r /tools ~/\n    cp /scratch0/data.txt tools/Word2Vec/dav-word2vec/bin/data.txt\n    cp /scratch0/hyperParameters.json tools/hyperParameters.json\n    mkdir /scratch0/output\n    \n    cd tools\n    ls\n    python pass.py \"hyperParameters.json\" 0 \"Word2Vec/dav-word2vec/bin/word2vec\"\n    mv Word2Vec/dav-word2vec/bin/vec.txt /scratch0/output/\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "org.label-schema.usage.singularity.deffile": "Singularity.w2v",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.from": "python",
+                "org.label-schema.build-date": "Fri,_16_Feb_2018_16:59:41_+0000",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "org.label-schema.build-size": "719MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n",
+            "runscript": "#!/bin/sh \n\n    cp -r /tools ~/\n    cp /scratch0/data.txt tools/Word2Vec/dav-word2vec/bin/data.txt\n    cp /scratch0/hyperParameters.json tools/hyperParameters.json\n    mkdir /scratch0/output\n    \n    cd tools\n    ls\n    python pass.py \"hyperParameters.json\" 0 \"Word2Vec/dav-word2vec/bin/word2vec\"\n    mv Word2Vec/dav-word2vec/bin/vec.txt /scratch0/output/\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

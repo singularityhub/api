@@ -1,0 +1,28 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "BootStrap: docker\nFrom: nvidia/cuda:9.0-cudnn7-runtime-ubuntu16.04\n\n#---------------------------------------------------------------------\n%labels\n#---------------------------------------------------------------------\nMAINTAINER Wolfgang Resch\n\n#---------------------------------------------------------------------\n%environment\n#---------------------------------------------------------------------\nexport PATH=/bin:/usr/bin:/usr/local/bin:/usr/local/cuda/bin:\nexport LC_ALL=C\n\n#---------------------------------------------------------------------\n%post\n#---------------------------------------------------------------------\n\napt-get update\napt-get install -y libhdf5-dev graphviz locales python3-dev python3-pip\napt-get clean\n\npip3 install tensorflow-gpu==1.8.0\npip3 install keras==2.1.6\npip3 install Pillow scikit-learn pandas matplotlib notebook ipython\n\n# create some generic mount points\nmkdir /mnt/data /mnt/input /mnt/output /mnt/ref /mnt/code /mnt/work\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.gaa08d4d",
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "maintainer": "NVIDIA CORPORATION <cudatools@nvidia.com>",
+                "org.label-schema.usage.singularity.deffile": "Singularity.keras-py3",
+                "org.label-schema.schema-version": "1.0",
+                "com.nvidia.volumes.needed": "nvidia_driver",
+                "org.label-schema.usage.singularity.deffile.from": "nvidia/cuda:9.0-cudnn7-runtime-ubuntu16.04",
+                "com.nvidia.build.id": "63756748",
+                "org.label-schema.build-date": "Sat,_28_Apr_2018_15:14:13_+0000",
+                "com.nvidia.build.ref": "2b1c8edf8d79830ad811baff9630adb3bcb5db46",
+                "com.nvidia.cuda.version": "9.0.176",
+                "MAINTAINER": "Wolfgang Resch",
+                "com.nvidia.cudnn.version": "7.1.3.16",
+                "org.label-schema.build-size": "3461MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n#---------------------------------------------------------------------\nexport PATH=/bin:/usr/bin:/usr/local/bin:/usr/local/cuda/bin:\nexport LC_ALL=C\n\n#---------------------------------------------------------------------\n",
+            "runscript": "#!/bin/sh\n\nexec \"/bin/bash\" \"$@\"\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap: docker\nFROM: debian:9.3-slim\n# Debian Stretch without manpages and other files\n# usually not needed in containers.\n\n%help\n\nContains R version 3.4.4.\n\n%post\n\n# Packages needed inside the container.\nexport CONTAINER_SOFTWARE=\"gfortran g++ gcc make libcurl4-gnutls-dev\"\n## Set build variables.\n# Packages needed only for the build process.\nexport BUILD_SOFTWARE=\"wget zlib1g-dev libbz2-dev liblzma-dev libpcre3-dev libcurl4-gnutls-dev\"\n# Needed for downloading source.\nexport R_BASE_URI=\"https://cran.r-project.org/src/base/R-3/\"\nexport R_FOLDER_NAME=\"R-3.4.4\"\nexport R_PACKAGE_NAME=\"${R_FOLDER_NAME}.tar.gz\"\n# Set paths to facilitate the build process.\nexport BUILDHOME=\"/tmp\"\n\n# Install build and run requirements.\napt-get update\napt-get install $BUILD_SOFTWARE $CONTAINER_SOFTWARE -y\n\n# Get R Package\nwget ${R_BASE_URI}${R_PACKAGE_NAME}\ntar -xf $R_PACKAGE_NAME\n\n# Build R\ncd $R_FOLDER_NAME\n./configure --with-readline=no --with-x=no\nmake\nmake install\n\n# Removing installation overhead.\n \ncd\nrm -rf /tmp/*\napt-get purge $BUILD_SOFTWARE -y\napt-get autoclean -y\napt-get autoremove -y\nrm -rf /var/lib/apt/lists/*\n\n%test\n\n# Can we call R?\nR --version\n",
+            "help": "\n\n\nContains R version 3.4.4.\n\n",
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "org.label-schema.usage.singularity.deffile": "Singularity.3.4.4",
+                "org.label-schema.usage": "/.singularity.d/runscript.help",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.from": "debian:9.3-slim",
+                "org.label-schema.build-date": "Mon,_23_Apr_2018_13:00:08_+0000",
+                "org.label-schema.usage.singularity.runscript.help": "/.singularity.d/runscript.help",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "org.label-schema.build-size": "595MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n",
+            "runscript": "#!/bin/sh\n\nexec \"bash\" \"$@\"\n",
+            "test": "#!/bin/sh\n\n\n# Can we call R?\nR --version\n"
+        },
+        "type": "container"
+    }
+}

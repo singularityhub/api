@@ -1,0 +1,29 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "BootStrap: docker\nFrom: nvidia/cuda:8.0-cudnn6-runtime-ubuntu16.04\n\n################################################################################\n%labels\n################################################################################\nMAINTAINER Wolfgang Resch\nVERSION v3\n\n################################################################################\n%environment\n################################################################################\nexport PATH=/bin:/usr/bin:/usr/local/bin:/usr/local/cuda/bin:\n\n################################################################################\n%post\n################################################################################\n\n###\n### install keras + tensorflow + other useful packages\n###\napt-get update\napt-get install -y libhdf5-dev graphviz locales python3-dev python3-pip\nlocale-gen en_US.UTF-8\napt-get clean\n\npip3 install tensorflow-gpu==1.3.0\npip3 install keras==2.0.8\npip3 install Pillow scikit-learn pandas matplotlib notebook ipython\n\n###\n### destination for NIH HPC bind mounts\n###\n\nmkdir /gpfs /spin1 /gs2 /gs3 /gs4 /gs5 /gs6 /gs7 /gs8 /data /scratch /fdb /lscratch\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.version": "2.4-feature-squashbuild-secbuild.g818b648",
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "maintainer": "NVIDIA CORPORATION <cudatools@nvidia.com>",
+                "org.label-schema.usage.singularity.deffile": "Singularity.keras",
+                "org.label-schema.schema-version": "1.0",
+                "com.nvidia.volumes.needed": "nvidia_driver",
+                "VERSION": "v3",
+                "org.label-schema.usage.singularity.deffile.from": "nvidia/cuda:8.0-cudnn6-runtime-ubuntu16.04",
+                "com.nvidia.build.id": "39041698",
+                "org.label-schema.build-date": "2017-11-20T20:49:27+00:00",
+                "com.nvidia.build.ref": "17c965bec070ce2bd50e9db79563e851b69d1a62",
+                "com.nvidia.cuda.version": "8.0.61",
+                "MAINTAINER": "Wolfgang Resch",
+                "com.nvidia.cudnn.version": "6.0.21",
+                "org.label-schema.build-size": "2844MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n################################################################################\nexport PATH=/bin:/usr/bin:/usr/local/bin:/usr/local/cuda/bin:\n\n################################################################################\n",
+            "runscript": "#!/bin/sh\n\nexec \"/bin/bash\"\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

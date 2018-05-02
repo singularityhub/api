@@ -1,0 +1,23 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap:docker\nFrom: conda/miniconda3:latest\n\n%labels\nAUTHOR Johan Viklund\nMAINTAINER johan.viklund@nbis.se\n\n%post\nconda config --add channels conda-forge\nconda config --add channels bioconda\nconda install bwa=0.7.12 samtools=1.5\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "MAINTAINER": "johan.viklund@nbis.se",
+                "org.label-schema.usage.singularity.deffile": "Singularity.bwa-0.7.12",
+                "AUTHOR": "Johan Viklund",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.from": "conda/miniconda3:latest",
+                "org.label-schema.build-date": "Thu,_12_Apr_2018_11:23:08_+0000",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.gaa08d4d",
+                "org.label-schema.build-size": "375MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n",
+            "runscript": "#!/bin/sh\n\nexec \"bash\" \"$@\"\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

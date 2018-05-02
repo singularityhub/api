@@ -1,0 +1,27 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "BootStrap: docker\nFrom: kaixhin/cuda-theano:7.5\n\n%post\n\n    # create bind points for NIH HPC environment\n    mkdir /gpfs /spin1 /gs2 /gs3 /gs4 /gs5 /gs6 /data /scratch /fdb /lscratch\n\n%environment\n\n    PATH=/usr/local/cuda-7.5/bin:$PATH\n    LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH\n    LD_LIBRARY_PATH=/usr/local/cuda/extras/CUPTI/lib64:$LD_LIBRARY_PATH\n    CUDA_HOME=/usr/local/cuda\n    export PATH LD_LIBRARY_PATH CUDA_HOME\n \n\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.version": "2.4-feature-squashbuild-secbuild.g818b648",
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "maintainer": "NVIDIA CORPORATION <cudatools@nvidia.com>",
+                "org.label-schema.usage.singularity.deffile": "Singularity.theano",
+                "org.label-schema.schema-version": "1.0",
+                "com.nvidia.volumes.needed": "nvidia_driver",
+                "org.label-schema.usage.singularity.deffile.from": "kaixhin/cuda-theano:7.5",
+                "com.nvidia.build.id": "38006087",
+                "org.label-schema.build-date": "2017-11-22T18:15:56+00:00",
+                "com.nvidia.cuda.version": "7.5.18",
+                "com.nvidia.build.ref": "3458772cdb085854365f16be9db83ebd2eb8eb9e",
+                "com.nvidia.cudnn.version": "5.1.10",
+                "org.label-schema.build-size": "2103MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n\n    PATH=/usr/local/cuda-7.5/bin:$PATH\n    LD_LIBRARY_PATH=/usr/local/cuda/lib64:$LD_LIBRARY_PATH\n    LD_LIBRARY_PATH=/usr/local/cuda/extras/CUPTI/lib64:$LD_LIBRARY_PATH\n    CUDA_HOME=/usr/local/cuda\n    export PATH LD_LIBRARY_PATH CUDA_HOME\n \n\n",
+            "runscript": "#!/bin/sh\n\nexec \"/bin/bash\"\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap: docker\nFrom: ubuntu:latest\n\n%post\n\tmkdir /extra\n\tmkdir /xdisk\n\tmkdir /rsgrps\n\n\tapt-get update\n\tapt-get install -y wget\n\tapt-get install -y bzip2\n\tapt-get install -y vim\n\n\twget https://repo.continuum.io/archive/Anaconda3-5.1.0-Linux-x86_64.sh\n\tbash Anaconda3-5.1.0-Linux-x86_64.sh -f -b -p $HOME/anaconda\n\texport PATH=\"$HOME/anaconda/bin:$PATH\"\n\n\tconda update -y conda\n\tpip install --upgrade tensorflow\n\tpip install keras\n\tconda update -y conda\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "org.label-schema.usage.singularity.deffile": "Singularity.new",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.from": "ubuntu:latest",
+                "org.label-schema.build-date": "Sat,_21_Apr_2018_01:01:51_+0000",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "org.label-schema.build-size": "4166MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n",
+            "runscript": "#!/bin/sh\n\nexec \"/bin/bash\" \"$@\"\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

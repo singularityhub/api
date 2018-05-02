@@ -1,0 +1,23 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "bootstrap: docker\nfrom: openjdk:8\n\n# This is copied from https://github.com/SciLifeLab/CAW\n%labels\nAUTHOR Johan Viklund\nMAINTAINER johan.viklund@gmail.com\n\n%environment\nFASTQC_VERSION=0.11.5\n\n# Install libraries\n%post\napt-get update\napt-get install -y --no-install-recommends wget\nrm -rf /var/lib/apt/lists/*\n\n# Install FastQC\nexport FASTQC_VERSION=0.11.5\nwget --quiet -O fastqc_v${FASTQC_VERSION}.zip http://www.bioinformatics.babraham.ac.uk/projects/fastqc/fastqc_v${FASTQC_VERSION}.zip\nunzip fastqc_v${FASTQC_VERSION}.zip -d /opt/\nchmod 755 /opt/FastQC/fastqc\nln -s /opt/FastQC/fastqc /usr/local/bin/fastqc\nrm fastqc_v${FASTQC_VERSION}.zip\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "MAINTAINER": "johan.viklund@gmail.com",
+                "org.label-schema.usage.singularity.deffile": "Singularity.fastqc-0.11.5",
+                "AUTHOR": "Johan Viklund",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.from": "openjdk:8",
+                "org.label-schema.build-date": "Thu,_12_Apr_2018_09:43:07_+0000",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.gaa08d4d",
+                "org.label-schema.build-size": "760MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\nFASTQC_VERSION=0.11.5\n\n# Install libraries\n",
+            "runscript": "#!/bin/sh\n\nexec \"bash\" \"$@\"\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

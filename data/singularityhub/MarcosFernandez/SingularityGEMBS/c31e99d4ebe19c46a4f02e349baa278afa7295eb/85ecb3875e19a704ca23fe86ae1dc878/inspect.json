@@ -1,0 +1,27 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap: shub\nFrom: singularityhub/ubuntu\n\n%labels\n    Author Marcos Fernandez-Callejo\n    Version v0.0\n    gemBS_Version 2.0\n    build_date 2018 March 8\n\n%runscript\n\n    exec gemBS \"$@\"\n\n%post\n    apt-get update && apt-get -y install python2.7 python-dev git wget\n    apt-get -y install g++ build-essential\n    apt-get -y install libbz2-dev liblzma-dev zlib1g-dev\n\n    #Install HTSLIB\n    wget -c https://github.com/samtools/htslib/releases/download/1.6/htslib-1.6.tar.bz2\n    tar xjf htslib-1.6.tar.bz2\n    cd htslib-1.6;./configure;make;make install;cd ..\n    rm -fR htslib-1.6\n    \n    #Install SAMTOOLS\n    apt-get -y install libncurses5-dev\n    wget -c https://github.com/samtools/samtools/releases/download/1.6/samtools-1.6.tar.bz2\n    tar xjf samtools-1.6.tar.bz2\n    cd samtools-1.6;./configure;make;make install;cd ..\n\n    #Install BCFTOOLS\n    wget -c https://github.com/samtools/bcftools/releases/download/1.6/bcftools-1.6.tar.bz2\n    tar xjf bcftools-1.6.tar.bz2\n    cd bcftools-1.6;./configure;make;make install\n    rm -fR bcftools-1.6\n\n    #Install GSL\n    wget -c ftp://ftp.gnu.org/gnu/gsl/gsl-latest.tar.gz\n    tar xzf gsl-latest.tar.gz\n    cd gsl-*/;./configure;make;make install;\n    rm -fR gsl-*/\n\n    #Install PYTHON modules\n    apt-get -y install python-pip libfreetype6-dev libpng-dev pkg-config\n    pip install --upgrade numpy\n    pip install --upgrade pip\n    pip install --upgrade matplotlib[mplot3d]\n\n    #LaTeX packages\n    apt-get install -y software-properties-common texlive\n \n    #wigToBigWig\n    wget -c http://hgdownload.soe.ucsc.edu/admin/exe/linux.x86_64/wigToBigWig\n    chmod 777 wigToBigWig \n    cp wigToBigWig /usr/bin/\n\n    #GEMBS\n    pip install -U setuptools\n    git clone --recursive https://github.com/heathsc/gemBS.git\n    sed 's,-L/apps/GSL/2.4/lib/,-L/usr/local/lib,' gemBS/tools/bs_call/Gsl.mk > gemBS/tools/bs_call/Gsl.mk.1    \n    sed 's,-L/apps/GSL/2.4/include/,-L/usr/local/include/gsl,' gemBS/tools/bs_call/Gsl.mk.1 > gemBS/tools/bs_call/Gsl.mk.2\n    mv gemBS/tools/bs_call/Gsl.mk.2 gemBS/tools/bs_call/Gsl.mk\n    rm gemBS/tools/bs_call/Gsl.mk.1\n    cd gemBS;python setup.py install;cd ..\n    rm -fR gemBS    \n",
+            "help": null,
+            "labels": {
+                "BUILD_DATE": "2018 March 8",
+                "org.label-schema.usage.singularity.deffile.bootstrap": "shub",
+                "GEMBS_VERSION": "2.0",
+                "org.label-schema.usage.singularity.deffile": "Singularity",
+                "AUTHOR": "Marcos Fernandez-Callejo",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.osversion": "trusty",
+                "VERSION": "v0.0",
+                "org.label-schema.usage.singularity.deffile.from": "singularityhub/ubuntu",
+                "org.label-schema.build-date": "Tue,_13_Mar_2018_14:49:56_+0000",
+                "org.label-schema.usage.singularity.deffile.mirrorurl": "http://us.archive.ubuntu.com/ubuntu/",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "org.label-schema.build-size": "2061MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n",
+            "runscript": "#!/bin/sh \n\n\n    exec gemBS \"$@\"\n\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

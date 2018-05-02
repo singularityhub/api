@@ -1,0 +1,24 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "bootstrap: docker\nfrom:broadinstitute/gatk3:3.5-0\n\n%labels\nAUTHOR Johan Viklund\nMAINTAINER johan.viklund@nbis.se\n\n%post\napt-get install pkg-config\n\ncurl -LO https://github.com/vcftools/vcftools/releases/download/v0.1.15/vcftools-0.1.15.tar.gz\ntar xzf vcftools-0.1.15.tar.gz\ncd vcftools-0.1.15\n./configure\nmake\nmake install\n",
+            "help": null,
+            "labels": {
+                "GATK_VER": "3.5-0",
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "MAINTAINER": "johan.viklund@nbis.se",
+                "org.label-schema.usage.singularity.deffile": "Singularity.gatk-3.5",
+                "AUTHOR": "Johan Viklund",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.from": "broadinstitute/gatk3:3.5-0",
+                "org.label-schema.build-date": "Thu,_12_Apr_2018_11:01:37_+0000",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.gaa08d4d",
+                "org.label-schema.build-size": "867MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n",
+            "runscript": "#!/bin/sh\n\nexec \"/bin/bash\" \"$@\"\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

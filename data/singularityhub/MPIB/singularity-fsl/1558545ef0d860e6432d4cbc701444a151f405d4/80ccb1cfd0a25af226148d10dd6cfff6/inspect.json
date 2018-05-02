@@ -1,0 +1,23 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap: docker\nFrom: gw000/debian-cuda:8.0_7.0\n\n%labels\n    AUTHOR krause@mpib-berlin.mpg.de\n    CUDA 8.0\n\n%post\n    apt-get update\n    apt-get -y install wget python-minimal libgomp1 nvidia-smi ca-certificates \\\n            libglu1-mesa libgl1-mesa-glx libsm6 libice6 libxt6 \\\n            libjpeg62-turbo libpng16-16 libxrender1 libxcursor1 \\\n            libxinerama1 libfreetype6 libxft2 libxrandr2 libmng1 \\\n            libgtk2.0-0 libpulse0 libasound2 libcaca0\n    wget https://fsl.fmrib.ox.ac.uk/fsldownloads/fslinstaller.py\n    python2 fslinstaller.py -d /usr/local/fsl -V 5.0.11\n    wget -O- https://fsl.fmrib.ox.ac.uk/fsldownloads/patches/eddy-patch-fsl-5.0.11/centos6/eddy_cuda8.0  > /usr/local/fsl/bin/eddy_cuda\n    wget -O- https://fsl.fmrib.ox.ac.uk/fsldownloads/patches/eddy-patch-fsl-5.0.11/centos6/eddy_openmp > /usr/local/fsl/bin/eddy_openmp\n\n%environment\n    FSLDIR=/usr/local/fsl\n    . ${FSLDIR}/etc/fslconf/fsl.sh\n    PATH=${FSLDIR}/bin:${PATH}\n    export FSLDIR PATH\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "org.label-schema.usage.singularity.deffile": "Singularity.Tardis",
+                "AUTHOR": "krause@mpib-berlin.mpg.de",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.from": "gw000/debian-cuda:8.0_7.0",
+                "CUDA": "8.0",
+                "org.label-schema.build-date": "Thu,_29_Mar_2018_17:21:12_+0000",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "org.label-schema.build-size": "10967MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n    FSLDIR=/usr/local/fsl\n    . ${FSLDIR}/etc/fslconf/fsl.sh\n    PATH=${FSLDIR}/bin:${PATH}\n    export FSLDIR PATH\n",
+            "runscript": "#!/bin/sh\n\nexec \"bash\" \"$@\"\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

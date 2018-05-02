@@ -1,0 +1,22 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "BootStrap: docker\nFrom: debian:stretch-slim\n\n%labels\n    Maintainer Afif Elghraoui <staff@hpc.nih.gov>\n\n%runscript\n    rstudio \"$@\"\n\n%post\n#\n# Choose your mirror from the list at\n# http://cran.r-project.org/mirrors.html\n#\n    export r_mirror=\"http://mirrors.nics.utk.edu/cran\"\n\n# Disable interactive package configuration prompts\n    export DEBIAN_FRONTEND=noninteractive\n\n#\n# Set up the R backports repository to get latest version of the R interpreter\n# See https://cran.cnr.berkeley.edu/bin/linux/debian/#backports-on-cran\n#\n    apt-get update\n    # libssl and libcurl are needed to build some R packages. You may\n    # need to install others depending on the R packages you need.\n    apt-get install -y gnupg libssl-dev libcurl4-openssl-dev\n    cat <<__R-BACKPORTS__ > /etc/apt/sources.list.d/r-backports.list\ndeb ${r_mirror}/bin/linux/debian stretch-cran34/\n__R-BACKPORTS__\n    apt-key adv --keyserver keys.gnupg.net --recv-key 'E19F5F87128899B192B1A2C2AD5F960A256A04AF'\n    apt-get update\n    apt-get -t stretch-cran34 install -y \\\n        r-base-core \\\n        r-base-dev \\\n        r-recommended \\\n        littler \\\n        python-rpy2\n\n#\n# Install RStudio\n# see https://www.rstudio.com/products/rstudio/download/#download\n#\n    apt-get install -y xorg wget\n    wget https://download1.rstudio.org/rstudio-xenial-1.1.423-amd64.deb\n    dpkg -i --force-depends rstudio-xenial-1.1.423-amd64.deb\n    apt-get -f install -y\n    # an undeclared dependency? rstudio fails to start unless we install this:\n    apt-get -y install -y libxslt1.1\n\n#\n# Remove all downloaded packages to minimize the container size\n#\n    apt-get clean\n    rm -f rstudio-*.deb\n\n#\n# Install additional R packages from CRAN and Bioconductor\n#\n    r <<__INSTALLCMDS__\ninstall.packages(c('devtools','ggplot2','dplyr'),repos=\"$r_mirror\")\n\nsource(\"https://bioconductor.org/biocLite.R\")\nbiocLite(c('Rsamtools'))\n__INSTALLCMDS__\n\n#\n# Create some useful mountpoints to be used in addition to /mnt\n#\nmkdir /data /resources\n\n%environment\n# Set locale\n    export LC_ALL=C.UTF-8\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "MAINTAINER": "Afif Elghraoui <staff@hpc.nih.gov>",
+                "org.label-schema.usage.singularity.deffile": "Singularity.rstudio",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.from": "debian:stretch-slim",
+                "org.label-schema.build-date": "Tue,_20_Feb_2018_16:21:24_+0000",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.gaa08d4d",
+                "org.label-schema.build-size": "1586MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n# Set locale\n    export LC_ALL=C.UTF-8\n",
+            "runscript": "#!/bin/sh \n\n    rstudio \"$@\"\n\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}
