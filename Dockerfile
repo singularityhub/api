@@ -27,7 +27,7 @@ RUN git clone https://github.com/singularityware/singularity.git \
 # Install google python storage client
 RUN /opt/conda/bin/pip install --upgrade pip && \
     /opt/conda/bin/pip install --upgrade google-cloud-storage && \
-    /opt/conda/bin/pip install spython=0.0.32
+    /opt/conda/bin/pip install spython==0.0.32
 
 # Install container-diff and singularity container-diff
 RUN curl -LO https://storage.googleapis.com/container-diff/latest/container-diff-linux-amd64 && \
