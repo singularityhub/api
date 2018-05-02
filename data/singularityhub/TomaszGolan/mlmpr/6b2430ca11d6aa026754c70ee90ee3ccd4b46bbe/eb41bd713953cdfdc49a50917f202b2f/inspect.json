@@ -1,0 +1,36 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "# Ubuntu 16.04 based container with CUDA 8 and cuDNN 7 (and python)\n# Prepared to run with https://github.com/TomaszGolan/caffe\n# which is master Caffe fork with gradient scalar layer \n# see: https://github.com/gnperdue/caffe-1/compare/master...gnperdue:grad_rev_layer_gnp2017april?expand=1\n\nBootStrap: docker\nFrom: nvidia/cuda:8.0-cudnn7-devel-ubuntu16.04\n\n%help\nYou're on your own.\n\n%labels\nMaintainer tomasz.golan@gmail.com\nCUDA 8\ncuDNN 7\nOS Ubuntu16.04\nNVIDIA-DRIVER 375.26\n\n%environment\n    export CUDA_ROOT=/usr/local/cuda/\n    export CUDA_HOME=/usr/local/cuda/\n    export PATH=$PATH:/usr/local/NVIDIA-Linux-x86_64/:$CUDA_ROOT/bin\n    export LD_LIBRARY_PATH=/usr/local/NVIDIA-Linux-x86_64/:$CUDA_ROOT/lib64\n\n%post\n    # not sure if they all are required?\n    # following J. Simone here\n    mkdir /scratch /data /project /lqcdproj\n\n    ##### INSTALL ALL DEPENDENCIES #####\n\n    apt update && apt install -y --no-install-recommends \\\n        build-essential \\\n        ca-certificates \\\n        cmake \\\n        git \\\n        libatlas-base-dev \\\n        libboost-all-dev \\\n        libgflags-dev \\\n        libgoogle-glog-dev \\\n        libhdf5-serial-dev \\\n        libleveldb-dev \\\n        liblmdb-dev \\\n        libopencv-dev \\\n        libprotobuf-dev \\\n        libsnappy-dev \\\n        protobuf-compiler \\\n        python-dev \\\n        python-numpy \\\n        python-pip \\\n        python-setuptools \\\n        python-scipy \\\n        wget\n\n    # clean after apt\n    rm -rf /var/lib/apt/lists/*\n\n    ##### INSTALL NVIDIA DRIVERS #####\n    \n    # get NVIDIA drivers\n    cd /opt/\n    wget http://us.download.nvidia.com/XFree86/Linux-x86_64/375.26/NVIDIA-Linux-x86_64-375.26.run\n    # extract .run file to /usr/local/\n    sh NVIDIA-Linux-x86_64-375.26.run -x\n    mv NVIDIA-Linux-x86_64-375.26 /usr/local/NVIDIA-Linux-x86_64\n    rm NVIDIA-Linux-x86_64-375.26.run\n    \n    # create symbolic links\n    cd /usr/local/NVIDIA-Linux-x86_64\n    for n in *.375.26; do\n        ln -v -s $n ${n%.375.26}\n    done\n    ln -v -s libnvidia-ml.so.375.26 libnvidia-ml.so.1\n    ln -v -s libcuda.so.375.26 libcuda.so.1\n\n    ##### INSTALL NCLL #####\n\n    cd /opt/\n    git clone https://github.com/NVIDIA/nccl.git\n    cd nccl/\n    make\n    make install\n    cd ../\n    rm -rf nccl\n\n    ##### INSTALL CAFFE #####\n\n    # get Caffe source code (with DANN included)\n    cd /opt/\n    # to avoid \"Problem with the SSL CA cert (path? access rights?)\"\n    update-ca-certificates\n    git clone --depth 1 https://github.com/TomaszGolan/caffe\n    cd caffe\n\n    # install python packages for Caffe\n    pip install --upgrade pip\n    for req in $(cat python/requirements.txt) pydot\n    do\n        pip install $req\n    done\n\n    # make Caffe\n    mkdir build\n    cd build/\n    cmake -DUSE_CUDNN=0 -DUSE_NCCL=0 ..\n    make\n\n%runscript\n    exec /opt/caffe/build/tools/caffe",
+            "help": "\n\nYou're on your own.\n\n",
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "maintainer": "NVIDIA CORPORATION <cudatools@nvidia.com>",
+                "com.nvidia.cuda.version": "8.0.61",
+                "com.nvidia.build.ref": "e0edb5359ecb7bd3d86f0c9bfa18c2260b741ebb",
+                "org.label-schema.usage.singularity.version": "2.4-feature-squashbuild-secbuild.g818b648",
+                "org.label-schema.usage.singularity.deffile._prepared_to_run_with_https": "//github.com/TomaszGolan/caffe",
+                "org.label-schema.usage.singularity.deffile": "Singularity.caffe-dann-nocudnn",
+                "org.label-schema.usage.singularity.deffile._see": "https://github.com/gnperdue/caffe-1/compare/master...gnperdue:grad_rev_layer_gnp2017april?expand=1",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.from": "nvidia/cuda:8.0-cudnn7-devel-ubuntu16.04",
+                "CUDA": "8",
+                "org.label-schema.build-date": "2017-11-26T06:09:11+00:00",
+                "com.nvidia.cudnn.version": "7.0.4.31",
+                "MAINTAINER": "tomasz.golan@gmail.com",
+                "com.nvidia.volumes.needed": "nvidia_driver",
+                "org.label-schema.usage.singularity.runscript.help": "/.singularity.d/runscript.help",
+                "org.label-schema.usage": "/.singularity.d/runscript.help",
+                "CUDNN": "7",
+                "NVIDIA_DRIVER": "375.26",
+                "com.nvidia.build.id": "41212532",
+                "OS": "Ubuntu16.04",
+                "org.label-schema.build-size": "3830MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n    export CUDA_ROOT=/usr/local/cuda/\n    export CUDA_HOME=/usr/local/cuda/\n    export PATH=$PATH:/usr/local/NVIDIA-Linux-x86_64/:$CUDA_ROOT/bin\n    export LD_LIBRARY_PATH=/usr/local/NVIDIA-Linux-x86_64/:$CUDA_ROOT/lib64\n\n",
+            "runscript": "#!/bin/sh \n\n    exec /opt/caffe/build/tools/caffe",
+            "test": null
+        },
+        "type": "container"
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "# Ubuntu 14.04 based container with CUDA 7 and cuDNN 3\n# Prepared to run with https://github.com/sohiniu/caffe/tree/patch-2\n# see https://hub.docker.com/r/nvidia/cuda/ for more up to date dockers\n\nBootStrap: docker\nFrom: nvidia/cuda:7.0-cudnn3-devel-ubuntu14.04\n\n%help\nYou're on your own.\n\n%labels\nMaintainer tomasz.golan@gmail.com\nCUDA 7\ncuDNN 3\nOS Ubuntu14.04\nNVIDIA-DRIVER 375.26\n\n%environment\n    export CUDA_ROOT=/usr/local/cuda/\n    export CUDA_HOME=/usr/local/cuda/\n    export PATH=$PATH:/usr/local/NVIDIA-Linux-x86_64/:$CUDA_ROOT/bin\n    export LD_LIBRARY_PATH=/usr/local/NVIDIA-Linux-x86_64/:$CUDA_ROOT/lib64\n\n%post\n    # not sure if they all are required?\n    # following J. Simone here\n    mkdir /scratch /data /project /lqcdproj\n\n    ##### INSTALL ALL DEPENDENCIES #####\n\n    apt update && apt install -y --no-install-recommends \\\n        build-essential \\\n        ca-certificates \\\n        cmake \\\n        git \\\n        libatlas-base-dev \\\n        libboost-all-dev \\\n        libgflags-dev \\\n        libgoogle-glog-dev \\\n        libhdf5-serial-dev \\\n        libleveldb-dev \\\n        liblmdb-dev \\\n        libopencv-dev \\\n        libprotobuf-dev \\\n        libsnappy-dev \\\n        protobuf-compiler \\\n        wget\n\n    # clean after apt\n    rm -rf /var/lib/apt/lists/*\n    \n    ##### INSTALL NVIDIA DRIVERS #####\n    \n    # get NVIDIA drivers\n    cd /opt/\n    wget http://us.download.nvidia.com/XFree86/Linux-x86_64/375.26/NVIDIA-Linux-x86_64-375.26.run\n    # extract .run file to /usr/local/\n    sh NVIDIA-Linux-x86_64-375.26.run -x\n    mv NVIDIA-Linux-x86_64-375.26 /usr/local/NVIDIA-Linux-x86_64\n    rm NVIDIA-Linux-x86_64-375.26.run\n    \n    # create symbolic links\n    cd /usr/local/NVIDIA-Linux-x86_64\n    for n in *.375.26; do\n        ln -v -s $n ${n%.375.26}\n    done\n    ln -v -s libnvidia-ml.so.375.26 libnvidia-ml.so.1\n    ln -v -s libcuda.so.375.26 libcuda.so.1\n\n    ##### INSTALL CAFFE #####\n\n    # get Caffe source code (with Sohini's patch v2)\n    cd /opt/\n    # to avoid \"Problem with the SSL CA cert (path? access rights?)\"\n    update-ca-certificates\n    git clone -b patch-2 --depth 1 https://github.com/sohiniu/caffe.git\n    cd caffe\n\n    # make Caffe\n    # NOTE: in the future we may want -DUSE_NCCL=1\n    mkdir build\n    cd build/\n    cmake -DUSE_CUDNN=1 ..\n    make\n\n%runscript\n    exec /opt/caffe/build/tools/caffe",
+            "help": "\n\nYou're on your own.\n\n",
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "maintainer": "NVIDIA CORPORATION <cudatools@nvidia.com>",
+                "com.nvidia.cuda.version": "7.0.28",
+                "com.nvidia.build.ref": "3458772cdb085854365f16be9db83ebd2eb8eb9e",
+                "org.label-schema.usage.singularity.version": "2.4-feature-squashbuild-secbuild.g818b648",
+                "org.label-schema.usage.singularity.deffile._prepared_to_run_with_https": "//github.com/sohiniu/caffe/tree/patch-2",
+                "org.label-schema.usage.singularity.deffile": "Singularity.caffe-patch2",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile._see_https": "//hub.docker.com/r/nvidia/cuda/ for more up to date dockers",
+                "org.label-schema.usage.singularity.deffile.from": "nvidia/cuda:7.0-cudnn3-devel-ubuntu14.04",
+                "CUDA": "7",
+                "org.label-schema.build-date": "2017-11-18T23:12:46+00:00",
+                "com.nvidia.cudnn.version": "3.0.7",
+                "MAINTAINER": "tomasz.golan@gmail.com",
+                "com.nvidia.volumes.needed": "nvidia_driver",
+                "org.label-schema.usage.singularity.runscript.help": "/.singularity.d/runscript.help",
+                "org.label-schema.usage": "/.singularity.d/runscript.help",
+                "CUDNN": "3",
+                "NVIDIA_DRIVER": "375.26",
+                "com.nvidia.build.id": "39041708",
+                "OS": "Ubuntu14.04",
+                "org.label-schema.build-size": "2346MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n    export CUDA_ROOT=/usr/local/cuda/\n    export CUDA_HOME=/usr/local/cuda/\n    export PATH=$PATH:/usr/local/NVIDIA-Linux-x86_64/:$CUDA_ROOT/bin\n    export LD_LIBRARY_PATH=/usr/local/NVIDIA-Linux-x86_64/:$CUDA_ROOT/lib64\n\n",
+            "runscript": "#!/bin/sh \n\n    exec /opt/caffe/build/tools/caffe",
+            "test": null
+        },
+        "type": "container"
+    }
+}

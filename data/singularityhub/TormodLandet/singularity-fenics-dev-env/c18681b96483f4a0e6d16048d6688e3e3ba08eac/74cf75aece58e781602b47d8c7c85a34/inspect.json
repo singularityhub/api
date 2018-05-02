@@ -1,0 +1,21 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap: docker\nFrom: trlandet/fenics-dev:latest\n\n%post\n    cp /home/fenics/bin/fenics-* /usr/local/bin\n\n%runscript\n    echo \"Welcome to the Singularity FEniCS dev-env container\"\n    exec /bin/bash -i \"$@\"\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "org.label-schema.usage.singularity.deffile": "Singularity",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.from": "trlandet/fenics-dev:latest",
+                "org.label-schema.build-date": "Tue,_30_Jan_2018_16:09:07_+0000",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.gaa08d4d",
+                "org.label-schema.build-size": "2107MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n",
+            "runscript": "#!/bin/sh \n\n    echo \"Welcome to the Singularity FEniCS dev-env container\"\n    exec /bin/bash -i \"$@\"\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

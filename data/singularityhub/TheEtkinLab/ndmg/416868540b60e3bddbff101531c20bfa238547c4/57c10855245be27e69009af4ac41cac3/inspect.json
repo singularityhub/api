@@ -1,0 +1,27 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap: docker\nFrom: bids/ndmg\n\n%help\nYou are in the BIDS-ndmg container. To see help run\nsingularity run TheEtkinLab-ndmg.simg -h\n\n%runscript\n    echo \"Running ndmg!\"\n    echo \"Arguments received: $*\"\n    exec ndmg_bids \"$@\"\n\n%labels\nAuthor mnarayan@users.noreply.github.com\nBuild-date 20/01/2018\nVendor Ubuntu\nVersion v0.1.0\n\n%post\n    echo \"Hello from inside the ndmg container\"\n    echo \"Install additional software here\"\n",
+            "help": "\n\nYou are in the BIDS-ndmg container. To see help run\nsingularity run TheEtkinLab-ndmg.simg -h\n\n",
+            "labels": {
+                "BUILD_DATE": "20/01/2018",
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "VENDOR": "Ubuntu",
+                "org.label-schema.usage.singularity.deffile": "singularity.v0.1.0",
+                "AUTHOR": "mnarayan@users.noreply.github.com",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage": "/.singularity.d/runscript.help",
+                "VERSION": "v0.1.0",
+                "org.label-schema.usage.singularity.deffile.from": "bids/ndmg",
+                "org.label-schema.build-date": "2018-01-29T21:30:58+00:00",
+                "org.label-schema.usage.singularity.runscript.help": "/.singularity.d/runscript.help",
+                "org.label-schema.usage.singularity.version": "2.4-feature-squashbuild-secbuild.g818b648",
+                "org.label-schema.build-size": "2022MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n",
+            "runscript": "#!/bin/sh \n\n    echo \"Running ndmg!\"\n    echo \"Arguments received: $*\"\n    exec ndmg_bids \"$@\"\n\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

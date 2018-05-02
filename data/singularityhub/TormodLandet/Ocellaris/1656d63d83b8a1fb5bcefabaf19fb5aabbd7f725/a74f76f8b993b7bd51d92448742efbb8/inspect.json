@@ -1,0 +1,21 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "# Build image from the same container that is used in the CircleCI\n# testing. This image is kept up to date with requirements etc, we\n# only need to actually install Ocellaris in the container\nBootstrap: docker\nFrom: trlandet/fenics-dev:py3_CI\n\n%post\n    # Install Ocellaris\n    mkdir /source\n    cd /source\n    git clone https://bitbucket.org/trlandet/ocellaris.git\n    cd ocellaris\n    pip3 install .\n    chmod a+rwX /source\n\n%environment\n    export FENICS_PREFIX=/usr/local\n    export SLEPC_DIR=${FENICS_PREFIX}\n    export PETSC_DIR=${FENICS_PREFIX}\n\n%runscript\n    exec ocellaris \"$@\"\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "org.label-schema.usage.singularity.deffile": "Singularity",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.from": "trlandet/fenics-dev:py3_CI",
+                "org.label-schema.build-date": "2018-01-30T15:46:53+00:00",
+                "org.label-schema.usage.singularity.version": "2.4-feature-squashbuild-secbuild.g818b648",
+                "org.label-schema.build-size": "2145MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n    export FENICS_PREFIX=/usr/local\n    export SLEPC_DIR=${FENICS_PREFIX}\n    export PETSC_DIR=${FENICS_PREFIX}\n\n",
+            "runscript": "#!/bin/sh \n\n    exec ocellaris \"$@\"\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}
