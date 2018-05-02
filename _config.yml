@@ -4,6 +4,7 @@
 title: The Container API
 description: "Static container API for Singularity Hub for community analysis"
 baseurl: "/api" #important: start with /
+github_pages: "https://singularityhub.github.io"
 url: ""
 
 # Build settings

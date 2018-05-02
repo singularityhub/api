@@ -6,10 +6,10 @@ permalink: /
 {
     "links": {
 
-             "all": "{{ site.url }}{{ site.baseurl }}/all",
-             "inspect": "{{ site.url }}{{ site.baseurl }}/files",
-             "files": "{{ site.url }}{{ site.baseurl }}/inspect",
-             "packages": "{{ site.url }}{{ site.baseurl }}/packages",
-             "selfLink": "{{ site.url }}{{ site.baseurl }}"
+             "all": "{{ site.github_pages }}{{ site.baseurl }}/all",
+             "inspect": "{{ site.github_pages }}{{ site.baseurl }}/files",
+             "files": "{{ site.github_pages }}{{ site.baseurl }}/inspect",
+             "packages": "{{ site.github_pages }}{{ site.baseurl }}/packages",
+             "selfLink": "{{ site.github_pages }}{{ site.baseurl }}"
     }
 }
