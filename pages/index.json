@@ -1,0 +1,15 @@
+---
+title: The Container API
+layout: none
+permalink: /
+---
+{
+    "links": {
+
+             "all": "{{ site.url }}{{ site.baseurl }}/all",
+             "inspect": "{{ site.url }}{{ site.baseurl }}/files",
+             "files": "{{ site.url }}{{ site.baseurl }}/inspect",
+             "packages": "{{ site.url }}{{ site.baseurl }}/packages",
+             "selfLink": "{{ site.url }}{{ site.baseurl }}"
+    }
+}

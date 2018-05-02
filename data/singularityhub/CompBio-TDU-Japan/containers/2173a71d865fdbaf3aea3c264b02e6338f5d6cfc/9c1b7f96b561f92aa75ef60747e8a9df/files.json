@@ -1,0 +1,2284 @@
+[
+  {
+    "Image": "/tmp/tmp.bSd71WSIfj/30cfbe9e34fd06a27e48c13cfba87ced670fc84369ecf7ad77e8b43ba76c8580.tar",
+    "AnalyzeType": "File",
+    "Analysis": [
+      {
+        "Name": "/bin",
+        "Size": 805984
+      },
+      {
+        "Name": "/bin/ash",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/base64",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/bbconfig",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/busybox",
+        "Size": 805024
+      },
+      {
+        "Name": "/bin/cat",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/chgrp",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/chmod",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/chown",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/conspy",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/cp",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/date",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/dd",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/df",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/dmesg",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/dnsdomainname",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/dumpkmap",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/echo",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/ed",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/egrep",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/false",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/fatattr",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/fdflush",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/fgrep",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/fsync",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/getopt",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/grep",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/gunzip",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/gzip",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/hostname",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/ionice",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/iostat",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/ipcalc",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/kbd_mode",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/kill",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/link",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/linux32",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/linux64",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/ln",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/login",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/ls",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/lzop",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/makemime",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/mkdir",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/mknod",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/mktemp",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/more",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/mount",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/mountpoint",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/mpstat",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/mv",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/netstat",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/nice",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/pidof",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/ping",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/ping6",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/pipe_progress",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/printenv",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/ps",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/pwd",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/reformime",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/rev",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/rm",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/rmdir",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/run-parts",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/sed",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/setpriv",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/setserial",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/sh",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/sleep",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/stat",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/stty",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/su",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/sync",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/tar",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/touch",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/true",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/umount",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/uname",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/usleep",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/watch",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/zcat",
+        "Size": 1964536
+      },
+      {
+        "Name": "/dev",
+        "Size": 0
+      },
+      {
+        "Name": "/environment",
+        "Size": -1
+      },
+      {
+        "Name": "/etc",
+        "Size": 250638
+      },
+      {
+        "Name": "/etc/TZ",
+        "Size": 4
+      },
+      {
+        "Name": "/etc/alpine-release",
+        "Size": 6
+      },
+      {
+        "Name": "/etc/apk",
+        "Size": 1605
+      },
+      {
+        "Name": "/etc/apk/arch",
+        "Size": 7
+      },
+      {
+        "Name": "/etc/apk/keys",
+        "Size": 1353
+      },
+      {
+        "Name": "/etc/apk/keys/alpine-devel@lists.alpinelinux.org-4a6a0840.rsa.pub",
+        "Size": 451
+      },
+      {
+        "Name": "/etc/apk/keys/alpine-devel@lists.alpinelinux.org-5243ef4b.rsa.pub",
+        "Size": 451
+      },
+      {
+        "Name": "/etc/apk/keys/alpine-devel@lists.alpinelinux.org-5261cecb.rsa.pub",
+        "Size": 451
+      },
+      {
+        "Name": "/etc/apk/protected_paths.d",
+        "Size": 0
+      },
+      {
+        "Name": "/etc/apk/repositories",
+        "Size": 99
+      },
+      {
+        "Name": "/etc/apk/world",
+        "Size": 146
+      },
+      {
+        "Name": "/etc/conf.d",
+        "Size": 0
+      },
+      {
+        "Name": "/etc/crontabs",
+        "Size": 0
+      },
+      {
+        "Name": "/etc/fstab",
+        "Size": 89
+      },
+      {
+        "Name": "/etc/group",
+        "Size": 697
+      },
+      {
+        "Name": "/etc/hostname",
+        "Size": 10
+      },
+      {
+        "Name": "/etc/hosts",
+        "Size": 0
+      },
+      {
+        "Name": "/etc/init.d",
+        "Size": 0
+      },
+      {
+        "Name": "/etc/inittab",
+        "Size": 570
+      },
+      {
+        "Name": "/etc/issue",
+        "Size": 53
+      },
+      {
+        "Name": "/etc/ld.so.cache",
+        "Size": -1
+      },
+      {
+        "Name": "/etc/localtime",
+        "Size": 127
+      },
+      {
+        "Name": "/etc/logrotate.d",
+        "Size": 132
+      },
+      {
+        "Name": "/etc/logrotate.d/acpid",
+        "Size": 132
+      },
+      {
+        "Name": "/etc/modprobe.d",
+        "Size": 3711
+      },
+      {
+        "Name": "/etc/modprobe.d/aliases.conf",
+        "Size": 1545
+      },
+      {
+        "Name": "/etc/modprobe.d/blacklist.conf",
+        "Size": 1979
+      },
+      {
+        "Name": "/etc/modprobe.d/i386.conf",
+        "Size": 122
+      },
+      {
+        "Name": "/etc/modprobe.d/kms.conf",
+        "Size": 65
+      },
+      {
+        "Name": "/etc/modules",
+        "Size": 10
+      },
+      {
+        "Name": "/etc/modules-load.d",
+        "Size": 0
+      },
+      {
+        "Name": "/etc/motd",
+        "Size": 282
+      },
+      {
+        "Name": "/etc/mtab",
+        "Size": 28
+      },
+      {
+        "Name": "/etc/network",
+        "Size": 160
+      },
+      {
+        "Name": "/etc/network/if-down.d",
+        "Size": 0
+      },
+      {
+        "Name": "/etc/network/if-post-down.d",
+        "Size": 0
+      },
+      {
+        "Name": "/etc/network/if-post-up.d",
+        "Size": 0
+      },
+      {
+        "Name": "/etc/network/if-pre-down.d",
+        "Size": 0
+      },
+      {
+        "Name": "/etc/network/if-pre-up.d",
+        "Size": 0
+      },
+      {
+        "Name": "/etc/network/if-up.d",
+        "Size": 160
+      },
+      {
+        "Name": "/etc/network/if-up.d/dad",
+        "Size": 160
+      },
+      {
+        "Name": "/etc/nsswitch.conf",
+        "Size": 55
+      },
+      {
+        "Name": "/etc/opt",
+        "Size": 0
+      },
+      {
+        "Name": "/etc/os-release",
+        "Size": 158
+      },
+      {
+        "Name": "/etc/passwd",
+        "Size": 1224
+      },
+      {
+        "Name": "/etc/periodic",
+        "Size": 0
+      },
+      {
+        "Name": "/etc/periodic/15min",
+        "Size": 0
+      },
+      {
+        "Name": "/etc/periodic/daily",
+        "Size": 0
+      },
+      {
+        "Name": "/etc/periodic/hourly",
+        "Size": 0
+      },
+      {
+        "Name": "/etc/periodic/monthly",
+        "Size": 0
+      },
+      {
+        "Name": "/etc/periodic/weekly",
+        "Size": 0
+      },
+      {
+        "Name": "/etc/profile",
+        "Size": 259
+      },
+      {
+        "Name": "/etc/profile.d",
+        "Size": 295
+      },
+      {
+        "Name": "/etc/profile.d/color_prompt",
+        "Size": 295
+      },
+      {
+        "Name": "/etc/protocols",
+        "Size": 1865
+      },
+      {
+        "Name": "/etc/resolv.conf",
+        "Size": 0
+      },
+      {
+        "Name": "/etc/securetty",
+        "Size": 65
+      },
+      {
+        "Name": "/etc/services",
+        "Size": 36141
+      },
+      {
+        "Name": "/etc/shells",
+        "Size": 38
+      },
+      {
+        "Name": "/etc/ssl",
+        "Size": 198679
+      },
+      {
+        "Name": "/etc/ssl/cert.pem",
+        "Size": 196928
+      },
+      {
+        "Name": "/etc/ssl/openssl.cnf",
+        "Size": 745
+      },
+      {
+        "Name": "/etc/ssl/x509v3.cnf",
+        "Size": 1006
+      },
+      {
+        "Name": "/etc/sysctl.conf",
+        "Size": 53
+      },
+      {
+        "Name": "/etc/sysctl.d",
+        "Size": 151
+      },
+      {
+        "Name": "/etc/sysctl.d/00-alpine.conf",
+        "Size": 151
+      },
+      {
+        "Name": "/etc/udhcpd.conf",
+        "Size": 4138
+      },
+      {
+        "Name": "/home",
+        "Size": 0
+      },
+      {
+        "Name": "/lib",
+        "Size": 2706975
+      },
+      {
+        "Name": "/lib/apk",
+        "Size": 27281
+      },
+      {
+        "Name": "/lib/apk/db",
+        "Size": 27281
+      },
+      {
+        "Name": "/lib/apk/db/installed",
+        "Size": 16386
+      },
+      {
+        "Name": "/lib/apk/db/scripts.tar",
+        "Size": 10752
+      },
+      {
+        "Name": "/lib/apk/db/triggers",
+        "Size": 143
+      },
+      {
+        "Name": "/lib/firmware",
+        "Size": 0
+      },
+      {
+        "Name": "/lib/ld-linux-x86-64.so.2",
+        "Size": -1
+      },
+      {
+        "Name": "/lib/ld-musl-x86_64.so.1",
+        "Size": 563688
+      },
+      {
+        "Name": "/lib/libc.musl-x86_64.so.1",
+        "Size": 563688
+      },
+      {
+        "Name": "/lib/libcrypto.so.42",
+        "Size": 1714280
+      },
+      {
+        "Name": "/lib/libcrypto.so.42.0.0",
+        "Size": 1714280
+      },
+      {
+        "Name": "/lib/libssl.so.44",
+        "Size": 309664
+      },
+      {
+        "Name": "/lib/libssl.so.44.0.1",
+        "Size": 309664
+      },
+      {
+        "Name": "/lib/libz.so.1",
+        "Size": 91952
+      },
+      {
+        "Name": "/lib/libz.so.1.2.11",
+        "Size": 91952
+      },
+      {
+        "Name": "/lib/mdev",
+        "Size": 0
+      },
+      {
+        "Name": "/lib64",
+        "Size": 42
+      },
+      {
+        "Name": "/lib64/ld-linux-x86-64.so.2",
+        "Size": -1
+      },
+      {
+        "Name": "/media",
+        "Size": 0
+      },
+      {
+        "Name": "/media/cdrom",
+        "Size": 0
+      },
+      {
+        "Name": "/media/floppy",
+        "Size": 0
+      },
+      {
+        "Name": "/media/usb",
+        "Size": 0
+      },
+      {
+        "Name": "/mnt",
+        "Size": 0
+      },
+      {
+        "Name": "/proc",
+        "Size": 0
+      },
+      {
+        "Name": "/run",
+        "Size": 0
+      },
+      {
+        "Name": "/sbin",
+        "Size": 213337
+      },
+      {
+        "Name": "/sbin/acpid",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/adjtimex",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/apk",
+        "Size": 206472
+      },
+      {
+        "Name": "/sbin/arp",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/blkid",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/blockdev",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/depmod",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/fbsplash",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/fdisk",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/findfs",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/fsck",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/fstrim",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/getty",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/halt",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/hdparm",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/hwclock",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/ifconfig",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/ifdown",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/ifenslave",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/ifup",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/init",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/inotifyd",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/insmod",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/ip",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/ipaddr",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/iplink",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/ipneigh",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/iproute",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/iprule",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/iptunnel",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/klogd",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/ldconfig",
+        "Size": 393
+      },
+      {
+        "Name": "/sbin/loadkmap",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/logread",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/losetup",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/lsmod",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/mdev",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/mkdosfs",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/mkfs.vfat",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/mkmntdirs",
+        "Size": 5776
+      },
+      {
+        "Name": "/sbin/mkswap",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/modinfo",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/modprobe",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/nameif",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/nologin",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/poweroff",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/raidautorun",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/reboot",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/rmmod",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/route",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/setconsole",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/slattach",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/swapoff",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/swapon",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/switch_root",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/sysctl",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/syslogd",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/tunctl",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/udhcpc",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/vconfig",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/watchdog",
+        "Size": 1964536
+      },
+      {
+        "Name": "/singularity",
+        "Size": -1
+      },
+      {
+        "Name": "/srv",
+        "Size": 0
+      },
+      {
+        "Name": "/sys",
+        "Size": 0
+      },
+      {
+        "Name": "/tmp",
+        "Size": 0
+      },
+      {
+        "Name": "/usr",
+        "Size": 643686689
+      },
+      {
+        "Name": "/usr/bin",
+        "Size": 174025
+      },
+      {
+        "Name": "/usr/bin/[",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/[[",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/awk",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/basename",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/beep",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/blkdiscard",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/bunzip2",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/bzcat",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/bzip2",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/cal",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/chvt",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/cksum",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/clear",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/cmp",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/comm",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/cpio",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/crontab",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/cryptpw",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/cut",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/dc",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/deallocvt",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/diff",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/dirname",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/dos2unix",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/du",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/dumpleases",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/eject",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/env",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/expand",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/expr",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/factor",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/fallocate",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/find",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/flock",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/fold",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/free",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/fuser",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/getconf",
+        "Size": 31480
+      },
+      {
+        "Name": "/usr/bin/getent",
+        "Size": 44792
+      },
+      {
+        "Name": "/usr/bin/groups",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/hd",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/head",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/hexdump",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/hostid",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/iconv",
+        "Size": 20552
+      },
+      {
+        "Name": "/usr/bin/id",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/install",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/ipcrm",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/ipcs",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/killall",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/ldd",
+        "Size": 563688
+      },
+      {
+        "Name": "/usr/bin/less",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/logger",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/lsof",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/lsusb",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/lzcat",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/lzma",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/lzopcat",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/md5sum",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/mesg",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/microcom",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/mkfifo",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/mkpasswd",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/nc",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/nl",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/nmeter",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/nohup",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/nproc",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/nsenter",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/nslookup",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/od",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/openvt",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/passwd",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/paste",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/patch",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/pgrep",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/pkill",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/pmap",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/printf",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/pscan",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/pstree",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/pwdx",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/readlink",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/realpath",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/renice",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/reset",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/resize",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/scanelf",
+        "Size": 75528
+      },
+      {
+        "Name": "/usr/bin/seq",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/setkeycodes",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/setsid",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/sha1sum",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/sha256sum",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/sha3sum",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/sha512sum",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/showkey",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/shred",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/shuf",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/smemcap",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/sort",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/split",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/ssl_client",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/strings",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/sum",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/tac",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/tail",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/tee",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/test",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/time",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/timeout",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/top",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/tr",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/traceroute",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/traceroute6",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/truncate",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/tty",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/ttysize",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/udhcpc6",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/unexpand",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/uniq",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/unix2dos",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/unlink",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/unlzma",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/unlzop",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/unshare",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/unxz",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/unzip",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/uptime",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/uudecode",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/uuencode",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/vi",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/vlock",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/volname",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/wc",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/wget",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/which",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/whoami",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/whois",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/xargs",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/xxd",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/xzcat",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/yes",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/glibc-compat",
+        "Size": 4587202
+      },
+      {
+        "Name": "/usr/glibc-compat/etc",
+        "Size": 4102
+      },
+      {
+        "Name": "/usr/glibc-compat/etc/ld.so.cache",
+        "Size": 4021
+      },
+      {
+        "Name": "/usr/glibc-compat/etc/ld.so.conf",
+        "Size": 81
+      },
+      {
+        "Name": "/usr/glibc-compat/lib",
+        "Size": 4583100
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/ld-2.27.so",
+        "Size": 157568
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/ld-linux-x86-64.so.2",
+        "Size": 157568
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/libBrokenLocale-2.27.so",
+        "Size": 6296
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/libBrokenLocale.so",
+        "Size": 6296
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/libBrokenLocale.so.1",
+        "Size": 6296
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/libSegFault.so",
+        "Size": 18728
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/libanl-2.27.so",
+        "Size": 15016
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/libanl.so",
+        "Size": 15016
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/libanl.so.1",
+        "Size": 15016
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/libc-2.27.so",
+        "Size": 1780072
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/libc.so",
+        "Size": 294
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/libc.so.6",
+        "Size": 1780072
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/libcidn-2.27.so",
+        "Size": 190880
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/libcidn.so",
+        "Size": 190880
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/libcidn.so.1",
+        "Size": 190880
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/libcrypt-2.27.so",
+        "Size": 39280
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/libcrypt.so",
+        "Size": 39280
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/libcrypt.so.1",
+        "Size": 39280
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/libdl-2.27.so",
+        "Size": 14648
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/libdl.so",
+        "Size": 14648
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/libdl.so.2",
+        "Size": 14648
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/libm-2.27.so",
+        "Size": 1657328
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/libm.so",
+        "Size": 182
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/libm.so.6",
+        "Size": 1657328
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/libmemusage.so",
+        "Size": 18808
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/libmvec-2.27.so",
+        "Size": 170456
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/libmvec.so",
+        "Size": 170456
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/libmvec.so.1",
+        "Size": 170456
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/libnsl-2.27.so",
+        "Size": 84968
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/libnsl.so.1",
+        "Size": 84968
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/libnss_compat-2.27.so",
+        "Size": 31608
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/libnss_compat.so",
+        "Size": 31608
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/libnss_compat.so.2",
+        "Size": 31608
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/libnss_db-2.27.so",
+        "Size": 31152
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/libnss_db.so",
+        "Size": 31152
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/libnss_db.so.2",
+        "Size": 31152
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/libnss_dns-2.27.so",
+        "Size": 22928
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/libnss_dns.so",
+        "Size": 22928
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/libnss_dns.so.2",
+        "Size": 22928
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/libnss_files-2.27.so",
+        "Size": 47648
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/libnss_files.so",
+        "Size": 47648
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/libnss_files.so.2",
+        "Size": 47648
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/libnss_hesiod-2.27.so",
+        "Size": 18864
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/libnss_hesiod.so",
+        "Size": 18864
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/libnss_hesiod.so.2",
+        "Size": 18864
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/libpcprofile.so",
+        "Size": 6320
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/libpthread-2.27.so",
+        "Size": 106240
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/libpthread.so",
+        "Size": 248
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/libpthread.so.0",
+        "Size": 106240
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/libresolv-2.27.so",
+        "Size": 84840
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/libresolv.so",
+        "Size": 84840
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/libresolv.so.2",
+        "Size": 84840
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/librt-2.27.so",
+        "Size": 31776
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/librt.so",
+        "Size": 31776
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/librt.so.1",
+        "Size": 31776
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/libthread_db-1.0.so",
+        "Size": 35736
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/libthread_db.so",
+        "Size": 35736
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/libthread_db.so.1",
+        "Size": 35736
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/libutil-2.27.so",
+        "Size": 10680
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/libutil.so",
+        "Size": 10680
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/libutil.so.1",
+        "Size": 10680
+      },
+      {
+        "Name": "/usr/glibc-compat/lib/locale",
+        "Size": 0
+      },
+      {
+        "Name": "/usr/lib",
+        "Size": 125445
+      },
+      {
+        "Name": "/usr/lib/libbz2.so.1",
+        "Size": 53928
+      },
+      {
+        "Name": "/usr/lib/libbz2.so.1.0.6",
+        "Size": 53928
+      },
+      {
+        "Name": "/usr/lib/libcrypto.so.42",
+        "Size": 1714280
+      },
+      {
+        "Name": "/usr/lib/libcrypto.so.42.0.0",
+        "Size": 1714280
+      },
+      {
+        "Name": "/usr/lib/libgcc_s.so.1",
+        "Size": 71400
+      },
+      {
+        "Name": "/usr/lib/libssl.so.44",
+        "Size": 309664
+      },
+      {
+        "Name": "/usr/lib/libssl.so.44.0.1",
+        "Size": 309664
+      },
+      {
+        "Name": "/usr/local",
+        "Size": 638796056
+      },
+      {
+        "Name": "/usr/local/bin",
+        "Size": 638796056
+      },
+      {
+        "Name": "/usr/local/bin/blast_formatter",
+        "Size": 37012880
+      },
+      {
+        "Name": "/usr/local/bin/blastdb_aliastool",
+        "Size": 24195728
+      },
+      {
+        "Name": "/usr/local/bin/blastdbcheck",
+        "Size": 27101840
+      },
+      {
+        "Name": "/usr/local/bin/blastdbcmd",
+        "Size": 33291664
+      },
+      {
+        "Name": "/usr/local/bin/blastn",
+        "Size": 37005456
+      },
+      {
+        "Name": "/usr/local/bin/blastp",
+        "Size": 37002640
+      },
+      {
+        "Name": "/usr/local/bin/blastx",
+        "Size": 37003408
+      },
+      {
+        "Name": "/usr/local/bin/convert2blastmask",
+        "Size": 25008016
+      },
+      {
+        "Name": "/usr/local/bin/deltablast",
+        "Size": 37184400
+      },
+      {
+        "Name": "/usr/local/bin/dustmasker",
+        "Size": 25092080
+      },
+      {
+        "Name": "/usr/local/bin/legacy_blast.pl",
+        "Size": 51345
+      },
+      {
+        "Name": "/usr/local/bin/makeblastdb",
+        "Size": 26984336
+      },
+      {
+        "Name": "/usr/local/bin/makembindex",
+        "Size": 25895664
+      },
+      {
+        "Name": "/usr/local/bin/makeprofiledb",
+        "Size": 25649552
+      },
+      {
+        "Name": "/usr/local/bin/psiblast",
+        "Size": 37066896
+      },
+      {
+        "Name": "/usr/local/bin/rpsblast",
+        "Size": 37047952
+      },
+      {
+        "Name": "/usr/local/bin/rpstblastn",
+        "Size": 37046672
+      },
+      {
+        "Name": "/usr/local/bin/segmasker",
+        "Size": 25542640
+      },
+      {
+        "Name": "/usr/local/bin/tblastn",
+        "Size": 37044112
+      },
+      {
+        "Name": "/usr/local/bin/tblastx",
+        "Size": 37002128
+      },
+      {
+        "Name": "/usr/local/bin/update_blastdb.pl",
+        "Size": 12487
+      },
+      {
+        "Name": "/usr/local/bin/windowmasker",
+        "Size": 29554160
+      },
+      {
+        "Name": "/usr/local/lib",
+        "Size": 0
+      },
+      {
+        "Name": "/usr/local/share",
+        "Size": 0
+      },
+      {
+        "Name": "/usr/sbin",
+        "Size": 372
+      },
+      {
+        "Name": "/usr/sbin/add-shell",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/addgroup",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/adduser",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/arping",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/brctl",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/chpasswd",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/chroot",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/crond",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/delgroup",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/deluser",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/ether-wake",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/fbset",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/fdformat",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/killall5",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/loadfont",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/lspci",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/nanddump",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/nandwrite",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/nbd-client",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/ntpd",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/partprobe",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/powertop",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/rdate",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/rdev",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/readahead",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/readprofile",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/remove-shell",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/rfkill",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/sendmail",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/setfont",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/setlogcons",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/share",
+        "Size": 3589
+      },
+      {
+        "Name": "/usr/share/apk",
+        "Size": 3589
+      },
+      {
+        "Name": "/usr/share/apk/keys",
+        "Size": 3589
+      },
+      {
+        "Name": "/usr/share/apk/keys/aarch64",
+        "Size": 54
+      },
+      {
+        "Name": "/usr/share/apk/keys/aarch64/alpine-devel@lists.alpinelinux.org-58199dcc.rsa.pub",
+        "Size": 451
+      },
+      {
+        "Name": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-4a6a0840.rsa.pub",
+        "Size": 451
+      },
+      {
+        "Name": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-5243ef4b.rsa.pub",
+        "Size": 451
+      },
+      {
+        "Name": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-524d27bb.rsa.pub",
+        "Size": 451
+      },
+      {
+        "Name": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-5261cecb.rsa.pub",
+        "Size": 451
+      },
+      {
+        "Name": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-58199dcc.rsa.pub",
+        "Size": 451
+      },
+      {
+        "Name": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-58cbb476.rsa.pub",
+        "Size": 451
+      },
+      {
+        "Name": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-58e4f17d.rsa.pub",
+        "Size": 451
+      },
+      {
+        "Name": "/usr/share/apk/keys/armhf",
+        "Size": 54
+      },
+      {
+        "Name": "/usr/share/apk/keys/armhf/alpine-devel@lists.alpinelinux.org-524d27bb.rsa.pub",
+        "Size": 451
+      },
+      {
+        "Name": "/usr/share/apk/keys/ppc64le",
+        "Size": 54
+      },
+      {
+        "Name": "/usr/share/apk/keys/ppc64le/alpine-devel@lists.alpinelinux.org-58cbb476.rsa.pub",
+        "Size": 451
+      },
+      {
+        "Name": "/usr/share/apk/keys/s390x",
+        "Size": 54
+      },
+      {
+        "Name": "/usr/share/apk/keys/s390x/alpine-devel@lists.alpinelinux.org-58e4f17d.rsa.pub",
+        "Size": 451
+      },
+      {
+        "Name": "/usr/share/apk/keys/x86",
+        "Size": 108
+      },
+      {
+        "Name": "/usr/share/apk/keys/x86/alpine-devel@lists.alpinelinux.org-4a6a0840.rsa.pub",
+        "Size": 451
+      },
+      {
+        "Name": "/usr/share/apk/keys/x86/alpine-devel@lists.alpinelinux.org-5243ef4b.rsa.pub",
+        "Size": 451
+      },
+      {
+        "Name": "/usr/share/apk/keys/x86_64",
+        "Size": 108
+      },
+      {
+        "Name": "/usr/share/apk/keys/x86_64/alpine-devel@lists.alpinelinux.org-4a6a0840.rsa.pub",
+        "Size": 451
+      },
+      {
+        "Name": "/usr/share/apk/keys/x86_64/alpine-devel@lists.alpinelinux.org-5261cecb.rsa.pub",
+        "Size": 451
+      },
+      {
+        "Name": "/usr/share/man",
+        "Size": 0
+      },
+      {
+        "Name": "/usr/share/misc",
+        "Size": 0
+      },
+      {
+        "Name": "/var",
+        "Size": 1220274
+      },
+      {
+        "Name": "/var/cache",
+        "Size": 1220257
+      },
+      {
+        "Name": "/var/cache/apk",
+        "Size": 1220257
+      },
+      {
+        "Name": "/var/cache/apk/APKINDEX.5022a8a2.tar.gz",
+        "Size": 451857
+      },
+      {
+        "Name": "/var/cache/apk/APKINDEX.70c88391.tar.gz",
+        "Size": 768400
+      },
+      {
+        "Name": "/var/cache/misc",
+        "Size": 0
+      },
+      {
+        "Name": "/var/empty",
+        "Size": 0
+      },
+      {
+        "Name": "/var/lib",
+        "Size": 0
+      },
+      {
+        "Name": "/var/lib/apk",
+        "Size": 0
+      },
+      {
+        "Name": "/var/lib/misc",
+        "Size": 0
+      },
+      {
+        "Name": "/var/lib/udhcpd",
+        "Size": 0
+      },
+      {
+        "Name": "/var/local",
+        "Size": 0
+      },
+      {
+        "Name": "/var/lock",
+        "Size": 0
+      },
+      {
+        "Name": "/var/lock/subsys",
+        "Size": 0
+      },
+      {
+        "Name": "/var/log",
+        "Size": 0
+      },
+      {
+        "Name": "/var/opt",
+        "Size": 0
+      },
+      {
+        "Name": "/var/run",
+        "Size": 4
+      },
+      {
+        "Name": "/var/spool",
+        "Size": 13
+      },
+      {
+        "Name": "/var/spool/cron",
+        "Size": 13
+      },
+      {
+        "Name": "/var/spool/cron/crontabs",
+        "Size": -1
+      },
+      {
+        "Name": "/var/tmp",
+        "Size": 0
+      }
+    ]
+  }
+]

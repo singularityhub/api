@@ -1,0 +1,27 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap: docker\nFrom: nvidia/cuda:8.0-cudnn5-devel-ubuntu16.04\n\n%environment\n\n\t#Environment variables\n\n\t#Use bash as default shell\n\tSHELL=/bin/bash\n\n\t#Add nvidia driver paths\n\tPATH=\"/nvbin:$PATH\"\n\tLD_LIBRARY_PATH=\"/nvlib;$LD_LIBRARY_PATH\"\n\n\t#Add CUDA paths\n\tCPATH=\"/usr/local/cuda/include:$CPATH\"\n\tPATH=\"/usr/local/cuda/bin:$PATH\"\n\tLD_LIBRARY_PATH=\"/usr/local/cuda/lib64:$LD_LIBRARY_PATH\"\n\tCUDA_HOME=\"/usr/local/cuda\"\n\n\t#Add Anaconda path\n\tPATH=\"/usr/local/anaconda3-4.2.0/bin:$PATH\"\n\n\texport PATH LD_LIBRARY_PATH CPATH CUDA_HOME\n\n\n%setup\n\t#Runs on host\n\t#The path to the image is $SINGULARITY_ROOTFS\n\n\n\n%post\n\t#Post setup script\n\n\t#Load environment variables\n\t. /environment\n\n\t#Default mount paths\n\tmkdir /scratch /data /shared /fastdata\n\n\t#Nvidia Library mount paths\n\tmkdir /nvlib /nvbin\n\n  #Updating and getting required packages\n  apt-get update\n  apt-get install -y wget git vim\n\n  #Creates a build directory\n  mkdir build\n  cd build\n\n  #Download and install Anaconda\n  CONDA_INSTALL_PATH=\"/usr/local/anaconda3-4.2.0\"\n  wget https://repo.continuum.io/archive/Anaconda3-4.2.0-Linux-x86_64.sh\n  chmod +x Anaconda3-4.2.0-Linux-x86_64.sh\n  ./Anaconda3-4.2.0-Linux-x86_64.sh -b -p $CONDA_INSTALL_PATH\n\n\n  #Install Tensorflow\n  TF_PYTHON_URL=\"https://storage.googleapis.com/tensorflow/linux/gpu/tensorflow_gpu-1.3.0-cp35-cp35m-linux_x86_64.whl\"\n  pip install --ignore-installed --upgrade $TF_PYTHON_URL\n\n\t#Install Keras\n\tpip install keras\n\n%runscript\n\t#Executes with the singularity run command\n\t#delete this section to use existing docker ENTRYPOINT command\n\n\n%test\n\t#Test that script is a success\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.version": "2.4-feature-squashbuild-secbuild.g818b648",
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "maintainer": "NVIDIA CORPORATION <cudatools@nvidia.com>",
+                "org.label-schema.usage.singularity.deffile": "Singularity",
+                "org.label-schema.schema-version": "1.0",
+                "com.nvidia.volumes.needed": "nvidia_driver",
+                "org.label-schema.usage.singularity.deffile.from": "nvidia/cuda:8.0-cudnn5-devel-ubuntu16.04",
+                "com.nvidia.build.id": "36081806",
+                "org.label-schema.build-date": "2017-10-25T19:04:30+00:00",
+                "com.nvidia.cuda.version": "8.0.61",
+                "com.nvidia.build.ref": "02956afb0ac5e3f04aeb2256a009f1065622fadd",
+                "com.nvidia.cudnn.version": "5.1.10",
+                "org.label-schema.build-size": "5030MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n\n\t#Environment variables\n\n\t#Use bash as default shell\n\tSHELL=/bin/bash\n\n\t#Add nvidia driver paths\n\tPATH=\"/nvbin:$PATH\"\n\tLD_LIBRARY_PATH=\"/nvlib;$LD_LIBRARY_PATH\"\n\n\t#Add CUDA paths\n\tCPATH=\"/usr/local/cuda/include:$CPATH\"\n\tPATH=\"/usr/local/cuda/bin:$PATH\"\n\tLD_LIBRARY_PATH=\"/usr/local/cuda/lib64:$LD_LIBRARY_PATH\"\n\tCUDA_HOME=\"/usr/local/cuda\"\n\n\t#Add Anaconda path\n\tPATH=\"/usr/local/anaconda3-4.2.0/bin:$PATH\"\n\n\texport PATH LD_LIBRARY_PATH CPATH CUDA_HOME\n\n\n",
+            "runscript": "#!/bin/sh \n\n\t#Executes with the singularity run command\n\t#delete this section to use existing docker ENTRYPOINT command\n\n\n",
+            "test": "#!/bin/sh\n\n\t#Test that script is a success\n"
+        },
+        "type": "container"
+    }
+}

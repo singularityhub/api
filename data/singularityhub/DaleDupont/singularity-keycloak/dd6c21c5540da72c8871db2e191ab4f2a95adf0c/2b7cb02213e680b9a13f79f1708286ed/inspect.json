@@ -1,0 +1,21 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "# Deploys the keycloak server\nBootStrap: docker\nFrom: ubuntu:latest\n\n%environment\n\n    DEBIAN_FRONTEND=noninteractive\n\n%setup\n\n    cp keycloak/keycloakAlt.sh ${SINGULARITY_ROOTFS}\n    cp keycloak/keyPwdSing.sh ${SINGULARITY_ROOTFS}\n\n%post\n\n    # Download and install wget, unzip, and java\n    apt-get update -y\n    apt-get install -y --no-install-recommends apt-utils\n    apt-get install -y wget unzip default-jre default-jdk iproute curl libxml2-utils \n\n    # Go to the srv directory\n    cd /srv\n\n    # Download and unzip Keycloak\n    wget https://downloads.jboss.org/keycloak/3.4.0.Final/keycloak-3.4.0.Final.zip\n    unzip keycloak-3.4.0.Final.zip\n    rm keycloak-3.4.0.Final.zip\n\n    mv /keycloakAlt.sh /srv/keycloakAlt.sh\n    mv /keyPwdSing.sh /srv/keyPwdSing.sh\n\n    # make the anchor\n    # this file determines how much extra \"free\" space\n    # will be made available on the container\n    # the file is deleted at runtime to free the space\n    # this free space is necessary for keycloak's database\n    dd if=/dev/zero of=/srv/out.dat bs=1M count=512\n\n    chmod a+rwx -R /srv\n    umask 0\n\n\n%runscript\n\n    # Start keycloak when the container is run\n    # the keycloakStart.sh script determines the local IP on which\n    # the keycloak server should listen\n    #exec /srv/keycloakStart.sh False CanDIG admin admin user user\n    exec /srv/keycloakAlt.sh\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "org.label-schema.usage.singularity.deffile": "Singularity",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.from": "ubuntu:latest",
+                "org.label-schema.build-date": "2017-12-01T17:18:39+00:00",
+                "org.label-schema.usage.singularity.version": "2.4-feature-squashbuild-secbuild.g818b648",
+                "org.label-schema.build-size": "1335MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n\n    DEBIAN_FRONTEND=noninteractive\n\n",
+            "runscript": "#!/bin/sh \n\n\n    # Start keycloak when the container is run\n    # the keycloakStart.sh script determines the local IP on which\n    # the keycloak server should listen\n    #exec /srv/keycloakStart.sh False CanDIG admin admin user user\n    exec /srv/keycloakAlt.sh\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

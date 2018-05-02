@@ -1,0 +1,28 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "BootStrap:docker\nFrom:caid/qsm\n\n%files\n\n%labels\nMAINTAINER Steffen.Bollmann@cai.uq.edu.au\n\n%environment\n\n%runscript\necho \"This gets run when you run the image!\"\n\n%post\necho \"This section happens once after bootstrap to build the image.\"\n\n",
+            "help": null,
+            "labels": {
+                "io.codefresh.repo.owner": "CAIsr",
+                "MAINTAINER": "Steffen.Bollmann@cai.uq.edu.au",
+                "io.codefresh.repo.hash": "4001ecb3f2b3031808be6f391d8b63d7798cc409",
+                "io.codefresh.repo.branch": "master",
+                "org.label-schema.schema-version": "1.0",
+                "io.codefresh.repo.type": "yml",
+                "io.codefresh.repo.sha": "3f95f50c963a694d6b2e2decdd5a739ac62b512c",
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "org.label-schema.usage.singularity.deffile.from": "caid/qsm",
+                "org.label-schema.build-date": "Mon,_05_Feb_2018_13:04:01_+0000",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "io.codefresh.repo.name": "qsm",
+                "org.label-schema.build-size": "924MB",
+                "org.label-schema.usage.singularity.deffile": "Singularity"
+            },
+            "environment": "# Custom environment shell code should follow\n\n\n",
+            "runscript": "#!/bin/sh \n\necho \"This gets run when you run the image!\"\n\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

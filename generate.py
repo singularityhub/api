@@ -62,13 +62,16 @@ def run_analyze(container, dest, files=True):
     if files is True:
         cmd.append('--type=file')
 
-    stdout, stderr = Client._run_command(cmd)
+    try:
+        stdout, stderr = Client._run_command(cmd)
 
-    files = [x for x in stdout.split('\n') if x]
-    output_file = files[-1]
-    if os.path.exists(output_file):
-        shutil.move(output_file, dest)
-    return dest
+        files = [x for x in stdout.split('\n') if x]
+        output_file = files[-1]
+        if os.path.exists(output_file):
+            shutil.move(output_file, dest)
+        return dest
+    except:
+        print('Problem with %s' %cmd)
 
 
 

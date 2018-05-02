@@ -1,0 +1,7012 @@
+[
+  {
+    "Image": "/tmp/tmp.p3xJ9Tgay5/b7b4ec3f93a0d6955bd93faa743a9791f59215791b2841792a483860de916be5.tar",
+    "AnalyzeType": "File",
+    "Analysis": [
+      {
+        "Name": "/bin",
+        "Size": 805984
+      },
+      {
+        "Name": "/bin/ash",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/base64",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/bbconfig",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/busybox",
+        "Size": 805024
+      },
+      {
+        "Name": "/bin/cat",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/chgrp",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/chmod",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/chown",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/conspy",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/cp",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/date",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/dd",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/df",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/dmesg",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/dnsdomainname",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/dumpkmap",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/echo",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/ed",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/egrep",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/false",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/fatattr",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/fdflush",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/fgrep",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/fsync",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/getopt",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/grep",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/gunzip",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/gzip",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/hostname",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/ionice",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/iostat",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/ipcalc",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/kbd_mode",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/kill",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/link",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/linux32",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/linux64",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/ln",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/login",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/ls",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/lzop",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/makemime",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/mkdir",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/mknod",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/mktemp",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/more",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/mount",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/mountpoint",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/mpstat",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/mv",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/netstat",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/nice",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/pidof",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/ping",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/ping6",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/pipe_progress",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/printenv",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/ps",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/pwd",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/reformime",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/rev",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/rm",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/rmdir",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/run-parts",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/sed",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/setpriv",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/setserial",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/sh",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/sleep",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/stat",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/stty",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/su",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/sync",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/tar",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/touch",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/true",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/umount",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/uname",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/usleep",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/watch",
+        "Size": 1964536
+      },
+      {
+        "Name": "/bin/zcat",
+        "Size": 1964536
+      },
+      {
+        "Name": "/data",
+        "Size": 162767
+      },
+      {
+        "Name": "/data/LICENSE",
+        "Size": 35147
+      },
+      {
+        "Name": "/data/adapters",
+        "Size": 1390
+      },
+      {
+        "Name": "/data/adapters/NexteraPE-PE.fa",
+        "Size": 239
+      },
+      {
+        "Name": "/data/adapters/TruSeq2-PE.fa",
+        "Size": 538
+      },
+      {
+        "Name": "/data/adapters/TruSeq2-SE.fa",
+        "Size": 142
+      },
+      {
+        "Name": "/data/adapters/TruSeq3-PE-2.fa",
+        "Size": 259
+      },
+      {
+        "Name": "/data/adapters/TruSeq3-PE.fa",
+        "Size": 93
+      },
+      {
+        "Name": "/data/adapters/TruSeq3-SE.fa",
+        "Size": 119
+      },
+      {
+        "Name": "/data/trimmomatic-0.36.jar",
+        "Size": 126230
+      },
+      {
+        "Name": "/dev",
+        "Size": 0
+      },
+      {
+        "Name": "/environment",
+        "Size": -1
+      },
+      {
+        "Name": "/etc",
+        "Size": 687612
+      },
+      {
+        "Name": "/etc/TZ",
+        "Size": 4
+      },
+      {
+        "Name": "/etc/alpine-release",
+        "Size": 6
+      },
+      {
+        "Name": "/etc/apk",
+        "Size": 1691
+      },
+      {
+        "Name": "/etc/apk/arch",
+        "Size": 7
+      },
+      {
+        "Name": "/etc/apk/keys",
+        "Size": 1353
+      },
+      {
+        "Name": "/etc/apk/keys/alpine-devel@lists.alpinelinux.org-4a6a0840.rsa.pub",
+        "Size": 451
+      },
+      {
+        "Name": "/etc/apk/keys/alpine-devel@lists.alpinelinux.org-5243ef4b.rsa.pub",
+        "Size": 451
+      },
+      {
+        "Name": "/etc/apk/keys/alpine-devel@lists.alpinelinux.org-5261cecb.rsa.pub",
+        "Size": 451
+      },
+      {
+        "Name": "/etc/apk/protected_paths.d",
+        "Size": 152
+      },
+      {
+        "Name": "/etc/apk/protected_paths.d/ca-certificates.list",
+        "Size": 152
+      },
+      {
+        "Name": "/etc/apk/repositories",
+        "Size": 99
+      },
+      {
+        "Name": "/etc/apk/world",
+        "Size": 80
+      },
+      {
+        "Name": "/etc/ca-certificates",
+        "Size": 182
+      },
+      {
+        "Name": "/etc/ca-certificates.conf",
+        "Size": 6394
+      },
+      {
+        "Name": "/etc/ca-certificates/update.d",
+        "Size": 182
+      },
+      {
+        "Name": "/etc/ca-certificates/update.d/certhash",
+        "Size": 48
+      },
+      {
+        "Name": "/etc/ca-certificates/update.d/java-cacerts",
+        "Size": 134
+      },
+      {
+        "Name": "/etc/conf.d",
+        "Size": 0
+      },
+      {
+        "Name": "/etc/crontabs",
+        "Size": 0
+      },
+      {
+        "Name": "/etc/fstab",
+        "Size": 89
+      },
+      {
+        "Name": "/etc/group",
+        "Size": 697
+      },
+      {
+        "Name": "/etc/hostname",
+        "Size": 10
+      },
+      {
+        "Name": "/etc/hosts",
+        "Size": 0
+      },
+      {
+        "Name": "/etc/init.d",
+        "Size": 0
+      },
+      {
+        "Name": "/etc/inittab",
+        "Size": 570
+      },
+      {
+        "Name": "/etc/issue",
+        "Size": 53
+      },
+      {
+        "Name": "/etc/krb5.conf",
+        "Size": 450
+      },
+      {
+        "Name": "/etc/localtime",
+        "Size": 127
+      },
+      {
+        "Name": "/etc/logrotate.d",
+        "Size": 132
+      },
+      {
+        "Name": "/etc/logrotate.d/acpid",
+        "Size": 132
+      },
+      {
+        "Name": "/etc/modprobe.d",
+        "Size": 3711
+      },
+      {
+        "Name": "/etc/modprobe.d/aliases.conf",
+        "Size": 1545
+      },
+      {
+        "Name": "/etc/modprobe.d/blacklist.conf",
+        "Size": 1979
+      },
+      {
+        "Name": "/etc/modprobe.d/i386.conf",
+        "Size": 122
+      },
+      {
+        "Name": "/etc/modprobe.d/kms.conf",
+        "Size": 65
+      },
+      {
+        "Name": "/etc/modules",
+        "Size": 10
+      },
+      {
+        "Name": "/etc/modules-load.d",
+        "Size": 0
+      },
+      {
+        "Name": "/etc/motd",
+        "Size": 282
+      },
+      {
+        "Name": "/etc/mtab",
+        "Size": 28
+      },
+      {
+        "Name": "/etc/network",
+        "Size": 160
+      },
+      {
+        "Name": "/etc/network/if-down.d",
+        "Size": 0
+      },
+      {
+        "Name": "/etc/network/if-post-down.d",
+        "Size": 0
+      },
+      {
+        "Name": "/etc/network/if-post-up.d",
+        "Size": 0
+      },
+      {
+        "Name": "/etc/network/if-pre-down.d",
+        "Size": 0
+      },
+      {
+        "Name": "/etc/network/if-pre-up.d",
+        "Size": 0
+      },
+      {
+        "Name": "/etc/network/if-up.d",
+        "Size": 160
+      },
+      {
+        "Name": "/etc/network/if-up.d/dad",
+        "Size": 160
+      },
+      {
+        "Name": "/etc/opt",
+        "Size": 0
+      },
+      {
+        "Name": "/etc/os-release",
+        "Size": 158
+      },
+      {
+        "Name": "/etc/passwd",
+        "Size": 1224
+      },
+      {
+        "Name": "/etc/periodic",
+        "Size": 0
+      },
+      {
+        "Name": "/etc/periodic/15min",
+        "Size": 0
+      },
+      {
+        "Name": "/etc/periodic/daily",
+        "Size": 0
+      },
+      {
+        "Name": "/etc/periodic/hourly",
+        "Size": 0
+      },
+      {
+        "Name": "/etc/periodic/monthly",
+        "Size": 0
+      },
+      {
+        "Name": "/etc/periodic/weekly",
+        "Size": 0
+      },
+      {
+        "Name": "/etc/pkcs11",
+        "Size": 390
+      },
+      {
+        "Name": "/etc/pkcs11/pkcs11.conf.example",
+        "Size": 390
+      },
+      {
+        "Name": "/etc/profile",
+        "Size": 259
+      },
+      {
+        "Name": "/etc/profile.d",
+        "Size": 840
+      },
+      {
+        "Name": "/etc/profile.d/color_prompt",
+        "Size": 295
+      },
+      {
+        "Name": "/etc/profile.d/freetype.sh",
+        "Size": 545
+      },
+      {
+        "Name": "/etc/protocols",
+        "Size": 1865
+      },
+      {
+        "Name": "/etc/resolv.conf",
+        "Size": 0
+      },
+      {
+        "Name": "/etc/securetty",
+        "Size": 65
+      },
+      {
+        "Name": "/etc/services",
+        "Size": 36141
+      },
+      {
+        "Name": "/etc/shells",
+        "Size": 38
+      },
+      {
+        "Name": "/etc/ssl",
+        "Size": 627694
+      },
+      {
+        "Name": "/etc/ssl/cert.pem",
+        "Size": 196928
+      },
+      {
+        "Name": "/etc/ssl/certs",
+        "Size": 429015
+      },
+      {
+        "Name": "/etc/ssl/certs/02265526.0",
+        "Size": 1533
+      },
+      {
+        "Name": "/etc/ssl/certs/03179a64.0",
+        "Size": 1948
+      },
+      {
+        "Name": "/etc/ssl/certs/062cdee6.0",
+        "Size": 1229
+      },
+      {
+        "Name": "/etc/ssl/certs/064e0aa9.0",
+        "Size": 1923
+      },
+      {
+        "Name": "/etc/ssl/certs/080911ac.0",
+        "Size": 2078
+      },
+      {
+        "Name": "/etc/ssl/certs/09789157.0",
+        "Size": 1424
+      },
+      {
+        "Name": "/etc/ssl/certs/0b1b94ef.0",
+        "Size": 1984
+      },
+      {
+        "Name": "/etc/ssl/certs/0b7c536a.0",
+        "Size": -1
+      },
+      {
+        "Name": "/etc/ssl/certs/0c4c9b6c.0",
+        "Size": 2585
+      },
+      {
+        "Name": "/etc/ssl/certs/106f3e4d.0",
+        "Size": 1090
+      },
+      {
+        "Name": "/etc/ssl/certs/116bf586.0",
+        "Size": 989
+      },
+      {
+        "Name": "/etc/ssl/certs/128805a3.0",
+        "Size": 1452
+      },
+      {
+        "Name": "/etc/ssl/certs/1320b215.0",
+        "Size": -1
+      },
+      {
+        "Name": "/etc/ssl/certs/157753a5.0",
+        "Size": 1521
+      },
+      {
+        "Name": "/etc/ssl/certs/1636090b.0",
+        "Size": 1513
+      },
+      {
+        "Name": "/etc/ssl/certs/18856ac4.0",
+        "Size": 1249
+      },
+      {
+        "Name": "/etc/ssl/certs/19c1fa33.0",
+        "Size": -1
+      },
+      {
+        "Name": "/etc/ssl/certs/1d3472b9.0",
+        "Size": 794
+      },
+      {
+        "Name": "/etc/ssl/certs/1e08bfd1.0",
+        "Size": 1931
+      },
+      {
+        "Name": "/etc/ssl/certs/1e09d511.0",
+        "Size": 1367
+      },
+      {
+        "Name": "/etc/ssl/certs/244b5494.0",
+        "Size": 1367
+      },
+      {
+        "Name": "/etc/ssl/certs/26312675.0",
+        "Size": -1
+      },
+      {
+        "Name": "/etc/ssl/certs/2ae6433e.0",
+        "Size": 1935
+      },
+      {
+        "Name": "/etc/ssl/certs/2b349938.0",
+        "Size": 1204
+      },
+      {
+        "Name": "/etc/ssl/certs/2c11d503.0",
+        "Size": 798
+      },
+      {
+        "Name": "/etc/ssl/certs/2c543cd1.0",
+        "Size": 1216
+      },
+      {
+        "Name": "/etc/ssl/certs/2e4eed3c.0",
+        "Size": 1493
+      },
+      {
+        "Name": "/etc/ssl/certs/2e5ac55d.0",
+        "Size": 1200
+      },
+      {
+        "Name": "/etc/ssl/certs/32888f65.0",
+        "Size": 2155
+      },
+      {
+        "Name": "/etc/ssl/certs/349f2832.0",
+        "Size": 1911
+      },
+      {
+        "Name": "/etc/ssl/certs/3513523f.0",
+        "Size": 1338
+      },
+      {
+        "Name": "/etc/ssl/certs/381ce4dd.0",
+        "Size": 2041
+      },
+      {
+        "Name": "/etc/ssl/certs/3bde41ac.0",
+        "Size": 2167
+      },
+      {
+        "Name": "/etc/ssl/certs/3e45d192.0",
+        "Size": 1168
+      },
+      {
+        "Name": "/etc/ssl/certs/3efd4dc0.0",
+        "Size": 2090
+      },
+      {
+        "Name": "/etc/ssl/certs/40193066.0",
+        "Size": 2078
+      },
+      {
+        "Name": "/etc/ssl/certs/4042bcee.0",
+        "Size": 1939
+      },
+      {
+        "Name": "/etc/ssl/certs/40547a79.0",
+        "Size": 1489
+      },
+      {
+        "Name": "/etc/ssl/certs/4304c5e5.0",
+        "Size": 1411
+      },
+      {
+        "Name": "/etc/ssl/certs/442adcac.0",
+        "Size": 1119
+      },
+      {
+        "Name": "/etc/ssl/certs/451b5485.0",
+        "Size": 794
+      },
+      {
+        "Name": "/etc/ssl/certs/480720ec.0",
+        "Size": 1269
+      },
+      {
+        "Name": "/etc/ssl/certs/48bec511.0",
+        "Size": 1354
+      },
+      {
+        "Name": "/etc/ssl/certs/4a6481c9.0",
+        "Size": 1354
+      },
+      {
+        "Name": "/etc/ssl/certs/4bfab552.0",
+        "Size": 1399
+      },
+      {
+        "Name": "/etc/ssl/certs/4d4ba017.0",
+        "Size": -1
+      },
+      {
+        "Name": "/etc/ssl/certs/4f316efb.0",
+        "Size": 2045
+      },
+      {
+        "Name": "/etc/ssl/certs/5273a94c.0",
+        "Size": 2244
+      },
+      {
+        "Name": "/etc/ssl/certs/5443e9e3.0",
+        "Size": 1367
+      },
+      {
+        "Name": "/etc/ssl/certs/54657681.0",
+        "Size": 1915
+      },
+      {
+        "Name": "/etc/ssl/certs/5620c4aa.0",
+        "Size": -1
+      },
+      {
+        "Name": "/etc/ssl/certs/57bcb2da.0",
+        "Size": 2049
+      },
+      {
+        "Name": "/etc/ssl/certs/592c0a9a.0",
+        "Size": 1529
+      },
+      {
+        "Name": "/etc/ssl/certs/5a4d6896.0",
+        "Size": 1952
+      },
+      {
+        "Name": "/etc/ssl/certs/5ad8a5d6.0",
+        "Size": 1261
+      },
+      {
+        "Name": "/etc/ssl/certs/5c44d531.0",
+        "Size": 2069
+      },
+      {
+        "Name": "/etc/ssl/certs/5cd81ad7.0",
+        "Size": 1870
+      },
+      {
+        "Name": "/etc/ssl/certs/5f15c80c.0",
+        "Size": 1883
+      },
+      {
+        "Name": "/etc/ssl/certs/607986c7.0",
+        "Size": 1294
+      },
+      {
+        "Name": "/etc/ssl/certs/608a55ad.0",
+        "Size": 1944
+      },
+      {
+        "Name": "/etc/ssl/certs/62744ee1.0",
+        "Size": -1
+      },
+      {
+        "Name": "/etc/ssl/certs/6410666e.0",
+        "Size": 1948
+      },
+      {
+        "Name": "/etc/ssl/certs/653b494a.0",
+        "Size": 1261
+      },
+      {
+        "Name": "/etc/ssl/certs/65b876bd.0",
+        "Size": 1826
+      },
+      {
+        "Name": "/etc/ssl/certs/6b99d060.0",
+        "Size": 1643
+      },
+      {
+        "Name": "/etc/ssl/certs/6d41d539.0",
+        "Size": 1883
+      },
+      {
+        "Name": "/etc/ssl/certs/6f2c1157.0",
+        "Size": -1
+      },
+      {
+        "Name": "/etc/ssl/certs/706f604c.0",
+        "Size": 1513
+      },
+      {
+        "Name": "/etc/ssl/certs/749e9e03.0",
+        "Size": 1923
+      },
+      {
+        "Name": "/etc/ssl/certs/75d1b2ed.0",
+        "Size": 1988
+      },
+      {
+        "Name": "/etc/ssl/certs/76cb8f92.0",
+        "Size": 1318
+      },
+      {
+        "Name": "/etc/ssl/certs/76faf6c0.0",
+        "Size": 2354
+      },
+      {
+        "Name": "/etc/ssl/certs/7719f463.0",
+        "Size": 1017
+      },
+      {
+        "Name": "/etc/ssl/certs/790a7190.0",
+        "Size": 1460
+      },
+      {
+        "Name": "/etc/ssl/certs/7992b8bb.0",
+        "Size": 1501
+      },
+      {
+        "Name": "/etc/ssl/certs/7d0b38bd.0",
+        "Size": 1281
+      },
+      {
+        "Name": "/etc/ssl/certs/7f3d5d1d.0",
+        "Size": 851
+      },
+      {
+        "Name": "/etc/ssl/certs/812e17de.0",
+        "Size": 1318
+      },
+      {
+        "Name": "/etc/ssl/certs/8160b96c.0",
+        "Size": 1460
+      },
+      {
+        "Name": "/etc/ssl/certs/861a399d.0",
+        "Size": 1480
+      },
+      {
+        "Name": "/etc/ssl/certs/87229d21.0",
+        "Size": 1944
+      },
+      {
+        "Name": "/etc/ssl/certs/8867006a.0",
+        "Size": 1939
+      },
+      {
+        "Name": "/etc/ssl/certs/8cb5ee0f.0",
+        "Size": 656
+      },
+      {
+        "Name": "/etc/ssl/certs/8d86cdd1.0",
+        "Size": 1176
+      },
+      {
+        "Name": "/etc/ssl/certs/9007ae68.0",
+        "Size": 1935
+      },
+      {
+        "Name": "/etc/ssl/certs/9168f543.0",
+        "Size": 1939
+      },
+      {
+        "Name": "/etc/ssl/certs/930ac5d2.0",
+        "Size": 2049
+      },
+      {
+        "Name": "/etc/ssl/certs/93bc0acc.0",
+        "Size": 1204
+      },
+      {
+        "Name": "/etc/ssl/certs/988a38cb.0",
+        "Size": 1476
+      },
+      {
+        "Name": "/etc/ssl/certs/9c2e7d30.0",
+        "Size": 1143
+      },
+      {
+        "Name": "/etc/ssl/certs/9c8dfbd4.0",
+        "Size": 753
+      },
+      {
+        "Name": "/etc/ssl/certs/9d04f354.0",
+        "Size": 1306
+      },
+      {
+        "Name": "/etc/ssl/certs/9d520b32.0",
+        "Size": 1269
+      },
+      {
+        "Name": "/etc/ssl/certs/9f0f5fd6.0",
+        "Size": 1992
+      },
+      {
+        "Name": "/etc/ssl/certs/a760e1bd.0",
+        "Size": 1322
+      },
+      {
+        "Name": "/etc/ssl/certs/a8dee976.0",
+        "Size": -1
+      },
+      {
+        "Name": "/etc/ssl/certs/a94d09e5.0",
+        "Size": 2772
+      },
+      {
+        "Name": "/etc/ssl/certs/ad088e1d.0",
+        "Size": 1935
+      },
+      {
+        "Name": "/etc/ssl/certs/aee5f10d.0",
+        "Size": 1505
+      },
+      {
+        "Name": "/etc/ssl/certs/b0e59380.0",
+        "Size": 713
+      },
+      {
+        "Name": "/etc/ssl/certs/b1159c4c.0",
+        "Size": 1350
+      },
+      {
+        "Name": "/etc/ssl/certs/b1b8a7f3.0",
+        "Size": 1428
+      },
+      {
+        "Name": "/etc/ssl/certs/b204d74a.0",
+        "Size": 1732
+      },
+      {
+        "Name": "/etc/ssl/certs/b66938e9.0",
+        "Size": 1354
+      },
+      {
+        "Name": "/etc/ssl/certs/b727005e.0",
+        "Size": 1891
+      },
+      {
+        "Name": "/etc/ssl/certs/b7a5b843.0",
+        "Size": 1269
+      },
+      {
+        "Name": "/etc/ssl/certs/ba89ed3b.0",
+        "Size": 1505
+      },
+      {
+        "Name": "/etc/ssl/certs/bb2d49a0.0",
+        "Size": -1
+      },
+      {
+        "Name": "/etc/ssl/certs/c01cdfa2.0",
+        "Size": 1700
+      },
+      {
+        "Name": "/etc/ssl/certs/c089bbbd.0",
+        "Size": 940
+      },
+      {
+        "Name": "/etc/ssl/certs/c0ff1f52.0",
+        "Size": 1484
+      },
+      {
+        "Name": "/etc/ssl/certs/c28a8a30.0",
+        "Size": 1517
+      },
+      {
+        "Name": "/etc/ssl/certs/c47d9980.0",
+        "Size": 2594
+      },
+      {
+        "Name": "/etc/ssl/certs/c5d3212a.0",
+        "Size": 3361
+      },
+      {
+        "Name": "/etc/ssl/certs/c5e082db.0",
+        "Size": -1
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-ACCVRAIZ1.pem",
+        "Size": 2772
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-ACEDICOM_Root.pem",
+        "Size": 2041
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-AC_RAIZ_FNMT-RCM.pem",
+        "Size": 1972
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-AC_Raíz_Certicámara_S.A..pem",
+        "Size": -1
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Actalis_Authentication_Root_CA.pem",
+        "Size": 2049
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-AddTrust_External_Root.pem",
+        "Size": 1521
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-AddTrust_Low-Value_Services_Root.pem",
+        "Size": 1480
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-AffirmTrust_Commercial.pem",
+        "Size": 1204
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-AffirmTrust_Networking.pem",
+        "Size": 1204
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-AffirmTrust_Premium.pem",
+        "Size": 1891
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-AffirmTrust_Premium_ECC.pem",
+        "Size": 753
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Amazon_Root_CA_1.pem",
+        "Size": 1188
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Amazon_Root_CA_2.pem",
+        "Size": 1883
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Amazon_Root_CA_3.pem",
+        "Size": 656
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Amazon_Root_CA_4.pem",
+        "Size": 737
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Atos_TrustedRoot_2011.pem",
+        "Size": 1261
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.pem",
+        "Size": 2167
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Baltimore_CyberTrust_Root.pem",
+        "Size": 1261
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Buypass_Class_2_Root_CA.pem",
+        "Size": 1915
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Buypass_Class_3_Root_CA.pem",
+        "Size": 1915
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-CA_Disig_Root_R1.pem",
+        "Size": 1935
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-CA_Disig_Root_R2.pem",
+        "Size": 1935
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-CFCA_EV_ROOT.pem",
+        "Size": 1984
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-COMODO_Certification_Authority.pem",
+        "Size": 1489
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-COMODO_ECC_Certification_Authority.pem",
+        "Size": 940
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-COMODO_RSA_Certification_Authority.pem",
+        "Size": 2086
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Camerfirma_Chambers_of_Commerce_Root.pem",
+        "Size": 1704
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Camerfirma_Global_Chambersign_Root.pem",
+        "Size": 1716
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Certigna.pem",
+        "Size": 1330
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Certinomis_-_Autorité_Racine.pem",
+        "Size": 2004
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Certinomis_-_Root_CA.pem",
+        "Size": 1992
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Certplus_Class_2_Primary_CA.pem",
+        "Size": 1298
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Certplus_Root_CA_G1.pem",
+        "Size": 1939
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Certplus_Root_CA_G2.pem",
+        "Size": 794
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Certum_Root_CA.pem",
+        "Size": 1119
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Certum_Trusted_Network_CA.pem",
+        "Size": 1354
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Certum_Trusted_Network_CA_2.pem",
+        "Size": 2078
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Chambers_of_Commerce_Root_-_2008.pem",
+        "Size": 2594
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-ComSign_CA.pem",
+        "Size": -1
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Comodo_AAA_Services_root.pem",
+        "Size": 1517
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Cybertrust_Global_Root.pem",
+        "Size": 1318
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-D-TRUST_Root_CA_3_2013.pem",
+        "Size": -1
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-D-TRUST_Root_Class_3_CA_2_2009.pem",
+        "Size": 1517
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-D-TRUST_Root_Class_3_CA_2_EV_2009.pem",
+        "Size": 1537
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-DST_ACES_CA_X6.pem",
+        "Size": 1460
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-DST_Root_CA_X3.pem",
+        "Size": 1200
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Deutsche_Telekom_Root_CA_2.pem",
+        "Size": 1318
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-DigiCert_Assured_ID_Root_CA.pem",
+        "Size": 1350
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-DigiCert_Assured_ID_Root_G2.pem",
+        "Size": 1306
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-DigiCert_Assured_ID_Root_G3.pem",
+        "Size": 851
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-DigiCert_Global_Root_CA.pem",
+        "Size": 1338
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-DigiCert_Global_Root_G2.pem",
+        "Size": 1294
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-DigiCert_Global_Root_G3.pem",
+        "Size": 839
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-DigiCert_High_Assurance_EV_Root_CA.pem",
+        "Size": 1367
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-DigiCert_Trusted_Root_G4.pem",
+        "Size": 1988
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-E-Tugra_Certification_Authority.pem",
+        "Size": 2244
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-EC-ACC.pem",
+        "Size": 1911
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-EE_Certification_Centre_Root_CA.pem",
+        "Size": 1452
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Entrust.net_Premium_2048_Secure_Server_CA.pem",
+        "Size": 1505
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Entrust_Root_Certification_Authority.pem",
+        "Size": 1643
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Entrust_Root_Certification_Authority_-_EC1.pem",
+        "Size": 1090
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Entrust_Root_Certification_Authority_-_G2.pem",
+        "Size": 1533
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-GeoTrust_Global_CA.pem",
+        "Size": 1216
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-GeoTrust_Primary_Certification_Authority.pem",
+        "Size": 1269
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-GeoTrust_Primary_Certification_Authority_-_G2.pem",
+        "Size": 989
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-GeoTrust_Primary_Certification_Authority_-_G3.pem",
+        "Size": 1444
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-GeoTrust_Universal_CA.pem",
+        "Size": 1935
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-GeoTrust_Universal_CA_2.pem",
+        "Size": 1939
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-GlobalSign_ECC_Root_CA_-_R4.pem",
+        "Size": 713
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-GlobalSign_ECC_Root_CA_-_R5.pem",
+        "Size": 794
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-GlobalSign_Root_CA.pem",
+        "Size": 1261
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-GlobalSign_Root_CA_-_R2.pem",
+        "Size": 1354
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-GlobalSign_Root_CA_-_R3.pem",
+        "Size": 1229
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Global_Chambersign_Root_-_2008.pem",
+        "Size": 2585
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Go_Daddy_Class_2_CA.pem",
+        "Size": 1448
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Go_Daddy_Root_Certificate_Authority_-_G2.pem",
+        "Size": 1367
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Hellenic_Academic_and_Research_Institutions_ECC_RootCA_2015.pem",
+        "Size": 1017
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Hellenic_Academic_and_Research_Institutions_RootCA_2011.pem",
+        "Size": 1513
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Hellenic_Academic_and_Research_Institutions_RootCA_2015.pem",
+        "Size": 2155
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Hongkong_Post_Root_CA_1.pem",
+        "Size": 1168
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-ISRG_Root_X1.pem",
+        "Size": 1939
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-IdenTrust_Commercial_Root_CA_1.pem",
+        "Size": 1923
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-IdenTrust_Public_Sector_Root_CA_1.pem",
+        "Size": 1931
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Izenpe.com.pem",
+        "Size": 2122
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-LuxTrust_Global_Root_2.pem",
+        "Size": 2057
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Microsec_e-Szigno_Root_CA_2009.pem",
+        "Size": 1460
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-NetLock_Arany_=Class_Gold=_Főtanúsítvány.pem",
+        "Size": 1476
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Network_Solutions_Certificate_Authority.pem",
+        "Size": 1411
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-OISTE_WISeKey_Global_Root_GA_CA.pem",
+        "Size": 1428
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-OISTE_WISeKey_Global_Root_GB_CA.pem",
+        "Size": 1346
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-OpenTrust_Root_CA_G1.pem",
+        "Size": 1944
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-OpenTrust_Root_CA_G2.pem",
+        "Size": 1944
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-OpenTrust_Root_CA_G3.pem",
+        "Size": 798
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-PSCProcert.pem",
+        "Size": 3361
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-QuoVadis_Root_CA.pem",
+        "Size": 2078
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-QuoVadis_Root_CA_1_G3.pem",
+        "Size": 1923
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-QuoVadis_Root_CA_2.pem",
+        "Size": 2041
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-QuoVadis_Root_CA_2_G3.pem",
+        "Size": 1923
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-QuoVadis_Root_CA_3.pem",
+        "Size": 2354
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-QuoVadis_Root_CA_3_G3.pem",
+        "Size": 1923
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-S-TRUST_Universal_Root_CA.pem",
+        "Size": -1
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-SZAFIR_ROOT_CA2.pem",
+        "Size": 1257
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-SecureSign_RootCA11.pem",
+        "Size": 1249
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-SecureTrust_CA.pem",
+        "Size": 1350
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Secure_Global_CA.pem",
+        "Size": 1354
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Security_Communication_EV_RootCA1.pem",
+        "Size": 1269
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Security_Communication_RootCA2.pem",
+        "Size": 1261
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Security_Communication_Root_CA.pem",
+        "Size": 1224
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Sonera_Class_2_Root_CA.pem",
+        "Size": 1143
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Staat_der_Nederlanden_EV_Root_CA.pem",
+        "Size": 1948
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Staat_der_Nederlanden_Root_CA_-_G2.pem",
+        "Size": 2069
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Staat_der_Nederlanden_Root_CA_-_G3.pem",
+        "Size": 1952
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Starfield_Class_2_CA.pem",
+        "Size": 1468
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Starfield_Root_Certificate_Authority_-_G2.pem",
+        "Size": 1399
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Starfield_Services_Root_Certificate_Authority_-_G2.pem",
+        "Size": 1424
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-SwissSign_Gold_CA_-_G2.pem",
+        "Size": 2045
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-SwissSign_Platinum_CA_-_G2.pem",
+        "Size": -1
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-SwissSign_Silver_CA_-_G2.pem",
+        "Size": 2049
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Swisscom_Root_CA_2.pem",
+        "Size": 2090
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Symantec_Class_1_Public_Primary_Certification_Authority_-_G4.pem",
+        "Size": -1
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Symantec_Class_1_Public_Primary_Certification_Authority_-_G6.pem",
+        "Size": -1
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Symantec_Class_2_Public_Primary_Certification_Authority_-_G4.pem",
+        "Size": -1
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Symantec_Class_2_Public_Primary_Certification_Authority_-_G6.pem",
+        "Size": -1
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-T-TeleSec_GlobalRoot_Class_2.pem",
+        "Size": 1367
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-T-TeleSec_GlobalRoot_Class_3.pem",
+        "Size": 1367
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-TC_TrustCenter_Class_3_CA_II.pem",
+        "Size": -1
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-TUBITAK_Kamu_SM_SSL_Kok_Sertifikasi_-_Surum_1.pem",
+        "Size": 1582
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-TURKTRUST_Certificate_Services_Provider_Root_2007.pem",
+        "Size": 1529
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-TWCA_Global_Root_CA.pem",
+        "Size": 1883
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-TWCA_Root_Certification_Authority.pem",
+        "Size": 1269
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Taiwan_GRCA.pem",
+        "Size": 1948
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-TeliaSonera_Root_CA_v1.pem",
+        "Size": 1870
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Trustis_FPS_Root_CA.pem",
+        "Size": 1241
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-TÜBİTAK_UEKAE_Kök_Sertifika_Hizmet_Sağlayıcısı_-_Sürüm_3.pem",
+        "Size": 1826
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-TÜRKTRUST_Elektronik_Sertifika_Hizmet_Sağlayıcısı_H5.pem",
+        "Size": 1501
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-USERTrust_ECC_Certification_Authority.pem",
+        "Size": 948
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-USERTrust_RSA_Certification_Authority.pem",
+        "Size": 2094
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-UTN_USERFirst_Email_Root_CA.pem",
+        "Size": -1
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-VeriSign_Class_3_Public_Primary_Certification_Authority_-_G4.pem",
+        "Size": 1281
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-VeriSign_Class_3_Public_Primary_Certification_Authority_-_G5.pem",
+        "Size": 1732
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-VeriSign_Universal_Root_Certification_Authority.pem",
+        "Size": 1700
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Verisign_Class_1_Public_Primary_Certification_Authority_-_G3.pem",
+        "Size": -1
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Verisign_Class_2_Public_Primary_Certification_Authority_-_G3.pem",
+        "Size": -1
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Verisign_Class_3_Public_Primary_Certification_Authority_-_G3.pem",
+        "Size": 1484
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-Visa_eCommerce_Root.pem",
+        "Size": 1322
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-XRamp_Global_CA_Root.pem",
+        "Size": 1513
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-certSIGN_ROOT_CA.pem",
+        "Size": 1176
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-ePKI_Root_Certification_Authority.pem",
+        "Size": 2033
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-thawte_Primary_Root_CA.pem",
+        "Size": 1493
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-thawte_Primary_Root_CA_-_G2.pem",
+        "Size": 940
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-cert-thawte_Primary_Root_CA_-_G3.pem",
+        "Size": 1505
+      },
+      {
+        "Name": "/etc/ssl/certs/ca-certificates.crt",
+        "Size": 237319
+      },
+      {
+        "Name": "/etc/ssl/certs/ca6e4ad9.0",
+        "Size": 2033
+      },
+      {
+        "Name": "/etc/ssl/certs/cb59f961.0",
+        "Size": 1716
+      },
+      {
+        "Name": "/etc/ssl/certs/cbf06781.0",
+        "Size": 1367
+      },
+      {
+        "Name": "/etc/ssl/certs/cc450945.0",
+        "Size": 2122
+      },
+      {
+        "Name": "/etc/ssl/certs/cd58d51e.0",
+        "Size": 1261
+      },
+      {
+        "Name": "/etc/ssl/certs/cd8c0d63.0",
+        "Size": 1972
+      },
+      {
+        "Name": "/etc/ssl/certs/ce5e74ef.0",
+        "Size": 1188
+      },
+      {
+        "Name": "/etc/ssl/certs/d4dae3dd.0",
+        "Size": 1537
+      },
+      {
+        "Name": "/etc/ssl/certs/d6325660.0",
+        "Size": 2086
+      },
+      {
+        "Name": "/etc/ssl/certs/d7e8dc79.0",
+        "Size": 2041
+      },
+      {
+        "Name": "/etc/ssl/certs/d853d49e.0",
+        "Size": 1241
+      },
+      {
+        "Name": "/etc/ssl/certs/d957f522.0",
+        "Size": 2004
+      },
+      {
+        "Name": "/etc/ssl/certs/dc45b0bd.0",
+        "Size": -1
+      },
+      {
+        "Name": "/etc/ssl/certs/dd8e9d41.0",
+        "Size": 839
+      },
+      {
+        "Name": "/etc/ssl/certs/de6d66f3.0",
+        "Size": 737
+      },
+      {
+        "Name": "/etc/ssl/certs/def36a68.0",
+        "Size": 2057
+      },
+      {
+        "Name": "/etc/ssl/certs/e113c810.0",
+        "Size": 1330
+      },
+      {
+        "Name": "/etc/ssl/certs/e18bfb83.0",
+        "Size": 1923
+      },
+      {
+        "Name": "/etc/ssl/certs/e2799e36.0",
+        "Size": 1444
+      },
+      {
+        "Name": "/etc/ssl/certs/e36a6752.0",
+        "Size": 1261
+      },
+      {
+        "Name": "/etc/ssl/certs/e73d606e.0",
+        "Size": 1346
+      },
+      {
+        "Name": "/etc/ssl/certs/e8de2f56.0",
+        "Size": 1915
+      },
+      {
+        "Name": "/etc/ssl/certs/ee1365c0.0",
+        "Size": -1
+      },
+      {
+        "Name": "/etc/ssl/certs/ee64a828.0",
+        "Size": 1517
+      },
+      {
+        "Name": "/etc/ssl/certs/eed8c118.0",
+        "Size": 940
+      },
+      {
+        "Name": "/etc/ssl/certs/ef954a4e.0",
+        "Size": 1923
+      },
+      {
+        "Name": "/etc/ssl/certs/f060240e.0",
+        "Size": 1298
+      },
+      {
+        "Name": "/etc/ssl/certs/f081611a.0",
+        "Size": 1448
+      },
+      {
+        "Name": "/etc/ssl/certs/f30dd6ad.0",
+        "Size": 948
+      },
+      {
+        "Name": "/etc/ssl/certs/f3377b1b.0",
+        "Size": 1224
+      },
+      {
+        "Name": "/etc/ssl/certs/f387163d.0",
+        "Size": 1468
+      },
+      {
+        "Name": "/etc/ssl/certs/f39fc864.0",
+        "Size": 1350
+      },
+      {
+        "Name": "/etc/ssl/certs/f90208f7.0",
+        "Size": 1704
+      },
+      {
+        "Name": "/etc/ssl/certs/fc5a8f99.0",
+        "Size": 2094
+      },
+      {
+        "Name": "/etc/ssl/certs/fe8a2cd8.0",
+        "Size": 1257
+      },
+      {
+        "Name": "/etc/ssl/certs/ff34af3f.0",
+        "Size": 1582
+      },
+      {
+        "Name": "/etc/ssl/certs/java",
+        "Size": 175337
+      },
+      {
+        "Name": "/etc/ssl/certs/java/cacerts",
+        "Size": 175337
+      },
+      {
+        "Name": "/etc/ssl/openssl.cnf",
+        "Size": 745
+      },
+      {
+        "Name": "/etc/ssl/x509v3.cnf",
+        "Size": 1006
+      },
+      {
+        "Name": "/etc/sysctl.conf",
+        "Size": 53
+      },
+      {
+        "Name": "/etc/sysctl.d",
+        "Size": 151
+      },
+      {
+        "Name": "/etc/sysctl.d/00-alpine.conf",
+        "Size": 151
+      },
+      {
+        "Name": "/etc/udhcpd.conf",
+        "Size": 4138
+      },
+      {
+        "Name": "/home",
+        "Size": 0
+      },
+      {
+        "Name": "/lib",
+        "Size": 2801113
+      },
+      {
+        "Name": "/lib/apk",
+        "Size": 93474
+      },
+      {
+        "Name": "/lib/apk/db",
+        "Size": 93474
+      },
+      {
+        "Name": "/lib/apk/db/installed",
+        "Size": 79394
+      },
+      {
+        "Name": "/lib/apk/db/scripts.tar",
+        "Size": 13824
+      },
+      {
+        "Name": "/lib/apk/db/triggers",
+        "Size": 256
+      },
+      {
+        "Name": "/lib/firmware",
+        "Size": 0
+      },
+      {
+        "Name": "/lib/ld-musl-x86_64.so.1",
+        "Size": 563688
+      },
+      {
+        "Name": "/lib/libc.musl-x86_64.so.1",
+        "Size": 563688
+      },
+      {
+        "Name": "/lib/libcom_err.so.2",
+        "Size": 13904
+      },
+      {
+        "Name": "/lib/libcom_err.so.2.1",
+        "Size": 13904
+      },
+      {
+        "Name": "/lib/libcrypto.so.42",
+        "Size": 1714280
+      },
+      {
+        "Name": "/lib/libcrypto.so.42.0.0",
+        "Size": 1714280
+      },
+      {
+        "Name": "/lib/libkeyutils.so.1",
+        "Size": 14048
+      },
+      {
+        "Name": "/lib/libkeyutils.so.1.6",
+        "Size": 14048
+      },
+      {
+        "Name": "/lib/libssl.so.44",
+        "Size": 309664
+      },
+      {
+        "Name": "/lib/libssl.so.44.0.1",
+        "Size": 309664
+      },
+      {
+        "Name": "/lib/libz.so.1",
+        "Size": 91952
+      },
+      {
+        "Name": "/lib/libz.so.1.2.11",
+        "Size": 91952
+      },
+      {
+        "Name": "/lib/mdev",
+        "Size": 0
+      },
+      {
+        "Name": "/media",
+        "Size": 0
+      },
+      {
+        "Name": "/media/cdrom",
+        "Size": 0
+      },
+      {
+        "Name": "/media/floppy",
+        "Size": 0
+      },
+      {
+        "Name": "/media/usb",
+        "Size": 0
+      },
+      {
+        "Name": "/mnt",
+        "Size": 0
+      },
+      {
+        "Name": "/proc",
+        "Size": 0
+      },
+      {
+        "Name": "/run",
+        "Size": 0
+      },
+      {
+        "Name": "/sbin",
+        "Size": 213337
+      },
+      {
+        "Name": "/sbin/acpid",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/adjtimex",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/apk",
+        "Size": 206472
+      },
+      {
+        "Name": "/sbin/arp",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/blkid",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/blockdev",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/depmod",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/fbsplash",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/fdisk",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/findfs",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/fsck",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/fstrim",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/getty",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/halt",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/hdparm",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/hwclock",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/ifconfig",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/ifdown",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/ifenslave",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/ifup",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/init",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/inotifyd",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/insmod",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/ip",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/ipaddr",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/iplink",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/ipneigh",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/iproute",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/iprule",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/iptunnel",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/klogd",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/ldconfig",
+        "Size": 393
+      },
+      {
+        "Name": "/sbin/loadkmap",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/logread",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/losetup",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/lsmod",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/mdev",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/mkdosfs",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/mkfs.vfat",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/mkmntdirs",
+        "Size": 5776
+      },
+      {
+        "Name": "/sbin/mkswap",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/modinfo",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/modprobe",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/nameif",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/nologin",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/poweroff",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/raidautorun",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/reboot",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/rmmod",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/route",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/setconsole",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/slattach",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/swapoff",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/swapon",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/switch_root",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/sysctl",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/syslogd",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/tunctl",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/udhcpc",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/vconfig",
+        "Size": 1964536
+      },
+      {
+        "Name": "/sbin/watchdog",
+        "Size": 1964536
+      },
+      {
+        "Name": "/singularity",
+        "Size": -1
+      },
+      {
+        "Name": "/srv",
+        "Size": 0
+      },
+      {
+        "Name": "/sys",
+        "Size": 0
+      },
+      {
+        "Name": "/tmp",
+        "Size": 0
+      },
+      {
+        "Name": "/usr",
+        "Size": 97017775
+      },
+      {
+        "Name": "/usr/bin",
+        "Size": 585239
+      },
+      {
+        "Name": "/usr/bin/[",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/[[",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/appletviewer",
+        "Size": 6216
+      },
+      {
+        "Name": "/usr/bin/aserver",
+        "Size": 26536
+      },
+      {
+        "Name": "/usr/bin/asn1Coding",
+        "Size": 18304
+      },
+      {
+        "Name": "/usr/bin/asn1Decoding",
+        "Size": 22400
+      },
+      {
+        "Name": "/usr/bin/asn1Parser",
+        "Size": 18304
+      },
+      {
+        "Name": "/usr/bin/awk",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/basename",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/beep",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/blkdiscard",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/bunzip2",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/bzcat",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/bzip2",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/c_rehash",
+        "Size": 14048
+      },
+      {
+        "Name": "/usr/bin/cal",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/checksctp",
+        "Size": 5848
+      },
+      {
+        "Name": "/usr/bin/chvt",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/cksum",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/clear",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/cmp",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/comm",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/cpio",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/crontab",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/cryptpw",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/cut",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/dc",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/deallocvt",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/diff",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/dirname",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/dos2unix",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/du",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/dumpleases",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/eject",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/env",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/expand",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/expr",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/factor",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/fallocate",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/find",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/flock",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/fold",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/free",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/fuser",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/getconf",
+        "Size": 31480
+      },
+      {
+        "Name": "/usr/bin/getent",
+        "Size": 44792
+      },
+      {
+        "Name": "/usr/bin/groups",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/hd",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/head",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/hexdump",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/hostid",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/iconv",
+        "Size": 20552
+      },
+      {
+        "Name": "/usr/bin/id",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/install",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/ipcrm",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/ipcs",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/java",
+        "Size": 6168
+      },
+      {
+        "Name": "/usr/bin/keytool",
+        "Size": 6208
+      },
+      {
+        "Name": "/usr/bin/killall",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/ldd",
+        "Size": 563688
+      },
+      {
+        "Name": "/usr/bin/less",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/logger",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/lsof",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/lsusb",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/lzcat",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/lzma",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/lzopcat",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/md5sum",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/mesg",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/microcom",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/mkfifo",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/mkpasswd",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/nc",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/nl",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/nmeter",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/nohup",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/nproc",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/nsenter",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/nslookup",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/od",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/openvt",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/p11-kit",
+        "Size": 26344
+      },
+      {
+        "Name": "/usr/bin/passwd",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/paste",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/patch",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/pgrep",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/pkill",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/pmap",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/printf",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/pscan",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/pstree",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/pwdx",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/readlink",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/realpath",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/renice",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/reset",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/resize",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/rmiregistry",
+        "Size": 6216
+      },
+      {
+        "Name": "/usr/bin/scanelf",
+        "Size": 75528
+      },
+      {
+        "Name": "/usr/bin/sctp_darn",
+        "Size": 39472
+      },
+      {
+        "Name": "/usr/bin/sctp_status",
+        "Size": 18264
+      },
+      {
+        "Name": "/usr/bin/sctp_test",
+        "Size": 26592
+      },
+      {
+        "Name": "/usr/bin/seq",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/setkeycodes",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/setsid",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/sha1sum",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/sha256sum",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/sha3sum",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/sha512sum",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/showkey",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/shred",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/shuf",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/smemcap",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/sort",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/split",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/ssl_client",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/strings",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/sum",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/tac",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/tail",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/tee",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/test",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/time",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/timeout",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/top",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/tr",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/traceroute",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/traceroute6",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/truncate",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/trust",
+        "Size": 194736
+      },
+      {
+        "Name": "/usr/bin/tty",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/ttysize",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/udhcpc6",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/unexpand",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/uniq",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/unix2dos",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/unlink",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/unlzma",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/unlzop",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/unshare",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/unxz",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/unzip",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/uptime",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/uudecode",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/uuencode",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/vi",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/vlock",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/volname",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/wc",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/wget",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/which",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/whoami",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/whois",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/withsctp",
+        "Size": 212
+      },
+      {
+        "Name": "/usr/bin/xargs",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/xxd",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/xzcat",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/bin/yes",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/lib",
+        "Size": 94536806
+      },
+      {
+        "Name": "/usr/lib/jvm",
+        "Size": 80161861
+      },
+      {
+        "Name": "/usr/lib/jvm/default-jvm",
+        "Size": 16
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk",
+        "Size": 80161845
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/ASSEMBLY_EXCEPTION",
+        "Size": 1503
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/LICENSE",
+        "Size": 19274
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/THIRD_PARTY_README",
+        "Size": 145180
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/bin",
+        "Size": 348446
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/bin/appletviewer",
+        "Size": 6216
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/bin/extcheck",
+        "Size": 6208
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/bin/idlj",
+        "Size": 6208
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/bin/jar",
+        "Size": 6208
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/bin/jarsigner",
+        "Size": 6208
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/bin/java",
+        "Size": 6168
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/bin/java-rmi.cgi",
+        "Size": 2806
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/bin/javac",
+        "Size": 6208
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/bin/javadoc",
+        "Size": 6208
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/bin/javah",
+        "Size": 6208
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/bin/javap",
+        "Size": 6208
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/bin/jcmd",
+        "Size": 6208
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/bin/jconsole",
+        "Size": 6232
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/bin/jdb",
+        "Size": 6224
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/bin/jdeps",
+        "Size": 6208
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/bin/jhat",
+        "Size": 6208
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/bin/jinfo",
+        "Size": 6256
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/bin/jjs",
+        "Size": 6208
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/bin/jmap",
+        "Size": 6256
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/bin/jps",
+        "Size": 6208
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/bin/jrunscript",
+        "Size": 6216
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/bin/jsadebugd",
+        "Size": 6224
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/bin/jstack",
+        "Size": 6256
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/bin/jstat",
+        "Size": 6208
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/bin/jstatd",
+        "Size": 6208
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/bin/keytool",
+        "Size": 6208
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/bin/native2ascii",
+        "Size": 6216
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/bin/orbd",
+        "Size": 6264
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/bin/pack200",
+        "Size": 6208
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/bin/policytool",
+        "Size": 6216
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/bin/rmic",
+        "Size": 6208
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/bin/rmid",
+        "Size": 6208
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/bin/rmiregistry",
+        "Size": 6216
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/bin/schemagen",
+        "Size": 6208
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/bin/serialver",
+        "Size": 6208
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/bin/servertool",
+        "Size": 6216
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/bin/tnameserv",
+        "Size": 6264
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/bin/unpack200",
+        "Size": 103208
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/bin/wsgen",
+        "Size": 6208
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/bin/wsimport",
+        "Size": 6208
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/bin/xjc",
+        "Size": 6208
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/include",
+        "Size": 200081
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/include/classfile_constants.h",
+        "Size": 21125
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/include/jawt.h",
+        "Size": 9687
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/include/jdwpTransport.h",
+        "Size": 7404
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/include/jni.h",
+        "Size": 74698
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/include/jvmti.h",
+        "Size": 78425
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/include/jvmticmlr.h",
+        "Size": 4771
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/include/linux",
+        "Size": 3971
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/include/linux/jawt_md.h",
+        "Size": 1992
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/include/linux/jni_md.h",
+        "Size": 1979
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre",
+        "Size": 60354569
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/ASSEMBLY_EXCEPTION",
+        "Size": 1503
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/LICENSE",
+        "Size": 19274
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/THIRD_PARTY_README",
+        "Size": 145180
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/bin",
+        "Size": 165384
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/bin/java",
+        "Size": 6168
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/bin/jjs",
+        "Size": 6208
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/bin/keytool",
+        "Size": 6208
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/bin/orbd",
+        "Size": 6264
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/bin/pack200",
+        "Size": 6208
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/bin/policytool",
+        "Size": 6216
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/bin/rmid",
+        "Size": 6208
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/bin/rmiregistry",
+        "Size": 6216
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/bin/servertool",
+        "Size": 6216
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/bin/tnameserv",
+        "Size": 6264
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/bin/unpack200",
+        "Size": 103208
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib",
+        "Size": 60023228
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64",
+        "Size": 13280303
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/jli",
+        "Size": 55248
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/jli/libjli.so",
+        "Size": 55248
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/jvm.cfg",
+        "Size": 1675
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/libattach.so",
+        "Size": 14296
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/libawt.so",
+        "Size": 720592
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/libawt_headless.so",
+        "Size": 30824
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/libawt_xawt.so",
+        "Size": 390104
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/libdt_socket.so",
+        "Size": 18328
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/libfontmanager.so",
+        "Size": 338576
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/libhprof.so",
+        "Size": 157808
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/libinstrument.so",
+        "Size": 42976
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/libj2gss.so",
+        "Size": 42888
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/libj2krb5.so",
+        "Size": 10120
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/libj2pcsc.so",
+        "Size": 14216
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/libj2pkcs11.so",
+        "Size": 71560
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/libj2sctp.so",
+        "Size": 26584
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/libjaas_unix.so",
+        "Size": 5872
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/libjava.so",
+        "Size": 190000
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/libjava_crw_demo.so",
+        "Size": 22416
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/libjavajpeg.so",
+        "Size": 42968
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/libjavalcms.so",
+        "Size": 18392
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/libjawt.so",
+        "Size": 6032
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/libjdwp.so",
+        "Size": 248752
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/libjsdt.so",
+        "Size": 10120
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/libjsig.so",
+        "Size": 9960
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/libjsound.so",
+        "Size": 6024
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/libjsoundalsa.so",
+        "Size": 63368
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/libmanagement.so",
+        "Size": 38880
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/libmlib_image.so",
+        "Size": 931800
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/libnet.so",
+        "Size": 96296
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/libnio.so",
+        "Size": 75736
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/libnpt.so",
+        "Size": 14208
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/libsplashscreen.so",
+        "Size": 42976
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/libsunec.so",
+        "Size": 55256
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/libunpack.so",
+        "Size": 99120
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/libverify.so",
+        "Size": 59424
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/libzip.so",
+        "Size": 34768
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/server",
+        "Size": 9272140
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/server/Xusage.txt",
+        "Size": 1423
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/server/libjsig.so",
+        "Size": 9960
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/amd64/server/libjvm.so",
+        "Size": 9270704
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/applet",
+        "Size": 0
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/calendars.properties",
+        "Size": 2375
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/charsets.jar",
+        "Size": 1880746
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/classlist",
+        "Size": 84311
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/cmm",
+        "Size": 242784
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/cmm/CIEXYZ.pf",
+        "Size": 784
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/cmm/GRAY.pf",
+        "Size": 556
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/cmm/LINEAR_RGB.pf",
+        "Size": 488
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/cmm/PYCC.pf",
+        "Size": 234080
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/cmm/sRGB.pf",
+        "Size": 6876
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/content-types.properties",
+        "Size": 5916
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/currency.data",
+        "Size": 4122
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/ext",
+        "Size": 7982035
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/ext/cldrdata.jar",
+        "Size": 4004197
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/ext/dnsns.jar",
+        "Size": 9445
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/ext/jaccess.jar",
+        "Size": 48733
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/ext/localedata.jar",
+        "Size": 1204766
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/ext/meta-index",
+        "Size": 617
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/ext/nashorn.jar",
+        "Size": 2032242
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/ext/sunec.jar",
+        "Size": 41746
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/ext/sunjce_provider.jar",
+        "Size": 294092
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/ext/sunpkcs11.jar",
+        "Size": 268236
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/ext/zipfs.jar",
+        "Size": 77961
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/flavormap.properties",
+        "Size": 3901
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/hijrah-config-umalqura.properties",
+        "Size": 14959
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/images",
+        "Size": 2347
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/images/cursors",
+        "Size": 2347
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/images/cursors/cursors.properties",
+        "Size": 1274
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/images/cursors/invalid32x32.gif",
+        "Size": 153
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/images/cursors/motif_CopyDrop32x32.gif",
+        "Size": 158
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/images/cursors/motif_CopyNoDrop32x32.gif",
+        "Size": 153
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/images/cursors/motif_LinkDrop32x32.gif",
+        "Size": 162
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/images/cursors/motif_LinkNoDrop32x32.gif",
+        "Size": 153
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/images/cursors/motif_MoveDrop32x32.gif",
+        "Size": 141
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/images/cursors/motif_MoveNoDrop32x32.gif",
+        "Size": 153
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/jce.jar",
+        "Size": 108410
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/jexec",
+        "Size": 10024
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/jsse.jar",
+        "Size": 364552
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/jvm.hprof.txt",
+        "Size": 4226
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/logging.properties",
+        "Size": 2455
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/management",
+        "Size": 24860
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/management-agent.jar",
+        "Size": 381
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/management/jmxremote.access",
+        "Size": 3998
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/management/jmxremote.password.template",
+        "Size": 2856
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/management/management.properties",
+        "Size": 14630
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/management/snmp.acl.template",
+        "Size": 3376
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/meta-index",
+        "Size": 1922
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/net.properties",
+        "Size": 4464
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/psfont.properties.ja",
+        "Size": 3793
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/psfontj2d.properties",
+        "Size": 11390
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/resources.jar",
+        "Size": 1133871
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/rt.jar",
+        "Size": 34698221
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/security",
+        "Size": 44115
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/security/blacklisted.certs",
+        "Size": 1273
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/security/cacerts",
+        "Size": -1
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/security/java.policy",
+        "Size": 2466
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/security/java.security",
+        "Size": 37710
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/security/nss.cfg",
+        "Size": 137
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/security/policy",
+        "Size": 2502
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/security/policy/limited",
+        "Size": 1444
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/security/policy/limited/US_export_policy.jar",
+        "Size": 520
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/security/policy/limited/local_policy.jar",
+        "Size": 924
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/security/policy/unlimited",
+        "Size": 1058
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/security/policy/unlimited/US_export_policy.jar",
+        "Size": 520
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/security/policy/unlimited/local_policy.jar",
+        "Size": 538
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/sound.properties",
+        "Size": 1210
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/tz.properties",
+        "Size": 35
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/jre/lib/tzdb.dat",
+        "Size": 105500
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/lib",
+        "Size": 19092708
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/lib/amd64",
+        "Size": 61280
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/lib/amd64/jli",
+        "Size": 55248
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/lib/amd64/jli/libjli.so",
+        "Size": 55248
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/lib/amd64/libjawt.so",
+        "Size": 6032
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/lib/ct.sym",
+        "Size": 9769832
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/lib/dt.jar",
+        "Size": 170677
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/lib/ir.idl",
+        "Size": 19429
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/lib/jconsole.jar",
+        "Size": 449591
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/lib/jexec",
+        "Size": 10024
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/lib/orb.idl",
+        "Size": 1637
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/lib/tools.jar",
+        "Size": 8610238
+      },
+      {
+        "Name": "/usr/lib/jvm/java-1.8-openjdk/release",
+        "Size": 84
+      },
+      {
+        "Name": "/usr/lib/krb5",
+        "Size": 130624
+      },
+      {
+        "Name": "/usr/lib/krb5/plugins",
+        "Size": 130624
+      },
+      {
+        "Name": "/usr/lib/krb5/plugins/authdata",
+        "Size": 0
+      },
+      {
+        "Name": "/usr/lib/krb5/plugins/kdb",
+        "Size": 84088
+      },
+      {
+        "Name": "/usr/lib/krb5/plugins/kdb/db2.so",
+        "Size": 84088
+      },
+      {
+        "Name": "/usr/lib/krb5/plugins/libkrb5",
+        "Size": 0
+      },
+      {
+        "Name": "/usr/lib/krb5/plugins/preauth",
+        "Size": 28280
+      },
+      {
+        "Name": "/usr/lib/krb5/plugins/preauth/otp.so",
+        "Size": 18232
+      },
+      {
+        "Name": "/usr/lib/krb5/plugins/preauth/test.so",
+        "Size": 10048
+      },
+      {
+        "Name": "/usr/lib/krb5/plugins/tls",
+        "Size": 18256
+      },
+      {
+        "Name": "/usr/lib/krb5/plugins/tls/k5tls.so",
+        "Size": 18256
+      },
+      {
+        "Name": "/usr/lib/libX11-xcb.so.1",
+        "Size": 5632
+      },
+      {
+        "Name": "/usr/lib/libX11-xcb.so.1.0.0",
+        "Size": 5632
+      },
+      {
+        "Name": "/usr/lib/libX11.so.6",
+        "Size": 1189928
+      },
+      {
+        "Name": "/usr/lib/libX11.so.6.3.0",
+        "Size": 1189928
+      },
+      {
+        "Name": "/usr/lib/libXau.so.6",
+        "Size": 9800
+      },
+      {
+        "Name": "/usr/lib/libXau.so.6.0.0",
+        "Size": 9800
+      },
+      {
+        "Name": "/usr/lib/libXcomposite.so.1",
+        "Size": 9800
+      },
+      {
+        "Name": "/usr/lib/libXcomposite.so.1.0.0",
+        "Size": 9800
+      },
+      {
+        "Name": "/usr/lib/libXdmcp.so.6",
+        "Size": 22240
+      },
+      {
+        "Name": "/usr/lib/libXdmcp.so.6.0.0",
+        "Size": 22240
+      },
+      {
+        "Name": "/usr/lib/libXext.so.6",
+        "Size": 64352
+      },
+      {
+        "Name": "/usr/lib/libXext.so.6.4.0",
+        "Size": 64352
+      },
+      {
+        "Name": "/usr/lib/libXi.so.6",
+        "Size": 59136
+      },
+      {
+        "Name": "/usr/lib/libXi.so.6.1.0",
+        "Size": 59136
+      },
+      {
+        "Name": "/usr/lib/libXrender.so.1",
+        "Size": 38736
+      },
+      {
+        "Name": "/usr/lib/libXrender.so.1.3.0",
+        "Size": 38736
+      },
+      {
+        "Name": "/usr/lib/libXtst.so.6",
+        "Size": 22304
+      },
+      {
+        "Name": "/usr/lib/libXtst.so.6.1.0",
+        "Size": 22304
+      },
+      {
+        "Name": "/usr/lib/libasound.so.2",
+        "Size": 993480
+      },
+      {
+        "Name": "/usr/lib/libasound.so.2.0.0",
+        "Size": 993480
+      },
+      {
+        "Name": "/usr/lib/libbsd.so.0",
+        "Size": 67704
+      },
+      {
+        "Name": "/usr/lib/libbsd.so.0.8.6",
+        "Size": 67704
+      },
+      {
+        "Name": "/usr/lib/libbz2.so.1",
+        "Size": 53928
+      },
+      {
+        "Name": "/usr/lib/libbz2.so.1.0.6",
+        "Size": 53928
+      },
+      {
+        "Name": "/usr/lib/libcrypto.so.42",
+        "Size": 1714280
+      },
+      {
+        "Name": "/usr/lib/libcrypto.so.42.0.0",
+        "Size": 1714280
+      },
+      {
+        "Name": "/usr/lib/libffi-3.2.1",
+        "Size": 0
+      },
+      {
+        "Name": "/usr/lib/libffi.so.6",
+        "Size": 30424
+      },
+      {
+        "Name": "/usr/lib/libffi.so.6.0.4",
+        "Size": 30424
+      },
+      {
+        "Name": "/usr/lib/libfreebl3.chk",
+        "Size": 899
+      },
+      {
+        "Name": "/usr/lib/libfreebl3.so",
+        "Size": 538504
+      },
+      {
+        "Name": "/usr/lib/libfreebl3.so.34",
+        "Size": 538504
+      },
+      {
+        "Name": "/usr/lib/libfreetype.so.6",
+        "Size": 710776
+      },
+      {
+        "Name": "/usr/lib/libfreetype.so.6.15.0",
+        "Size": 710776
+      },
+      {
+        "Name": "/usr/lib/libgcc_s.so.1",
+        "Size": 71400
+      },
+      {
+        "Name": "/usr/lib/libgif.so.7",
+        "Size": 30280
+      },
+      {
+        "Name": "/usr/lib/libgif.so.7.0.0",
+        "Size": 30280
+      },
+      {
+        "Name": "/usr/lib/libgssapi_krb5.so.2",
+        "Size": 266328
+      },
+      {
+        "Name": "/usr/lib/libgssapi_krb5.so.2.2",
+        "Size": 266328
+      },
+      {
+        "Name": "/usr/lib/libgssrpc.so.4",
+        "Size": 105496
+      },
+      {
+        "Name": "/usr/lib/libgssrpc.so.4.2",
+        "Size": 105496
+      },
+      {
+        "Name": "/usr/lib/libgtestutil.so",
+        "Size": 317408
+      },
+      {
+        "Name": "/usr/lib/libgtestutil.so.34",
+        "Size": 317408
+      },
+      {
+        "Name": "/usr/lib/libjpeg.so.8",
+        "Size": 386872
+      },
+      {
+        "Name": "/usr/lib/libjpeg.so.8.1.2",
+        "Size": 386872
+      },
+      {
+        "Name": "/usr/lib/libk5crypto.so.3",
+        "Size": 186360
+      },
+      {
+        "Name": "/usr/lib/libk5crypto.so.3.1",
+        "Size": 186360
+      },
+      {
+        "Name": "/usr/lib/libkadm5clnt_mit.so.11",
+        "Size": 79744
+      },
+      {
+        "Name": "/usr/lib/libkadm5clnt_mit.so.11.0",
+        "Size": 79744
+      },
+      {
+        "Name": "/usr/lib/libkadm5srv_mit.so.11",
+        "Size": 104320
+      },
+      {
+        "Name": "/usr/lib/libkadm5srv_mit.so.11.0",
+        "Size": 104320
+      },
+      {
+        "Name": "/usr/lib/libkdb5.so.8",
+        "Size": 63616
+      },
+      {
+        "Name": "/usr/lib/libkdb5.so.8.0",
+        "Size": 63616
+      },
+      {
+        "Name": "/usr/lib/libkrad.so.0",
+        "Size": 38784
+      },
+      {
+        "Name": "/usr/lib/libkrad.so.0.0",
+        "Size": 38784
+      },
+      {
+        "Name": "/usr/lib/libkrb5.so.3",
+        "Size": 809416
+      },
+      {
+        "Name": "/usr/lib/libkrb5.so.3.3",
+        "Size": 809416
+      },
+      {
+        "Name": "/usr/lib/libkrb5support.so.0",
+        "Size": 43096
+      },
+      {
+        "Name": "/usr/lib/libkrb5support.so.0.1",
+        "Size": 43096
+      },
+      {
+        "Name": "/usr/lib/liblcms2.so.2",
+        "Size": 327976
+      },
+      {
+        "Name": "/usr/lib/liblcms2.so.2.0.8",
+        "Size": 327976
+      },
+      {
+        "Name": "/usr/lib/libnspr4.so",
+        "Size": 246048
+      },
+      {
+        "Name": "/usr/lib/libnss3.so",
+        "Size": 1225552
+      },
+      {
+        "Name": "/usr/lib/libnss3.so.34",
+        "Size": 1225552
+      },
+      {
+        "Name": "/usr/lib/libnssckbi.so",
+        "Size": 562056
+      },
+      {
+        "Name": "/usr/lib/libnssckbi.so.34",
+        "Size": 562056
+      },
+      {
+        "Name": "/usr/lib/libnssdbm3.chk",
+        "Size": 899
+      },
+      {
+        "Name": "/usr/lib/libnssdbm3.so",
+        "Size": 137104
+      },
+      {
+        "Name": "/usr/lib/libnssdbm3.so.34",
+        "Size": 137104
+      },
+      {
+        "Name": "/usr/lib/libnssutil3.so",
+        "Size": 194512
+      },
+      {
+        "Name": "/usr/lib/libnssutil3.so.34",
+        "Size": 194512
+      },
+      {
+        "Name": "/usr/lib/libp11-kit.so.0",
+        "Size": 374696
+      },
+      {
+        "Name": "/usr/lib/libp11-kit.so.0.1.0",
+        "Size": 374696
+      },
+      {
+        "Name": "/usr/lib/libpcsclite.so",
+        "Size": 38616
+      },
+      {
+        "Name": "/usr/lib/libpcsclite.so.1",
+        "Size": 38616
+      },
+      {
+        "Name": "/usr/lib/libpcsclite.so.1.0.0",
+        "Size": 38616
+      },
+      {
+        "Name": "/usr/lib/libpcscspy.so.0",
+        "Size": 18168
+      },
+      {
+        "Name": "/usr/lib/libpcscspy.so.0.0.0",
+        "Size": 18168
+      },
+      {
+        "Name": "/usr/lib/libplc4.so",
+        "Size": 18104
+      },
+      {
+        "Name": "/usr/lib/libplds4.so",
+        "Size": 14040
+      },
+      {
+        "Name": "/usr/lib/libpng16.so.16",
+        "Size": 186160
+      },
+      {
+        "Name": "/usr/lib/libpng16.so.16.34.0",
+        "Size": 186160
+      },
+      {
+        "Name": "/usr/lib/libsctp.so.1",
+        "Size": 9880
+      },
+      {
+        "Name": "/usr/lib/libsctp.so.1.0.17",
+        "Size": 9880
+      },
+      {
+        "Name": "/usr/lib/libsmime3.so",
+        "Size": 158208
+      },
+      {
+        "Name": "/usr/lib/libsmime3.so.34",
+        "Size": 158208
+      },
+      {
+        "Name": "/usr/lib/libsoftokn3.chk",
+        "Size": 899
+      },
+      {
+        "Name": "/usr/lib/libsoftokn3.so",
+        "Size": 256880
+      },
+      {
+        "Name": "/usr/lib/libsoftokn3.so.34",
+        "Size": 256880
+      },
+      {
+        "Name": "/usr/lib/libsqlite3.so.0",
+        "Size": 837024
+      },
+      {
+        "Name": "/usr/lib/libsqlite3.so.0.8.6",
+        "Size": 837024
+      },
+      {
+        "Name": "/usr/lib/libssl.so.44",
+        "Size": 309664
+      },
+      {
+        "Name": "/usr/lib/libssl.so.44.0.1",
+        "Size": 309664
+      },
+      {
+        "Name": "/usr/lib/libssl3.so",
+        "Size": 313688
+      },
+      {
+        "Name": "/usr/lib/libssl3.so.34",
+        "Size": 313688
+      },
+      {
+        "Name": "/usr/lib/libstdc++.so.6",
+        "Size": 1370496
+      },
+      {
+        "Name": "/usr/lib/libstdc++.so.6.0.22",
+        "Size": 1370496
+      },
+      {
+        "Name": "/usr/lib/libtasn1.so.6",
+        "Size": 63280
+      },
+      {
+        "Name": "/usr/lib/libtasn1.so.6.5.4",
+        "Size": 63280
+      },
+      {
+        "Name": "/usr/lib/libturbojpeg.so.0",
+        "Size": 411672
+      },
+      {
+        "Name": "/usr/lib/libturbojpeg.so.0.1.0",
+        "Size": 411672
+      },
+      {
+        "Name": "/usr/lib/libverto.so.1",
+        "Size": 17992
+      },
+      {
+        "Name": "/usr/lib/libverto.so.1.0.0",
+        "Size": 17992
+      },
+      {
+        "Name": "/usr/lib/libxcb-composite.so.0",
+        "Size": 9896
+      },
+      {
+        "Name": "/usr/lib/libxcb-composite.so.0.0.0",
+        "Size": 9896
+      },
+      {
+        "Name": "/usr/lib/libxcb-damage.so.0",
+        "Size": 9896
+      },
+      {
+        "Name": "/usr/lib/libxcb-damage.so.0.0.0",
+        "Size": 9896
+      },
+      {
+        "Name": "/usr/lib/libxcb-dpms.so.0",
+        "Size": 9896
+      },
+      {
+        "Name": "/usr/lib/libxcb-dpms.so.0.0.0",
+        "Size": 9896
+      },
+      {
+        "Name": "/usr/lib/libxcb-dri2.so.0",
+        "Size": 18088
+      },
+      {
+        "Name": "/usr/lib/libxcb-dri2.so.0.0.0",
+        "Size": 18088
+      },
+      {
+        "Name": "/usr/lib/libxcb-dri3.so.0",
+        "Size": 9896
+      },
+      {
+        "Name": "/usr/lib/libxcb-dri3.so.0.0.0",
+        "Size": 9896
+      },
+      {
+        "Name": "/usr/lib/libxcb-glx.so.0",
+        "Size": 104104
+      },
+      {
+        "Name": "/usr/lib/libxcb-glx.so.0.0.0",
+        "Size": 104104
+      },
+      {
+        "Name": "/usr/lib/libxcb-present.so.0",
+        "Size": 9896
+      },
+      {
+        "Name": "/usr/lib/libxcb-present.so.0.0.0",
+        "Size": 9896
+      },
+      {
+        "Name": "/usr/lib/libxcb-randr.so.0",
+        "Size": 59048
+      },
+      {
+        "Name": "/usr/lib/libxcb-randr.so.0.1.0",
+        "Size": 59048
+      },
+      {
+        "Name": "/usr/lib/libxcb-record.so.0",
+        "Size": 18088
+      },
+      {
+        "Name": "/usr/lib/libxcb-record.so.0.0.0",
+        "Size": 18088
+      },
+      {
+        "Name": "/usr/lib/libxcb-render.so.0",
+        "Size": 54952
+      },
+      {
+        "Name": "/usr/lib/libxcb-render.so.0.0.0",
+        "Size": 54952
+      },
+      {
+        "Name": "/usr/lib/libxcb-res.so.0",
+        "Size": 13992
+      },
+      {
+        "Name": "/usr/lib/libxcb-res.so.0.0.0",
+        "Size": 13992
+      },
+      {
+        "Name": "/usr/lib/libxcb-screensaver.so.0",
+        "Size": 13992
+      },
+      {
+        "Name": "/usr/lib/libxcb-screensaver.so.0.0.0",
+        "Size": 13992
+      },
+      {
+        "Name": "/usr/lib/libxcb-shape.so.0",
+        "Size": 13992
+      },
+      {
+        "Name": "/usr/lib/libxcb-shape.so.0.0.0",
+        "Size": 13992
+      },
+      {
+        "Name": "/usr/lib/libxcb-shm.so.0",
+        "Size": 13992
+      },
+      {
+        "Name": "/usr/lib/libxcb-shm.so.0.0.0",
+        "Size": 13992
+      },
+      {
+        "Name": "/usr/lib/libxcb-sync.so.1",
+        "Size": 26280
+      },
+      {
+        "Name": "/usr/lib/libxcb-sync.so.1.0.0",
+        "Size": 26280
+      },
+      {
+        "Name": "/usr/lib/libxcb-xf86dri.so.0",
+        "Size": 18088
+      },
+      {
+        "Name": "/usr/lib/libxcb-xf86dri.so.0.0.0",
+        "Size": 18088
+      },
+      {
+        "Name": "/usr/lib/libxcb-xfixes.so.0",
+        "Size": 30376
+      },
+      {
+        "Name": "/usr/lib/libxcb-xfixes.so.0.0.0",
+        "Size": 30376
+      },
+      {
+        "Name": "/usr/lib/libxcb-xinerama.so.0",
+        "Size": 9896
+      },
+      {
+        "Name": "/usr/lib/libxcb-xinerama.so.0.0.0",
+        "Size": 9896
+      },
+      {
+        "Name": "/usr/lib/libxcb-xinput.so.0",
+        "Size": 132776
+      },
+      {
+        "Name": "/usr/lib/libxcb-xinput.so.0.1.0",
+        "Size": 132776
+      },
+      {
+        "Name": "/usr/lib/libxcb-xkb.so.1",
+        "Size": 108200
+      },
+      {
+        "Name": "/usr/lib/libxcb-xkb.so.1.0.0",
+        "Size": 108200
+      },
+      {
+        "Name": "/usr/lib/libxcb-xtest.so.0",
+        "Size": 9896
+      },
+      {
+        "Name": "/usr/lib/libxcb-xtest.so.0.0.0",
+        "Size": 9896
+      },
+      {
+        "Name": "/usr/lib/libxcb-xv.so.0",
+        "Size": 26280
+      },
+      {
+        "Name": "/usr/lib/libxcb-xv.so.0.0.0",
+        "Size": 26280
+      },
+      {
+        "Name": "/usr/lib/libxcb-xvmc.so.0",
+        "Size": 13992
+      },
+      {
+        "Name": "/usr/lib/libxcb-xvmc.so.0.0.0",
+        "Size": 13992
+      },
+      {
+        "Name": "/usr/lib/libxcb.so.1",
+        "Size": 153288
+      },
+      {
+        "Name": "/usr/lib/libxcb.so.1.1.0",
+        "Size": 153288
+      },
+      {
+        "Name": "/usr/lib/lksctp-tools",
+        "Size": 5746
+      },
+      {
+        "Name": "/usr/lib/lksctp-tools/libwithsctp.so",
+        "Size": 5704
+      },
+      {
+        "Name": "/usr/lib/lksctp-tools/libwithsctp.so.1",
+        "Size": 5704
+      },
+      {
+        "Name": "/usr/lib/lksctp-tools/libwithsctp.so.1.0.17",
+        "Size": 5704
+      },
+      {
+        "Name": "/usr/lib/p11-kit",
+        "Size": 19306
+      },
+      {
+        "Name": "/usr/lib/p11-kit/p11-kit-remote",
+        "Size": 18152
+      },
+      {
+        "Name": "/usr/lib/p11-kit/trust-extract-compat",
+        "Size": 1154
+      },
+      {
+        "Name": "/usr/lib/pcsc",
+        "Size": 0
+      },
+      {
+        "Name": "/usr/lib/pcsc/drivers",
+        "Size": 0
+      },
+      {
+        "Name": "/usr/lib/pkcs11",
+        "Size": 224352
+      },
+      {
+        "Name": "/usr/lib/pkcs11/p11-kit-trust.so",
+        "Size": 224352
+      },
+      {
+        "Name": "/usr/local",
+        "Size": 87
+      },
+      {
+        "Name": "/usr/local/bin",
+        "Size": 87
+      },
+      {
+        "Name": "/usr/local/bin/docker-java-home",
+        "Size": 87
+      },
+      {
+        "Name": "/usr/local/lib",
+        "Size": 0
+      },
+      {
+        "Name": "/usr/local/share",
+        "Size": 0
+      },
+      {
+        "Name": "/usr/local/share/ca-certificates",
+        "Size": 0
+      },
+      {
+        "Name": "/usr/sbin",
+        "Size": 10348
+      },
+      {
+        "Name": "/usr/sbin/add-shell",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/addgroup",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/adduser",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/arping",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/brctl",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/chpasswd",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/chroot",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/crond",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/delgroup",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/deluser",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/ether-wake",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/fbset",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/fdformat",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/killall5",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/loadfont",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/lspci",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/nanddump",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/nandwrite",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/nbd-client",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/ntpd",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/partprobe",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/powertop",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/rdate",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/rdev",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/readahead",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/readprofile",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/remove-shell",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/rfkill",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/sendmail",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/setfont",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/setlogcons",
+        "Size": 1964536
+      },
+      {
+        "Name": "/usr/sbin/update-ca-certificates",
+        "Size": 9976
+      },
+      {
+        "Name": "/usr/share",
+        "Size": 1885295
+      },
+      {
+        "Name": "/usr/share/X11",
+        "Size": 1277969
+      },
+      {
+        "Name": "/usr/share/X11/XErrorDB",
+        "Size": 42077
+      },
+      {
+        "Name": "/usr/share/X11/Xcms.txt",
+        "Size": 1723
+      },
+      {
+        "Name": "/usr/share/X11/locale",
+        "Size": 1234169
+      },
+      {
+        "Name": "/usr/share/X11/locale/C",
+        "Size": 1008
+      },
+      {
+        "Name": "/usr/share/X11/locale/C/Compose",
+        "Size": 10
+      },
+      {
+        "Name": "/usr/share/X11/locale/C/XI18N_OBJS",
+        "Size": 340
+      },
+      {
+        "Name": "/usr/share/X11/locale/C/XLC_LOCALE",
+        "Size": 658
+      },
+      {
+        "Name": "/usr/share/X11/locale/am_ET.UTF-8",
+        "Size": 16242
+      },
+      {
+        "Name": "/usr/share/X11/locale/am_ET.UTF-8/Compose",
+        "Size": 16232
+      },
+      {
+        "Name": "/usr/share/X11/locale/am_ET.UTF-8/XI18N_OBJS",
+        "Size": 0
+      },
+      {
+        "Name": "/usr/share/X11/locale/am_ET.UTF-8/XLC_LOCALE",
+        "Size": 10
+      },
+      {
+        "Name": "/usr/share/X11/locale/armscii-8",
+        "Size": 1593
+      },
+      {
+        "Name": "/usr/share/X11/locale/armscii-8/Compose",
+        "Size": 317
+      },
+      {
+        "Name": "/usr/share/X11/locale/armscii-8/XI18N_OBJS",
+        "Size": 341
+      },
+      {
+        "Name": "/usr/share/X11/locale/armscii-8/XLC_LOCALE",
+        "Size": 935
+      },
+      {
+        "Name": "/usr/share/X11/locale/compose.dir",
+        "Size": 32662
+      },
+      {
+        "Name": "/usr/share/X11/locale/cs_CZ.UTF-8",
+        "Size": 534
+      },
+      {
+        "Name": "/usr/share/X11/locale/cs_CZ.UTF-8/Compose",
+        "Size": 524
+      },
+      {
+        "Name": "/usr/share/X11/locale/cs_CZ.UTF-8/XI18N_OBJS",
+        "Size": 0
+      },
+      {
+        "Name": "/usr/share/X11/locale/cs_CZ.UTF-8/XLC_LOCALE",
+        "Size": 10
+      },
+      {
+        "Name": "/usr/share/X11/locale/el_GR.UTF-8",
+        "Size": 125041
+      },
+      {
+        "Name": "/usr/share/X11/locale/el_GR.UTF-8/Compose",
+        "Size": 125031
+      },
+      {
+        "Name": "/usr/share/X11/locale/el_GR.UTF-8/XI18N_OBJS",
+        "Size": 0
+      },
+      {
+        "Name": "/usr/share/X11/locale/el_GR.UTF-8/XLC_LOCALE",
+        "Size": 10
+      },
+      {
+        "Name": "/usr/share/X11/locale/en_US.UTF-8",
+        "Size": 577960
+      },
+      {
+        "Name": "/usr/share/X11/locale/en_US.UTF-8/Compose",
+        "Size": 573398
+      },
+      {
+        "Name": "/usr/share/X11/locale/en_US.UTF-8/XI18N_OBJS",
+        "Size": 346
+      },
+      {
+        "Name": "/usr/share/X11/locale/en_US.UTF-8/XLC_LOCALE",
+        "Size": 4216
+      },
+      {
+        "Name": "/usr/share/X11/locale/fi_FI.UTF-8",
+        "Size": 36211
+      },
+      {
+        "Name": "/usr/share/X11/locale/fi_FI.UTF-8/Compose",
+        "Size": 36201
+      },
+      {
+        "Name": "/usr/share/X11/locale/fi_FI.UTF-8/XI18N_OBJS",
+        "Size": 0
+      },
+      {
+        "Name": "/usr/share/X11/locale/fi_FI.UTF-8/XLC_LOCALE",
+        "Size": 10
+      },
+      {
+        "Name": "/usr/share/X11/locale/georgian-academy",
+        "Size": 1662
+      },
+      {
+        "Name": "/usr/share/X11/locale/georgian-academy/Compose",
+        "Size": 324
+      },
+      {
+        "Name": "/usr/share/X11/locale/georgian-academy/XI18N_OBJS",
+        "Size": 348
+      },
+      {
+        "Name": "/usr/share/X11/locale/georgian-academy/XLC_LOCALE",
+        "Size": 990
+      },
+      {
+        "Name": "/usr/share/X11/locale/georgian-ps",
+        "Size": 1613
+      },
+      {
+        "Name": "/usr/share/X11/locale/georgian-ps/Compose",
+        "Size": 319
+      },
+      {
+        "Name": "/usr/share/X11/locale/georgian-ps/XI18N_OBJS",
+        "Size": 343
+      },
+      {
+        "Name": "/usr/share/X11/locale/georgian-ps/XLC_LOCALE",
+        "Size": 951
+      },
+      {
+        "Name": "/usr/share/X11/locale/ibm-cp1133",
+        "Size": 1603
+      },
+      {
+        "Name": "/usr/share/X11/locale/ibm-cp1133/Compose",
+        "Size": 318
+      },
+      {
+        "Name": "/usr/share/X11/locale/ibm-cp1133/XI18N_OBJS",
+        "Size": 342
+      },
+      {
+        "Name": "/usr/share/X11/locale/ibm-cp1133/XLC_LOCALE",
+        "Size": 943
+      },
+      {
+        "Name": "/usr/share/X11/locale/iscii-dev",
+        "Size": 1286
+      },
+      {
+        "Name": "/usr/share/X11/locale/iscii-dev/Compose",
+        "Size": 10
+      },
+      {
+        "Name": "/usr/share/X11/locale/iscii-dev/XI18N_OBJS",
+        "Size": 341
+      },
+      {
+        "Name": "/usr/share/X11/locale/iscii-dev/XLC_LOCALE",
+        "Size": 935
+      },
+      {
+        "Name": "/usr/share/X11/locale/isiri-3342",
+        "Size": 1295
+      },
+      {
+        "Name": "/usr/share/X11/locale/isiri-3342/Compose",
+        "Size": 10
+      },
+      {
+        "Name": "/usr/share/X11/locale/isiri-3342/XI18N_OBJS",
+        "Size": 342
+      },
+      {
+        "Name": "/usr/share/X11/locale/isiri-3342/XLC_LOCALE",
+        "Size": 943
+      },
+      {
+        "Name": "/usr/share/X11/locale/iso8859-1",
+        "Size": 21555
+      },
+      {
+        "Name": "/usr/share/X11/locale/iso8859-1/Compose",
+        "Size": 20468
+      },
+      {
+        "Name": "/usr/share/X11/locale/iso8859-1/XI18N_OBJS",
+        "Size": 340
+      },
+      {
+        "Name": "/usr/share/X11/locale/iso8859-1/XLC_LOCALE",
+        "Size": 747
+      },
+      {
+        "Name": "/usr/share/X11/locale/iso8859-10",
+        "Size": 1457
+      },
+      {
+        "Name": "/usr/share/X11/locale/iso8859-10/Compose",
+        "Size": 319
+      },
+      {
+        "Name": "/usr/share/X11/locale/iso8859-10/XI18N_OBJS",
+        "Size": 342
+      },
+      {
+        "Name": "/usr/share/X11/locale/iso8859-10/XLC_LOCALE",
+        "Size": 796
+      },
+      {
+        "Name": "/usr/share/X11/locale/iso8859-11",
+        "Size": 1151
+      },
+      {
+        "Name": "/usr/share/X11/locale/iso8859-11/Compose",
+        "Size": 10
+      },
+      {
+        "Name": "/usr/share/X11/locale/iso8859-11/XI18N_OBJS",
+        "Size": 344
+      },
+      {
+        "Name": "/usr/share/X11/locale/iso8859-11/XLC_LOCALE",
+        "Size": 797
+      },
+      {
+        "Name": "/usr/share/X11/locale/iso8859-13",
+        "Size": 22304
+      },
+      {
+        "Name": "/usr/share/X11/locale/iso8859-13/Compose",
+        "Size": 21259
+      },
+      {
+        "Name": "/usr/share/X11/locale/iso8859-13/XI18N_OBJS",
+        "Size": 248
+      },
+      {
+        "Name": "/usr/share/X11/locale/iso8859-13/XLC_LOCALE",
+        "Size": 797
+      },
+      {
+        "Name": "/usr/share/X11/locale/iso8859-14",
+        "Size": 22188
+      },
+      {
+        "Name": "/usr/share/X11/locale/iso8859-14/Compose",
+        "Size": 21049
+      },
+      {
+        "Name": "/usr/share/X11/locale/iso8859-14/XI18N_OBJS",
+        "Size": 342
+      },
+      {
+        "Name": "/usr/share/X11/locale/iso8859-14/XLC_LOCALE",
+        "Size": 797
+      },
+      {
+        "Name": "/usr/share/X11/locale/iso8859-15",
+        "Size": 22058
+      },
+      {
+        "Name": "/usr/share/X11/locale/iso8859-15/Compose",
+        "Size": 20635
+      },
+      {
+        "Name": "/usr/share/X11/locale/iso8859-15/XI18N_OBJS",
+        "Size": 342
+      },
+      {
+        "Name": "/usr/share/X11/locale/iso8859-15/XLC_LOCALE",
+        "Size": 1081
+      },
+      {
+        "Name": "/usr/share/X11/locale/iso8859-2",
+        "Size": 24706
+      },
+      {
+        "Name": "/usr/share/X11/locale/iso8859-2/Compose",
+        "Size": 23668
+      },
+      {
+        "Name": "/usr/share/X11/locale/iso8859-2/XI18N_OBJS",
+        "Size": 248
+      },
+      {
+        "Name": "/usr/share/X11/locale/iso8859-2/XLC_LOCALE",
+        "Size": 790
+      },
+      {
+        "Name": "/usr/share/X11/locale/iso8859-3",
+        "Size": 23938
+      },
+      {
+        "Name": "/usr/share/X11/locale/iso8859-3/Compose",
+        "Size": 22807
+      },
+      {
+        "Name": "/usr/share/X11/locale/iso8859-3/XI18N_OBJS",
+        "Size": 341
+      },
+      {
+        "Name": "/usr/share/X11/locale/iso8859-3/XLC_LOCALE",
+        "Size": 790
+      },
+      {
+        "Name": "/usr/share/X11/locale/iso8859-4",
+        "Size": 17152
+      },
+      {
+        "Name": "/usr/share/X11/locale/iso8859-4/Compose",
+        "Size": 16021
+      },
+      {
+        "Name": "/usr/share/X11/locale/iso8859-4/XI18N_OBJS",
+        "Size": 341
+      },
+      {
+        "Name": "/usr/share/X11/locale/iso8859-4/XLC_LOCALE",
+        "Size": 790
+      },
+      {
+        "Name": "/usr/share/X11/locale/iso8859-5",
+        "Size": 1356
+      },
+      {
+        "Name": "/usr/share/X11/locale/iso8859-5/Compose",
+        "Size": 318
+      },
+      {
+        "Name": "/usr/share/X11/locale/iso8859-5/XI18N_OBJS",
+        "Size": 248
+      },
+      {
+        "Name": "/usr/share/X11/locale/iso8859-5/XLC_LOCALE",
+        "Size": 790
+      },
+      {
+        "Name": "/usr/share/X11/locale/iso8859-6",
+        "Size": 1449
+      },
+      {
+        "Name": "/usr/share/X11/locale/iso8859-6/Compose",
+        "Size": 318
+      },
+      {
+        "Name": "/usr/share/X11/locale/iso8859-6/XI18N_OBJS",
+        "Size": 341
+      },
+      {
+        "Name": "/usr/share/X11/locale/iso8859-6/XLC_LOCALE",
+        "Size": 790
+      },
+      {
+        "Name": "/usr/share/X11/locale/iso8859-7",
+        "Size": 11717
+      },
+      {
+        "Name": "/usr/share/X11/locale/iso8859-7/Compose",
+        "Size": 10679
+      },
+      {
+        "Name": "/usr/share/X11/locale/iso8859-7/XI18N_OBJS",
+        "Size": 248
+      },
+      {
+        "Name": "/usr/share/X11/locale/iso8859-7/XLC_LOCALE",
+        "Size": 790
+      },
+      {
+        "Name": "/usr/share/X11/locale/iso8859-8",
+        "Size": 1449
+      },
+      {
+        "Name": "/usr/share/X11/locale/iso8859-8/Compose",
+        "Size": 318
+      },
+      {
+        "Name": "/usr/share/X11/locale/iso8859-8/XI18N_OBJS",
+        "Size": 341
+      },
+      {
+        "Name": "/usr/share/X11/locale/iso8859-8/XLC_LOCALE",
+        "Size": 790
+      },
+      {
+        "Name": "/usr/share/X11/locale/iso8859-9",
+        "Size": 22751
+      },
+      {
+        "Name": "/usr/share/X11/locale/iso8859-9/Compose",
+        "Size": 21713
+      },
+      {
+        "Name": "/usr/share/X11/locale/iso8859-9/XI18N_OBJS",
+        "Size": 248
+      },
+      {
+        "Name": "/usr/share/X11/locale/iso8859-9/XLC_LOCALE",
+        "Size": 790
+      },
+      {
+        "Name": "/usr/share/X11/locale/iso8859-9e",
+        "Size": 23612
+      },
+      {
+        "Name": "/usr/share/X11/locale/iso8859-9e/Compose",
+        "Size": 22301
+      },
+      {
+        "Name": "/usr/share/X11/locale/iso8859-9e/XI18N_OBJS",
+        "Size": 342
+      },
+      {
+        "Name": "/usr/share/X11/locale/iso8859-9e/XLC_LOCALE",
+        "Size": 969
+      },
+      {
+        "Name": "/usr/share/X11/locale/ja",
+        "Size": 2569
+      },
+      {
+        "Name": "/usr/share/X11/locale/ja.JIS",
+        "Size": 2370
+      },
+      {
+        "Name": "/usr/share/X11/locale/ja.JIS/Compose",
+        "Size": 314
+      },
+      {
+        "Name": "/usr/share/X11/locale/ja.JIS/XI18N_OBJS",
+        "Size": 340
+      },
+      {
+        "Name": "/usr/share/X11/locale/ja.JIS/XLC_LOCALE",
+        "Size": 1716
+      },
+      {
+        "Name": "/usr/share/X11/locale/ja.SJIS",
+        "Size": 5970
+      },
+      {
+        "Name": "/usr/share/X11/locale/ja.SJIS/Compose",
+        "Size": 315
+      },
+      {
+        "Name": "/usr/share/X11/locale/ja.SJIS/XI18N_OBJS",
+        "Size": 481
+      },
+      {
+        "Name": "/usr/share/X11/locale/ja.SJIS/XLC_LOCALE",
+        "Size": 5174
+      },
+      {
+        "Name": "/usr/share/X11/locale/ja/Compose",
+        "Size": 310
+      },
+      {
+        "Name": "/usr/share/X11/locale/ja/XI18N_OBJS",
+        "Size": 611
+      },
+      {
+        "Name": "/usr/share/X11/locale/ja/XLC_LOCALE",
+        "Size": 1648
+      },
+      {
+        "Name": "/usr/share/X11/locale/ja_JP.UTF-8",
+        "Size": 2599
+      },
+      {
+        "Name": "/usr/share/X11/locale/ja_JP.UTF-8/Compose",
+        "Size": 62
+      },
+      {
+        "Name": "/usr/share/X11/locale/ja_JP.UTF-8/XI18N_OBJS",
+        "Size": 347
+      },
+      {
+        "Name": "/usr/share/X11/locale/ja_JP.UTF-8/XLC_LOCALE",
+        "Size": 2190
+      },
+      {
+        "Name": "/usr/share/X11/locale/km_KH.UTF-8",
+        "Size": 484
+      },
+      {
+        "Name": "/usr/share/X11/locale/km_KH.UTF-8/Compose",
+        "Size": 175
+      },
+      {
+        "Name": "/usr/share/X11/locale/km_KH.UTF-8/XI18N_OBJS",
+        "Size": 299
+      },
+      {
+        "Name": "/usr/share/X11/locale/km_KH.UTF-8/XLC_LOCALE",
+        "Size": 10
+      },
+      {
+        "Name": "/usr/share/X11/locale/ko",
+        "Size": 1365
+      },
+      {
+        "Name": "/usr/share/X11/locale/ko/Compose",
+        "Size": 310
+      },
+      {
+        "Name": "/usr/share/X11/locale/ko/XI18N_OBJS",
+        "Size": 240
+      },
+      {
+        "Name": "/usr/share/X11/locale/ko/XLC_LOCALE",
+        "Size": 815
+      },
+      {
+        "Name": "/usr/share/X11/locale/ko_KR.UTF-8",
+        "Size": 2596
+      },
+      {
+        "Name": "/usr/share/X11/locale/ko_KR.UTF-8/Compose",
+        "Size": 62
+      },
+      {
+        "Name": "/usr/share/X11/locale/ko_KR.UTF-8/XI18N_OBJS",
+        "Size": 347
+      },
+      {
+        "Name": "/usr/share/X11/locale/ko_KR.UTF-8/XLC_LOCALE",
+        "Size": 2187
+      },
+      {
+        "Name": "/usr/share/X11/locale/koi8-c",
+        "Size": 7529
+      },
+      {
+        "Name": "/usr/share/X11/locale/koi8-c/Compose",
+        "Size": 6280
+      },
+      {
+        "Name": "/usr/share/X11/locale/koi8-c/XI18N_OBJS",
+        "Size": 338
+      },
+      {
+        "Name": "/usr/share/X11/locale/koi8-c/XLC_LOCALE",
+        "Size": 911
+      },
+      {
+        "Name": "/usr/share/X11/locale/koi8-r",
+        "Size": 1566
+      },
+      {
+        "Name": "/usr/share/X11/locale/koi8-r/Compose",
+        "Size": 314
+      },
+      {
+        "Name": "/usr/share/X11/locale/koi8-r/XI18N_OBJS",
+        "Size": 338
+      },
+      {
+        "Name": "/usr/share/X11/locale/koi8-r/XLC_LOCALE",
+        "Size": 914
+      },
+      {
+        "Name": "/usr/share/X11/locale/koi8-u",
+        "Size": 1563
+      },
+      {
+        "Name": "/usr/share/X11/locale/koi8-u/Compose",
+        "Size": 314
+      },
+      {
+        "Name": "/usr/share/X11/locale/koi8-u/XI18N_OBJS",
+        "Size": 338
+      },
+      {
+        "Name": "/usr/share/X11/locale/koi8-u/XLC_LOCALE",
+        "Size": 911
+      },
+      {
+        "Name": "/usr/share/X11/locale/locale.alias",
+        "Size": 81629
+      },
+      {
+        "Name": "/usr/share/X11/locale/locale.dir",
+        "Size": 36970
+      },
+      {
+        "Name": "/usr/share/X11/locale/microsoft-cp1251",
+        "Size": 1376
+      },
+      {
+        "Name": "/usr/share/X11/locale/microsoft-cp1251/Compose",
+        "Size": 10
+      },
+      {
+        "Name": "/usr/share/X11/locale/microsoft-cp1251/XI18N_OBJS",
+        "Size": 348
+      },
+      {
+        "Name": "/usr/share/X11/locale/microsoft-cp1251/XLC_LOCALE",
+        "Size": 1018
+      },
+      {
+        "Name": "/usr/share/X11/locale/microsoft-cp1255",
+        "Size": 1376
+      },
+      {
+        "Name": "/usr/share/X11/locale/microsoft-cp1255/Compose",
+        "Size": 10
+      },
+      {
+        "Name": "/usr/share/X11/locale/microsoft-cp1255/XI18N_OBJS",
+        "Size": 348
+      },
+      {
+        "Name": "/usr/share/X11/locale/microsoft-cp1255/XLC_LOCALE",
+        "Size": 1018
+      },
+      {
+        "Name": "/usr/share/X11/locale/microsoft-cp1256",
+        "Size": 1376
+      },
+      {
+        "Name": "/usr/share/X11/locale/microsoft-cp1256/Compose",
+        "Size": 10
+      },
+      {
+        "Name": "/usr/share/X11/locale/microsoft-cp1256/XI18N_OBJS",
+        "Size": 348
+      },
+      {
+        "Name": "/usr/share/X11/locale/microsoft-cp1256/XLC_LOCALE",
+        "Size": 1018
+      },
+      {
+        "Name": "/usr/share/X11/locale/mulelao-1",
+        "Size": 1593
+      },
+      {
+        "Name": "/usr/share/X11/locale/mulelao-1/Compose",
+        "Size": 317
+      },
+      {
+        "Name": "/usr/share/X11/locale/mulelao-1/XI18N_OBJS",
+        "Size": 341
+      },
+      {
+        "Name": "/usr/share/X11/locale/mulelao-1/XLC_LOCALE",
+        "Size": 935
+      },
+      {
+        "Name": "/usr/share/X11/locale/nokhchi-1",
+        "Size": 1287
+      },
+      {
+        "Name": "/usr/share/X11/locale/nokhchi-1/Compose",
+        "Size": 10
+      },
+      {
+        "Name": "/usr/share/X11/locale/nokhchi-1/XI18N_OBJS",
+        "Size": 341
+      },
+      {
+        "Name": "/usr/share/X11/locale/nokhchi-1/XLC_LOCALE",
+        "Size": 936
+      },
+      {
+        "Name": "/usr/share/X11/locale/pt_BR.UTF-8",
+        "Size": 3935
+      },
+      {
+        "Name": "/usr/share/X11/locale/pt_BR.UTF-8/Compose",
+        "Size": 1561
+      },
+      {
+        "Name": "/usr/share/X11/locale/pt_BR.UTF-8/XI18N_OBJS",
+        "Size": 345
+      },
+      {
+        "Name": "/usr/share/X11/locale/pt_BR.UTF-8/XLC_LOCALE",
+        "Size": 2029
+      },
+      {
+        "Name": "/usr/share/X11/locale/pt_PT.UTF-8",
+        "Size": 2576
+      },
+      {
+        "Name": "/usr/share/X11/locale/pt_PT.UTF-8/Compose",
+        "Size": 202
+      },
+      {
+        "Name": "/usr/share/X11/locale/pt_PT.UTF-8/XI18N_OBJS",
+        "Size": 345
+      },
+      {
+        "Name": "/usr/share/X11/locale/pt_PT.UTF-8/XLC_LOCALE",
+        "Size": 2029
+      },
+      {
+        "Name": "/usr/share/X11/locale/ru_RU.UTF-8",
+        "Size": 2699
+      },
+      {
+        "Name": "/usr/share/X11/locale/ru_RU.UTF-8/Compose",
+        "Size": 62
+      },
+      {
+        "Name": "/usr/share/X11/locale/ru_RU.UTF-8/XI18N_OBJS",
+        "Size": 345
+      },
+      {
+        "Name": "/usr/share/X11/locale/ru_RU.UTF-8/XLC_LOCALE",
+        "Size": 2292
+      },
+      {
+        "Name": "/usr/share/X11/locale/sr_CS.UTF-8",
+        "Size": 6347
+      },
+      {
+        "Name": "/usr/share/X11/locale/sr_CS.UTF-8/Compose",
+        "Size": 6038
+      },
+      {
+        "Name": "/usr/share/X11/locale/sr_CS.UTF-8/XI18N_OBJS",
+        "Size": 299
+      },
+      {
+        "Name": "/usr/share/X11/locale/sr_CS.UTF-8/XLC_LOCALE",
+        "Size": 10
+      },
+      {
+        "Name": "/usr/share/X11/locale/tatar-cyr",
+        "Size": 1313
+      },
+      {
+        "Name": "/usr/share/X11/locale/tatar-cyr/Compose",
+        "Size": 10
+      },
+      {
+        "Name": "/usr/share/X11/locale/tatar-cyr/XI18N_OBJS",
+        "Size": 341
+      },
+      {
+        "Name": "/usr/share/X11/locale/tatar-cyr/XLC_LOCALE",
+        "Size": 962
+      },
+      {
+        "Name": "/usr/share/X11/locale/th_TH",
+        "Size": 1132
+      },
+      {
+        "Name": "/usr/share/X11/locale/th_TH.UTF-8",
+        "Size": 1443
+      },
+      {
+        "Name": "/usr/share/X11/locale/th_TH.UTF-8/Compose",
+        "Size": 62
+      },
+      {
+        "Name": "/usr/share/X11/locale/th_TH.UTF-8/XI18N_OBJS",
+        "Size": 347
+      },
+      {
+        "Name": "/usr/share/X11/locale/th_TH.UTF-8/XLC_LOCALE",
+        "Size": 1034
+      },
+      {
+        "Name": "/usr/share/X11/locale/th_TH/Compose",
+        "Size": 10
+      },
+      {
+        "Name": "/usr/share/X11/locale/th_TH/XI18N_OBJS",
+        "Size": 337
+      },
+      {
+        "Name": "/usr/share/X11/locale/th_TH/XLC_LOCALE",
+        "Size": 785
+      },
+      {
+        "Name": "/usr/share/X11/locale/tscii-0",
+        "Size": 1270
+      },
+      {
+        "Name": "/usr/share/X11/locale/tscii-0/Compose",
+        "Size": 10
+      },
+      {
+        "Name": "/usr/share/X11/locale/tscii-0/XI18N_OBJS",
+        "Size": 339
+      },
+      {
+        "Name": "/usr/share/X11/locale/tscii-0/XLC_LOCALE",
+        "Size": 921
+      },
+      {
+        "Name": "/usr/share/X11/locale/vi_VN.tcvn",
+        "Size": 6796
+      },
+      {
+        "Name": "/usr/share/X11/locale/vi_VN.tcvn/Compose",
+        "Size": 5519
+      },
+      {
+        "Name": "/usr/share/X11/locale/vi_VN.tcvn/XI18N_OBJS",
+        "Size": 342
+      },
+      {
+        "Name": "/usr/share/X11/locale/vi_VN.tcvn/XLC_LOCALE",
+        "Size": 935
+      },
+      {
+        "Name": "/usr/share/X11/locale/vi_VN.viscii",
+        "Size": 6814
+      },
+      {
+        "Name": "/usr/share/X11/locale/vi_VN.viscii/Compose",
+        "Size": 5519
+      },
+      {
+        "Name": "/usr/share/X11/locale/vi_VN.viscii/XI18N_OBJS",
+        "Size": 344
+      },
+      {
+        "Name": "/usr/share/X11/locale/vi_VN.viscii/XLC_LOCALE",
+        "Size": 951
+      },
+      {
+        "Name": "/usr/share/X11/locale/zh_CN",
+        "Size": 1452
+      },
+      {
+        "Name": "/usr/share/X11/locale/zh_CN.UTF-8",
+        "Size": 2335
+      },
+      {
+        "Name": "/usr/share/X11/locale/zh_CN.UTF-8/Compose",
+        "Size": 62
+      },
+      {
+        "Name": "/usr/share/X11/locale/zh_CN.UTF-8/XI18N_OBJS",
+        "Size": 347
+      },
+      {
+        "Name": "/usr/share/X11/locale/zh_CN.UTF-8/XLC_LOCALE",
+        "Size": 1926
+      },
+      {
+        "Name": "/usr/share/X11/locale/zh_CN.gb18030",
+        "Size": 2105
+      },
+      {
+        "Name": "/usr/share/X11/locale/zh_CN.gb18030/Compose",
+        "Size": 321
+      },
+      {
+        "Name": "/usr/share/X11/locale/zh_CN.gb18030/XI18N_OBJS",
+        "Size": 347
+      },
+      {
+        "Name": "/usr/share/X11/locale/zh_CN.gb18030/XLC_LOCALE",
+        "Size": 1437
+      },
+      {
+        "Name": "/usr/share/X11/locale/zh_CN.gbk",
+        "Size": 1845
+      },
+      {
+        "Name": "/usr/share/X11/locale/zh_CN.gbk/Compose",
+        "Size": 317
+      },
+      {
+        "Name": "/usr/share/X11/locale/zh_CN.gbk/XI18N_OBJS",
+        "Size": 343
+      },
+      {
+        "Name": "/usr/share/X11/locale/zh_CN.gbk/XLC_LOCALE",
+        "Size": 1185
+      },
+      {
+        "Name": "/usr/share/X11/locale/zh_CN/Compose",
+        "Size": 310
+      },
+      {
+        "Name": "/usr/share/X11/locale/zh_CN/XI18N_OBJS",
+        "Size": 338
+      },
+      {
+        "Name": "/usr/share/X11/locale/zh_CN/XLC_LOCALE",
+        "Size": 804
+      },
+      {
+        "Name": "/usr/share/X11/locale/zh_HK.UTF-8",
+        "Size": 2099
+      },
+      {
+        "Name": "/usr/share/X11/locale/zh_HK.UTF-8/Compose",
+        "Size": 62
+      },
+      {
+        "Name": "/usr/share/X11/locale/zh_HK.UTF-8/XI18N_OBJS",
+        "Size": 345
+      },
+      {
+        "Name": "/usr/share/X11/locale/zh_HK.UTF-8/XLC_LOCALE",
+        "Size": 1692
+      },
+      {
+        "Name": "/usr/share/X11/locale/zh_HK.big5",
+        "Size": 1732
+      },
+      {
+        "Name": "/usr/share/X11/locale/zh_HK.big5/Compose",
+        "Size": 316
+      },
+      {
+        "Name": "/usr/share/X11/locale/zh_HK.big5/XI18N_OBJS",
+        "Size": 344
+      },
+      {
+        "Name": "/usr/share/X11/locale/zh_HK.big5/XLC_LOCALE",
+        "Size": 1072
+      },
+      {
+        "Name": "/usr/share/X11/locale/zh_HK.big5hkscs",
+        "Size": 1787
+      },
+      {
+        "Name": "/usr/share/X11/locale/zh_HK.big5hkscs/Compose",
+        "Size": 321
+      },
+      {
+        "Name": "/usr/share/X11/locale/zh_HK.big5hkscs/XI18N_OBJS",
+        "Size": 349
+      },
+      {
+        "Name": "/usr/share/X11/locale/zh_HK.big5hkscs/XLC_LOCALE",
+        "Size": 1117
+      },
+      {
+        "Name": "/usr/share/X11/locale/zh_TW",
+        "Size": 2861
+      },
+      {
+        "Name": "/usr/share/X11/locale/zh_TW.UTF-8",
+        "Size": 1655
+      },
+      {
+        "Name": "/usr/share/X11/locale/zh_TW.UTF-8/Compose",
+        "Size": 62
+      },
+      {
+        "Name": "/usr/share/X11/locale/zh_TW.UTF-8/XI18N_OBJS",
+        "Size": 345
+      },
+      {
+        "Name": "/usr/share/X11/locale/zh_TW.UTF-8/XLC_LOCALE",
+        "Size": 1248
+      },
+      {
+        "Name": "/usr/share/X11/locale/zh_TW.big5",
+        "Size": 10202
+      },
+      {
+        "Name": "/usr/share/X11/locale/zh_TW.big5/Compose",
+        "Size": 318
+      },
+      {
+        "Name": "/usr/share/X11/locale/zh_TW.big5/XI18N_OBJS",
+        "Size": 344
+      },
+      {
+        "Name": "/usr/share/X11/locale/zh_TW.big5/XLC_LOCALE",
+        "Size": 9540
+      },
+      {
+        "Name": "/usr/share/X11/locale/zh_TW/Compose",
+        "Size": 313
+      },
+      {
+        "Name": "/usr/share/X11/locale/zh_TW/XI18N_OBJS",
+        "Size": 244
+      },
+      {
+        "Name": "/usr/share/X11/locale/zh_TW/XLC_LOCALE",
+        "Size": 2304
+      },
+      {
+        "Name": "/usr/share/alsa",
+        "Size": 365725
+      },
+      {
+        "Name": "/usr/share/alsa/alsa.conf",
+        "Size": 9665
+      },
+      {
+        "Name": "/usr/share/alsa/alsa.conf.d",
+        "Size": 103
+      },
+      {
+        "Name": "/usr/share/alsa/alsa.conf.d/README",
+        "Size": 103
+      },
+      {
+        "Name": "/usr/share/alsa/cards",
+        "Size": 125367
+      },
+      {
+        "Name": "/usr/share/alsa/cards/AACI.conf",
+        "Size": 669
+      },
+      {
+        "Name": "/usr/share/alsa/cards/ATIIXP-MODEM.conf",
+        "Size": 302
+      },
+      {
+        "Name": "/usr/share/alsa/cards/ATIIXP-SPDMA.conf",
+        "Size": 2237
+      },
+      {
+        "Name": "/usr/share/alsa/cards/ATIIXP.conf",
+        "Size": 2483
+      },
+      {
+        "Name": "/usr/share/alsa/cards/AU8810.conf",
+        "Size": 437
+      },
+      {
+        "Name": "/usr/share/alsa/cards/AU8820.conf",
+        "Size": 159
+      },
+      {
+        "Name": "/usr/share/alsa/cards/AU8830.conf",
+        "Size": 520
+      },
+      {
+        "Name": "/usr/share/alsa/cards/Audigy.conf",
+        "Size": 5899
+      },
+      {
+        "Name": "/usr/share/alsa/cards/Audigy2.conf",
+        "Size": 7807
+      },
+      {
+        "Name": "/usr/share/alsa/cards/Aureon51.conf",
+        "Size": 2369
+      },
+      {
+        "Name": "/usr/share/alsa/cards/Aureon71.conf",
+        "Size": 2499
+      },
+      {
+        "Name": "/usr/share/alsa/cards/CA0106.conf",
+        "Size": 3848
+      },
+      {
+        "Name": "/usr/share/alsa/cards/CMI8338-SWIEC.conf",
+        "Size": 1784
+      },
+      {
+        "Name": "/usr/share/alsa/cards/CMI8338.conf",
+        "Size": 1911
+      },
+      {
+        "Name": "/usr/share/alsa/cards/CMI8738-MC6.conf",
+        "Size": 2131
+      },
+      {
+        "Name": "/usr/share/alsa/cards/CMI8738-MC8.conf",
+        "Size": 2982
+      },
+      {
+        "Name": "/usr/share/alsa/cards/CMI8788.conf",
+        "Size": 1641
+      },
+      {
+        "Name": "/usr/share/alsa/cards/CS46xx.conf",
+        "Size": 2945
+      },
+      {
+        "Name": "/usr/share/alsa/cards/EMU10K1.conf",
+        "Size": 5672
+      },
+      {
+        "Name": "/usr/share/alsa/cards/EMU10K1X.conf",
+        "Size": 2754
+      },
+      {
+        "Name": "/usr/share/alsa/cards/ENS1370.conf",
+        "Size": 1367
+      },
+      {
+        "Name": "/usr/share/alsa/cards/ENS1371.conf",
+        "Size": 1806
+      },
+      {
+        "Name": "/usr/share/alsa/cards/ES1968.conf",
+        "Size": 152
+      },
+      {
+        "Name": "/usr/share/alsa/cards/Echo_Echo3G.conf",
+        "Size": 4399
+      },
+      {
+        "Name": "/usr/share/alsa/cards/FM801.conf",
+        "Size": 1227
+      },
+      {
+        "Name": "/usr/share/alsa/cards/FWSpeakers.conf",
+        "Size": 333
+      },
+      {
+        "Name": "/usr/share/alsa/cards/FireWave.conf",
+        "Size": 702
+      },
+      {
+        "Name": "/usr/share/alsa/cards/GUS.conf",
+        "Size": 217
+      },
+      {
+        "Name": "/usr/share/alsa/cards/HDA-Intel.conf",
+        "Size": 6773
+      },
+      {
+        "Name": "/usr/share/alsa/cards/HdmiLpeAudio.conf",
+        "Size": 897
+      },
+      {
+        "Name": "/usr/share/alsa/cards/ICE1712.conf",
+        "Size": 2409
+      },
+      {
+        "Name": "/usr/share/alsa/cards/ICE1724.conf",
+        "Size": 2891
+      },
+      {
+        "Name": "/usr/share/alsa/cards/ICH-MODEM.conf",
+        "Size": 192
+      },
+      {
+        "Name": "/usr/share/alsa/cards/ICH.conf",
+        "Size": 3054
+      },
+      {
+        "Name": "/usr/share/alsa/cards/ICH4.conf",
+        "Size": 2886
+      },
+      {
+        "Name": "/usr/share/alsa/cards/Loopback.conf",
+        "Size": 1272
+      },
+      {
+        "Name": "/usr/share/alsa/cards/Maestro3.conf",
+        "Size": 558
+      },
+      {
+        "Name": "/usr/share/alsa/cards/NFORCE.conf",
+        "Size": 4803
+      },
+      {
+        "Name": "/usr/share/alsa/cards/PC-Speaker.conf",
+        "Size": 657
+      },
+      {
+        "Name": "/usr/share/alsa/cards/PMac.conf",
+        "Size": 486
+      },
+      {
+        "Name": "/usr/share/alsa/cards/PMacToonie.conf",
+        "Size": 705
+      },
+      {
+        "Name": "/usr/share/alsa/cards/PS3.conf",
+        "Size": 1152
+      },
+      {
+        "Name": "/usr/share/alsa/cards/RME9636.conf",
+        "Size": 780
+      },
+      {
+        "Name": "/usr/share/alsa/cards/RME9652.conf",
+        "Size": 780
+      },
+      {
+        "Name": "/usr/share/alsa/cards/SB-XFi.conf",
+        "Size": 1502
+      },
+      {
+        "Name": "/usr/share/alsa/cards/SI7018",
+        "Size": 502
+      },
+      {
+        "Name": "/usr/share/alsa/cards/SI7018.conf",
+        "Size": 2278
+      },
+      {
+        "Name": "/usr/share/alsa/cards/SI7018/sndoc-mixer.alisp",
+        "Size": 251
+      },
+      {
+        "Name": "/usr/share/alsa/cards/SI7018/sndop-mixer.alisp",
+        "Size": 251
+      },
+      {
+        "Name": "/usr/share/alsa/cards/TRID4DWAVENX.conf",
+        "Size": 1792
+      },
+      {
+        "Name": "/usr/share/alsa/cards/USB-Audio.conf",
+        "Size": 9031
+      },
+      {
+        "Name": "/usr/share/alsa/cards/VIA686A.conf",
+        "Size": 1199
+      },
+      {
+        "Name": "/usr/share/alsa/cards/VIA8233.conf",
+        "Size": 2756
+      },
+      {
+        "Name": "/usr/share/alsa/cards/VIA8233A.conf",
+        "Size": 2812
+      },
+      {
+        "Name": "/usr/share/alsa/cards/VIA8237.conf",
+        "Size": 2586
+      },
+      {
+        "Name": "/usr/share/alsa/cards/VX222.conf",
+        "Size": 830
+      },
+      {
+        "Name": "/usr/share/alsa/cards/VXPocket.conf",
+        "Size": 839
+      },
+      {
+        "Name": "/usr/share/alsa/cards/VXPocket440.conf",
+        "Size": 1480
+      },
+      {
+        "Name": "/usr/share/alsa/cards/YMF744.conf",
+        "Size": 1357
+      },
+      {
+        "Name": "/usr/share/alsa/cards/aliases.alisp",
+        "Size": 687
+      },
+      {
+        "Name": "/usr/share/alsa/cards/aliases.conf",
+        "Size": 1460
+      },
+      {
+        "Name": "/usr/share/alsa/cards/pistachio-card.conf",
+        "Size": 1889
+      },
+      {
+        "Name": "/usr/share/alsa/cards/vc4-hdmi.conf",
+        "Size": 820
+      },
+      {
+        "Name": "/usr/share/alsa/pcm",
+        "Size": 16914
+      },
+      {
+        "Name": "/usr/share/alsa/pcm/center_lfe.conf",
+        "Size": 805
+      },
+      {
+        "Name": "/usr/share/alsa/pcm/default.conf",
+        "Size": 762
+      },
+      {
+        "Name": "/usr/share/alsa/pcm/dmix.conf",
+        "Size": 1524
+      },
+      {
+        "Name": "/usr/share/alsa/pcm/dpl.conf",
+        "Size": 645
+      },
+      {
+        "Name": "/usr/share/alsa/pcm/dsnoop.conf",
+        "Size": 1538
+      },
+      {
+        "Name": "/usr/share/alsa/pcm/front.conf",
+        "Size": 752
+      },
+      {
+        "Name": "/usr/share/alsa/pcm/hdmi.conf",
+        "Size": 1188
+      },
+      {
+        "Name": "/usr/share/alsa/pcm/iec958.conf",
+        "Size": 1213
+      },
+      {
+        "Name": "/usr/share/alsa/pcm/modem.conf",
+        "Size": 1314
+      },
+      {
+        "Name": "/usr/share/alsa/pcm/rear.conf",
+        "Size": 744
+      },
+      {
+        "Name": "/usr/share/alsa/pcm/side.conf",
+        "Size": 744
+      },
+      {
+        "Name": "/usr/share/alsa/pcm/surround21.conf",
+        "Size": 906
+      },
+      {
+        "Name": "/usr/share/alsa/pcm/surround40.conf",
+        "Size": 884
+      },
+      {
+        "Name": "/usr/share/alsa/pcm/surround41.conf",
+        "Size": 987
+      },
+      {
+        "Name": "/usr/share/alsa/pcm/surround50.conf",
+        "Size": 986
+      },
+      {
+        "Name": "/usr/share/alsa/pcm/surround51.conf",
+        "Size": 937
+      },
+      {
+        "Name": "/usr/share/alsa/pcm/surround71.conf",
+        "Size": 985
+      },
+      {
+        "Name": "/usr/share/alsa/sndo-mixer.alisp",
+        "Size": 3206
+      },
+      {
+        "Name": "/usr/share/alsa/topology",
+        "Size": 147018
+      },
+      {
+        "Name": "/usr/share/alsa/topology/broadwell",
+        "Size": 5895
+      },
+      {
+        "Name": "/usr/share/alsa/topology/broadwell/broadwell.conf",
+        "Size": 5895
+      },
+      {
+        "Name": "/usr/share/alsa/topology/bxtrt298",
+        "Size": 74488
+      },
+      {
+        "Name": "/usr/share/alsa/topology/bxtrt298/bxt_i2s.conf",
+        "Size": 74488
+      },
+      {
+        "Name": "/usr/share/alsa/topology/sklrt286",
+        "Size": 66635
+      },
+      {
+        "Name": "/usr/share/alsa/topology/sklrt286/skl_i2s.conf",
+        "Size": 66635
+      },
+      {
+        "Name": "/usr/share/alsa/ucm",
+        "Size": 63452
+      },
+      {
+        "Name": "/usr/share/alsa/ucm/DAISY-I2S",
+        "Size": 1725
+      },
+      {
+        "Name": "/usr/share/alsa/ucm/DAISY-I2S/DAISY-I2S.conf",
+        "Size": 94
+      },
+      {
+        "Name": "/usr/share/alsa/ucm/DAISY-I2S/HiFi.conf",
+        "Size": 1631
+      },
+      {
+        "Name": "/usr/share/alsa/ucm/DB410c",
+        "Size": 3380
+      },
+      {
+        "Name": "/usr/share/alsa/ucm/DB410c/DB410c.conf",
+        "Size": 138
+      },
+      {
+        "Name": "/usr/share/alsa/ucm/DB410c/HDMI",
+        "Size": 419
+      },
+      {
+        "Name": "/usr/share/alsa/ucm/DB410c/HiFi",
+        "Size": 2823
+      },
+      {
+        "Name": "/usr/share/alsa/ucm/GoogleNyan",
+        "Size": 2293
+      },
+      {
+        "Name": "/usr/share/alsa/ucm/GoogleNyan/GoogleNyan.conf",
+        "Size": 92
+      },
+      {
+        "Name": "/usr/share/alsa/ucm/GoogleNyan/HiFi.conf",
+        "Size": 2201
+      },
+      {
+        "Name": "/usr/share/alsa/ucm/PAZ00",
+        "Size": 4017
+      },
+      {
+        "Name": "/usr/share/alsa/ucm/PAZ00/HiFi.conf",
+        "Size": 1141
+      },
+      {
+        "Name": "/usr/share/alsa/ucm/PAZ00/PAZ00.conf",
+        "Size": 1069
+      },
+      {
+        "Name": "/usr/share/alsa/ucm/PAZ00/Record.conf",
+        "Size": 1807
+      },
+      {
+        "Name": "/usr/share/alsa/ucm/PandaBoard",
+        "Size": 10346
+      },
+      {
+        "Name": "/usr/share/alsa/ucm/PandaBoard/FMAnalog",
+        "Size": 1226
+      },
+      {
+        "Name": "/usr/share/alsa/ucm/PandaBoard/PandaBoard.conf",
+        "Size": 881
+      },
+      {
+        "Name": "/usr/share/alsa/ucm/PandaBoard/hifi",
+        "Size": 2222
+      },
+      {
+        "Name": "/usr/share/alsa/ucm/PandaBoard/hifiLP",
+        "Size": 1244
+      },
+      {
+        "Name": "/usr/share/alsa/ucm/PandaBoard/record",
+        "Size": 1336
+      },
+      {
+        "Name": "/usr/share/alsa/ucm/PandaBoard/voice",
+        "Size": 1234
+      },
+      {
+        "Name": "/usr/share/alsa/ucm/PandaBoard/voiceCall",
+        "Size": 2203
+      },
+      {
+        "Name": "/usr/share/alsa/ucm/PandaBoardES",
+        "Size": 10435
+      },
+      {
+        "Name": "/usr/share/alsa/ucm/PandaBoardES/FMAnalog",
+        "Size": 1238
+      },
+      {
+        "Name": "/usr/share/alsa/ucm/PandaBoardES/PandaBoardES.conf",
+        "Size": 898
+      },
+      {
+        "Name": "/usr/share/alsa/ucm/PandaBoardES/hifi",
+        "Size": 2234
+      },
+      {
+        "Name": "/usr/share/alsa/ucm/PandaBoardES/hifiLP",
+        "Size": 1256
+      },
+      {
+        "Name": "/usr/share/alsa/ucm/PandaBoardES/record",
+        "Size": 1348
+      },
+      {
+        "Name": "/usr/share/alsa/ucm/PandaBoardES/voice",
+        "Size": 1246
+      },
+      {
+        "Name": "/usr/share/alsa/ucm/PandaBoardES/voiceCall",
+        "Size": 2215
+      },
+      {
+        "Name": "/usr/share/alsa/ucm/SDP4430",
+        "Size": 10008
+      },
+      {
+        "Name": "/usr/share/alsa/ucm/SDP4430/FMAnalog",
+        "Size": 1208
+      },
+      {
+        "Name": "/usr/share/alsa/ucm/SDP4430/SDP4430.conf",
+        "Size": 875
+      },
+      {
+        "Name": "/usr/share/alsa/ucm/SDP4430/hifi",
+        "Size": 2164
+      },
+      {
+        "Name": "/usr/share/alsa/ucm/SDP4430/hifiLP",
+        "Size": 1206
+      },
+      {
+        "Name": "/usr/share/alsa/ucm/SDP4430/record",
+        "Size": 1194
+      },
+      {
+        "Name": "/usr/share/alsa/ucm/SDP4430/voice",
+        "Size": 1196
+      },
+      {
+        "Name": "/usr/share/alsa/ucm/SDP4430/voiceCall",
+        "Size": 2165
+      },
+      {
+        "Name": "/usr/share/alsa/ucm/VEYRON-I2S",
+        "Size": 2363
+      },
+      {
+        "Name": "/usr/share/alsa/ucm/VEYRON-I2S/HiFi.conf",
+        "Size": 2268
+      },
+      {
+        "Name": "/usr/share/alsa/ucm/VEYRON-I2S/VEYRON-I2S.conf",
+        "Size": 95
+      },
+      {
+        "Name": "/usr/share/alsa/ucm/broadwell-rt286",
+        "Size": 2490
+      },
+      {
+        "Name": "/usr/share/alsa/ucm/broadwell-rt286/HiFi",
+        "Size": 2369
+      },
+      {
+        "Name": "/usr/share/alsa/ucm/broadwell-rt286/broadwell-rt286.conf",
+        "Size": 121
+      },
+      {
+        "Name": "/usr/share/alsa/ucm/broxton-rt298",
+        "Size": 5142
+      },
+      {
+        "Name": "/usr/share/alsa/ucm/broxton-rt298/Hdmi1",
+        "Size": 560
+      },
+      {
+        "Name": "/usr/share/alsa/ucm/broxton-rt298/Hdmi2",
+        "Size": 379
+      },
+      {
+        "Name": "/usr/share/alsa/ucm/broxton-rt298/HiFi",
+        "Size": 2564
+      },
+      {
+        "Name": "/usr/share/alsa/ucm/broxton-rt298/broxton-rt298.conf",
+        "Size": 1639
+      },
+      {
+        "Name": "/usr/share/alsa/ucm/chtrt5645",
+        "Size": 5061
+      },
+      {
+        "Name": "/usr/share/alsa/ucm/chtrt5645/HiFi.conf",
+        "Size": 4965
+      },
+      {
+        "Name": "/usr/share/alsa/ucm/chtrt5645/chtrt5645.conf",
+        "Size": 96
+      },
+      {
+        "Name": "/usr/share/alsa/ucm/skylake-rt286",
+        "Size": 5129
+      },
+      {
+        "Name": "/usr/share/alsa/ucm/skylake-rt286/Hdmi1",
+        "Size": 461
+      },
+      {
+        "Name": "/usr/share/alsa/ucm/skylake-rt286/Hdmi2",
+        "Size": 461
+      },
+      {
+        "Name": "/usr/share/alsa/ucm/skylake-rt286/HiFi",
+        "Size": 2487
+      },
+      {
+        "Name": "/usr/share/alsa/ucm/skylake-rt286/skylake-rt286.conf",
+        "Size": 1720
+      },
+      {
+        "Name": "/usr/share/alsa/ucm/tegraalc5632",
+        "Size": 1063
+      },
+      {
+        "Name": "/usr/share/alsa/ucm/tegraalc5632/tegraalc5632.conf",
+        "Size": 1063
+      },
+      {
+        "Name": "/usr/share/apk",
+        "Size": 3589
+      },
+      {
+        "Name": "/usr/share/apk/keys",
+        "Size": 3589
+      },
+      {
+        "Name": "/usr/share/apk/keys/aarch64",
+        "Size": 54
+      },
+      {
+        "Name": "/usr/share/apk/keys/aarch64/alpine-devel@lists.alpinelinux.org-58199dcc.rsa.pub",
+        "Size": 451
+      },
+      {
+        "Name": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-4a6a0840.rsa.pub",
+        "Size": 451
+      },
+      {
+        "Name": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-5243ef4b.rsa.pub",
+        "Size": 451
+      },
+      {
+        "Name": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-524d27bb.rsa.pub",
+        "Size": 451
+      },
+      {
+        "Name": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-5261cecb.rsa.pub",
+        "Size": 451
+      },
+      {
+        "Name": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-58199dcc.rsa.pub",
+        "Size": 451
+      },
+      {
+        "Name": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-58cbb476.rsa.pub",
+        "Size": 451
+      },
+      {
+        "Name": "/usr/share/apk/keys/alpine-devel@lists.alpinelinux.org-58e4f17d.rsa.pub",
+        "Size": 451
+      },
+      {
+        "Name": "/usr/share/apk/keys/armhf",
+        "Size": 54
+      },
+      {
+        "Name": "/usr/share/apk/keys/armhf/alpine-devel@lists.alpinelinux.org-524d27bb.rsa.pub",
+        "Size": 451
+      },
+      {
+        "Name": "/usr/share/apk/keys/ppc64le",
+        "Size": 54
+      },
+      {
+        "Name": "/usr/share/apk/keys/ppc64le/alpine-devel@lists.alpinelinux.org-58cbb476.rsa.pub",
+        "Size": 451
+      },
+      {
+        "Name": "/usr/share/apk/keys/s390x",
+        "Size": 54
+      },
+      {
+        "Name": "/usr/share/apk/keys/s390x/alpine-devel@lists.alpinelinux.org-58e4f17d.rsa.pub",
+        "Size": 451
+      },
+      {
+        "Name": "/usr/share/apk/keys/x86",
+        "Size": 108
+      },
+      {
+        "Name": "/usr/share/apk/keys/x86/alpine-devel@lists.alpinelinux.org-4a6a0840.rsa.pub",
+        "Size": 451
+      },
+      {
+        "Name": "/usr/share/apk/keys/x86/alpine-devel@lists.alpinelinux.org-5243ef4b.rsa.pub",
+        "Size": 451
+      },
+      {
+        "Name": "/usr/share/apk/keys/x86_64",
+        "Size": 108
+      },
+      {
+        "Name": "/usr/share/apk/keys/x86_64/alpine-devel@lists.alpinelinux.org-4a6a0840.rsa.pub",
+        "Size": 451
+      },
+      {
+        "Name": "/usr/share/apk/keys/x86_64/alpine-devel@lists.alpinelinux.org-5261cecb.rsa.pub",
+        "Size": 451
+      },
+      {
+        "Name": "/usr/share/ca-certificates",
+        "Size": 237319
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla",
+        "Size": 237319
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/ACCVRAIZ1.crt",
+        "Size": 2772
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/ACEDICOM_Root.crt",
+        "Size": 2041
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/AC_RAIZ_FNMT-RCM.crt",
+        "Size": 1972
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/AC_Raíz_Certicámara_S.A..crt",
+        "Size": 2281
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Actalis_Authentication_Root_CA.crt",
+        "Size": 2049
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/AddTrust_External_Root.crt",
+        "Size": 1521
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/AddTrust_Low-Value_Services_Root.crt",
+        "Size": 1480
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/AffirmTrust_Commercial.crt",
+        "Size": 1204
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/AffirmTrust_Networking.crt",
+        "Size": 1204
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/AffirmTrust_Premium.crt",
+        "Size": 1891
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/AffirmTrust_Premium_ECC.crt",
+        "Size": 753
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Amazon_Root_CA_1.crt",
+        "Size": 1188
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Amazon_Root_CA_2.crt",
+        "Size": 1883
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Amazon_Root_CA_3.crt",
+        "Size": 656
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Amazon_Root_CA_4.crt",
+        "Size": 737
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Atos_TrustedRoot_2011.crt",
+        "Size": 1261
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Autoridad_de_Certificacion_Firmaprofesional_CIF_A62634068.crt",
+        "Size": 2167
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Baltimore_CyberTrust_Root.crt",
+        "Size": 1261
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Buypass_Class_2_Root_CA.crt",
+        "Size": 1915
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Buypass_Class_3_Root_CA.crt",
+        "Size": 1915
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/CA_Disig_Root_R1.crt",
+        "Size": 1935
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/CA_Disig_Root_R2.crt",
+        "Size": 1935
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/CFCA_EV_ROOT.crt",
+        "Size": 1984
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/COMODO_Certification_Authority.crt",
+        "Size": 1489
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/COMODO_ECC_Certification_Authority.crt",
+        "Size": 940
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/COMODO_RSA_Certification_Authority.crt",
+        "Size": 2086
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Camerfirma_Chambers_of_Commerce_Root.crt",
+        "Size": 1704
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Camerfirma_Global_Chambersign_Root.crt",
+        "Size": 1716
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Certigna.crt",
+        "Size": 1330
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Certinomis_-_Autorité_Racine.crt",
+        "Size": 2004
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Certinomis_-_Root_CA.crt",
+        "Size": 1992
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Certplus_Class_2_Primary_CA.crt",
+        "Size": 1298
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Certplus_Root_CA_G1.crt",
+        "Size": 1939
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Certplus_Root_CA_G2.crt",
+        "Size": 794
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Certum_Root_CA.crt",
+        "Size": 1119
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Certum_Trusted_Network_CA.crt",
+        "Size": 1354
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Certum_Trusted_Network_CA_2.crt",
+        "Size": 2078
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Chambers_of_Commerce_Root_-_2008.crt",
+        "Size": 2594
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/ComSign_CA.crt",
+        "Size": 1302
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Comodo_AAA_Services_root.crt",
+        "Size": 1517
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Cybertrust_Global_Root.crt",
+        "Size": 1318
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/D-TRUST_Root_CA_3_2013.crt",
+        "Size": 1468
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/D-TRUST_Root_Class_3_CA_2_2009.crt",
+        "Size": 1517
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/D-TRUST_Root_Class_3_CA_2_EV_2009.crt",
+        "Size": 1537
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/DST_ACES_CA_X6.crt",
+        "Size": 1460
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/DST_Root_CA_X3.crt",
+        "Size": 1200
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Deutsche_Telekom_Root_CA_2.crt",
+        "Size": 1318
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/DigiCert_Assured_ID_Root_CA.crt",
+        "Size": 1350
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/DigiCert_Assured_ID_Root_G2.crt",
+        "Size": 1306
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/DigiCert_Assured_ID_Root_G3.crt",
+        "Size": 851
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/DigiCert_Global_Root_CA.crt",
+        "Size": 1338
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/DigiCert_Global_Root_G2.crt",
+        "Size": 1294
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/DigiCert_Global_Root_G3.crt",
+        "Size": 839
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/DigiCert_High_Assurance_EV_Root_CA.crt",
+        "Size": 1367
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/DigiCert_Trusted_Root_G4.crt",
+        "Size": 1988
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/E-Tugra_Certification_Authority.crt",
+        "Size": 2244
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/EC-ACC.crt",
+        "Size": 1911
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/EE_Certification_Centre_Root_CA.crt",
+        "Size": 1452
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Entrust.net_Premium_2048_Secure_Server_CA.crt",
+        "Size": 1505
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Entrust_Root_Certification_Authority.crt",
+        "Size": 1643
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Entrust_Root_Certification_Authority_-_EC1.crt",
+        "Size": 1090
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Entrust_Root_Certification_Authority_-_G2.crt",
+        "Size": 1533
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/GeoTrust_Global_CA.crt",
+        "Size": 1216
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/GeoTrust_Primary_Certification_Authority.crt",
+        "Size": 1269
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/GeoTrust_Primary_Certification_Authority_-_G2.crt",
+        "Size": 989
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/GeoTrust_Primary_Certification_Authority_-_G3.crt",
+        "Size": 1444
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/GeoTrust_Universal_CA.crt",
+        "Size": 1935
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/GeoTrust_Universal_CA_2.crt",
+        "Size": 1939
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/GlobalSign_ECC_Root_CA_-_R4.crt",
+        "Size": 713
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/GlobalSign_ECC_Root_CA_-_R5.crt",
+        "Size": 794
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/GlobalSign_Root_CA.crt",
+        "Size": 1261
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/GlobalSign_Root_CA_-_R2.crt",
+        "Size": 1354
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/GlobalSign_Root_CA_-_R3.crt",
+        "Size": 1229
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Global_Chambersign_Root_-_2008.crt",
+        "Size": 2585
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Go_Daddy_Class_2_CA.crt",
+        "Size": 1448
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Go_Daddy_Root_Certificate_Authority_-_G2.crt",
+        "Size": 1367
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Hellenic_Academic_and_Research_Institutions_ECC_RootCA_2015.crt",
+        "Size": 1017
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Hellenic_Academic_and_Research_Institutions_RootCA_2011.crt",
+        "Size": 1513
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Hellenic_Academic_and_Research_Institutions_RootCA_2015.crt",
+        "Size": 2155
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Hongkong_Post_Root_CA_1.crt",
+        "Size": 1168
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/ISRG_Root_X1.crt",
+        "Size": 1939
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/IdenTrust_Commercial_Root_CA_1.crt",
+        "Size": 1923
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/IdenTrust_Public_Sector_Root_CA_1.crt",
+        "Size": 1931
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Izenpe.com.crt",
+        "Size": 2122
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/LuxTrust_Global_Root_2.crt",
+        "Size": 2057
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Microsec_e-Szigno_Root_CA_2009.crt",
+        "Size": 1460
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/NetLock_Arany_=Class_Gold=_Főtanúsítvány.crt",
+        "Size": 1476
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Network_Solutions_Certificate_Authority.crt",
+        "Size": 1411
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/OISTE_WISeKey_Global_Root_GA_CA.crt",
+        "Size": 1428
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/OISTE_WISeKey_Global_Root_GB_CA.crt",
+        "Size": 1346
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/OpenTrust_Root_CA_G1.crt",
+        "Size": 1944
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/OpenTrust_Root_CA_G2.crt",
+        "Size": 1944
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/OpenTrust_Root_CA_G3.crt",
+        "Size": 798
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/PSCProcert.crt",
+        "Size": 3361
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/QuoVadis_Root_CA.crt",
+        "Size": 2078
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/QuoVadis_Root_CA_1_G3.crt",
+        "Size": 1923
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/QuoVadis_Root_CA_2.crt",
+        "Size": 2041
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/QuoVadis_Root_CA_2_G3.crt",
+        "Size": 1923
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/QuoVadis_Root_CA_3.crt",
+        "Size": 2354
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/QuoVadis_Root_CA_3_G3.crt",
+        "Size": 1923
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/S-TRUST_Universal_Root_CA.crt",
+        "Size": 1395
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/SZAFIR_ROOT_CA2.crt",
+        "Size": 1257
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/SecureSign_RootCA11.crt",
+        "Size": 1249
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/SecureTrust_CA.crt",
+        "Size": 1350
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Secure_Global_CA.crt",
+        "Size": 1354
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Security_Communication_EV_RootCA1.crt",
+        "Size": 1269
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Security_Communication_RootCA2.crt",
+        "Size": 1261
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Security_Communication_Root_CA.crt",
+        "Size": 1224
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Sonera_Class_2_Root_CA.crt",
+        "Size": 1143
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Staat_der_Nederlanden_EV_Root_CA.crt",
+        "Size": 1948
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Staat_der_Nederlanden_Root_CA_-_G2.crt",
+        "Size": 2069
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Staat_der_Nederlanden_Root_CA_-_G3.crt",
+        "Size": 1952
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Starfield_Class_2_CA.crt",
+        "Size": 1468
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Starfield_Root_Certificate_Authority_-_G2.crt",
+        "Size": 1399
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Starfield_Services_Root_Certificate_Authority_-_G2.crt",
+        "Size": 1424
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/SwissSign_Gold_CA_-_G2.crt",
+        "Size": 2045
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/SwissSign_Platinum_CA_-_G2.crt",
+        "Size": 2057
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/SwissSign_Silver_CA_-_G2.crt",
+        "Size": 2049
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Swisscom_Root_CA_2.crt",
+        "Size": 2090
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Symantec_Class_1_Public_Primary_Certification_Authority_-_G4.crt",
+        "Size": 981
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Symantec_Class_1_Public_Primary_Certification_Authority_-_G6.crt",
+        "Size": 1436
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Symantec_Class_2_Public_Primary_Certification_Authority_-_G4.crt",
+        "Size": 981
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Symantec_Class_2_Public_Primary_Certification_Authority_-_G6.crt",
+        "Size": 1436
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/T-TeleSec_GlobalRoot_Class_2.crt",
+        "Size": 1367
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/T-TeleSec_GlobalRoot_Class_3.crt",
+        "Size": 1367
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/TC_TrustCenter_Class_3_CA_II.crt",
+        "Size": 1679
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/TUBITAK_Kamu_SM_SSL_Kok_Sertifikasi_-_Surum_1.crt",
+        "Size": 1582
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/TURKTRUST_Certificate_Services_Provider_Root_2007.crt",
+        "Size": 1529
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/TWCA_Global_Root_CA.crt",
+        "Size": 1883
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/TWCA_Root_Certification_Authority.crt",
+        "Size": 1269
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Taiwan_GRCA.crt",
+        "Size": 1948
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/TeliaSonera_Root_CA_v1.crt",
+        "Size": 1870
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Trustis_FPS_Root_CA.crt",
+        "Size": 1241
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/TÜBİTAK_UEKAE_Kök_Sertifika_Hizmet_Sağlayıcısı_-_Sürüm_3.crt",
+        "Size": 1826
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/TÜRKTRUST_Elektronik_Sertifika_Hizmet_Sağlayıcısı_H5.crt",
+        "Size": 1501
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/USERTrust_ECC_Certification_Authority.crt",
+        "Size": 948
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/USERTrust_RSA_Certification_Authority.crt",
+        "Size": 2094
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/UTN_USERFirst_Email_Root_CA.crt",
+        "Size": 1667
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/VeriSign_Class_3_Public_Primary_Certification_Authority_-_G4.crt",
+        "Size": 1281
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/VeriSign_Class_3_Public_Primary_Certification_Authority_-_G5.crt",
+        "Size": 1732
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/VeriSign_Universal_Root_Certification_Authority.crt",
+        "Size": 1700
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Verisign_Class_1_Public_Primary_Certification_Authority_-_G3.crt",
+        "Size": 1484
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Verisign_Class_2_Public_Primary_Certification_Authority_-_G3.crt",
+        "Size": 1480
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Verisign_Class_3_Public_Primary_Certification_Authority_-_G3.crt",
+        "Size": 1484
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/Visa_eCommerce_Root.crt",
+        "Size": 1322
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/XRamp_Global_CA_Root.crt",
+        "Size": 1513
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/certSIGN_ROOT_CA.crt",
+        "Size": 1176
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/ePKI_Root_Certification_Authority.crt",
+        "Size": 2033
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/thawte_Primary_Root_CA.crt",
+        "Size": 1493
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/thawte_Primary_Root_CA_-_G2.crt",
+        "Size": 940
+      },
+      {
+        "Name": "/usr/share/ca-certificates/mozilla/thawte_Primary_Root_CA_-_G3.crt",
+        "Size": 1505
+      },
+      {
+        "Name": "/usr/share/man",
+        "Size": 0
+      },
+      {
+        "Name": "/usr/share/misc",
+        "Size": 0
+      },
+      {
+        "Name": "/usr/share/p11-kit",
+        "Size": 693
+      },
+      {
+        "Name": "/usr/share/p11-kit/modules",
+        "Size": 693
+      },
+      {
+        "Name": "/usr/share/p11-kit/modules/p11-kit-trust.module",
+        "Size": 693
+      },
+      {
+        "Name": "/var",
+        "Size": 17
+      },
+      {
+        "Name": "/var/cache",
+        "Size": 0
+      },
+      {
+        "Name": "/var/cache/apk",
+        "Size": 0
+      },
+      {
+        "Name": "/var/cache/misc",
+        "Size": 0
+      },
+      {
+        "Name": "/var/empty",
+        "Size": 0
+      },
+      {
+        "Name": "/var/lib",
+        "Size": 0
+      },
+      {
+        "Name": "/var/lib/apk",
+        "Size": 0
+      },
+      {
+        "Name": "/var/lib/misc",
+        "Size": 0
+      },
+      {
+        "Name": "/var/lib/udhcpd",
+        "Size": 0
+      },
+      {
+        "Name": "/var/local",
+        "Size": 0
+      },
+      {
+        "Name": "/var/lock",
+        "Size": 0
+      },
+      {
+        "Name": "/var/lock/subsys",
+        "Size": 0
+      },
+      {
+        "Name": "/var/log",
+        "Size": 0
+      },
+      {
+        "Name": "/var/opt",
+        "Size": 0
+      },
+      {
+        "Name": "/var/run",
+        "Size": 4
+      },
+      {
+        "Name": "/var/spool",
+        "Size": 13
+      },
+      {
+        "Name": "/var/spool/cron",
+        "Size": 13
+      },
+      {
+        "Name": "/var/spool/cron/crontabs",
+        "Size": -1
+      },
+      {
+        "Name": "/var/tmp",
+        "Size": 0
+      }
+    ]
+  }
+]

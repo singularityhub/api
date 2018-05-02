@@ -1,0 +1,30 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap: docker\nFrom: tensorflow/tensorflow:1.7.0-devel-gpu\n\n%help\nUbuntu16.04 with root v06.08.06 cuda9 cudnn7\nML/DL packages  : tensorflow keras torch sc-learn\nSci.  packages  : numpy pandas sc-image matplotlib\nBasic python    : ipython jupyter yaml pygments six zmq wheel h5py tqdm\nDevelopment kit : g++/gcc cython nvcc libqt4-dev python-dev\nUtility kit     : git wget emacs vim\n\nTo start your container simply try\nsingularity exec THIS_CONTAINER.simg bash\n\nTo use GPUs, try\nsingularity exec --nv THIS_CONTAINER.simg bash\n\n%labels\nMaintainer drinkingkazu\nVersion ubuntu16.04-root06.08.06-gpu\n\n#------------\n# Global installation\n#------------\n%environment\n    # for system\n    export XDG_RUNTIME_DIR=/tmp/$USER\n    # for ROOT\n    export ROOTSYS=/usr/local/root\n    export PATH=${ROOTSYS}/bin:${PATH}\n    export LD_LIBRARY_PATH=/usr/local/cuda/lib64:/usr/local/cuda/lib64/stubs:${ROOTSYS}/lib:${LD_LIBRARY_PATH}\n    export PYTHONPATH=${ROOTSYS}/lib:${PYTHONPATH}\n    export CUDA_DEVICE_ORDER=PCI_BUS_ID\n\n%post\n\n    # apt-get\n    apt-get -y update\n    apt-get -y install dpkg-dev g++ gcc binutils libqt4-dev python-dev python-tk python-pip git wget emacs vim\n\n    # asciinema\n    apt-get -y install software-properties-common python-software-properties\n    apt-add-repository -y ppa:zanchey/asciinema\n    apt-get -y update\n    apt-get -y install asciinema\n    apt-get -y install libhdf5-dev\n\n    # ROOT    \n    wget https://root.cern.ch/download/root_v6.08.06.Linux-ubuntu16-x86_64-gcc5.4.tar.gz\n    tar -xzf root_v6.08.06.Linux-ubuntu16-x86_64-gcc5.4.tar.gz\n    rm root_v6.08.06.Linux-ubuntu16-x86_64-gcc5.4.tar.gz\n    mv root /usr/local/root\n    export ROOTSYS=/usr/local/root\n    export PATH=${ROOTSYS}/bin:${PATH}\n    export LD_LIBRARY_PATH=${ROOTSYS}/lib:${LD_LIBRARY_PATH}\n    export PYTHONPATH=${ROOTSYS}/lib:${PYTHONPATH}\n\n    # pip basics\n    pip --no-cache-dir install --upgrade setuptools pip\n    pip --no-cache-dir install numpy wheel zmq six pygments pyyaml cython gputil psutil humanize h5py tqdm\n    pip --no-cache-dir install matplotlib pandas scikit-image scikit-learn Pillow opencv-python\n    pip --no-cache-dir install 'ipython<6.0'\n    pip --no-cache-dir install jupyter notebook\n    # tensorflow\n    #pip --no-cache-dir install --upgrade 'tensorflow-gpu<1.5'\n    #pip --no-cache-dir install --upgrade tensorflow-gpu\n    #pip --no-cache-dir install tensorboard\n    # keras\n    pip --no-cache-dir install keras\n    # torch\n    #pip --no-cache-dir install http://download.pytorch.org/whl/cu90/torch-0.3.0.post4-cp27-cp27mu-linux_x86_64.whl \n    pip --no-cache-dir install http://download.pytorch.org/whl/cu90/torch-0.3.1-cp27-cp27mu-linux_x86_64.whl \n    pip --no-cache-dir install torchvision\n",
+            "help": "\n\nUbuntu16.04 with root v06.08.06 cuda9 cudnn7\nML/DL packages  : tensorflow keras torch sc-learn\nSci.  packages  : numpy pandas sc-image matplotlib\nBasic python    : ipython jupyter yaml pygments six zmq wheel h5py tqdm\nDevelopment kit : g++/gcc cython nvcc libqt4-dev python-dev\nUtility kit     : git wget emacs vim\n\nTo start your container simply try\nsingularity exec THIS_CONTAINER.simg bash\n\nTo use GPUs, try\nsingularity exec --nv THIS_CONTAINER.simg bash\n\n",
+            "labels": {
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "maintainer": "Craig Citro <craigcitro@google.com>",
+                "org.label-schema.usage.singularity.deffile": "Singularity.ubuntu16.04-gpu",
+                "org.label-schema.usage": "/.singularity.d/runscript.help",
+                "org.label-schema.schema-version": "1.0",
+                "com.nvidia.cuda.version": "9.0.176",
+                "VERSION": "ubuntu16.04-root06.08.06-gpu",
+                "org.label-schema.usage.singularity.deffile.from": "tensorflow/tensorflow:1.7.0-devel-gpu",
+                "com.nvidia.build.id": "59605049",
+                "org.label-schema.build-date": "Thu,_05_Apr_2018_05:40:14_+0000",
+                "com.nvidia.build.ref": "648df373876aa8b52177689ec76913abb3bbc080",
+                "org.label-schema.usage.singularity.runscript.help": "/.singularity.d/runscript.help",
+                "MAINTAINER": "drinkingkazu",
+                "com.nvidia.volumes.needed": "nvidia_driver",
+                "org.label-schema.build-size": "5494MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n    # for system\n    export XDG_RUNTIME_DIR=/tmp/$USER\n    # for ROOT\n    export ROOTSYS=/usr/local/root\n    export PATH=${ROOTSYS}/bin:${PATH}\n    export LD_LIBRARY_PATH=/usr/local/cuda/lib64:/usr/local/cuda/lib64/stubs:${ROOTSYS}/lib:${LD_LIBRARY_PATH}\n    export PYTHONPATH=${ROOTSYS}/lib:${PYTHONPATH}\n    export CUDA_DEVICE_ORDER=PCI_BUS_ID\n\n",
+            "runscript": "#!/bin/sh\n\nexec \"/bin/bash\" \"$@\"\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}
