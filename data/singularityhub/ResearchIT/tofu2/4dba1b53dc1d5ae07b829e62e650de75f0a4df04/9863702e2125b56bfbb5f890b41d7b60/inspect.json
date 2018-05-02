@@ -1,0 +1,21 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap: docker\nFrom: ubuntu\n\n%environment\n    PATH=$PATH:/root/tofu2/pitchfork/bin:/root/tofu2/pitchfork/cDNA_Cupcake/sequence\n    LD_LIBRARY_PATH=/root/tofu2/pitchfork/lib:$LD_LIBRARY_PATH\n    export PATH\n    export LD_LIBRARY_PATH\n\n%post\n    apt-get update && apt-get -y install git wget minimap python python-dev python-biopython python-setuptools graphviz gcc gfortran make pkg-config libjpeg-dev libfreetype6-dev python-networkx time\n    git clone https://github.com/PacificBiosciences/pitchfork.git\n    cd pitchfork\n    git checkout isoseq_sa5.0.0\n    cat settings.mk.example > settings.mk\n    make init\n    make isoseq-core\n    git clone https://github.com/Magdoll/cDNA_Cupcake.git\n    cd cDNA_Cupcake\n    git checkout -b tofu2 tofu2_v17\n    python setup.py build\n    python setup.py install\n\n%runscript\n    exec echo \"$@\"\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "org.label-schema.usage.singularity.deffile": "Singularity.v17",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.from": "ubuntu",
+                "org.label-schema.build-date": "Wed,_10_Jan_2018_22:59:16_+0000",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "org.label-schema.build-size": "6185MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n    PATH=$PATH:/root/tofu2/pitchfork/bin:/root/tofu2/pitchfork/cDNA_Cupcake/sequence\n    LD_LIBRARY_PATH=/root/tofu2/pitchfork/lib:$LD_LIBRARY_PATH\n    export PATH\n    export LD_LIBRARY_PATH\n\n",
+            "runscript": "#!/bin/sh \n\n    exec echo \"$@\"\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

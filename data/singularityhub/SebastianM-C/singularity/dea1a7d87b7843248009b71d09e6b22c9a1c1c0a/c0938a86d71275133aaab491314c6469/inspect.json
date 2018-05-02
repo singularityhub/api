@@ -1,0 +1,21 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap: docker\nFrom: ubuntu\n\n\n%runscript\n\n        exec /opt/intel/intelpython3/bin/python \"$@\"\n\n%post\n\n        apt-get update\n      \tapt-get install -y wget libncurses5 libncurses5-dev libncursesw5\n      \tapt-get install -y dvipng\n        apt-get install -y texlive texlive-latex-extra\n      \twget https://apt.repos.intel.com/intel-gpg-keys/GPG-PUB-KEY-INTEL-SW-PRODUCTS-2019.PUB\n      \tapt-key add GPG-PUB-KEY-INTEL-SW-PRODUCTS-2019.PUB\n      \t# wget https://apt.repos.intel.com/setup/intelproducts.list -O /etc/apt/sources.list.d/intelproducts.list\n      \tapt-get update\n      \t# apt-get install -y intel-mkl-64bit-2018.1-038\n        # apt-get install -y intel-ipp-64bit-2018.1-038\n      \t# apt-get install -y intel-tbb-2018.0-033\n      \t# apt-get install -y intel-daal-64bit-2018.1-038\n      \t# apt-get install -y intelpython3\n        # Workaround\n        wget https://apt.repos.intel.com/intelpython/binary/intelpython3-2018.1-023_amd64.deb\n        dpkg -i ./intelpython3-2018.1-023_amd64.deb\n        rm ./intelpython3-2018.1-023_amd64.deb\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "org.label-schema.usage.singularity.deffile": "Singularity.python",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.from": "ubuntu",
+                "org.label-schema.build-date": "Mon,_01_Jan_2018_20:23:42_+0000",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.gaa08d4d",
+                "org.label-schema.build-size": "6881MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n",
+            "runscript": "#!/bin/sh \n\n\n        exec /opt/intel/intelpython3/bin/python \"$@\"\n\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "BootStrap: yum\nOSVersion: 7\nMirrorURL: http://mirror.centos.org/centos-%{OSVERSION}/%{OSVERSION}/os/$basearch/\nInclude: yum\n\n# If you want the updates (available at the bootstrap date) to be installed\n# inside the container during the bootstrap instead of the General Availability\n# point release (7.x) then uncomment the following line\n#UpdateURL: http://mirror.centos.org/centos-%{OSVERSION}/%{OSVERSION}/updates/$basearch/\n\n%environment\nPATH=/usr/lib64/openmpi/bin/:$PATH\nexport PATH\n\n%runscript\nnwchem_openmpi \"$@\"\n\n%post\n yum -y install epel-release\n yum -y install nwchem nwchem-openmpi nwchem-common ga-openmpi\n echo 'export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib64/openmpi/lib/' >> /usr/share/nwchem/nwchem.sh\n ln -s /usr/lib64/openmpi/lib/libmpi_mpifh.so.12.0.1 /usr/lib64/openmpi/lib/libmpi_f77.so.1\n ln -s /usr/lib64/openmpi/lib/libmpi_mpifh.so.12.0.1 /usr/lib64/openmpi/lib/libmpi_f90.so.1\n ln -s /usr/lib64/openmpi/lib/libmpi.so.12.0.6 /usr/lib64/openmpi/lib/libmpi.so.1\n echo \"source /usr/share/nwchem/nwchem.sh\" >> /environment\n mkdir /scratch\n\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "yum",
+                "org.label-schema.usage.singularity.deffile": "Singularity.6.6-openmpi",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.include": "yum",
+                "org.label-schema.build-date": "Thu,_07_Dec_2017_12:55:51_+0000",
+                "org.label-schema.usage.singularity.deffile.mirrorurl": "http://mirror.centos.org/centos-%{OSVERSION}/%{OSVERSION}/os/$basearch/",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.gaa08d4d",
+                "org.label-schema.build-size": "811MB",
+                "org.label-schema.usage.singularity.deffile.osversion": "7"
+            },
+            "environment": "# Custom environment shell code should follow\n\nPATH=/usr/lib64/openmpi/bin/:$PATH\nexport PATH\n\nsource /usr/share/nwchem/nwchem.sh\n",
+            "runscript": "#!/bin/sh \n\nnwchem_openmpi \"$@\"\n\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap: docker\nFrom: zhanglab/atac-seq:mm10\nIncludeCmd: yes\n\n\n\n%runscript\ncd /scratch \\\n\t&& bash /atac_seq/pipe_code/atac_v1.1a.sh $@\n\n\n%post\napt-get update && apt-get install -y locales\nlocale-gen en_US.UTF-8\napt-get install -y debconf\ndpkg-reconfigure locales\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "org.label-schema.usage.singularity.deffile": "Singularity.mm10",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.includecmd": "yes",
+                "org.label-schema.usage.singularity.deffile.from": "zhanglab/atac-seq:mm10",
+                "org.label-schema.build-date": "2018-04-12T18:21:48+00:00",
+                "org.label-schema.usage.singularity.version": "2.4-feature-squashbuild-secbuild.g818b648",
+                "org.label-schema.build-size": "10225MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n",
+            "runscript": "#!/bin/sh \n\ncd /scratch \\\n\t&& bash /atac_seq/pipe_code/atac_v1.1a.sh $@\n\n\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

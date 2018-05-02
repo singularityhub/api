@@ -1,0 +1,26 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap:docker\nFrom:centos:7\n\n%labels\nMAINTAINER baber@iastate.edu\nspack\n\n%environment\nSPACK_ROOT=/opt/spack\nexport SPACK_ROOT\nexport PATH=$SPACK_ROOT/bin:$PATH\nsource /etc/profile.d/modules.sh\nsource $SPACK_ROOT/share/spack/setup-env.sh\n\n%post\nexport SPACK_ROOT=/opt/spack\nexport SPACK_ROOT\nexport PATH=$SPACK_ROOT/bin:$PATH\n\n#spack dependencies\nyum -y install git python \\\ngcc gcc-c++ gcc-gfortran curl \\\ngnupg2 sed patch \\\nunzip gzip bzip2 \\\nfindutils make vim \\\nenvironment-modules\n\nyum clean all\n\n#get spack\ngit clone https://github.com/spack/spack.git $SPACK_ROOT\n\n#setup compilers.yaml\nspack compiler find --scope system $(which gcc)\nspack compiler find --scope system $(which g++)\nspack compiler find --scope system $(which gfortran)\n\n#setup modules config file\necho \"modules:\" >> /opt/spack/etc/spack/modules.yaml\necho \"  tcl:\" >> /opt/spack/etc/spack/modules.yaml\necho \"    naming_scheme: '\\${PACKAGE}/\\${VERSION}'\" >> /opt/spack/etc/spack/modules.yaml\n\nsource $SPACK_ROOT/share/spack/setup-env.sh\n\n%runscript\nspack help\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "MAINTAINER": "baber@iastate.edu",
+                "name": "CentOS Base Image",
+                "license": "GPLv2",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.from": "centos:7",
+                "org.label-schema.build-date": "Wed,_21_Mar_2018_17:00:11_+0000",
+                "vendor": "CentOS",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "build-date": "20180302",
+                "org.label-schema.build-size": "459MB",
+                "org.label-schema.usage.singularity.deffile": "Singularity.spack"
+            },
+            "environment": "# Custom environment shell code should follow\n\nSPACK_ROOT=/opt/spack\nexport SPACK_ROOT\nexport PATH=$SPACK_ROOT/bin:$PATH\nsource /etc/profile.d/modules.sh\nsource $SPACK_ROOT/share/spack/setup-env.sh\n\n",
+            "runscript": "#!/bin/sh \n\nspack help\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

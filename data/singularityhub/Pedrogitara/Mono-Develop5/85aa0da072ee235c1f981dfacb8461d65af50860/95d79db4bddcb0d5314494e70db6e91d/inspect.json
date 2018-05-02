@@ -1,0 +1,22 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "BootStrap: debootstrap\nOSVersion: xenial\nMirrorURL: http://us.archive.ubuntu.com/ubuntu/\n\n\n%post\n    echo \"Witaj wewn\u0105trz kontenera, trwa konfiguracja \u015brodowiska...\"\n    sed -i 's/$/ universe/' /etc/apt/sources.list\n    apt-get -y update\n    apt-get -y upgrade\n    apt-get -y install linux-headers-* && apt-get -y install build-essential\n    apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys 3FA7E0328081BFF6A14DA29AA6A19B38D3D831EF\n    apt-get -y install apt-transport-https\n    echo \"deb https://download.mono-project.com/repo/ubuntu stable-xenial main\" | tee /etc/apt/sources.list.d/mono-official-stable.list\n    apt-get -y update\n    apt-get -y --force-yes autoremove\n    apt-get -y install mono-complete monodevelop\n    apt-get -y install ca-certificates-mono mono-xsp4 referenceassemblies-pcl mono-dbg\n    apt-get -y install libunwind8\n    \n    # Puste katalogi\n    cd /\n    mkdir apl\n    mkdir users\n    mkdir scratch\n\n\n%runscript\n    echo \"Uruchamianie MonoDevelop GUI...\"\n    monodevelop\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "debootstrap",
+                "org.label-schema.usage.singularity.deffile": "Singularity_Mono_Develop5",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.osversion": "xenial",
+                "org.label-schema.build-date": "Tue,_24_Apr_2018_12:03:42_+0000",
+                "org.label-schema.usage.singularity.deffile.mirrorurl": "http://us.archive.ubuntu.com/ubuntu/",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "org.label-schema.build-size": "1704MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n",
+            "runscript": "#!/bin/sh \n\n    echo \"Uruchamianie MonoDevelop GUI...\"\n    monodevelop\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

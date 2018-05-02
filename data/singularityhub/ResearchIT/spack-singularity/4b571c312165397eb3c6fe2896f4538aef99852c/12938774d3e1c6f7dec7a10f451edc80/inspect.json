@@ -1,0 +1,26 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap:shub\nFrom:ResearchIT/spack-singularity:spack\n\n%labels\nMAINTAINER baber@iastate.edu\n\n%environment\nsource /etc/profile.d/modules.sh\nmodule load openmpi\n\n%post\nexport SPACK_ROOT=/opt/spack\nexport SPACK_ROOT\nexport PATH=$SPACK_ROOT/bin:$PATH\n\nsource $SPACK_ROOT/share/spack/setup-env.sh\n\nspack install openmpi schedulers=slurm\n\n%runscript\nexec mpirun \"$@\"\n\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "shub",
+                "MAINTAINER": "baber@iastate.edu",
+                "name": "CentOS Base Image",
+                "license": "GPLv2",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.from": "ResearchIT/spack-singularity:spack",
+                "org.label-schema.build-date": "Wed,_21_Mar_2018_16:52:24_+0000",
+                "vendor": "CentOS",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "build-date": "20180302",
+                "org.label-schema.build-size": "694MB",
+                "org.label-schema.usage.singularity.deffile": "Singularity.openmpi"
+            },
+            "environment": "# Custom environment shell code should follow\n\nSPACK_ROOT=/opt/spack\nexport SPACK_ROOT\nexport PATH=$SPACK_ROOT/bin:$PATH\nsource /etc/profile.d/modules.sh\nsource $SPACK_ROOT/share/spack/setup-env.sh\n\nsource /etc/profile.d/modules.sh\nmodule load openmpi\n\n",
+            "runscript": "#!/bin/sh \n\nexec mpirun \"$@\"\n\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

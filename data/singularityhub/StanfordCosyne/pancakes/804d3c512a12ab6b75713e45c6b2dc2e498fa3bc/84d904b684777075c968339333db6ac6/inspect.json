@@ -1,0 +1,28 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap: docker\nFROM: centos:7\n\n%labels\n    Maintainer Vanessa Sochat\n    Version v0.1\n    MatlabVersion R2017b\n\n%post\n   echo \"Installing Matlab Runtime 2017b\"\n   yum update -y\n   yum install wget unzip libXext libXt-devel libXmu mesa-libGL -y\n   mkdir mcr-install\n   wget -P mcr-install http://ssd.mathworks.com/supportfiles/downloads/R2017b/deployment_files/R2017b/installers/glnxa64/MCR_R2017b_glnxa64_installer.zip\n   cd mcr-install\n   unzip MCR_R2017b_glnxa64_installer.zip\n   ./install -mode silent -agreeToLicense yes\n   cd ..\n   rm -rf mcr-install\n   yum clean all\n\n%environment\n    LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/MATLAB/MATLAB_Runtime/v93/runtime/glnxa64:/usr/local/MATLAB/MATLAB_Runtime/v93/bin/glnxa64:/usr/local/MATLAB/MATLAB_Runtime/v93/sys/os/glnxa64:/usr/local/MATLAB/MATLAB_Runtime/v93/sys/java/jre/glnxa64/jre/lib/amd64/native_threads:/usr/local/MATLAB/MATLAB_Runtime/v93/sys/java/jre/glnxa64/jre/lib/amd64/server:/usr/local/MATLAB/MATLAB_Runtime/v93/sys/java/jre/glnxa64/jre/lib/amd64\n    XAPPLRESDIR=/usr/local/MATLAB/MATLAB_Runtime/v93/X11/app-defaults\n    MCR_CACHE_VERBOSE=true\n    MCR_CACHE_ROOT=/tmp\n    export LD_LIBRARY_PATH XAPPLRESDIR MCR_CACHE_VERBOSE MCR_CACHE_ROOT\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "vendor": "CentOS",
+                "name": "CentOS Base Image",
+                "license": "GPLv2",
+                "org.label-schema.schema-version": "1.0",
+                "MATLABVERSION": "R2017b",
+                "VERSION": "v0.1",
+                "org.label-schema.usage.singularity.deffile.from": "centos:7",
+                "org.label-schema.build-date": "Sat,_03_Feb_2018_22:00:35_+0000",
+                "MAINTAINER": "Vanessa Sochat",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "build-date": "20180107",
+                "org.label-schema.build-size": "3596MB",
+                "org.label-schema.usage.singularity.deffile": "Singularity.matlab"
+            },
+            "environment": "# Custom environment shell code should follow\n\n    LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/MATLAB/MATLAB_Runtime/v93/runtime/glnxa64:/usr/local/MATLAB/MATLAB_Runtime/v93/bin/glnxa64:/usr/local/MATLAB/MATLAB_Runtime/v93/sys/os/glnxa64:/usr/local/MATLAB/MATLAB_Runtime/v93/sys/java/jre/glnxa64/jre/lib/amd64/native_threads:/usr/local/MATLAB/MATLAB_Runtime/v93/sys/java/jre/glnxa64/jre/lib/amd64/server:/usr/local/MATLAB/MATLAB_Runtime/v93/sys/java/jre/glnxa64/jre/lib/amd64\n    XAPPLRESDIR=/usr/local/MATLAB/MATLAB_Runtime/v93/X11/app-defaults\n    MCR_CACHE_VERBOSE=true\n    MCR_CACHE_ROOT=/tmp\n    export LD_LIBRARY_PATH XAPPLRESDIR MCR_CACHE_VERBOSE MCR_CACHE_ROOT\n",
+            "runscript": "#!/bin/sh\n\nexec \"/bin/bash\" \"$@\"\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

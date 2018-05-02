@@ -1,0 +1,21 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap: docker\nFrom: fedora:latest\n\n%environment\n\tJULIA_PKGDIR=/mnt/singularity/.julia\n\texport JULIA_PKGDIR\n\n%runscript\n\texport JULIA_NUM_THREADS=\"$(( `nproc` / 2 ))\"\n\texec /usr/bin/julia \"$@\"\n\n%post\n\tyum -y groupinstall \"Development Tools\"\n\tyum -y install which bzip2\n\tyum -y install gcc gcc-c++ make cmake openmpi openmpi-devel\n\tyum -y install yum-utils\n\tdnf -y install copr-cli\n\tdnf -y install dnf-plugins-core\n\tdnf -y copr enable dperson/neovim\n\tdnf -y install neovim\n\techo \"Installing LaTeX\"\n\tyum -y install texlive-scheme-gust\n\tyum -y install texlive-scheme-tetex\n\tyum -y install texlive-collection-latexextra\n\tyum -y install texlive-collection-genericextra\n\tyum -y install texlive-collection-publishers\n\tyum -y install texlive-collection-mathextra\n\tyum -y install texlive-collection-pictures\n\tyum -y install texlive-collection-science\n\tyum -y install texlive-ctablestack\n\tyum -y install texlive-collection-luatex\n\techo \"Installing Python\"\n\tdnf -y install python3-numpy python3-scipy python3-matplotlib python3-ipython python3-pandas python3-sympy python3-nose atlas-devel notebook\n\tdnf -y install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm\n\tdnf -y install ffmpeg\n\techo \"Installing julia\"\n\tdnf -y copr enable nalimilan/julia\n\tyum -y install julia\n\tyum -y install cairo gtk3 ImageMagick\n\tyum -y install hdf5\n\tdnf -y install czmq-devel\n\tyum -y install pdf2svg\n\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "org.label-schema.usage.singularity.deffile": "Singularity",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.from": "fedora:latest",
+                "org.label-schema.build-date": "Mon,_01_Jan_2018_19:47:37_+0000",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.gaa08d4d",
+                "org.label-schema.build-size": "4169MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n\tJULIA_PKGDIR=/mnt/singularity/.julia\n\texport JULIA_PKGDIR\n\n",
+            "runscript": "#!/bin/sh \n\n\texport JULIA_NUM_THREADS=\"$(( `nproc` / 2 ))\"\n\texec /usr/bin/julia \"$@\"\n\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

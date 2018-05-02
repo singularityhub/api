@@ -1,0 +1,26 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap: shub\nFrom: ResearchComputing/singularity-slurm-base\n\n%labels\n  AUTHOR sampedro@colorado.edu\n\n%environment\n  export SPARK_VERSION=2.2.1\n  export SPARK_HOME=/opt/spark/spark-${SPARK_VERSION}-bin-hadoop2.7\n  export PATH=$SPARK_HOME/bin:$PATH\n  export PYTHONPATH=$SPARK_HOME/python/pyspark:$PYTHONPATH\n  export PYSPARK_DRIVER_PYTHON=jupyter\n  export PYSPARK_DRIVER_PYTHON_OPTS='notebook'\n  export JUPYTER_DATA_DIR=$HOME/.singularity-jupyter\n\n%post\n  SPARK_VERSION=2.2.1\n  SPARK_HOME=/opt/spark\n  yum -y update\n  yum -y install epel-release\n  yum -y groupinstall 'Development Tools'\n  yum -y install wget python34-devel python34-pip\n  # Install Java JDK 8\n  mkdir --parents /opt/java && cd /opt/java\n  wget --no-cookies --no-check-certificate --header \"Cookie: gpw_e24=http%3A%2F%2Fwww.oracle.com%2F; oraclelicense=accept-securebackup-cookie\" \"http://download.oracle.com/otn-pub/java/jdk/8u161-b12/2f38c3b165be4555a1fa6e98c45e0808/jdk-8u161-linux-x64.rpm\"\n  yum -y localinstall *.rpm\n  # Install Jupyter\n  pip3 install --upgrade pip\n  pip3 install jupyterhub==0.7.2\n  pip3 install --upgrade notebook\n  pip3 install findspark\n  # Install spark\n  mkdir --parents $SPARK_HOME && cd $SPARK_HOME\n  wget http://apache.claz.org/spark/spark-${SPARK_VERSION}/spark-${SPARK_VERSION}-bin-hadoop2.7.tgz\n  tar -xzf spark-${SPARK_VERSION}-bin-hadoop2.7.tgz\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "shub",
+                "vendor": "CentOS",
+                "name": "CentOS Base Image",
+                "license": "GPLv2",
+                "AUTHOR": "sampedro@colorado.edu",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.from": "ResearchComputing/singularity-slurm-base",
+                "org.label-schema.build-date": "Fri,_06_Apr_2018_20:17:53_+0000",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "build-date": "20180107",
+                "org.label-schema.build-size": "2207MB",
+                "org.label-schema.usage.singularity.deffile": "Singularity"
+            },
+            "environment": "# Custom environment shell code should follow\n\n  export SPARK_VERSION=2.2.1\n  export SPARK_HOME=/opt/spark/spark-${SPARK_VERSION}-bin-hadoop2.7\n  export PATH=$SPARK_HOME/bin:$PATH\n  export PYTHONPATH=$SPARK_HOME/python/pyspark:$PYTHONPATH\n  export PYSPARK_DRIVER_PYTHON=jupyter\n  export PYSPARK_DRIVER_PYTHON_OPTS='notebook'\n  export JUPYTER_DATA_DIR=$HOME/.singularity-jupyter\n\n",
+            "runscript": "#!/bin/sh\n\nexec \"/bin/bash\" \"$@\"\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

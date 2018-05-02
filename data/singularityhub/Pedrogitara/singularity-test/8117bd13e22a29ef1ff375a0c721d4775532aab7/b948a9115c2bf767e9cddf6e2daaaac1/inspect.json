@@ -1,0 +1,22 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "BootStrap: debootstrap\nOSVersion: xenial\nMirrorURL: http://us.archive.ubuntu.com/ubuntu/\n\n\n%runscript\n    echo \"This is what happens when you run the container...\"\n\n\n%post\n    echo \"Hello from inside the container\"\n    sed -i 's/$/ universe/' /etc/apt/sources.list\n    apt-get -y --force-yes update\n    apt-get -y --force-yes upgrade\n    apt-get -y --force-yes install linux-headers-* && apt-get -y install build-essential\n    apt-get -y --force-yes install git libsm6 libxext6 libxt* libglfw3-dev\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "debootstrap",
+                "org.label-schema.usage.singularity.deffile": "Singularity_OpenFOAM",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.osversion": "xenial",
+                "org.label-schema.build-date": "Fri,_06_Apr_2018_13:42:59_+0000",
+                "org.label-schema.usage.singularity.deffile.mirrorurl": "http://us.archive.ubuntu.com/ubuntu/",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "org.label-schema.build-size": "942MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n",
+            "runscript": "#!/bin/sh \n\n    echo \"This is what happens when you run the container...\"\n\n\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

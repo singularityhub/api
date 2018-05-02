@@ -1,0 +1,25 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap: docker\nFrom: centos:7.3.1611\n\n%runscript\n\n   #\"I can put here whatever I want to happen by default when the user runs the container\"\n   cat << EOF\nThis container includes the following apps:\nSTAR version 2.5.2b - https://github.com/alexdobin/STAR\nHTSeq version 0.6.1p1 - http://www-huber.embl.de/HTSeq/\nPysam version 0.9.0 - https://github.com/pysam-developers/pysam\nTo execute a binary inside the container do \"singularity exec /path/to/container.img binary-name\"\nEOF\n\n%post\n\n   echo \"Here we are installing software and other dependencies for the container!\"\n\n   echo \"Installing STAR\"\n   yum -y install make gcc gcc-c++ zlib-devel\n   cd /usr/local/src/\n   curl -o STAR-2.5.2b.tar.gz  https://codeload.github.com/alexdobin/STAR/tar.gz/2.5.2b\n   tar xf STAR-2.5.2b.tar.gz\n   cd /usr/local/src/STAR-2.5.2b/source\n   make STAR && make STARlong\n   cp /usr/local/src/STAR-2.5.2b/source/{STAR,STARlong} /usr/local/bin\n\n   echo \"Installing HTSeq and Pysam\"\n   yum -y install epel-release\n   yum -y install make gcc gcc-c++ zlib-devel python-devel python-pip numpy\n   pip install HTSeq==0.6.1p1\n   pip install Pysam==0.9.0\n\n   yum clean all\n\n%apprun STAR\n%apprun htseq-count\n\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "vendor": "CentOS",
+                "name": "CentOS Base Image",
+                "license": "GPLv2",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.from": "centos:7.3.1611",
+                "org.label-schema.build-date": "Tue,_06_Mar_2018_14:11:48_+0000",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "build-date": "20161214",
+                "org.label-schema.build-size": "425MB",
+                "org.label-schema.usage.singularity.deffile": "Singularity"
+            },
+            "environment": "# Custom environment shell code should follow\n\n",
+            "runscript": "#!/bin/sh \n\n\n   #\"I can put here whatever I want to happen by default when the user runs the container\"\n   cat << EOF\nThis container includes the following apps:\nSTAR version 2.5.2b - https://github.com/alexdobin/STAR\nHTSeq version 0.6.1p1 - http://www-huber.embl.de/HTSeq/\nPysam version 0.9.0 - https://github.com/pysam-developers/pysam\nTo execute a binary inside the container do \"singularity exec /path/to/container.img binary-name\"\nEOF\n\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

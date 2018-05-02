@@ -1,0 +1,21 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "BootStrap: docker\nFrom: osrf/ros:indigo-desktop-full-trusty\n\n\n%runscript\n    bash\n\n%post\n    export LANG=C.UTF-8 \n    export LC_ALL=C.UTF-8\n    apt-get update && apt-get install -y --no-install-recommends \\\n    libreadline6 \\\n    libreadline6-dev \\\n    libncurses5-dev \\\n    libgmp3-dev \\\n    libgsl0-dev \\\n    libgsl0ldbl \\\n    libboost-all-dev \\\n    libnss3 \\\n    build-essential \\\n    gdb \\\n    wget \\\n    vim \\\n    && rm -rf /var/lib/apt/lists/*\n    cd /bin\n    wget http://www.dcc.fc.up.pt/~vsc/Yap/yap-6.2.2.tar.gz\n    tar -xzvf /bin/yap-6.2.2.tar.gz \\\n    && mkdir -p /bin/yap-6.2.2/arch\n    cd /bin/yap-6.2.2/arch\n    ../configure --enable-tabling=yes --enable-dynamic-loading \\\n    && make \\\n    && make install \\\n    && make install_library \\\n    && mkdir -p /bin/rg_ws/src\n    export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib:/usr/local/lib\n\n%environment\n    LANG=C.UTF-8\n    LC_ALL=C.UTF-8\n    LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib:/usr/local/lib\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "org.label-schema.usage.singularity.deffile": "Singularity",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.from": "osrf/ros:indigo-desktop-full-trusty",
+                "org.label-schema.build-date": "Tue,_06_Feb_2018_10:45:37_+0000",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "org.label-schema.build-size": "2365MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n    LANG=C.UTF-8\n    LC_ALL=C.UTF-8\n    LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/lib:/usr/local/lib\n",
+            "runscript": "#!/bin/sh \n\n    bash\n\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

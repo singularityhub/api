@@ -1,0 +1,24 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "# Ubuntu 14.04 based container with ROOT 5 (with Pythia 6)\n# used for NuWro builds to avoid compiling ROOT 5 every time \n\nBootStrap: docker\nFrom: ubuntu:14.04\n\n%labels\nMaintainer tomasz.golan@gmail.com\nOS Ubuntu14.04\nROOT 5.34/36\n\n%environment\n    export ROOTSYS=/opt/root/\n    export PATH=$PATH:$ROOTSYS/bin/\n    export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$ROOTSYS/lib/\n\n%post\n    ##### INSTALL ALL DEPENDENCIES #####\n\n    apt update && apt install -y --no-install-recommends \\\n        binutils \\\n        ca-certificates \\\n        cmake \\\n        dpkg-dev \\\n        g++ \\\n        gcc \\\n        gfortran \\\n        git \\\n        graphviz-dev \\\n        libavahi-compat-libdnssd-dev \\\n        libfftw3-dev \\\n        libftgl-dev \\\n        libglew1.5-dev \\\n        libgsl0-dev \\\n        libkrb5-dev \\\n        libldap2-dev \\\n        libmysqlclient-dev \\\n        libpcre3-dev \\\n        libqt4-dev \\\n        libssl-dev \\\n        libx11-dev \\\n        libxext-dev \\\n        libxft-dev \\\n        libxml2-dev \\\n\tlibxml2-utils \\\n        libxpm-dev \\\n        python-dev \\\n        xlibmesa-glu-dev \\\n        wget\n\n    # clean after apt\n    rm -rf /var/lib/apt/lists/*\n\n    # create g77 symbolic link for pythia installer\n    ln -s /usr/bin/gfortran /usr/bin/g77\n    \n    ##### INSTALL ROOT with PYTHIA #####\n    \n    # get ROOT\n    cd /opt/\n    wget https://root.cern.ch/download/root_v5.34.36.source.tar.gz\n    tar -zxf root_v5.34.36.source.tar.gz\n    rm root_v5.34.36.source.tar.gz\n\n    # get PYTHIA\n    wget http://neutrino.ift.uni.wroc.pl/files/pythia6.tar.gz\n    tar -zxf pythia6.tar.gz\n    rm pythia6.tar.gz\n    cd pythia6 && ./makePythia6.linux && cd ..\n    mkdir root/lib\n    mv pythia6/libPythia6.so root/lib\n    rm -rf pythia6\n\n    # compile ROOT\n    cd root && ./configure --with-pythia6-libdir=lib --enable-builtin-freetype\n    make\n",
+            "help": null,
+            "labels": {
+                "OS": "Ubuntu14.04",
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "MAINTAINER": "tomasz.golan@gmail.com",
+                "org.label-schema.usage.singularity.deffile": "Singularity.root5",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.from": "ubuntu:14.04",
+                "org.label-schema.build-date": "2017-12-20T10:09:42+00:00",
+                "org.label-schema.usage.singularity.version": "2.4-feature-squashbuild-secbuild.g818b648",
+                "ROOT": "5.34/36",
+                "org.label-schema.build-size": "1388MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n    export ROOTSYS=/opt/root/\n    export PATH=$PATH:$ROOTSYS/bin/\n    export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$ROOTSYS/lib/\n\n",
+            "runscript": "#!/bin/sh\n\nexec \"/bin/bash\"\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

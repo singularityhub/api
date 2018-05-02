@@ -1,0 +1,25 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "BootStrap: yum\nOSVersion: 7\nMirrorURL: http://mirror.centos.org/centos-%{OSVERSION}/%{OSVERSION}/os/$basearch/\n\nInclude: yum\n\n%help\necho \"this is a container to run MILC binarie on SKL machine\"\n\n%setup\necho $PWD\n        \n        #create a working directory\n        mkdir -p $SINGULARITY_ROOTFS/tempdir\n        if [ ! -x \"$SINGULARITY_ROOTFS/tempdir\" ]; then\n           echo \"failed to create tempdir directory...\"\n           exit 1\n        fi\n\twget https://github.com/Smahane/Intel-HPC-Container/tree/master/containers/milc/run.tar.gz\n\t tar -zxvf run.tar.gz -C $SINGULARITY_ROOTFS/tempdir\n\t \n        if [ \"$(ls -A $SINGULARITY_ROOTFS/tempdir/)\" ]; then\n\t\t   echo \"Files are copies here $SINGULARITY_ROOTFS/tempdir\"\n\t\t   ls $SINGULARITY_ROOTFS/tempdir/\t\n        fi\n\n\tchmod -R 777 $SINGULARITY_ROOTFS/tempdir/*\n\n        exit 0\n\n%post\n        yum install wget -y \n\n        #installing runtime libs for virtual machines\n        rpm --import https://yum.repos.intel.com/2018/setup/RPM-GPG-KEY-intel-psxe-runtime-2018\n\t rpm -Uhv https://yum.repos.intel.com/2018/setup/intel-psxe-runtime-2018-reposetup-1-0.noarch.rpm\n\t\n\tyum install intel-psxe-runtime -y\n\n        #installing gcc\n        yum install gcc -y\n        yum install bc -y\n\n%environment\n\techo \"set the env variable\"\n\tOMP_NUM_THREADS=5\n\tKMP_AFFINITY='granularity=fine,scatter'\n\n%runscript \n\n\tsource /opt/intel/psxe_runtime/linux/bin/compilervars.sh intel64\n\techo \"run milc for SKL\"\n\n\tcd $SINGULARITY_ROOTFS/tempdir/run/\t\n\tmpiexec.hydra -n 8 $SINGULARITY_ROOTFS/tempdir/su3_rhmd_hisq.skx < $SINGULARITY_ROOTFS/tempdir/params.24x24x24x24 \n\n\t./parse_milc.sh -l qphix -m flops -r milc.su3_rhmd_hisq.log\n\n",
+            "help": "\n\necho \"this is a container to run MILC binarie on SKL machine\"\n\n",
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.osversion": "7",
+                "org.label-schema.usage.singularity.deffile": "Singularity.milc",
+                "org.label-schema.usage": "/.singularity.d/runscript.help",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.include": "yum",
+                "org.label-schema.usage.singularity.deffile.bootstrap": "yum",
+                "org.label-schema.build-date": "Tue,_01_May_2018_23:37:12_+0000",
+                "org.label-schema.usage.singularity.deffile.mirrorurl": "http://mirror.centos.org/centos-%{OSVERSION}/%{OSVERSION}/os/$basearch/",
+                "org.label-schema.usage.singularity.runscript.help": "/.singularity.d/runscript.help",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "org.label-schema.build-size": "2645MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n\techo \"set the env variable\"\n\tOMP_NUM_THREADS=5\n\tKMP_AFFINITY='granularity=fine,scatter'\n\n",
+            "runscript": "#!/bin/sh \n\n\n\tsource /opt/intel/psxe_runtime/linux/bin/compilervars.sh intel64\n\techo \"run milc for SKL\"\n\n\tcd $SINGULARITY_ROOTFS/tempdir/run/\t\n\tmpiexec.hydra -n 8 $SINGULARITY_ROOTFS/tempdir/su3_rhmd_hisq.skx < $SINGULARITY_ROOTFS/tempdir/params.24x24x24x24 \n\n\t./parse_milc.sh -l qphix -m flops -r milc.su3_rhmd_hisq.log\n\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

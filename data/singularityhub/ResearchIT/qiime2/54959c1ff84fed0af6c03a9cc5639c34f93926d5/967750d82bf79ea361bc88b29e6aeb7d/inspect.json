@@ -1,0 +1,23 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap: yum\nOSVersion: 7\nMirrorURL: http://mirror.centos.org/centos-%{OSVERSION}/%{OSVERSION}/os/$basearch/ \nInclude: yum\n\n%environment\nPATH=/opt/conda/envs/qiime2-2018.2/bin:/opt/conda/bin:$PATH\nexport PATH\n\n%post\nyum update -y\nyum  install -y @\"Development Tools\"\nyum install -y git curl which python3 python3-devel vim htop wget tar bzip2 gzip lz4 lzma mesa-libGL mesa-libGLU\nwget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh\nbash Miniconda3-latest-Linux-x86_64.sh -b -p /opt/conda\nexport PATH=/opt/conda/bin:$PATH\nconda install -y conda\nconda update -y conda\n\nwget https://data.qiime2.org/distro/core/qiime2-2018.2-py35-linux-conda.yml\nconda env create -n qiime2-2018.2 --file qiime2-2018.2-py35-linux-conda.yml\nrm qiime2-2018.2-py35-linux-conda.yml\nsource activate qiime2-2018.2\n\n%runscript\nexec qiime \"$@\"\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "yum",
+                "org.label-schema.usage.singularity.deffile": "Singularity.2018.2",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.include": "yum",
+                "org.label-schema.build-date": "Thu,_08_Mar_2018_04:29:59_+0000",
+                "org.label-schema.usage.singularity.deffile.mirrorurl": "http://mirror.centos.org/centos-%{OSVERSION}/%{OSVERSION}/os/$basearch/",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "org.label-schema.build-size": "7155MB",
+                "org.label-schema.usage.singularity.deffile.osversion": "7"
+            },
+            "environment": "# Custom environment shell code should follow\n\nPATH=/opt/conda/envs/qiime2-2018.2/bin:/opt/conda/bin:$PATH\nexport PATH\n\n",
+            "runscript": "#!/bin/sh \n\nexec qiime \"$@\"\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

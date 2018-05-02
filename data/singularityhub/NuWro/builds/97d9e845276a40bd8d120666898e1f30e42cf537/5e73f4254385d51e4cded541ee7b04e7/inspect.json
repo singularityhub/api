@@ -1,0 +1,27 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "# Ubuntu 14.04 based container with ROOT 5 and NuWro 17.09\n\nBootStrap: shub\nFrom: NuWro/builds:root5\n\n%help\nSee NuWro User Guide at https://nuwro.github.io/user-guide/\n\n%labels\nNuWro 17.09\n\n%post\n    export ROOTSYS=/opt/root/\n    export PATH=$PATH:$ROOTSYS/bin/\n    export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$ROOTSYS/lib/\n\n    ##### INSTALL NuWro #####\n\n    cd /opt/\n\n    # to avoid \"Problem with the SSL CA cert (path? access rights?)\" \n    update-ca-certificates\n    git clone -b nuwro_17.09 --depth 1 https://github.com/NuWro/nuwro.git\n    cd nuwro\n    make\n\n%runscript\n    exec /opt/nuwro/bin/nuwro \"$@\"\n",
+            "help": "\n\nSee NuWro User Guide at https://nuwro.github.io/user-guide/\n\n",
+            "labels": {
+                "OS": "Ubuntu14.04",
+                "org.label-schema.usage.singularity.deffile.bootstrap": "shub",
+                "MAINTAINER": "tomasz.golan@gmail.com",
+                "org.label-schema.usage.singularity.deffile": "Singularity.17.09",
+                "org.label-schema.usage": "/.singularity.d/runscript.help",
+                "org.label-schema.schema-version": "1.0",
+                "NUWRO": "17.09",
+                "org.label-schema.usage.singularity.deffile.from": "NuWro/builds:root5",
+                "org.label-schema.build-date": "2017-12-21T08:06:23+00:00",
+                "org.label-schema.usage.singularity.runscript.help": "/.singularity.d/runscript.help",
+                "org.label-schema.usage.singularity.version": "2.4-feature-squashbuild-secbuild.g818b648",
+                "ROOT": "5.34/36",
+                "org.label-schema.build-size": "1424MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n    export ROOTSYS=/opt/root/\n    export PATH=$PATH:$ROOTSYS/bin/\n    export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$ROOTSYS/lib/\n\n",
+            "runscript": "#!/bin/sh \n\n    exec /opt/nuwro/bin/nuwro \"$@\"\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

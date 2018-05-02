@@ -1,0 +1,22 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap: docker\nFrom: zhanglab/atac-seq_mm10:feb252018\nIncludeCmd: yes\n\n%runscript\n    bash /atac_seq/pipe_code/atac_v1.1a.sh $@\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "org.label-schema.usage.singularity.deffile": "Singularity.mm10",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.includecmd": "yes",
+                "org.label-schema.usage.singularity.deffile.from": "zhanglab/atac-seq_mm10:feb252018",
+                "org.label-schema.build-date": "Mon,_26_Feb_2018_03:29:49_+0000",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "org.label-schema.build-size": "10177MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n",
+            "runscript": "#!/bin/sh \n\n    bash /atac_seq/pipe_code/atac_v1.1a.sh $@\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

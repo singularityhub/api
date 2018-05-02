@@ -1,0 +1,22 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "# Copyright (c) 2015-2016, Gregory M. Kurtzer. All rights reserved.\n#\n# Changes for NeuroDebian/ReproIn setup are Copyright (c) 2017-2018 Yaroslav Halchenko.\n#\n# The purpose of the environment is to provide a complete suite for running\n# heudiconv on the INBOX server to provide conversion into BIDS layout.\n# ATM it does not ship heudiconv itself which would be accessed directly\n# from the main drive for now.\n#\n# \"Singularity\" Copyright (c) 2016, The Regents of the University of California,\n# through Lawrence Berkeley National Laboratory (subject to receipt of any\n# required approvals from the U.S. Dept. of Energy).  All rights reserved.\n\n#\n# Notes:\n#  - Due to  https://github.com/singularityware/singularity/issues/471\n#    bootstrapping leads to non-usable/non-removable-without-reboot\n#    image due to some rogue run away processes.\n#    This line could help to kill them but should be used with caution\n#    since could kill other unrelated processes\n#\n#      grep -l loop /proc/*/mountinfo | sed -e 's,/proc/\\(.*\\)/.*,\\1,g' | while read pid; do sudo kill $pid; done\n# Changes/version\n# 0.0.20180205\n# - Rebuilt to update dcm2niix etc\n# - Boosted bids-validator version to 0.25.6\n# 0.0.20170928\n# - require current bids validator 0.23.2, but in general regenerate to update datalad and dcm2niix\n# - install  dcmtk  for dcmdump\n\nBootStrap: debootstrap\n#OSVersion: stable\n# needs nipype 0.12.1 but that one didn't build for stable since needs python-prov...\n# so trying stretch\nOSVersion: stretch\nMirrorURL: http://ftp.us.debian.org/debian/\n\n# so if image is executed we just enter the environment\n%runscript\n    echo \"Welcome to the ReproIn (AKA formerly DBIC-BIDS) environment\"\n    /bin/bash\n\n\n%post\n    echo \"Configuring the environment\"\n    apt-get update\n    apt-get -y install eatmydata\n    eatmydata apt-get -y install vim wget strace time ncdu gnupg curl procps\n    wget -q -O/tmp/nd-configurerepo https://raw.githubusercontent.com/neurodebian/neurodebian/4d26c8f30433145009aa3f74516da12f560a5a13/tools/nd-configurerepo\n    bash /tmp/nd-configurerepo\n    chmod a+r -R /etc/apt\n    eatmydata apt-get -y install git-annex-standalone datalad python-nipype virtualenv dcm2niix python-dcmstack python-configparser python-funcsigs python-pytest dcmtk\n\n    # for bids-validator\n    # not present in stretch, see https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=857986\n    # eatmydata apt-get install -y npm\n    curl -sL https://deb.nodesource.com/setup_6.x | bash - && \\\n       eatmydata apt-get install -y nodejs\n    npm install -g bids-validator@0.25.6\n    chmod a+rX -R /usr/lib/node_modules/\n\n    chmod a+rX -R /etc/apt/sources.list.d\n    rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*\n    apt-get clean\n\n    # and wipe out apt lists since not to be used RW for further tuning\n    # find /var/lib/apt/lists/ -type f -delete\n    # /usr/bin/find /var/lib/apt/lists/ -type f -name \\*Packages\\* -o -name \\*Contents\\*\n    # complicates later interrogation - thus disabled\n\n    # Create some bind mount directories present on rolando\n    mkdir -p /afs /inbox\n    chmod a+rX /afs /inbox\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "debootstrap",
+                "org.label-schema.usage.singularity.deffile": "Singularity",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.osversion": "stretch",
+                "org.label-schema.build-date": "Sat,_10_Feb_2018_02:17:52_+0000",
+                "org.label-schema.usage.singularity.deffile.mirrorurl": "http://ftp.us.debian.org/debian/",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "org.label-schema.build-size": "2365MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n",
+            "runscript": "#!/bin/sh \n\n    echo \"Welcome to the ReproIn (AKA formerly DBIC-BIDS) environment\"\n    /bin/bash\n\n\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

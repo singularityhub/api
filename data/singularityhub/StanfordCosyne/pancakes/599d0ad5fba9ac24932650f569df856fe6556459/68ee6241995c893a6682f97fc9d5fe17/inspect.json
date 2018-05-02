@@ -1,0 +1,23 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap: shub\nFrom: StanfordCosyne/pancakes:spm12\n\n# \n# sudo singularity build spm12 Singularity.spm12\n# sudo singularity build --sandbox spm12-dev Singularity.spm12\n#\n\n%files\n    spm12-pipeline.scif\n    preprocessmri\n    preprocessfmri\n\n%post\n\n    #############################\n    # Scientific Filesystem\n    #############################\n\n    /opt/conda/bin/pip install scif\n    /opt/conda/bin/scif install /spm12-pipeline.scif    \n    rm -rf /spm\n\n%runscript\n\n    HOME=$(mktemp -d --suffix=.matlab)\n    export HOME\n\n    if [ $# -eq 0 ]\n        then\n        exec ${SPM_EXEC} script $@\n    else\n        exec scif run \"$@\"\n    fi\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "shub",
+                "org.label-schema.usage.singularity.deffile": "Singularity.spm12-pipeline",
+                "org.label-schema.schema-version": "1.0",
+                "MATLAB_VERSION": "R2017b",
+                "org.label-schema.build-date": "Tue,_13_Feb_2018_01:30:33_+0000",
+                "SPM_VERSION": "12",
+                "org.label-schema.usage.singularity.deffile.from": "StanfordCosyne/pancakes:spm12",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "org.label-schema.build-size": "4109MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n\n    #############################\n    # Software Paths\n    #############################\n\n    MATLAB_VERSION=R2017b\n    MCR_VERSION=v93\n    LD_LIBRARY_PATH=/opt/mcr/${MCR_VERSION}/runtime/glnxa64:/opt/mcr/${MCR_VERSION}/bin/glnxa64:/opt/mcr/${MCR_VERSION}/sys/os/glnxa64:/opt/mcr/${MCR_VERSION}/sys/opengl/lib/glnxa64\n    MCR_INHIBIT_CTF_LOCK=1\n    SPM_VERSION=12\n    SPM_REVISION=r7244\n    SPM_DIR=/opt/spm${SPM_VERSION}\n    SPM_EXEC=${SPM_DIR}/spm${SPM_VERSION}\n    export MATLAB_VERSION MCR_VERSION LD_LIBRARY_PATH MCR_INHIBIT_CTF_LOCK\n    export SPM_DIR SPM_EXEC SPM_VERSION SPM_REVISION\n\n\n",
+            "runscript": "#!/bin/sh \n\n\n    HOME=$(mktemp -d --suffix=.matlab)\n    export HOME\n\n    if [ $# -eq 0 ]\n        then\n        exec ${SPM_EXEC} script $@\n    else\n        exec scif run \"$@\"\n    fi\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

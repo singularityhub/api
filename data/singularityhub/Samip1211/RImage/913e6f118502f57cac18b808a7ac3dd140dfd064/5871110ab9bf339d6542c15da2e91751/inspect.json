@@ -1,0 +1,21 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap: docker\nFrom: r-base:latest\n\n%post\n\tapt-get update\n\tapt-get install -y libssl-dev libsasl2-dev\n\tR -e \"install.packages('Hmisc')\"\n\tR -e \"install.packages('ggplot')\"\n\tR -e \"install.packages('mongolite')\"\n\tR -e \"install.packages('stringr')\"\n\tR -e \"install.packages('jsonlite')\"\n\tR -e \"install.packages('maps')\"\n\tR -e \"install.packages('mapproj')\"\n\tR -e \"install.packages('choroplethr')\"\n\tR -e \"install.packages('readxl')\"\n\tR -e \"install.packages('dplyr')\"\n\tR -e \"install.packages('choroplethrMaps')\"\n\tR -e \"install.packages('ggplot2')\"\n\tR -e \"install.packages('igraph')\"\n\t\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "org.label-schema.usage.singularity.deffile": "Singularity",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.from": "r-base:latest",
+                "org.label-schema.build-date": "2017-10-27T18:45:08+00:00",
+                "org.label-schema.usage.singularity.version": "2.4-feature-squashbuild-secbuild.g818b648",
+                "org.label-schema.build-size": "1038MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n",
+            "runscript": "#!/bin/sh\n\nexec \"R\"\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap: docker\nFrom: centos:7\n\n%labels\n   AUTHOR sampedro@colorado.edu\n\n%post\n   useradd -u 515 -m slurm\n   useradd -u 992 -m munge\n   yum -y update\n   yum -y install epel-release\n   yum -y groupinstall 'Development Tools'\n   yum -y install sssd wget strace iproute munge munge-devel pam-devel openssl openssl-devel readline-devel perl-devel\n   cd ~ && wget https://download.schedmd.com/slurm/slurm-17.02.9.tar.bz2\n   rpmbuild -ta slurm-17.02.9.tar.bz2\n   cd ~/rpmbuild/RPMS/x86_64\n   rpm -ivh slurm-pam_slurm-17.02.9-1.el7.centos.x86_64.rpm slurm-plugins-17.02.9-1.el7.centos.x86_64.rpm slurm-munge-17.02.9-1.el7.centos.x86_64.rpm slurm-perlapi-17.02.9-1.el7.centos.x86_64.rpm slurm-17.02.9-1.el7.centos.x86_64.rpm slurm-devel-17.02.9-1.el7.centos.x86_64.rpm\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "vendor": "CentOS",
+                "name": "CentOS Base Image",
+                "license": "GPLv2",
+                "AUTHOR": "sampedro@colorado.edu",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.from": "centos:7",
+                "org.label-schema.build-date": "Thu,_01_Feb_2018_00:08:04_+0000",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "build-date": "20180107",
+                "org.label-schema.build-size": "1095MB",
+                "org.label-schema.usage.singularity.deffile": "Singularity"
+            },
+            "environment": "# Custom environment shell code should follow\n\n",
+            "runscript": "#!/bin/sh\n\nexec \"/bin/bash\" \"$@\"\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}
