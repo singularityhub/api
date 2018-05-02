@@ -1,0 +1,23 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "BootStrap: yum\nOSVersion: 7\nMirrorURL: http://mirror.centos.org/centos-%{OSVERSION}/%{OSVERSION}/os/$basearch/\nInclude: yum wget\n\n%post\nyum -y update\nyum -y install yum-utils\nyum -y groupinstall development\nyum -y install https://centos7.iuscommunity.org/ius-release.rpm\nyum -y install nano\nyum -y install build-essential curl git man vim autoconf libtool debootstrap squashfs-tools\nyum -y install python36u\nyum -y install python36u-pip\nyum -y install python36u-devel\nyum -y install kernel-devel-3.10.0-693.21.1.el7.x86_64 kernel-headers-3.10.0-693.21.1.el7.x86_64\nwget https://developer.nvidia.com/compute/cuda/9.0/Prod/local_installers/cuda-repo-rhel7-9-0-local-9.0.176-1.x86_64-rpm\nmv cuda-repo-rhel7-9-0-local-9.0.176-1.x86_64-rpm cuda-repo-rhel7-9-0-local-9.0.176-1.x86_64-rpm.rpm\nrpm -i cuda-repo-rhel7-9-0-local-9.0.176-1.x86_64-rpm.rpm\nyum clean expire-cache\nyum -y install cuda\nexport PATH=/usr/local/cuda-9.0/bin${PATH:+:${PATH}}\nexport LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64\ncurl -O http://developer.download.nvidia.com/compute/redist/cudnn/v7.1.2/cudnn-9.0-linux-x64-v7.1.tgz\ntar -zxf cudnn-9.0-linux-x64-v7.1.tgz \ncd cuda\ncp -av lib64/* /usr/local/cuda/lib64/\ncp -av include/* /usr/local/cuda/include/\ncd ..\nexport LD_LIBRARY_PATH=/usr/local/cuda/lib64/:$LD_LIBRARY_PATH\nexport LIBRARY_PATH=/usr/local/cuda/lib64/:$LIBRARY_PATH\nyum -y install cuda-command-line-tools-9-0\nexport LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda/extras/CUPTI/lib64\nyum -y install epel-release\npip3.6 install -U virtualenv\nvirtualenv --system-site-packages /tensorflow\nvirtualenv --system-site-packages -p python3.6 /tensorflow\nsource /tensorflow/bin/activate\neasy_install -U pip\npip3 install --upgrade tensorflow-gpu\ndeactivate\nyum -y install hdf5\nyum -y install hdf5-devel\nyum -y install h5py\nyum -y install graphviz\nsource /tensorflow/bin/activate\npip install keras\ngit clone https://github.com/fizyr/keras-retinanet.git\npip install numpy\npip install opencv-python\npip install matplotlib\npip install pillow\npip install h5py\npip install cython\npip install jupyter\nyum -y install python36u-tkinter\nwget https://github.com/fizyr/keras-retinanet/releases/download/0.2/resnet50_coco_best_v2.0.2.h5\nmv resnet50_coco_best_v2.0.2.h5 /keras-retinanet/snapshots\n\n%environment\nexport PATH=/usr/local/cuda-9.0/bin${PATH:+:${PATH}}\nexport PATH=/keras-retinanet:$PATH\nexport LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64\nexport LD_LIBRARY_PATH=/usr/local/cuda/lib64/:$LD_LIBRARY_PATH\nexport LIBRARY_PATH=/usr/local/cuda/lib64/:$LIBRARY_PATH\nexport LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda/extras/CUPTI/lib64\nalias start-tensorflow=\"source /tensorflow/bin/activate\"\n\n\n%runscript\necho \"Starting Tensorflow virtual environment\"\nsource /tensorflow/bin/activate\necho \"Arguments received: $*\"\nexec python \"$@\"\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "yum",
+                "org.label-schema.usage.singularity.deffile": "Singularity.v1.1",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.include": "yum wget",
+                "org.label-schema.build-date": "Fri,_06_Apr_2018_14:52:19_+0000",
+                "org.label-schema.usage.singularity.deffile.mirrorurl": "http://mirror.centos.org/centos-%{OSVERSION}/%{OSVERSION}/os/$basearch/",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "org.label-schema.build-size": "10644MB",
+                "org.label-schema.usage.singularity.deffile.osversion": "7"
+            },
+            "environment": "# Custom environment shell code should follow\n\nexport PATH=/usr/local/cuda-9.0/bin${PATH:+:${PATH}}\nexport PATH=/keras-retinanet:$PATH\nexport LD_LIBRARY_PATH=/usr/local/cuda-9.0/lib64\nexport LD_LIBRARY_PATH=/usr/local/cuda/lib64/:$LD_LIBRARY_PATH\nexport LIBRARY_PATH=/usr/local/cuda/lib64/:$LIBRARY_PATH\nexport LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/cuda/extras/CUPTI/lib64\nalias start-tensorflow=\"source /tensorflow/bin/activate\"\n\n\n",
+            "runscript": "#!/bin/sh \n\necho \"Starting Tensorflow virtual environment\"\nsource /tensorflow/bin/activate\necho \"Arguments received: $*\"\nexec python \"$@\"\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

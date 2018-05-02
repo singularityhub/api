@@ -1,0 +1,21 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap: docker\nFrom: ubuntu:14.04\n\n%post\n    apt-get -y update\n    apt-get -y upgrade\n    apt-get -y install apt-file\n    apt-get -y install software-properties-common\n    apt-get -y install wget\n    apt-get -y install apt-transport-https\n    add-apt-repository http://dl.openfoam.org/ubuntu\n    sh -c \"wget -O - http://dl.openfoam.org/gpg.key | apt-key add -\"\n    apt-get -y update\n    apt-get -y install openfoam4\n    # sed -ie '$ a \\. /opt/openfoam4/etc/bashrc' /root/.bashrc\n    echo '. /opt/openfoam4/etc/bashrc' >>$SINGULARITY_ENVIRONMENT\n\n%runscript\n    simpleFoam\n\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "org.label-schema.usage.singularity.deffile": "Singularity.4",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.from": "ubuntu:14.04",
+                "org.label-schema.build-date": "Tue,_26_Dec_2017_09:51:07_+0000",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.gaa08d4d",
+                "org.label-schema.build-size": "1576MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n",
+            "runscript": "#!/bin/sh \n\n    simpleFoam\n\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}
