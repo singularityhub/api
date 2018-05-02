@@ -9,6 +9,6 @@ permalink: /packages/
         "commit": "{{ pieces[5] }}",
         "hash": "{{ pieces[6] }}",
         "name": "{{ c.name }}",
-        "url": "{{ site.github_pages }}{{ site.baseurl }}{{ c.path }}",
+        "url": "{{ site.github_pages }}{{ site.baseurl }}{{ c.path }}"
   }{% if forloop.last %}{% else %},{% endif %}{% endif %}
 {% endfor %}]

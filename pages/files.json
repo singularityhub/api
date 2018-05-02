@@ -4,11 +4,11 @@ layout: none
 permalink: /files/
 ---
 
-[{% for c in site.static_files %}{% if c.extname == 'files.json' %}{ {% assign pieces = c.path | split: '/' %}
+[{% for c in site.static_files %}{% if c.name == 'files.json' %}{ {% assign pieces = c.path | split: '/' %}
         "collection": "{{ pieces[3] }}/{{ pieces[4] }}",
         "commit": "{{ pieces[5] }}",
         "hash": "{{ pieces[6] }}",
         "name": "{{ c.name }}",
-        "url": "{{ site.github_pages }}{{ site.baseurl }}{{ c.path }}",
+        "url": "{{ site.github_pages }}{{ site.baseurl }}{{ c.path }}"
   }{% if forloop.last %}{% else %},{% endif %}{% endif %}
 {% endfor %}]
