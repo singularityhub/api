@@ -1,0 +1,26 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "BootStrap: docker\nFrom:ubuntu:14.04\n\n# this would include the CMD line from the dockerfile\n# ( here: CMD [ \"/bin/bash\" ] ) as the %runscript\n# IncludeCmd: yes\n\n\n###############################################################################\n%setup\n  # this is run from outside the container to start setting it up\n\n  echo \"Looking in directory '$SINGULARITY_ROOTFS' for /bin/sh\"\n  if [ ! -x \"$SINGULARITY_ROOTFS/bin/sh\" ]; then\n      echo \"Hrmm, this container does not have /bin/sh installed...\"\n      exit 1\n  fi\n\n  mkdir -p $SINGULARITY_ROOTFS/oasis/tscc/scratch\n  mkdir -p $SINGULARITY_ROOTFS/projects/ps-yeolab\n  mkdir -p $SINGULARITY_ROOTFS/projects/ps-yeolab3\n  mkdir -p $SINGULARITY_ROOTFS/projects/ps-scrm\n\n\n###############################################################################\n%files\n\n\n###############################################################################\n%post\n  # this is run inside the container to install all necessary packages\n\n  apt-get install -y software-properties-common\n  add-apt-repository -y ppa:bibi-help/bibitools\n  apt-get -y update\n  apt-get -y install rnashapes\n  ln -s /usr/bin/RNAshapes /usr/bin/rnashapes\n\n\n###############################################################################\n%labels\n\nMAINTAINER adomissy@ucsd.edu\nVERSION 0.0.1\nBUILD_DATE 20170718\n\n###############################################################################\n%environment\n\n  #PATH=/opt/conda/bin:/usr/local/bin:/usr/bin:/bin\n  PATH=\"/opt/conda/bin:$PATH\"\n  PATH=\"/usr/bin/rnashapes:$PATH\"\n  export PATH\n\n\n###############################################################################\n%runscript\n  # this will get copied to /.singularity.d/runscript indide the container\n  # which will run whenever the container is called as an executable\n\n  PS1=\"$SINGULARITY_CONTAINER\":\"$PS1\"\n  /usr/bin/rnashapes $@\n  PS1=$PREVIOUSPS1\n  \n\n###############################################################################\n%test\n  # this will be run once upon completion of container building\n  #\n  #/opt/test.sh\n  #\n  \n  \n",
+            "help": null,
+            "labels": {
+                "BUILD_DATE": "20170718",
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "MAINTAINER": "adomissy@ucsd.edu",
+                "org.label-schema.usage.singularity.deffile": "Singularity.tag2",
+                "org.label-schema.schema-version": "1.0",
+                "VERSION": "0.0.1",
+                "org.label-schema.usage.singularity.deffile.from": "ubuntu:14.04",
+                "org.label-schema.build-date": "2017-10-15T17:07:39+00:00",
+                "org.label-schema.usage.singularity.deffile._includecmd": "yes",
+                "org.label-schema.usage.singularity.version": "2.4-feature-squashbuild-secbuild.g780c84d",
+                "org.label-schema.usage.singularity.deffile._here": "CMD [ \"/bin/bash\" ] ) as the %runscript",
+                "org.label-schema.build-size": "476MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n\n  #PATH=/opt/conda/bin:/usr/local/bin:/usr/bin:/bin\n  PATH=\"/opt/conda/bin:$PATH\"\n  PATH=\"/usr/bin/rnashapes:$PATH\"\n  export PATH\n\n\n###############################################################################\n",
+            "runscript": "#!/bin/sh \n\n  # this will get copied to /.singularity.d/runscript indide the container\n  # which will run whenever the container is called as an executable\n\n  PS1=\"$SINGULARITY_CONTAINER\":\"$PS1\"\n  /usr/bin/rnashapes $@\n  PS1=$PREVIOUSPS1\n  \n\n###############################################################################\n",
+            "test": "#!/bin/sh\n\n  # this will be run once upon completion of container building\n  #\n  #/opt/test.sh\n  #\n  \n  \n"
+        },
+        "type": "container"
+    }
+}
