@@ -1,0 +1,4408 @@
+[
+  {
+    "Image": "/tmp/tmp.n9piwRccAl/8fd6c6e90698ac87fc2f6a9ed42d819f1f67470bc68a3a71c28ef14f85a3e9db.tar",
+    "AnalyzeType": "Apt",
+    "Analysis": [
+      {
+        "Name": "adduser",
+        "Version": "3.113 nmu3ubuntu5",
+        "Size": 663552
+      },
+      {
+        "Name": "adwaita-icon-theme",
+        "Version": "3.24.0-0ubuntu1",
+        "Size": 5039104
+      },
+      {
+        "Name": "apt",
+        "Version": "1.4.6~17.04.1",
+        "Size": 3628032
+      },
+      {
+        "Name": "apt-utils",
+        "Version": "1.4.6~17.04.1",
+        "Size": 782336
+      },
+      {
+        "Name": "autoconf",
+        "Version": "2.69-10",
+        "Size": 1904640
+      },
+      {
+        "Name": "automake",
+        "Version": "1:1.15-5ubuntu1",
+        "Size": 1528832
+      },
+      {
+        "Name": "autotools-dev",
+        "Version": "20161112.1",
+        "Size": 155648
+      },
+      {
+        "Name": "base-files",
+        "Version": "9.6ubuntu13.1",
+        "Size": 332800
+      },
+      {
+        "Name": "base-passwd",
+        "Version": "3.5.43",
+        "Size": 234496
+      },
+      {
+        "Name": "bash",
+        "Version": "4.4-2ubuntu1.1",
+        "Size": 1613824
+      },
+      {
+        "Name": "binutils",
+        "Version": "2.28-3ubuntu1",
+        "Size": 14671872
+      },
+      {
+        "Name": "blt",
+        "Version": "2.5.3 dfsg-3",
+        "Size": 28672
+      },
+      {
+        "Name": "bsdutils",
+        "Version": "1:2.29-1ubuntu2.1",
+        "Size": 242688
+      },
+      {
+        "Name": "build-essential",
+        "Version": "12.1ubuntu2",
+        "Size": 20480
+      },
+      {
+        "Name": "bzip2",
+        "Version": "1.0.6-8.1",
+        "Size": 181248
+      },
+      {
+        "Name": "ca-certificates",
+        "Version": "20170717~17.04.1",
+        "Size": 436224
+      },
+      {
+        "Name": "cmake",
+        "Version": "3.7.2-1",
+        "Size": 16313344
+      },
+      {
+        "Name": "cmake-data",
+        "Version": "3.7.2-1",
+        "Size": 6035456
+      },
+      {
+        "Name": "coreutils",
+        "Version": "8.26-3ubuntu3",
+        "Size": 6647808
+      },
+      {
+        "Name": "cpp",
+        "Version": "4:6.3.0-2ubuntu1",
+        "Size": 64512
+      },
+      {
+        "Name": "cpp-6",
+        "Version": "6.3.0-12ubuntu2",
+        "Size": 23269376
+      },
+      {
+        "Name": "curl",
+        "Version": "7.52.1-4ubuntu1.3",
+        "Size": 357376
+      },
+      {
+        "Name": "dash",
+        "Version": "0.5.8-2.3ubuntu1",
+        "Size": 247808
+      },
+      {
+        "Name": "dbus",
+        "Version": "1.10.10-1ubuntu2",
+        "Size": 548864
+      },
+      {
+        "Name": "debconf",
+        "Version": "1.5.59ubuntu1",
+        "Size": 565248
+      },
+      {
+        "Name": "debianutils",
+        "Version": "4.8.1",
+        "Size": 218112
+      },
+      {
+        "Name": "default-libmysqlclient-dev",
+        "Version": "1.0.2ubuntu1",
+        "Size": 9216
+      },
+      {
+        "Name": "dh-python",
+        "Version": "2.20170125",
+        "Size": 411648
+      },
+      {
+        "Name": "diffutils",
+        "Version": "1:3.5-3",
+        "Size": 454656
+      },
+      {
+        "Name": "dirmngr",
+        "Version": "2.1.15-1ubuntu7",
+        "Size": 667648
+      },
+      {
+        "Name": "distro-info-data",
+        "Version": "0.33ubuntu0.3",
+        "Size": 15360
+      },
+      {
+        "Name": "dkms",
+        "Version": "2.3-3ubuntu1.2",
+        "Size": 288768
+      },
+      {
+        "Name": "dmsetup",
+        "Version": "2:1.02.136-1ubuntu5",
+        "Size": 252928
+      },
+      {
+        "Name": "dolfin-bin",
+        "Version": "2017.1.0-1~ppa6~zesty1",
+        "Size": 95232
+      },
+      {
+        "Name": "dolfin-doc",
+        "Version": "2017.1.0-1~ppa6~zesty1",
+        "Size": 19098624
+      },
+      {
+        "Name": "dpkg",
+        "Version": "1.18.10ubuntu2",
+        "Size": 6940672
+      },
+      {
+        "Name": "dpkg-dev",
+        "Version": "1.18.10ubuntu2",
+        "Size": 1890304
+      },
+      {
+        "Name": "e2fslibs",
+        "Version": "1.43.4-2",
+        "Size": 447488
+      },
+      {
+        "Name": "e2fsprogs",
+        "Version": "1.43.4-2",
+        "Size": 1454080
+      },
+      {
+        "Name": "fakeroot",
+        "Version": "1.21-1ubuntu2",
+        "Size": 221184
+      },
+      {
+        "Name": "fenics",
+        "Version": "1:2017.1.0.1~ppa1~zesty1",
+        "Size": 12288
+      },
+      {
+        "Name": "file",
+        "Version": "1:5.29-3ubuntu0.1",
+        "Size": 81920
+      },
+      {
+        "Name": "findutils",
+        "Version": "4.6.0 git+20161106-2",
+        "Size": 581632
+      },
+      {
+        "Name": "fontconfig",
+        "Version": "2.11.94-0ubuntu2",
+        "Size": 553984
+      },
+      {
+        "Name": "fontconfig-config",
+        "Version": "2.11.94-0ubuntu2",
+        "Size": 376832
+      },
+      {
+        "Name": "fonts-lyx",
+        "Version": "2.2.2-1",
+        "Size": 347136
+      },
+      {
+        "Name": "g++",
+        "Version": "4:6.3.0-2ubuntu1",
+        "Size": 16384
+      },
+      {
+        "Name": "g++-6",
+        "Version": "6.3.0-12ubuntu2",
+        "Size": 24836096
+      },
+      {
+        "Name": "gcc",
+        "Version": "4:6.3.0-2ubuntu1",
+        "Size": 47104
+      },
+      {
+        "Name": "gcc-6",
+        "Version": "6.3.0-12ubuntu2",
+        "Size": 26068992
+      },
+      {
+        "Name": "gcc-6-base",
+        "Version": "6.3.0-12ubuntu2",
+        "Size": 73728
+      },
+      {
+        "Name": "gfortran",
+        "Version": "4:6.3.0-2ubuntu1",
+        "Size": 15360
+      },
+      {
+        "Name": "gfortran-6",
+        "Version": "6.3.0-12ubuntu2",
+        "Size": 24116224
+      },
+      {
+        "Name": "gir1.2-glib-2.0",
+        "Version": "1.52.0-0ubuntu1",
+        "Size": 638976
+      },
+      {
+        "Name": "git",
+        "Version": "1:2.11.0-2ubuntu0.3",
+        "Size": 27090944
+      },
+      {
+        "Name": "git-man",
+        "Version": "1:2.11.0-2ubuntu0.3",
+        "Size": 1517568
+      },
+      {
+        "Name": "gnupg",
+        "Version": "2.1.15-1ubuntu7",
+        "Size": 1779712
+      },
+      {
+        "Name": "gnupg-agent",
+        "Version": "2.1.15-1ubuntu7",
+        "Size": 1059840
+      },
+      {
+        "Name": "gpgv",
+        "Version": "2.1.15-1ubuntu7",
+        "Size": 456704
+      },
+      {
+        "Name": "grep",
+        "Version": "2.27-2",
+        "Size": 503808
+      },
+      {
+        "Name": "gtk-update-icon-cache",
+        "Version": "3.22.11-0ubuntu3",
+        "Size": 142336
+      },
+      {
+        "Name": "gzip",
+        "Version": "1.6-4ubuntu1",
+        "Size": 245760
+      },
+      {
+        "Name": "hdf5-helpers",
+        "Version": "1.10.0-patch1 docs-3",
+        "Size": 90112
+      },
+      {
+        "Name": "hicolor-icon-theme",
+        "Version": "0.15-1",
+        "Size": 423936
+      },
+      {
+        "Name": "hostname",
+        "Version": "3.18",
+        "Size": 47104
+      },
+      {
+        "Name": "humanity-icon-theme",
+        "Version": "0.6.13",
+        "Size": 21238784
+      },
+      {
+        "Name": "ibacm",
+        "Version": "1.2.0-1",
+        "Size": 201728
+      },
+      {
+        "Name": "ibutils",
+        "Version": "1.5.7-5ubuntu1",
+        "Size": 1899520
+      },
+      {
+        "Name": "ibverbs-utils",
+        "Version": "1.2.1-2ubuntu1",
+        "Size": 183296
+      },
+      {
+        "Name": "icu-devtools",
+        "Version": "57.1-5ubuntu0.2",
+        "Size": 548864
+      },
+      {
+        "Name": "infiniband-diags",
+        "Version": "1.6.7-1",
+        "Size": 925696
+      },
+      {
+        "Name": "init-system-helpers",
+        "Version": "1.47",
+        "Size": 134144
+      },
+      {
+        "Name": "iproute2",
+        "Version": "4.9.0-1ubuntu1",
+        "Size": 1819648
+      },
+      {
+        "Name": "ipython",
+        "Version": "5.1.0-3",
+        "Size": 18432
+      },
+      {
+        "Name": "iso-codes",
+        "Version": "3.74-1",
+        "Size": 17475584
+      },
+      {
+        "Name": "javascript-common",
+        "Version": "11",
+        "Size": 69632
+      },
+      {
+        "Name": "kmod",
+        "Version": "22-1.1ubuntu1",
+        "Size": 239616
+      },
+      {
+        "Name": "language-pack-en",
+        "Version": "1:17.04 20170404",
+        "Size": 9216
+      },
+      {
+        "Name": "language-pack-en-base",
+        "Version": "1:17.04 20170404",
+        "Size": 3987456
+      },
+      {
+        "Name": "libacl1",
+        "Version": "2.2.52-3",
+        "Size": 58368
+      },
+      {
+        "Name": "libaec-dev",
+        "Version": "0.3.2-1",
+        "Size": 61440
+      },
+      {
+        "Name": "libaec0",
+        "Version": "0.3.2-1",
+        "Size": 53248
+      },
+      {
+        "Name": "libamd2",
+        "Version": "1:4.5.4-1",
+        "Size": 72704
+      },
+      {
+        "Name": "libapparmor1",
+        "Version": "2.11.0-2ubuntu4",
+        "Size": 143360
+      },
+      {
+        "Name": "libapt-inst2.0",
+        "Version": "1.4.6~17.04.1",
+        "Size": 480256
+      },
+      {
+        "Name": "libapt-pkg5.0",
+        "Version": "1.4.6~17.04.1",
+        "Size": 3091456
+      },
+      {
+        "Name": "libarchive13",
+        "Version": "3.2.2-2",
+        "Size": 776192
+      },
+      {
+        "Name": "libarmadillo-dev",
+        "Version": "1:7.600.2 dfsg-2",
+        "Size": 3950592
+      },
+      {
+        "Name": "libarmadillo7",
+        "Version": "1:7.600.2 dfsg-2",
+        "Size": 564224
+      },
+      {
+        "Name": "libarpack2",
+        "Version": "3.4.0-1build1",
+        "Size": 327680
+      },
+      {
+        "Name": "libarpack2-dev",
+        "Version": "3.4.0-1build1",
+        "Size": 652288
+      },
+      {
+        "Name": "libasan3",
+        "Version": "6.3.0-12ubuntu2",
+        "Size": 1317888
+      },
+      {
+        "Name": "libasn1-8-heimdal",
+        "Version": "7.1.0 dfsg-9ubuntu1.1",
+        "Size": 806912
+      },
+      {
+        "Name": "libassuan0",
+        "Version": "2.4.3-2",
+        "Size": 102400
+      },
+      {
+        "Name": "libatk1.0-0",
+        "Version": "2.22.0-1",
+        "Size": 183296
+      },
+      {
+        "Name": "libatk1.0-data",
+        "Version": "2.22.0-1",
+        "Size": 45056
+      },
+      {
+        "Name": "libatm1",
+        "Version": "1:2.5.1-2",
+        "Size": 107520
+      },
+      {
+        "Name": "libatomic1",
+        "Version": "6.3.0-12ubuntu2",
+        "Size": 41984
+      },
+      {
+        "Name": "libattr1",
+        "Version": "1:2.4.47-2",
+        "Size": 57344
+      },
+      {
+        "Name": "libaudit-common",
+        "Version": "1:2.6.6-1ubuntu1",
+        "Size": 22528
+      },
+      {
+        "Name": "libaudit1",
+        "Version": "1:2.6.6-1ubuntu1",
+        "Size": 145408
+      },
+      {
+        "Name": "libavahi-client3",
+        "Version": "0.6.32-1ubuntu1",
+        "Size": 123904
+      },
+      {
+        "Name": "libavahi-common-data",
+        "Version": "0.6.32-1ubuntu1",
+        "Size": 118784
+      },
+      {
+        "Name": "libavahi-common3",
+        "Version": "0.6.32-1ubuntu1",
+        "Size": 104448
+      },
+      {
+        "Name": "libavcodec-dev",
+        "Version": "7:3.2.4-1build2",
+        "Size": 19089408
+      },
+      {
+        "Name": "libavcodec57",
+        "Version": "7:3.2.4-1build2",
+        "Size": 13246464
+      },
+      {
+        "Name": "libavformat-dev",
+        "Version": "7:3.2.4-1build2",
+        "Size": 4839424
+      },
+      {
+        "Name": "libavformat57",
+        "Version": "7:3.2.4-1build2",
+        "Size": 2403328
+      },
+      {
+        "Name": "libavutil-dev",
+        "Version": "7:3.2.4-1build2",
+        "Size": 1251328
+      },
+      {
+        "Name": "libavutil55",
+        "Version": "7:3.2.4-1build2",
+        "Size": 524288
+      },
+      {
+        "Name": "libblacs-mpi-dev",
+        "Version": "1.1-38",
+        "Size": 862208
+      },
+      {
+        "Name": "libblacs-openmpi1",
+        "Version": "1.1-38",
+        "Size": 253952
+      },
+      {
+        "Name": "libblas-common",
+        "Version": "3.7.0-1",
+        "Size": 22528
+      },
+      {
+        "Name": "libblas-dev",
+        "Version": "3.7.0-1",
+        "Size": 84992
+      },
+      {
+        "Name": "libblas3",
+        "Version": "3.7.0-1",
+        "Size": 475136
+      },
+      {
+        "Name": "libblkid1",
+        "Version": "2.29-1ubuntu2.1",
+        "Size": 371712
+      },
+      {
+        "Name": "libbluray2",
+        "Version": "1:1.0.0-2",
+        "Size": 355328
+      },
+      {
+        "Name": "libboost-atomic1.62-dev",
+        "Version": "1.62.0 dfsg-4",
+        "Size": 45056
+      },
+      {
+        "Name": "libboost-atomic1.62.0",
+        "Version": "1.62.0 dfsg-4",
+        "Size": 52224
+      },
+      {
+        "Name": "libboost-chrono-dev",
+        "Version": "1.62.0.1",
+        "Size": 10240
+      },
+      {
+        "Name": "libboost-chrono1.62-dev",
+        "Version": "1.62.0 dfsg-4",
+        "Size": 142336
+      },
+      {
+        "Name": "libboost-chrono1.62.0",
+        "Version": "1.62.0 dfsg-4",
+        "Size": 73728
+      },
+      {
+        "Name": "libboost-date-time1.62-dev",
+        "Version": "1.62.0 dfsg-4",
+        "Size": 193536
+      },
+      {
+        "Name": "libboost-date-time1.62.0",
+        "Version": "1.62.0 dfsg-4",
+        "Size": 114688
+      },
+      {
+        "Name": "libboost-dev",
+        "Version": "1.62.0.1",
+        "Size": 10240
+      },
+      {
+        "Name": "libboost-filesystem-dev",
+        "Version": "1.62.0.1",
+        "Size": 10240
+      },
+      {
+        "Name": "libboost-filesystem1.62-dev",
+        "Version": "1.62.0 dfsg-4",
+        "Size": 281600
+      },
+      {
+        "Name": "libboost-filesystem1.62.0",
+        "Version": "1.62.0 dfsg-4",
+        "Size": 147456
+      },
+      {
+        "Name": "libboost-iostreams-dev",
+        "Version": "1.62.0.1",
+        "Size": 10240
+      },
+      {
+        "Name": "libboost-iostreams1.62-dev",
+        "Version": "1.62.0 dfsg-4",
+        "Size": 319488
+      },
+      {
+        "Name": "libboost-iostreams1.62.0",
+        "Version": "1.62.0 dfsg-4",
+        "Size": 139264
+      },
+      {
+        "Name": "libboost-math-dev",
+        "Version": "1.62.0.1",
+        "Size": 10240
+      },
+      {
+        "Name": "libboost-math1.62-dev",
+        "Version": "1.62.0 dfsg-4",
+        "Size": 9861120
+      },
+      {
+        "Name": "libboost-math1.62.0",
+        "Version": "1.62.0 dfsg-4",
+        "Size": 1141760
+      },
+      {
+        "Name": "libboost-mpi-dev",
+        "Version": "1.62.0.1",
+        "Size": 10240
+      },
+      {
+        "Name": "libboost-mpi1.62-dev",
+        "Version": "1.62.0 dfsg-4",
+        "Size": 3291136
+      },
+      {
+        "Name": "libboost-mpi1.62.0",
+        "Version": "1.62.0 dfsg-4",
+        "Size": 230400
+      },
+      {
+        "Name": "libboost-program-options-dev",
+        "Version": "1.62.0.1",
+        "Size": 10240
+      },
+      {
+        "Name": "libboost-program-options1.62-dev",
+        "Version": "1.62.0 dfsg-4",
+        "Size": 1393664
+      },
+      {
+        "Name": "libboost-program-options1.62.0",
+        "Version": "1.62.0 dfsg-4",
+        "Size": 557056
+      },
+      {
+        "Name": "libboost-regex1.62-dev",
+        "Version": "1.62.0 dfsg-4",
+        "Size": 2898944
+      },
+      {
+        "Name": "libboost-regex1.62.0",
+        "Version": "1.62.0 dfsg-4",
+        "Size": 1166336
+      },
+      {
+        "Name": "libboost-serialization-dev",
+        "Version": "1.62.0.1",
+        "Size": 10240
+      },
+      {
+        "Name": "libboost-serialization1.62-dev",
+        "Version": "1.62.0 dfsg-4",
+        "Size": 1932288
+      },
+      {
+        "Name": "libboost-serialization1.62.0",
+        "Version": "1.62.0 dfsg-4",
+        "Size": 486400
+      },
+      {
+        "Name": "libboost-system1.62-dev",
+        "Version": "1.62.0 dfsg-4",
+        "Size": 89088
+      },
+      {
+        "Name": "libboost-system1.62.0",
+        "Version": "1.62.0 dfsg-4",
+        "Size": 61440
+      },
+      {
+        "Name": "libboost-thread-dev",
+        "Version": "1.62.0.1",
+        "Size": 10240
+      },
+      {
+        "Name": "libboost-thread1.62-dev",
+        "Version": "1.62.0 dfsg-4",
+        "Size": 367616
+      },
+      {
+        "Name": "libboost-thread1.62.0",
+        "Version": "1.62.0 dfsg-4",
+        "Size": 204800
+      },
+      {
+        "Name": "libboost-timer-dev",
+        "Version": "1.62.0.1",
+        "Size": 10240
+      },
+      {
+        "Name": "libboost-timer1.62-dev",
+        "Version": "1.62.0 dfsg-4",
+        "Size": 65536
+      },
+      {
+        "Name": "libboost-timer1.62.0",
+        "Version": "1.62.0 dfsg-4",
+        "Size": 65536
+      },
+      {
+        "Name": "libboost1.62-dev",
+        "Version": "1.62.0 dfsg-4",
+        "Size": 116818944
+      },
+      {
+        "Name": "libbtf1",
+        "Version": "1:4.5.4-1",
+        "Size": 40960
+      },
+      {
+        "Name": "libbz2-1.0",
+        "Version": "1.0.6-8.1",
+        "Size": 92160
+      },
+      {
+        "Name": "libc-bin",
+        "Version": "2.24-9ubuntu2.2",
+        "Size": 3624960
+      },
+      {
+        "Name": "libc-dev-bin",
+        "Version": "2.24-9ubuntu2.2",
+        "Size": 404480
+      },
+      {
+        "Name": "libc6",
+        "Version": "2.24-9ubuntu2.2",
+        "Size": 11231232
+      },
+      {
+        "Name": "libc6-dev",
+        "Version": "2.24-9ubuntu2.2",
+        "Size": 16498688
+      },
+      {
+        "Name": "libcairo2",
+        "Version": "1.14.8-1",
+        "Size": 1296384
+      },
+      {
+        "Name": "libcamd2",
+        "Version": "1:4.5.4-1",
+        "Size": 70656
+      },
+      {
+        "Name": "libcap-ng0",
+        "Version": "0.7.7-3",
+        "Size": 36864
+      },
+      {
+        "Name": "libcap2",
+        "Version": "1:2.25-1",
+        "Size": 47104
+      },
+      {
+        "Name": "libcap2-bin",
+        "Version": "1:2.25-1",
+        "Size": 86016
+      },
+      {
+        "Name": "libcapnp-0.5.3",
+        "Version": "0.5.3-2ubuntu2",
+        "Size": 2318336
+      },
+      {
+        "Name": "libcc1-0",
+        "Version": "6.3.0-12ubuntu2",
+        "Size": 89088
+      },
+      {
+        "Name": "libccolamd2",
+        "Version": "1:4.5.4-1",
+        "Size": 74752
+      },
+      {
+        "Name": "libcholmod3",
+        "Version": "1:4.5.4-1",
+        "Size": 940032
+      },
+      {
+        "Name": "libchromaprint1",
+        "Version": "1.4.2-1",
+        "Size": 103424
+      },
+      {
+        "Name": "libcilkrts5",
+        "Version": "6.3.0-12ubuntu2",
+        "Size": 146432
+      },
+      {
+        "Name": "libcolamd2",
+        "Version": "1:4.5.4-1",
+        "Size": 58368
+      },
+      {
+        "Name": "libcomerr2",
+        "Version": "1.43.4-2",
+        "Size": 84992
+      },
+      {
+        "Name": "libcroco3",
+        "Version": "0.6.11-2",
+        "Size": 277504
+      },
+      {
+        "Name": "libcryptsetup4",
+        "Version": "2:1.7.2-0ubuntu1",
+        "Size": 228352
+      },
+      {
+        "Name": "libcrystalhd3",
+        "Version": "1:0.0~git20110715.fdd2f19-12",
+        "Size": 138240
+      },
+      {
+        "Name": "libcups2",
+        "Version": "2.2.2-1ubuntu1",
+        "Size": 702464
+      },
+      {
+        "Name": "libcurl3",
+        "Version": "7.52.1-4ubuntu1.3",
+        "Size": 589824
+      },
+      {
+        "Name": "libcurl3-gnutls",
+        "Version": "7.52.1-4ubuntu1.3",
+        "Size": 581632
+      },
+      {
+        "Name": "libcurl4-openssl-dev",
+        "Version": "7.52.1-4ubuntu1.3",
+        "Size": 1294336
+      },
+      {
+        "Name": "libcxsparse3",
+        "Version": "1:4.5.4-1",
+        "Size": 207872
+      },
+      {
+        "Name": "libdap-dev",
+        "Version": "3.18.2-2",
+        "Size": 5761024
+      },
+      {
+        "Name": "libdap23",
+        "Version": "3.18.2-2",
+        "Size": 1673216
+      },
+      {
+        "Name": "libdapclient6v5",
+        "Version": "3.18.2-2",
+        "Size": 313344
+      },
+      {
+        "Name": "libdapserver7v5",
+        "Version": "3.18.2-2",
+        "Size": 88064
+      },
+      {
+        "Name": "libdatrie1",
+        "Version": "0.2.10-4",
+        "Size": 53248
+      },
+      {
+        "Name": "libdb5.3",
+        "Version": "5.3.28-12ubuntu0.1",
+        "Size": 1786880
+      },
+      {
+        "Name": "libdbus-1-3",
+        "Version": "1.10.10-1ubuntu2",
+        "Size": 447488
+      },
+      {
+        "Name": "libdbus-glib-1-2",
+        "Version": "0.108-2",
+        "Size": 216064
+      },
+      {
+        "Name": "libdebconfclient0",
+        "Version": "0.213ubuntu1",
+        "Size": 69632
+      },
+      {
+        "Name": "libdevmapper1.02.1",
+        "Version": "2:1.02.136-1ubuntu5",
+        "Size": 416768
+      },
+      {
+        "Name": "libdolfin-dev",
+        "Version": "2017.1.0-1~ppa6~zesty1",
+        "Size": 1854464
+      },
+      {
+        "Name": "libdolfin2017.1",
+        "Version": "2017.1.0-1~ppa6~zesty1",
+        "Size": 6261760
+      },
+      {
+        "Name": "libdouble-conversion1",
+        "Version": "2.0.1-4ubuntu1",
+        "Size": 89088
+      },
+      {
+        "Name": "libdpkg-perl",
+        "Version": "1.18.10ubuntu2",
+        "Size": 1908736
+      },
+      {
+        "Name": "libdrm-amdgpu1",
+        "Version": "2.4.76-1",
+        "Size": 78848
+      },
+      {
+        "Name": "libdrm-dev",
+        "Version": "2.4.76-1",
+        "Size": 1054720
+      },
+      {
+        "Name": "libdrm-intel1",
+        "Version": "2.4.76-1",
+        "Size": 189440
+      },
+      {
+        "Name": "libdrm-nouveau2",
+        "Version": "2.4.76-1",
+        "Size": 73728
+      },
+      {
+        "Name": "libdrm-radeon1",
+        "Version": "2.4.76-1",
+        "Size": 87040
+      },
+      {
+        "Name": "libdrm2",
+        "Version": "2.4.76-1",
+        "Size": 111616
+      },
+      {
+        "Name": "libedit2",
+        "Version": "3.1-20160903-3",
+        "Size": 239616
+      },
+      {
+        "Name": "libegl1-mesa",
+        "Version": "17.0.7-0ubuntu0.17.04.1",
+        "Size": 310272
+      },
+      {
+        "Name": "libeigen3-dev",
+        "Version": "3.3.2-1",
+        "Size": 7116800
+      },
+      {
+        "Name": "libelf1",
+        "Version": "0.166-2ubuntu1",
+        "Size": 176128
+      },
+      {
+        "Name": "libepsilon-dev",
+        "Version": "0.9.2 dfsg-2",
+        "Size": 199680
+      },
+      {
+        "Name": "libepsilon1",
+        "Version": "0.9.2 dfsg-2",
+        "Size": 118784
+      },
+      {
+        "Name": "liberror-perl",
+        "Version": "0.17024-1",
+        "Size": 62464
+      },
+      {
+        "Name": "libevdev2",
+        "Version": "1.5.6 dfsg-1",
+        "Size": 126976
+      },
+      {
+        "Name": "libexpat1",
+        "Version": "2.2.0-2ubuntu0.1",
+        "Size": 377856
+      },
+      {
+        "Name": "libexpat1-dev",
+        "Version": "2.2.0-2ubuntu0.1",
+        "Size": 871424
+      },
+      {
+        "Name": "libfabric1",
+        "Version": "1.4.0-1",
+        "Size": 706560
+      },
+      {
+        "Name": "libfakeroot",
+        "Version": "1.21-1ubuntu2",
+        "Size": 151552
+      },
+      {
+        "Name": "libfdisk1",
+        "Version": "2.29-1ubuntu2.1",
+        "Size": 475136
+      },
+      {
+        "Name": "libffi6",
+        "Version": "3.2.1-6",
+        "Size": 53248
+      },
+      {
+        "Name": "libfftw3-bin",
+        "Version": "3.3.5-3",
+        "Size": 212992
+      },
+      {
+        "Name": "libfftw3-dev",
+        "Version": "3.3.5-3",
+        "Size": 15580160
+      },
+      {
+        "Name": "libfftw3-double3",
+        "Version": "3.3.5-3",
+        "Size": 2166784
+      },
+      {
+        "Name": "libfftw3-long3",
+        "Version": "3.3.5-3",
+        "Size": 991232
+      },
+      {
+        "Name": "libfftw3-mpi-dev",
+        "Version": "3.3.5-3",
+        "Size": 644096
+      },
+      {
+        "Name": "libfftw3-mpi3",
+        "Version": "3.3.5-3",
+        "Size": 290816
+      },
+      {
+        "Name": "libfftw3-quad3",
+        "Version": "3.3.5-3",
+        "Size": 2101248
+      },
+      {
+        "Name": "libfftw3-single3",
+        "Version": "3.3.5-3",
+        "Size": 2236416
+      },
+      {
+        "Name": "libfontconfig1",
+        "Version": "2.11.94-0ubuntu2",
+        "Size": 525312
+      },
+      {
+        "Name": "libfontconfig1-dev",
+        "Version": "2.11.94-0ubuntu2",
+        "Size": 2094080
+      },
+      {
+        "Name": "libfreetype6",
+        "Version": "2.6.3-3ubuntu2.2",
+        "Size": 912384
+      },
+      {
+        "Name": "libfreetype6-dev",
+        "Version": "2.6.3-3ubuntu2.2",
+        "Size": 9296896
+      },
+      {
+        "Name": "libfreexl-dev",
+        "Version": "1.0.2-2 deb9u1build0.17.04.1",
+        "Size": 116736
+      },
+      {
+        "Name": "libfreexl1",
+        "Version": "1.0.2-2 deb9u1build0.17.04.1",
+        "Size": 96256
+      },
+      {
+        "Name": "libgail-common",
+        "Version": "2.24.31-1ubuntu1.1",
+        "Size": 447488
+      },
+      {
+        "Name": "libgail18",
+        "Version": "2.24.31-1ubuntu1.1",
+        "Size": 101376
+      },
+      {
+        "Name": "libgbm1",
+        "Version": "17.0.7-0ubuntu0.17.04.1",
+        "Size": 125952
+      },
+      {
+        "Name": "libgcc-6-dev",
+        "Version": "6.3.0-12ubuntu2",
+        "Size": 13206528
+      },
+      {
+        "Name": "libgcc1",
+        "Version": "1:6.3.0-12ubuntu2",
+        "Size": 110592
+      },
+      {
+        "Name": "libgcrypt20",
+        "Version": "1.7.6-1ubuntu0.2",
+        "Size": 1185792
+      },
+      {
+        "Name": "libgdal-dev",
+        "Version": "2.1.2 dfsg-3",
+        "Size": 35980288
+      },
+      {
+        "Name": "libgdal20",
+        "Version": "2.1.2 dfsg-3",
+        "Size": 18018304
+      },
+      {
+        "Name": "libgdbm3",
+        "Version": "1.8.3-14",
+        "Size": 58368
+      },
+      {
+        "Name": "libgdk-pixbuf2.0-0",
+        "Version": "2.36.5-3ubuntu0.2",
+        "Size": 534528
+      },
+      {
+        "Name": "libgdk-pixbuf2.0-bin",
+        "Version": "2.36.5-3ubuntu0.2",
+        "Size": 41984
+      },
+      {
+        "Name": "libgdk-pixbuf2.0-common",
+        "Version": "2.36.5-3ubuntu0.2",
+        "Size": 53248
+      },
+      {
+        "Name": "libgeos-3.5.1",
+        "Version": "3.5.1-3",
+        "Size": 2020352
+      },
+      {
+        "Name": "libgeos-c1v5",
+        "Version": "3.5.1-3",
+        "Size": 222208
+      },
+      {
+        "Name": "libgeos-dev",
+        "Version": "3.5.1-3",
+        "Size": 460800
+      },
+      {
+        "Name": "libgeotiff-dev",
+        "Version": "1.4.2-2build1",
+        "Size": 505856
+      },
+      {
+        "Name": "libgeotiff2",
+        "Version": "1.4.2-2build1",
+        "Size": 268288
+      },
+      {
+        "Name": "libgfortran-6-dev",
+        "Version": "6.3.0-12ubuntu2",
+        "Size": 3038208
+      },
+      {
+        "Name": "libgfortran3",
+        "Version": "6.3.0-12ubuntu2",
+        "Size": 1314816
+      },
+      {
+        "Name": "libgif-dev",
+        "Version": "5.1.4-0.4",
+        "Size": 96256
+      },
+      {
+        "Name": "libgif7",
+        "Version": "5.1.4-0.4",
+        "Size": 69632
+      },
+      {
+        "Name": "libgirepository-1.0-1",
+        "Version": "1.52.0-0ubuntu1",
+        "Size": 247808
+      },
+      {
+        "Name": "libgl1-mesa-dev",
+        "Version": "17.0.7-0ubuntu0.17.04.1",
+        "Size": 71680
+      },
+      {
+        "Name": "libgl1-mesa-dri",
+        "Version": "17.0.7-0ubuntu0.17.04.1",
+        "Size": 118505472
+      },
+      {
+        "Name": "libgl1-mesa-glx",
+        "Version": "17.0.7-0ubuntu0.17.04.1",
+        "Size": 577536
+      },
+      {
+        "Name": "libgl2ps-dev",
+        "Version": "1.3.9-4",
+        "Size": 32768
+      },
+      {
+        "Name": "libgl2ps1",
+        "Version": "1.3.9-4",
+        "Size": 97280
+      },
+      {
+        "Name": "libglade2-0",
+        "Version": "1:2.6.4-2",
+        "Size": 203776
+      },
+      {
+        "Name": "libglapi-mesa",
+        "Version": "17.0.7-0ubuntu0.17.04.1",
+        "Size": 259072
+      },
+      {
+        "Name": "libglib2.0-0",
+        "Version": "2.52.0-1",
+        "Size": 3728384
+      },
+      {
+        "Name": "libglu1-mesa",
+        "Version": "9.0.0-2.1build1",
+        "Size": 474112
+      },
+      {
+        "Name": "libglu1-mesa-dev",
+        "Version": "9.0.0-2.1build1",
+        "Size": 967680
+      },
+      {
+        "Name": "libgme0",
+        "Version": "0.6.1-1",
+        "Size": 332800
+      },
+      {
+        "Name": "libgmp10",
+        "Version": "2:6.1.2 dfsg-1",
+        "Size": 567296
+      },
+      {
+        "Name": "libgnutls30",
+        "Version": "3.5.6-4ubuntu4.3",
+        "Size": 1724416
+      },
+      {
+        "Name": "libgomp1",
+        "Version": "6.3.0-12ubuntu2",
+        "Size": 211968
+      },
+      {
+        "Name": "libgpg-error0",
+        "Version": "1.26-2",
+        "Size": 159744
+      },
+      {
+        "Name": "libgpm2",
+        "Version": "1.20.4-6.2",
+        "Size": 64512
+      },
+      {
+        "Name": "libgraphite2-3",
+        "Version": "1.3.10-0ubuntu0.17.04.1",
+        "Size": 184320
+      },
+      {
+        "Name": "libgsm1",
+        "Version": "1.0.13-4",
+        "Size": 97280
+      },
+      {
+        "Name": "libgssapi-krb5-2",
+        "Version": "1.15-1ubuntu0.1",
+        "Size": 429056
+      },
+      {
+        "Name": "libgssapi3-heimdal",
+        "Version": "7.1.0 dfsg-9ubuntu1.1",
+        "Size": 324608
+      },
+      {
+        "Name": "libgstreamer-plugins-base1.0-0",
+        "Version": "1.10.4-1ubuntu1",
+        "Size": 2265088
+      },
+      {
+        "Name": "libgstreamer1.0-0",
+        "Version": "1.10.4-1",
+        "Size": 3616768
+      },
+      {
+        "Name": "libgtk2.0-0",
+        "Version": "2.24.31-1ubuntu1.1",
+        "Size": 5844992
+      },
+      {
+        "Name": "libgtk2.0-bin",
+        "Version": "2.24.31-1ubuntu1.1",
+        "Size": 72704
+      },
+      {
+        "Name": "libgtk2.0-common",
+        "Version": "2.24.31-1ubuntu1.1",
+        "Size": 278528
+      },
+      {
+        "Name": "libgudev-1.0-0",
+        "Version": "1:230-3",
+        "Size": 57344
+      },
+      {
+        "Name": "libharfbuzz0b",
+        "Version": "1.4.2-1",
+        "Size": 636928
+      },
+      {
+        "Name": "libhcrypto4-heimdal",
+        "Version": "7.1.0 dfsg-9ubuntu1.1",
+        "Size": 283648
+      },
+      {
+        "Name": "libhdf4-0-alt",
+        "Version": "4.2.12-1",
+        "Size": 728064
+      },
+      {
+        "Name": "libhdf4-alt-dev",
+        "Version": "4.2.12-1",
+        "Size": 1969152
+      },
+      {
+        "Name": "libhdf5-100",
+        "Version": "1.10.0-patch1 docs-3",
+        "Size": 4301824
+      },
+      {
+        "Name": "libhdf5-cpp-100",
+        "Version": "1.10.0-patch1 docs-3",
+        "Size": 560128
+      },
+      {
+        "Name": "libhdf5-dev",
+        "Version": "1.10.0-patch1 docs-3",
+        "Size": 11366400
+      },
+      {
+        "Name": "libhdf5-mpi-dev",
+        "Version": "1.10.0-patch1 docs-3",
+        "Size": 37888
+      },
+      {
+        "Name": "libhdf5-openmpi-100",
+        "Version": "1.10.0-patch1 docs-3",
+        "Size": 4385792
+      },
+      {
+        "Name": "libhdf5-openmpi-dev",
+        "Version": "1.10.0-patch1 docs-3",
+        "Size": 10436608
+      },
+      {
+        "Name": "libheimbase1-heimdal",
+        "Version": "7.1.0 dfsg-9ubuntu1.1",
+        "Size": 109568
+      },
+      {
+        "Name": "libheimntlm0-heimdal",
+        "Version": "7.1.0 dfsg-9ubuntu1.1",
+        "Size": 81920
+      },
+      {
+        "Name": "libhogweed4",
+        "Version": "3.3-1",
+        "Size": 228352
+      },
+      {
+        "Name": "libhwloc-dev",
+        "Version": "1.11.5-1",
+        "Size": 809984
+      },
+      {
+        "Name": "libhwloc-plugins",
+        "Version": "1.11.5-1",
+        "Size": 58368
+      },
+      {
+        "Name": "libhwloc5",
+        "Version": "1.11.5-1",
+        "Size": 265216
+      },
+      {
+        "Name": "libhx509-5-heimdal",
+        "Version": "7.1.0 dfsg-9ubuntu1.1",
+        "Size": 361472
+      },
+      {
+        "Name": "libhypre-2.11.1",
+        "Version": "2.11.1-3",
+        "Size": 5341184
+      },
+      {
+        "Name": "libhypre-dev",
+        "Version": "2.11.1-3",
+        "Size": 1125376
+      },
+      {
+        "Name": "libibcm-dev",
+        "Version": "1.0.5-2",
+        "Size": 58368
+      },
+      {
+        "Name": "libibcm1",
+        "Version": "1.0.5-2",
+        "Size": 33792
+      },
+      {
+        "Name": "libibdm1",
+        "Version": "1.5.7-5ubuntu1",
+        "Size": 8992768
+      },
+      {
+        "Name": "libibmad-dev",
+        "Version": "1.3.12-2",
+        "Size": 225280
+      },
+      {
+        "Name": "libibmad5",
+        "Version": "1.3.12-2",
+        "Size": 129024
+      },
+      {
+        "Name": "libibnetdisc5",
+        "Version": "1.6.7-1",
+        "Size": 68608
+      },
+      {
+        "Name": "libibumad-dev",
+        "Version": "1.3.10.2-2",
+        "Size": 152576
+      },
+      {
+        "Name": "libibumad3",
+        "Version": "1.3.10.2-2",
+        "Size": 53248
+      },
+      {
+        "Name": "libibverbs-dev",
+        "Version": "1.2.1-2ubuntu1",
+        "Size": 328704
+      },
+      {
+        "Name": "libibverbs1",
+        "Version": "1.2.1-2ubuntu1",
+        "Size": 95232
+      },
+      {
+        "Name": "libibverbs1-dbg",
+        "Version": "1.2.1-2ubuntu1",
+        "Size": 412672
+      },
+      {
+        "Name": "libice-dev",
+        "Version": "2:1.0.9-1",
+        "Size": 246784
+      },
+      {
+        "Name": "libice6",
+        "Version": "2:1.0.9-1",
+        "Size": 131072
+      },
+      {
+        "Name": "libicu-dev",
+        "Version": "57.1-5ubuntu0.2",
+        "Size": 92620800
+      },
+      {
+        "Name": "libicu57",
+        "Version": "57.1-5ubuntu0.2",
+        "Size": 30759936
+      },
+      {
+        "Name": "libidn11",
+        "Version": "1.33-1ubuntu0.1",
+        "Size": 244736
+      },
+      {
+        "Name": "libidn2-0",
+        "Version": "0.16-1ubuntu0.1",
+        "Size": 164864
+      },
+      {
+        "Name": "libinput-bin",
+        "Version": "1.6.3-1ubuntu1",
+        "Size": 48128
+      },
+      {
+        "Name": "libinput10",
+        "Version": "1.6.3-1ubuntu1",
+        "Size": 244736
+      },
+      {
+        "Name": "libip4tc0",
+        "Version": "1.6.0-3ubuntu2",
+        "Size": 75776
+      },
+      {
+        "Name": "libisl15",
+        "Version": "0.18-1",
+        "Size": 1765376
+      },
+      {
+        "Name": "libitm1",
+        "Version": "6.3.0-12ubuntu2",
+        "Size": 134144
+      },
+      {
+        "Name": "libjbig-dev",
+        "Version": "2.1-3.1",
+        "Size": 111616
+      },
+      {
+        "Name": "libjbig0",
+        "Version": "2.1-3.1",
+        "Size": 95232
+      },
+      {
+        "Name": "libjpeg-dev",
+        "Version": "8c-2ubuntu8",
+        "Size": 26624
+      },
+      {
+        "Name": "libjpeg-turbo8",
+        "Version": "1.5.1-0ubuntu1",
+        "Size": 464896
+      },
+      {
+        "Name": "libjpeg-turbo8-dev",
+        "Version": "1.5.1-0ubuntu1",
+        "Size": 1553408
+      },
+      {
+        "Name": "libjpeg8",
+        "Version": "8c-2ubuntu8",
+        "Size": 26624
+      },
+      {
+        "Name": "libjpeg8-dev",
+        "Version": "8c-2ubuntu8",
+        "Size": 26624
+      },
+      {
+        "Name": "libjs-jquery",
+        "Version": "3.1.1-2",
+        "Size": 564224
+      },
+      {
+        "Name": "libjs-jquery-ui",
+        "Version": "1.12.1 dfsg-4",
+        "Size": 2385920
+      },
+      {
+        "Name": "libjs-sphinxdoc",
+        "Version": "1.5.3-1ubuntu0.1",
+        "Size": 140288
+      },
+      {
+        "Name": "libjs-underscore",
+        "Version": "1.8.3~dfsg-1",
+        "Size": 258048
+      },
+      {
+        "Name": "libjson-c-dev",
+        "Version": "0.12.1-1.1",
+        "Size": 152576
+      },
+      {
+        "Name": "libjson-c3",
+        "Version": "0.12.1-1.1",
+        "Size": 66560
+      },
+      {
+        "Name": "libjsoncpp-dev",
+        "Version": "1.7.4-3",
+        "Size": 474112
+      },
+      {
+        "Name": "libjsoncpp1",
+        "Version": "1.7.4-3",
+        "Size": 234496
+      },
+      {
+        "Name": "libk5crypto3",
+        "Version": "1.15-1ubuntu0.1",
+        "Size": 314368
+      },
+      {
+        "Name": "libkeyutils1",
+        "Version": "1.5.9-9ubuntu1",
+        "Size": 36864
+      },
+      {
+        "Name": "libklu1",
+        "Version": "1:4.5.4-1",
+        "Size": 211968
+      },
+      {
+        "Name": "libkml-dev",
+        "Version": "1.3.0-3",
+        "Size": 1907712
+      },
+      {
+        "Name": "libkmlbase1",
+        "Version": "1.3.0-3",
+        "Size": 149504
+      },
+      {
+        "Name": "libkmlconvenience1",
+        "Version": "1.3.0-3",
+        "Size": 162816
+      },
+      {
+        "Name": "libkmldom1",
+        "Version": "1.3.0-3",
+        "Size": 897024
+      },
+      {
+        "Name": "libkmlengine1",
+        "Version": "1.3.0-3",
+        "Size": 287744
+      },
+      {
+        "Name": "libkmlregionator1",
+        "Version": "1.3.0-3",
+        "Size": 73728
+      },
+      {
+        "Name": "libkmlxsd1",
+        "Version": "1.3.0-3",
+        "Size": 115712
+      },
+      {
+        "Name": "libkmod2",
+        "Version": "22-1.1ubuntu1",
+        "Size": 120832
+      },
+      {
+        "Name": "libkrb5-26-heimdal",
+        "Version": "7.1.0 dfsg-9ubuntu1.1",
+        "Size": 662528
+      },
+      {
+        "Name": "libkrb5-3",
+        "Version": "1.15-1ubuntu0.1",
+        "Size": 1031168
+      },
+      {
+        "Name": "libkrb5support0",
+        "Version": "1.15-1ubuntu0.1",
+        "Size": 157696
+      },
+      {
+        "Name": "libksba8",
+        "Version": "1.3.5-2",
+        "Size": 265216
+      },
+      {
+        "Name": "liblapack-dev",
+        "Version": "3.7.0-1",
+        "Size": 12083200
+      },
+      {
+        "Name": "liblapack3",
+        "Version": "3.7.0-1",
+        "Size": 6996992
+      },
+      {
+        "Name": "liblcms2-2",
+        "Version": "2.7-1ubuntu1",
+        "Size": 389120
+      },
+      {
+        "Name": "libldap-2.4-2",
+        "Version": "2.4.44 dfsg-3ubuntu2.1",
+        "Size": 507904
+      },
+      {
+        "Name": "libldap-common",
+        "Version": "2.4.44 dfsg-3ubuntu2.1",
+        "Size": 97280
+      },
+      {
+        "Name": "libldl2",
+        "Version": "1:4.5.4-1",
+        "Size": 40960
+      },
+      {
+        "Name": "libllvm4.0",
+        "Version": "1:4.0-1ubuntu1",
+        "Size": 49381376
+      },
+      {
+        "Name": "liblsan0",
+        "Version": "6.3.0-12ubuntu2",
+        "Size": 323584
+      },
+      {
+        "Name": "libltdl-dev",
+        "Version": "2.4.6-2",
+        "Size": 943104
+      },
+      {
+        "Name": "libltdl7",
+        "Version": "2.4.6-2",
+        "Size": 427008
+      },
+      {
+        "Name": "liblz4-1",
+        "Version": "0.0~r131-2ubuntu2",
+        "Size": 118784
+      },
+      {
+        "Name": "liblzma-dev",
+        "Version": "5.2.2-1.2",
+        "Size": 668672
+      },
+      {
+        "Name": "liblzma5",
+        "Version": "5.2.2-1.2",
+        "Size": 346112
+      },
+      {
+        "Name": "liblzo2-2",
+        "Version": "2.08-1.2",
+        "Size": 184320
+      },
+      {
+        "Name": "libmagic-mgc",
+        "Version": "1:5.29-3ubuntu0.1",
+        "Size": 4928512
+      },
+      {
+        "Name": "libmagic1",
+        "Version": "1:5.29-3ubuntu0.1",
+        "Size": 202752
+      },
+      {
+        "Name": "libmetis5",
+        "Version": "5.1.0.dfsg-5",
+        "Size": 466944
+      },
+      {
+        "Name": "libminizip-dev",
+        "Version": "1.1-8",
+        "Size": 114688
+      },
+      {
+        "Name": "libminizip1",
+        "Version": "1.1-8",
+        "Size": 60416
+      },
+      {
+        "Name": "libmirclient9",
+        "Version": "0.26.3 17.04.20170605-0ubuntu1",
+        "Size": 774144
+      },
+      {
+        "Name": "libmircommon7",
+        "Version": "0.26.3 17.04.20170605-0ubuntu1",
+        "Size": 376832
+      },
+      {
+        "Name": "libmircore1",
+        "Version": "0.26.3 17.04.20170605-0ubuntu1",
+        "Size": 121856
+      },
+      {
+        "Name": "libmirprotobuf3",
+        "Version": "0.26.3 17.04.20170605-0ubuntu1",
+        "Size": 613376
+      },
+      {
+        "Name": "libmlx4-1",
+        "Version": "1.2.1-1",
+        "Size": 52224
+      },
+      {
+        "Name": "libmlx4-dev",
+        "Version": "1.2.1-1",
+        "Size": 66560
+      },
+      {
+        "Name": "libmlx5-1",
+        "Version": "1.2.1-1ubuntu2",
+        "Size": 109568
+      },
+      {
+        "Name": "libmlx5-dev",
+        "Version": "1.2.1-1ubuntu2",
+        "Size": 159744
+      },
+      {
+        "Name": "libmnl0",
+        "Version": "1.0.4-2",
+        "Size": 43008
+      },
+      {
+        "Name": "libmount1",
+        "Version": "2.29-1ubuntu2.1",
+        "Size": 403456
+      },
+      {
+        "Name": "libmp3lame0",
+        "Version": "3.99.5 repack1-9build1",
+        "Size": 313344
+      },
+      {
+        "Name": "libmpc3",
+        "Version": "1.0.3-1",
+        "Size": 133120
+      },
+      {
+        "Name": "libmpdec2",
+        "Version": "2.4.2-1",
+        "Size": 252928
+      },
+      {
+        "Name": "libmpfr4",
+        "Version": "3.1.5-1",
+        "Size": 833536
+      },
+      {
+        "Name": "libmpg123-0",
+        "Version": "1.23.8-1",
+        "Size": 352256
+      },
+      {
+        "Name": "libmpx2",
+        "Version": "6.3.0-12ubuntu2",
+        "Size": 47104
+      },
+      {
+        "Name": "libmshr-dev",
+        "Version": "2017.1.0-1~ppa1~zesty1",
+        "Size": 266240
+      },
+      {
+        "Name": "libmshr2017.1",
+        "Version": "2017.1.0-1~ppa1~zesty1",
+        "Size": 7019520
+      },
+      {
+        "Name": "libmtdev1",
+        "Version": "1.1.5-1ubuntu2",
+        "Size": 80896
+      },
+      {
+        "Name": "libmumps-4.10.0",
+        "Version": "4.10.0.dfsg-4build2",
+        "Size": 5169152
+      },
+      {
+        "Name": "libmumps-dev",
+        "Version": "4.10.0.dfsg-4build2",
+        "Size": 7448576
+      },
+      {
+        "Name": "libmuparser2v5",
+        "Version": "2.2.3-6",
+        "Size": 393216
+      },
+      {
+        "Name": "libmysqlclient-dev",
+        "Version": "5.7.20-0ubuntu0.17.04.1",
+        "Size": 6991872
+      },
+      {
+        "Name": "libmysqlclient20",
+        "Version": "5.7.20-0ubuntu0.17.04.1",
+        "Size": 4400128
+      },
+      {
+        "Name": "libncurses5",
+        "Version": "6.0 20160625-1ubuntu1",
+        "Size": 285696
+      },
+      {
+        "Name": "libncursesw5",
+        "Version": "6.0 20160625-1ubuntu1",
+        "Size": 351232
+      },
+      {
+        "Name": "libnetcdf-c++4",
+        "Version": "4.2-6",
+        "Size": 157696
+      },
+      {
+        "Name": "libnetcdf-cxx-legacy-dev",
+        "Version": "4.2-6",
+        "Size": 260096
+      },
+      {
+        "Name": "libnetcdf-dev",
+        "Version": "1:4.4.1.1-1build1",
+        "Size": 177152
+      },
+      {
+        "Name": "libnetcdf11",
+        "Version": "1:4.4.1.1-1build1",
+        "Size": 1522688
+      },
+      {
+        "Name": "libnettle6",
+        "Version": "3.3-1",
+        "Size": 360448
+      },
+      {
+        "Name": "libnl-3-200",
+        "Version": "3.2.29-0ubuntu2.1",
+        "Size": 176128
+      },
+      {
+        "Name": "libnl-3-dev",
+        "Version": "3.2.29-0ubuntu2.1",
+        "Size": 608256
+      },
+      {
+        "Name": "libnl-cli-3-200",
+        "Version": "3.2.29-0ubuntu2.1",
+        "Size": 174080
+      },
+      {
+        "Name": "libnl-genl-3-200",
+        "Version": "3.2.29-0ubuntu2.1",
+        "Size": 54272
+      },
+      {
+        "Name": "libnl-idiag-3-200",
+        "Version": "3.2.29-0ubuntu2.1",
+        "Size": 68608
+      },
+      {
+        "Name": "libnl-nf-3-200",
+        "Version": "3.2.29-0ubuntu2.1",
+        "Size": 131072
+      },
+      {
+        "Name": "libnl-route-3-200",
+        "Version": "3.2.29-0ubuntu2.1",
+        "Size": 537600
+      },
+      {
+        "Name": "libnl-route-3-dev",
+        "Version": "3.2.29-0ubuntu2.1",
+        "Size": 1020928
+      },
+      {
+        "Name": "libnl-utils",
+        "Version": "3.2.29-0ubuntu2.1",
+        "Size": 548864
+      },
+      {
+        "Name": "libnpth0",
+        "Version": "1.3-1",
+        "Size": 36864
+      },
+      {
+        "Name": "libnspr4",
+        "Version": "2:4.13.1-0ubuntu0.17.04.1",
+        "Size": 337920
+      },
+      {
+        "Name": "libnss3",
+        "Version": "2:3.28.4-0ubuntu0.17.04.3",
+        "Size": 3785728
+      },
+      {
+        "Name": "libnuma-dev",
+        "Version": "2.0.11-1ubuntu2",
+        "Size": 166912
+      },
+      {
+        "Name": "libnuma1",
+        "Version": "2.0.11-1ubuntu2",
+        "Size": 75776
+      },
+      {
+        "Name": "libodbc1",
+        "Version": "2.3.4-1",
+        "Size": 605184
+      },
+      {
+        "Name": "libogdi3.2",
+        "Version": "3.2.0 ds-1build1",
+        "Size": 695296
+      },
+      {
+        "Name": "libogdi3.2-dev",
+        "Version": "3.2.0 ds-1build1",
+        "Size": 118784
+      },
+      {
+        "Name": "libogg-dev",
+        "Version": "1.3.2-1",
+        "Size": 470016
+      },
+      {
+        "Name": "libogg0",
+        "Version": "1.3.2-1",
+        "Size": 77824
+      },
+      {
+        "Name": "libopenblas-base",
+        "Version": "0.2.19-2",
+        "Size": 39992320
+      },
+      {
+        "Name": "libopenblas-dev",
+        "Version": "0.2.19-2",
+        "Size": 51313664
+      },
+      {
+        "Name": "libopenjp2-7",
+        "Version": "2.1.2-1.1 deb9u2build0.17.04.1",
+        "Size": 302080
+      },
+      {
+        "Name": "libopenjp2-7-dev",
+        "Version": "2.1.2-1.1 deb9u2build0.17.04.1",
+        "Size": 156672
+      },
+      {
+        "Name": "libopenmpi-dev",
+        "Version": "2.0.2-2",
+        "Size": 5012480
+      },
+      {
+        "Name": "libopenmpi2",
+        "Version": "2.0.2-2",
+        "Size": 7462912
+      },
+      {
+        "Name": "libopenmpt0",
+        "Version": "0.2.7386~beta20.3-3",
+        "Size": 1344512
+      },
+      {
+        "Name": "libopensm5a",
+        "Version": "3.3.20-1",
+        "Size": 104448
+      },
+      {
+        "Name": "libopus0",
+        "Version": "1.1.2-1ubuntu1",
+        "Size": 321536
+      },
+      {
+        "Name": "liborc-0.4-0",
+        "Version": "1:0.4.26-2",
+        "Size": 574464
+      },
+      {
+        "Name": "libosmcomp3",
+        "Version": "3.3.20-1",
+        "Size": 74752
+      },
+      {
+        "Name": "libosmvendor4",
+        "Version": "3.3.20-1",
+        "Size": 52224
+      },
+      {
+        "Name": "libp11-kit0",
+        "Version": "0.23.3-5",
+        "Size": 448512
+      },
+      {
+        "Name": "libpam-modules",
+        "Version": "1.1.8-3.2ubuntu2",
+        "Size": 940032
+      },
+      {
+        "Name": "libpam-modules-bin",
+        "Version": "1.1.8-3.2ubuntu2",
+        "Size": 276480
+      },
+      {
+        "Name": "libpam-runtime",
+        "Version": "1.1.8-3.2ubuntu2",
+        "Size": 307200
+      },
+      {
+        "Name": "libpam-systemd",
+        "Version": "232-21ubuntu7.1",
+        "Size": 377856
+      },
+      {
+        "Name": "libpam0g",
+        "Version": "1.1.8-3.2ubuntu2",
+        "Size": 214016
+      },
+      {
+        "Name": "libpango-1.0-0",
+        "Version": "1.40.4-1",
+        "Size": 408576
+      },
+      {
+        "Name": "libpangocairo-1.0-0",
+        "Version": "1.40.4-1",
+        "Size": 91136
+      },
+      {
+        "Name": "libpangoft2-1.0-0",
+        "Version": "1.40.4-1",
+        "Size": 125952
+      },
+      {
+        "Name": "libparpack2",
+        "Version": "3.4.0-1build1",
+        "Size": 319488
+      },
+      {
+        "Name": "libparpack2-dev",
+        "Version": "3.4.0-1build1",
+        "Size": 652288
+      },
+      {
+        "Name": "libpciaccess0",
+        "Version": "0.13.4-1ubuntu1",
+        "Size": 58368
+      },
+      {
+        "Name": "libpcre16-3",
+        "Version": "2:8.39-3",
+        "Size": 553984
+      },
+      {
+        "Name": "libpcre3",
+        "Version": "2:8.39-3",
+        "Size": 684032
+      },
+      {
+        "Name": "libpcre3-dev",
+        "Version": "2:8.39-3",
+        "Size": 2295808
+      },
+      {
+        "Name": "libpcre32-3",
+        "Version": "2:8.39-3",
+        "Size": 529408
+      },
+      {
+        "Name": "libpcrecpp0v5",
+        "Version": "2:8.39-3",
+        "Size": 191488
+      },
+      {
+        "Name": "libperl5.24",
+        "Version": "5.24.1-2ubuntu1.1",
+        "Size": 21382144
+      },
+      {
+        "Name": "libpetsc3.7.5",
+        "Version": "3.7.5 dfsg1-4build1",
+        "Size": 12879872
+      },
+      {
+        "Name": "libpetsc3.7.5-dev",
+        "Version": "3.7.5 dfsg1-4build1",
+        "Size": 12532736
+      },
+      {
+        "Name": "libpixman-1-0",
+        "Version": "0.34.0-1",
+        "Size": 707584
+      },
+      {
+        "Name": "libpng-dev",
+        "Version": "1.6.28-1",
+        "Size": 559104
+      },
+      {
+        "Name": "libpng16-16",
+        "Version": "1.6.28-1",
+        "Size": 324608
+      },
+      {
+        "Name": "libpoppler-dev",
+        "Version": "0.48.0-2ubuntu2.4",
+        "Size": 4426752
+      },
+      {
+        "Name": "libpoppler-private-dev",
+        "Version": "0.48.0-2ubuntu2.4",
+        "Size": 1269760
+      },
+      {
+        "Name": "libpoppler64",
+        "Version": "0.48.0-2ubuntu2.4",
+        "Size": 2751488
+      },
+      {
+        "Name": "libpopt0",
+        "Version": "1.16-10",
+        "Size": 131072
+      },
+      {
+        "Name": "libpq-dev",
+        "Version": "9.6.6-0ubuntu0.17.04",
+        "Size": 966656
+      },
+      {
+        "Name": "libpq5",
+        "Version": "9.6.6-0ubuntu0.17.04",
+        "Size": 274432
+      },
+      {
+        "Name": "libprocps6",
+        "Version": "2:3.3.12-1ubuntu2",
+        "Size": 119808
+      },
+      {
+        "Name": "libproj-dev",
+        "Version": "4.9.3-1",
+        "Size": 1105920
+      },
+      {
+        "Name": "libproj12",
+        "Version": "4.9.3-1",
+        "Size": 473088
+      },
+      {
+        "Name": "libprotobuf-lite10",
+        "Version": "3.0.0-9ubuntu2",
+        "Size": 347136
+      },
+      {
+        "Name": "libproxy1v5",
+        "Version": "0.4.14-2",
+        "Size": 155648
+      },
+      {
+        "Name": "libpsl5",
+        "Version": "0.17.0-4",
+        "Size": 74752
+      },
+      {
+        "Name": "libpsm-infinipath1",
+        "Version": "3.3 19.g67c0807.open-3",
+        "Size": 448512
+      },
+      {
+        "Name": "libpthread-stubs0-dev",
+        "Version": "0.3-4",
+        "Size": 40960
+      },
+      {
+        "Name": "libptscotch-5.1",
+        "Version": "5.1.12b.dfsg-2build6",
+        "Size": 3145728
+      },
+      {
+        "Name": "libptscotch-dev",
+        "Version": "5.1.12b.dfsg-2build6",
+        "Size": 33794048
+      },
+      {
+        "Name": "libpython-dev",
+        "Version": "2.7.13-2",
+        "Size": 43008
+      },
+      {
+        "Name": "libpython-stdlib",
+        "Version": "2.7.13-2",
+        "Size": 37888
+      },
+      {
+        "Name": "libpython2.7",
+        "Version": "2.7.13-2ubuntu0.1",
+        "Size": 3650560
+      },
+      {
+        "Name": "libpython2.7-dev",
+        "Version": "2.7.13-2ubuntu0.1",
+        "Size": 41626624
+      },
+      {
+        "Name": "libpython2.7-minimal",
+        "Version": "2.7.13-2ubuntu0.1",
+        "Size": 2833408
+      },
+      {
+        "Name": "libpython2.7-stdlib",
+        "Version": "2.7.13-2ubuntu0.1",
+        "Size": 8764416
+      },
+      {
+        "Name": "libpython3-stdlib",
+        "Version": "3.5.3-1",
+        "Size": 36864
+      },
+      {
+        "Name": "libpython3.5",
+        "Version": "3.5.3-1ubuntu0~17.04.2",
+        "Size": 4656128
+      },
+      {
+        "Name": "libpython3.5-minimal",
+        "Version": "3.5.3-1ubuntu0~17.04.2",
+        "Size": 3841024
+      },
+      {
+        "Name": "libpython3.5-stdlib",
+        "Version": "3.5.3-1ubuntu0~17.04.2",
+        "Size": 10133504
+      },
+      {
+        "Name": "libqhull-dev",
+        "Version": "2015.2-2",
+        "Size": 1554432
+      },
+      {
+        "Name": "libqhull7",
+        "Version": "2015.2-2",
+        "Size": 424960
+      },
+      {
+        "Name": "libqt5core5a",
+        "Version": "5.7.1 dfsg-2ubuntu4~1.17.04.1",
+        "Size": 5455872
+      },
+      {
+        "Name": "libqt5dbus5",
+        "Version": "5.7.1 dfsg-2ubuntu4~1.17.04.1",
+        "Size": 748544
+      },
+      {
+        "Name": "libqt5gui5",
+        "Version": "5.7.1 dfsg-2ubuntu4~1.17.04.1",
+        "Size": 9588736
+      },
+      {
+        "Name": "libqt5network5",
+        "Version": "5.7.1 dfsg-2ubuntu4~1.17.04.1",
+        "Size": 2298880
+      },
+      {
+        "Name": "libqt5opengl5",
+        "Version": "5.7.1 dfsg-2ubuntu4~1.17.04.1",
+        "Size": 556032
+      },
+      {
+        "Name": "libqt5printsupport5",
+        "Version": "5.7.1 dfsg-2ubuntu4~1.17.04.1",
+        "Size": 722944
+      },
+      {
+        "Name": "libqt5qml5",
+        "Version": "5.7.1-1ubuntu1~7",
+        "Size": 4568064
+      },
+      {
+        "Name": "libqt5quick5",
+        "Version": "5.7.1-1ubuntu1~7",
+        "Size": 4455424
+      },
+      {
+        "Name": "libqt5sql5",
+        "Version": "5.7.1 dfsg-2ubuntu4~1.17.04.1",
+        "Size": 477184
+      },
+      {
+        "Name": "libqt5webkit5",
+        "Version": "5.7.1 dfsg-1build1~2",
+        "Size": 38937600
+      },
+      {
+        "Name": "libqt5widgets5",
+        "Version": "5.7.1 dfsg-2ubuntu4~1.17.04.1",
+        "Size": 7273472
+      },
+      {
+        "Name": "libquadmath0",
+        "Version": "6.3.0-12ubuntu2",
+        "Size": 275456
+      },
+      {
+        "Name": "librbio2",
+        "Version": "1:4.5.4-1",
+        "Size": 87040
+      },
+      {
+        "Name": "librdmacm-dev",
+        "Version": "1.1.0-2",
+        "Size": 253952
+      },
+      {
+        "Name": "librdmacm1",
+        "Version": "1.1.0-2",
+        "Size": 137216
+      },
+      {
+        "Name": "librdmacm1-dbg",
+        "Version": "1.1.0-2",
+        "Size": 530432
+      },
+      {
+        "Name": "libreadline7",
+        "Version": "7.0-0ubuntu2",
+        "Size": 415744
+      },
+      {
+        "Name": "libroken18-heimdal",
+        "Version": "7.1.0 dfsg-9ubuntu1.1",
+        "Size": 142336
+      },
+      {
+        "Name": "librsvg2-2",
+        "Version": "2.40.16-2~svn1",
+        "Size": 262144
+      },
+      {
+        "Name": "librsvg2-common",
+        "Version": "2.40.16-2~svn1",
+        "Size": 40960
+      },
+      {
+        "Name": "librtmp1",
+        "Version": "2.4 20151223.gitfa8646d.1-1",
+        "Size": 134144
+      },
+      {
+        "Name": "libsasl2-2",
+        "Version": "2.1.27~101-g0780600 dfsg-2ubuntu1",
+        "Size": 150528
+      },
+      {
+        "Name": "libsasl2-modules-db",
+        "Version": "2.1.27~101-g0780600 dfsg-2ubuntu1",
+        "Size": 61440
+      },
+      {
+        "Name": "libscalapack-mpi-dev",
+        "Version": "1.8.0-13build2",
+        "Size": 10682368
+      },
+      {
+        "Name": "libscalapack-openmpi1",
+        "Version": "1.8.0-13build2",
+        "Size": 7003136
+      },
+      {
+        "Name": "libscotch-5.1",
+        "Version": "5.1.12b.dfsg-2build6",
+        "Size": 1978368
+      },
+      {
+        "Name": "libscotch-dev",
+        "Version": "5.1.12b.dfsg-2build6",
+        "Size": 15990784
+      },
+      {
+        "Name": "libseccomp2",
+        "Version": "2.3.1-2.1ubuntu2~17.04.1",
+        "Size": 299008
+      },
+      {
+        "Name": "libselinux1",
+        "Version": "2.6-3",
+        "Size": 196608
+      },
+      {
+        "Name": "libsemanage-common",
+        "Version": "2.6-2",
+        "Size": 29696
+      },
+      {
+        "Name": "libsemanage1",
+        "Version": "2.6-2",
+        "Size": 283648
+      },
+      {
+        "Name": "libsensors4",
+        "Version": "1:3.4.0-4",
+        "Size": 112640
+      },
+      {
+        "Name": "libsepol1",
+        "Version": "2.6-2",
+        "Size": 657408
+      },
+      {
+        "Name": "libshine3",
+        "Version": "3.1.0-5",
+        "Size": 68608
+      },
+      {
+        "Name": "libsigsegv2",
+        "Version": "2.10-5",
+        "Size": 45056
+      },
+      {
+        "Name": "libslepc3.7.3",
+        "Version": "3.7.3 dfsg1-5build1",
+        "Size": 2385920
+      },
+      {
+        "Name": "libslepc3.7.3-dev",
+        "Version": "3.7.3 dfsg1-5build1",
+        "Size": 2529280
+      },
+      {
+        "Name": "libsm-dev",
+        "Version": "2:1.2.2-1",
+        "Size": 119808
+      },
+      {
+        "Name": "libsm6",
+        "Version": "2:1.2.2-1",
+        "Size": 68608
+      },
+      {
+        "Name": "libsmartcols1",
+        "Version": "2.29-1ubuntu2.1",
+        "Size": 258048
+      },
+      {
+        "Name": "libsnappy1v5",
+        "Version": "1.1.4-1",
+        "Size": 82944
+      },
+      {
+        "Name": "libsodium18",
+        "Version": "1.0.11-1",
+        "Size": 454656
+      },
+      {
+        "Name": "libsoxr0",
+        "Version": "0.1.2-2",
+        "Size": 201728
+      },
+      {
+        "Name": "libspatialite-dev",
+        "Version": "4.3.0a-5build1",
+        "Size": 14750720
+      },
+      {
+        "Name": "libspatialite7",
+        "Version": "4.3.0a-5build1",
+        "Size": 5870592
+      },
+      {
+        "Name": "libspeex1",
+        "Version": "1.2~rc1.2-1ubuntu1",
+        "Size": 120832
+      },
+      {
+        "Name": "libspooles-dev",
+        "Version": "2.2-12build1",
+        "Size": 3793920
+      },
+      {
+        "Name": "libspooles2.2",
+        "Version": "2.2-12build1",
+        "Size": 1481728
+      },
+      {
+        "Name": "libspqr2",
+        "Version": "1:4.5.4-1",
+        "Size": 207872
+      },
+      {
+        "Name": "libsqlite3-0",
+        "Version": "3.16.2-3",
+        "Size": 1185792
+      },
+      {
+        "Name": "libsqlite3-dev",
+        "Version": "3.16.2-3",
+        "Size": 2063360
+      },
+      {
+        "Name": "libss2",
+        "Version": "1.43.4-2",
+        "Size": 97280
+      },
+      {
+        "Name": "libssh-gcrypt-4",
+        "Version": "0.7.3-2",
+        "Size": 505856
+      },
+      {
+        "Name": "libssl-dev",
+        "Version": "1.0.2g-1ubuntu11.3",
+        "Size": 7199744
+      },
+      {
+        "Name": "libssl1.0.0",
+        "Version": "1.0.2g-1ubuntu11.3",
+        "Size": 3483648
+      },
+      {
+        "Name": "libstdc++-6-dev",
+        "Version": "6.3.0-12ubuntu2",
+        "Size": 15319040
+      },
+      {
+        "Name": "libstdc++6",
+        "Version": "6.3.0-12ubuntu2",
+        "Size": 2070528
+      },
+      {
+        "Name": "libsuitesparse-dev",
+        "Version": "1:4.5.4-1",
+        "Size": 4856832
+      },
+      {
+        "Name": "libsuitesparseconfig4",
+        "Version": "1:4.5.4-1",
+        "Size": 45056
+      },
+      {
+        "Name": "libsuperlu-dev",
+        "Version": "5.2.1 dfsg1-2",
+        "Size": 115712
+      },
+      {
+        "Name": "libsuperlu5",
+        "Version": "5.2.1 dfsg1-2",
+        "Size": 473088
+      },
+      {
+        "Name": "libswresample-dev",
+        "Version": "7:3.2.4-1build2",
+        "Size": 315392
+      },
+      {
+        "Name": "libswresample2",
+        "Version": "7:3.2.4-1build2",
+        "Size": 194560
+      },
+      {
+        "Name": "libswscale-dev",
+        "Version": "7:3.2.4-1build2",
+        "Size": 889856
+      },
+      {
+        "Name": "libswscale4",
+        "Version": "7:3.2.4-1build2",
+        "Size": 628736
+      },
+      {
+        "Name": "libsystemd0",
+        "Version": "232-21ubuntu7.1",
+        "Size": 660480
+      },
+      {
+        "Name": "libsz2",
+        "Version": "0.3.2-1",
+        "Size": 24576
+      },
+      {
+        "Name": "libtasn1-6",
+        "Version": "4.10-1ubuntu0.1",
+        "Size": 114688
+      },
+      {
+        "Name": "libtcl8.6",
+        "Version": "8.6.6 dfsg-1",
+        "Size": 4011008
+      },
+      {
+        "Name": "libthai-data",
+        "Version": "0.1.26-1",
+        "Size": 587776
+      },
+      {
+        "Name": "libthai0",
+        "Version": "0.1.26-1",
+        "Size": 92160
+      },
+      {
+        "Name": "libtheora-dev",
+        "Version": "1.1.1 dfsg.1-14",
+        "Size": 1094656
+      },
+      {
+        "Name": "libtheora0",
+        "Version": "1.1.1 dfsg.1-14",
+        "Size": 743424
+      },
+      {
+        "Name": "libtiff5",
+        "Version": "4.0.7-5",
+        "Size": 512000
+      },
+      {
+        "Name": "libtiff5-dev",
+        "Version": "4.0.7-5",
+        "Size": 965632
+      },
+      {
+        "Name": "libtiffxx5",
+        "Version": "4.0.7-5",
+        "Size": 39936
+      },
+      {
+        "Name": "libtinfo5",
+        "Version": "6.0 20160625-1ubuntu1",
+        "Size": 484352
+      },
+      {
+        "Name": "libtk8.6",
+        "Version": "8.6.6-1",
+        "Size": 2310144
+      },
+      {
+        "Name": "libtool",
+        "Version": "2.4.6-2",
+        "Size": 1257472
+      },
+      {
+        "Name": "libtsan0",
+        "Version": "6.3.0-12ubuntu2",
+        "Size": 954368
+      },
+      {
+        "Name": "libtwolame0",
+        "Version": "0.3.13-2",
+        "Size": 144384
+      },
+      {
+        "Name": "libubsan0",
+        "Version": "6.3.0-12ubuntu2",
+        "Size": 307200
+      },
+      {
+        "Name": "libudev1",
+        "Version": "232-21ubuntu7.1",
+        "Size": 228352
+      },
+      {
+        "Name": "libumfpack5",
+        "Version": "1:4.5.4-1",
+        "Size": 718848
+      },
+      {
+        "Name": "libunistring0",
+        "Version": "0.9.3-5.2ubuntu1",
+        "Size": 1183744
+      },
+      {
+        "Name": "liburiparser-dev",
+        "Version": "0.8.4-1",
+        "Size": 68608
+      },
+      {
+        "Name": "liburiparser1",
+        "Version": "0.8.4-1",
+        "Size": 131072
+      },
+      {
+        "Name": "libustr-1.0-1",
+        "Version": "1.0.4-6",
+        "Size": 249856
+      },
+      {
+        "Name": "libuuid1",
+        "Version": "2.29-1ubuntu2.1",
+        "Size": 109568
+      },
+      {
+        "Name": "libuv1",
+        "Version": "1.9.1-3",
+        "Size": 171008
+      },
+      {
+        "Name": "libva-drm1",
+        "Version": "1.7.3-2",
+        "Size": 39936
+      },
+      {
+        "Name": "libva-x11-1",
+        "Version": "1.7.3-2",
+        "Size": 52224
+      },
+      {
+        "Name": "libva1",
+        "Version": "1.7.3-2",
+        "Size": 160768
+      },
+      {
+        "Name": "libvdpau1",
+        "Version": "1.1.1-3ubuntu1",
+        "Size": 100352
+      },
+      {
+        "Name": "libvorbis0a",
+        "Version": "1.3.5-4",
+        "Size": 205824
+      },
+      {
+        "Name": "libvorbisenc2",
+        "Version": "1.3.5-4",
+        "Size": 715776
+      },
+      {
+        "Name": "libvorbisfile3",
+        "Version": "1.3.5-4",
+        "Size": 60416
+      },
+      {
+        "Name": "libvpx4",
+        "Version": "1.6.1-2",
+        "Size": 2367488
+      },
+      {
+        "Name": "libvtk6-dev",
+        "Version": "6.3.0 dfsg1-3",
+        "Size": 26744832
+      },
+      {
+        "Name": "libvtk6-java",
+        "Version": "6.3.0 dfsg1-3",
+        "Size": 4341760
+      },
+      {
+        "Name": "libvtk6-jni",
+        "Version": "6.3.0 dfsg1-3",
+        "Size": 24679424
+      },
+      {
+        "Name": "libvtk6.3",
+        "Version": "6.3.0 dfsg1-3",
+        "Size": 156167168
+      },
+      {
+        "Name": "libvtk6.3-qt",
+        "Version": "6.3.0 dfsg1-3",
+        "Size": 1020928
+      },
+      {
+        "Name": "libwacom-common",
+        "Version": "0.22-1",
+        "Size": 468992
+      },
+      {
+        "Name": "libwacom2",
+        "Version": "0.22-1",
+        "Size": 58368
+      },
+      {
+        "Name": "libwavpack1",
+        "Version": "5.0.0-2",
+        "Size": 201728
+      },
+      {
+        "Name": "libwayland-client0",
+        "Version": "1.12.0-1",
+        "Size": 81920
+      },
+      {
+        "Name": "libwayland-server0",
+        "Version": "1.12.0-1",
+        "Size": 96256
+      },
+      {
+        "Name": "libwebp-dev",
+        "Version": "0.5.2-1",
+        "Size": 978944
+      },
+      {
+        "Name": "libwebp6",
+        "Version": "0.5.2-1",
+        "Size": 407552
+      },
+      {
+        "Name": "libwebpdemux2",
+        "Version": "0.5.2-1",
+        "Size": 36864
+      },
+      {
+        "Name": "libwebpmux2",
+        "Version": "0.5.2-1",
+        "Size": 57344
+      },
+      {
+        "Name": "libwind0-heimdal",
+        "Version": "7.1.0 dfsg-9ubuntu1.1",
+        "Size": 211968
+      },
+      {
+        "Name": "libwrap0",
+        "Version": "7.6.q-26",
+        "Size": 106496
+      },
+      {
+        "Name": "libx11-6",
+        "Version": "2:1.6.4-3",
+        "Size": 1393664
+      },
+      {
+        "Name": "libx11-data",
+        "Version": "2:1.6.4-3",
+        "Size": 1539072
+      },
+      {
+        "Name": "libx11-dev",
+        "Version": "2:1.6.4-3",
+        "Size": 2489344
+      },
+      {
+        "Name": "libx11-xcb-dev",
+        "Version": "2:1.6.4-3",
+        "Size": 81920
+      },
+      {
+        "Name": "libx11-xcb1",
+        "Version": "2:1.6.4-3",
+        "Size": 76800
+      },
+      {
+        "Name": "libx264-148",
+        "Version": "2:0.148.2748 git97eaef2-1",
+        "Size": 2305024
+      },
+      {
+        "Name": "libx265-110",
+        "Version": "2.3-2",
+        "Size": 11339776
+      },
+      {
+        "Name": "libxau-dev",
+        "Version": "1:1.0.8-1",
+        "Size": 82944
+      },
+      {
+        "Name": "libxau6",
+        "Version": "1:1.0.8-1",
+        "Size": 51200
+      },
+      {
+        "Name": "libxcb-dri2-0",
+        "Version": "1.11.1-1ubuntu1",
+        "Size": 43008
+      },
+      {
+        "Name": "libxcb-dri2-0-dev",
+        "Version": "1.11.1-1ubuntu1",
+        "Size": 81920
+      },
+      {
+        "Name": "libxcb-dri3-0",
+        "Version": "1.11.1-1ubuntu1",
+        "Size": 32768
+      },
+      {
+        "Name": "libxcb-dri3-dev",
+        "Version": "1.11.1-1ubuntu1",
+        "Size": 47104
+      },
+      {
+        "Name": "libxcb-glx0",
+        "Version": "1.11.1-1ubuntu1",
+        "Size": 143360
+      },
+      {
+        "Name": "libxcb-glx0-dev",
+        "Version": "1.11.1-1ubuntu1",
+        "Size": 429056
+      },
+      {
+        "Name": "libxcb-icccm4",
+        "Version": "0.4.1-1ubuntu1",
+        "Size": 74752
+      },
+      {
+        "Name": "libxcb-image0",
+        "Version": "0.4.0-1build1",
+        "Size": 52224
+      },
+      {
+        "Name": "libxcb-keysyms1",
+        "Version": "0.4.0-1",
+        "Size": 57344
+      },
+      {
+        "Name": "libxcb-present-dev",
+        "Version": "1.11.1-1ubuntu1",
+        "Size": 52224
+      },
+      {
+        "Name": "libxcb-present0",
+        "Version": "1.11.1-1ubuntu1",
+        "Size": 32768
+      },
+      {
+        "Name": "libxcb-randr0",
+        "Version": "1.11.1-1ubuntu1",
+        "Size": 90112
+      },
+      {
+        "Name": "libxcb-randr0-dev",
+        "Version": "1.11.1-1ubuntu1",
+        "Size": 227328
+      },
+      {
+        "Name": "libxcb-render-util0",
+        "Version": "0.3.9-1",
+        "Size": 62464
+      },
+      {
+        "Name": "libxcb-render0",
+        "Version": "1.11.1-1ubuntu1",
+        "Size": 67584
+      },
+      {
+        "Name": "libxcb-render0-dev",
+        "Version": "1.11.1-1ubuntu1",
+        "Size": 169984
+      },
+      {
+        "Name": "libxcb-shape0",
+        "Version": "1.11.1-1ubuntu1",
+        "Size": 37888
+      },
+      {
+        "Name": "libxcb-shape0-dev",
+        "Version": "1.11.1-1ubuntu1",
+        "Size": 57344
+      },
+      {
+        "Name": "libxcb-shm0",
+        "Version": "1.11.1-1ubuntu1",
+        "Size": 36864
+      },
+      {
+        "Name": "libxcb-sync-dev",
+        "Version": "1.11.1-1ubuntu1",
+        "Size": 98304
+      },
+      {
+        "Name": "libxcb-sync1",
+        "Version": "1.11.1-1ubuntu1",
+        "Size": 51200
+      },
+      {
+        "Name": "libxcb-util1",
+        "Version": "0.4.0-0ubuntu3",
+        "Size": 57344
+      },
+      {
+        "Name": "libxcb-xfixes0",
+        "Version": "1.11.1-1ubuntu1",
+        "Size": 57344
+      },
+      {
+        "Name": "libxcb-xfixes0-dev",
+        "Version": "1.11.1-1ubuntu1",
+        "Size": 120832
+      },
+      {
+        "Name": "libxcb-xinerama0",
+        "Version": "1.11.1-1ubuntu1",
+        "Size": 33792
+      },
+      {
+        "Name": "libxcb-xkb1",
+        "Version": "1.11.1-1ubuntu1",
+        "Size": 152576
+      },
+      {
+        "Name": "libxcb1",
+        "Version": "1.11.1-1ubuntu1",
+        "Size": 177152
+      },
+      {
+        "Name": "libxcb1-dev",
+        "Version": "1.11.1-1ubuntu1",
+        "Size": 655360
+      },
+      {
+        "Name": "libxcomposite1",
+        "Version": "1:0.4.4-2",
+        "Size": 28672
+      },
+      {
+        "Name": "libxcursor1",
+        "Version": "1:1.1.14-1",
+        "Size": 80896
+      },
+      {
+        "Name": "libxdamage-dev",
+        "Version": "1:1.1.4-2",
+        "Size": 62464
+      },
+      {
+        "Name": "libxdamage1",
+        "Version": "1:1.1.4-2",
+        "Size": 47104
+      },
+      {
+        "Name": "libxdmcp-dev",
+        "Version": "1:1.1.2-1.1",
+        "Size": 70656
+      },
+      {
+        "Name": "libxdmcp6",
+        "Version": "1:1.1.2-1.1",
+        "Size": 39936
+      },
+      {
+        "Name": "libxerces-c-dev",
+        "Version": "3.1.4 debian-2",
+        "Size": 17402880
+      },
+      {
+        "Name": "libxerces-c3.1",
+        "Version": "3.1.4 debian-2",
+        "Size": 3638272
+      },
+      {
+        "Name": "libxext-dev",
+        "Version": "2:1.3.3-1",
+        "Size": 293888
+      },
+      {
+        "Name": "libxext6",
+        "Version": "2:1.3.3-1",
+        "Size": 124928
+      },
+      {
+        "Name": "libxfixes-dev",
+        "Version": "1:5.0.3-1",
+        "Size": 60416
+      },
+      {
+        "Name": "libxfixes3",
+        "Version": "1:5.0.3-1",
+        "Size": 44032
+      },
+      {
+        "Name": "libxft-dev",
+        "Version": "2.3.2-1",
+        "Size": 220160
+      },
+      {
+        "Name": "libxft2",
+        "Version": "2.3.2-1",
+        "Size": 128000
+      },
+      {
+        "Name": "libxi6",
+        "Version": "2:1.7.9-1",
+        "Size": 90112
+      },
+      {
+        "Name": "libxinerama1",
+        "Version": "2:1.1.3-1",
+        "Size": 50176
+      },
+      {
+        "Name": "libxkbcommon-x11-0",
+        "Version": "0.7.1-1",
+        "Size": 51200
+      },
+      {
+        "Name": "libxkbcommon0",
+        "Version": "0.7.1-1",
+        "Size": 283648
+      },
+      {
+        "Name": "libxml2",
+        "Version": "2.9.4 dfsg1-2.2ubuntu0.1",
+        "Size": 2177024
+      },
+      {
+        "Name": "libxml2-dev",
+        "Version": "2.9.4 dfsg1-2.2ubuntu0.1",
+        "Size": 3503104
+      },
+      {
+        "Name": "libxmuu1",
+        "Version": "2:1.1.2-2",
+        "Size": 33792
+      },
+      {
+        "Name": "libxrandr2",
+        "Version": "2:1.5.1-1",
+        "Size": 66560
+      },
+      {
+        "Name": "libxrender-dev",
+        "Version": "1:0.9.10-1",
+        "Size": 103424
+      },
+      {
+        "Name": "libxrender1",
+        "Version": "1:0.9.10-1",
+        "Size": 61440
+      },
+      {
+        "Name": "libxshmfence-dev",
+        "Version": "1.2-1",
+        "Size": 54272
+      },
+      {
+        "Name": "libxshmfence1",
+        "Version": "1.2-1",
+        "Size": 46080
+      },
+      {
+        "Name": "libxslt1.1",
+        "Version": "1.1.29-2ubuntu0.1",
+        "Size": 480256
+      },
+      {
+        "Name": "libxss-dev",
+        "Version": "1:1.2.2-1",
+        "Size": 89088
+      },
+      {
+        "Name": "libxss1",
+        "Version": "1:1.2.2-1",
+        "Size": 60416
+      },
+      {
+        "Name": "libxt-dev",
+        "Version": "1:1.1.5-1",
+        "Size": 1405952
+      },
+      {
+        "Name": "libxt6",
+        "Version": "1:1.1.5-1",
+        "Size": 461824
+      },
+      {
+        "Name": "libxtables11",
+        "Version": "1.6.0-3ubuntu2",
+        "Size": 100352
+      },
+      {
+        "Name": "libxvidcore4",
+        "Version": "2:1.3.4-1",
+        "Size": 742400
+      },
+      {
+        "Name": "libxxf86vm-dev",
+        "Version": "1:1.1.4-1",
+        "Size": 94208
+      },
+      {
+        "Name": "libxxf86vm1",
+        "Version": "1:1.1.4-1",
+        "Size": 60416
+      },
+      {
+        "Name": "libzmq3-dev",
+        "Version": "4.2.1-2ubuntu1",
+        "Size": 1856512
+      },
+      {
+        "Name": "libzmq5",
+        "Version": "4.2.1-2ubuntu1",
+        "Size": 572416
+      },
+      {
+        "Name": "libzvbi-common",
+        "Version": "0.2.35-13",
+        "Size": 143360
+      },
+      {
+        "Name": "libzvbi0",
+        "Version": "0.2.35-13",
+        "Size": 686080
+      },
+      {
+        "Name": "linux-headers-4.10.0-40",
+        "Version": "4.10.0-40.44",
+        "Size": 74399744
+      },
+      {
+        "Name": "linux-headers-4.10.0-40-generic",
+        "Version": "4.10.0-40.44",
+        "Size": 7633920
+      },
+      {
+        "Name": "linux-headers-generic",
+        "Version": "4.10.0.40.40",
+        "Size": 13312
+      },
+      {
+        "Name": "linux-libc-dev",
+        "Version": "4.10.0-40.44",
+        "Size": 4842496
+      },
+      {
+        "Name": "locales",
+        "Version": "2.24-9ubuntu2.2",
+        "Size": 10637312
+      },
+      {
+        "Name": "login",
+        "Version": "1:4.2-3.2ubuntu1.17.04.2",
+        "Size": 1220608
+      },
+      {
+        "Name": "lsb-base",
+        "Version": "9.20160110ubuntu5",
+        "Size": 60416
+      },
+      {
+        "Name": "lsb-release",
+        "Version": "9.20160110ubuntu5",
+        "Size": 64512
+      },
+      {
+        "Name": "m4",
+        "Version": "1.4.18-1",
+        "Size": 354304
+      },
+      {
+        "Name": "make",
+        "Version": "4.1-9.1",
+        "Size": 380928
+      },
+      {
+        "Name": "mawk",
+        "Version": "1.3.3-17ubuntu2",
+        "Size": 201728
+      },
+      {
+        "Name": "mesa-common-dev",
+        "Version": "17.0.7-0ubuntu0.17.04.1",
+        "Size": 3250176
+      },
+      {
+        "Name": "mime-support",
+        "Version": "3.60ubuntu1",
+        "Size": 113664
+      },
+      {
+        "Name": "mount",
+        "Version": "2.29-1ubuntu2.1",
+        "Size": 446464
+      },
+      {
+        "Name": "mpi-default-bin",
+        "Version": "1.8",
+        "Size": 10240
+      },
+      {
+        "Name": "mpi-default-dev",
+        "Version": "1.8",
+        "Size": 13312
+      },
+      {
+        "Name": "mshr-demos",
+        "Version": "2017.1.0-1~ppa1~zesty1",
+        "Size": 71680
+      },
+      {
+        "Name": "mstflint",
+        "Version": "4.6.0-1",
+        "Size": 3928064
+      },
+      {
+        "Name": "multiarch-support",
+        "Version": "2.24-9ubuntu2.2",
+        "Size": 235520
+      },
+      {
+        "Name": "mysql-common",
+        "Version": "5.8 1.0.2ubuntu1",
+        "Size": 28672
+      },
+      {
+        "Name": "ncurses-base",
+        "Version": "6.0 20160625-1ubuntu1",
+        "Size": 347136
+      },
+      {
+        "Name": "ncurses-bin",
+        "Version": "6.0 20160625-1ubuntu1",
+        "Size": 521216
+      },
+      {
+        "Name": "ncurses-term",
+        "Version": "6.0 20160625-1ubuntu1",
+        "Size": 4074496
+      },
+      {
+        "Name": "numactl",
+        "Version": "2.0.11-1ubuntu2",
+        "Size": 123904
+      },
+      {
+        "Name": "ocl-icd-libopencl1",
+        "Version": "2.2.11-1ubuntu1",
+        "Size": 116736
+      },
+      {
+        "Name": "odbcinst",
+        "Version": "2.3.4-1",
+        "Size": 49152
+      },
+      {
+        "Name": "odbcinst1debian2",
+        "Version": "2.3.4-1",
+        "Size": 223232
+      },
+      {
+        "Name": "openmpi-bin",
+        "Version": "2.0.2-2",
+        "Size": 439296
+      },
+      {
+        "Name": "openmpi-common",
+        "Version": "2.0.2-2",
+        "Size": 403456
+      },
+      {
+        "Name": "opensm",
+        "Version": "3.3.20-1",
+        "Size": 1160192
+      },
+      {
+        "Name": "openssh-client",
+        "Version": "1:7.4p1-10",
+        "Size": 4110336
+      },
+      {
+        "Name": "openssh-server",
+        "Version": "1:7.4p1-10",
+        "Size": 908288
+      },
+      {
+        "Name": "openssh-sftp-server",
+        "Version": "1:7.4p1-10",
+        "Size": 108544
+      },
+      {
+        "Name": "openssl",
+        "Version": "1.0.2g-1ubuntu11.3",
+        "Size": 962560
+      },
+      {
+        "Name": "passwd",
+        "Version": "1:4.2-3.2ubuntu1.17.04.2",
+        "Size": 2442240
+      },
+      {
+        "Name": "patch",
+        "Version": "2.7.5-1",
+        "Size": 243712
+      },
+      {
+        "Name": "perftest",
+        "Version": "3.4 0.6.gc3435c2-1",
+        "Size": 1579008
+      },
+      {
+        "Name": "perl",
+        "Version": "5.24.1-2ubuntu1.1",
+        "Size": 666624
+      },
+      {
+        "Name": "perl-base",
+        "Version": "5.24.1-2ubuntu1.1",
+        "Size": 7710720
+      },
+      {
+        "Name": "perl-modules-5.24",
+        "Version": "5.24.1-2ubuntu1.1",
+        "Size": 18048000
+      },
+      {
+        "Name": "pinentry-curses",
+        "Version": "1.0.0-2",
+        "Size": 90112
+      },
+      {
+        "Name": "pkg-config",
+        "Version": "0.29.1-0ubuntu1",
+        "Size": 177152
+      },
+      {
+        "Name": "procps",
+        "Version": "2:3.3.12-1ubuntu2",
+        "Size": 724992
+      },
+      {
+        "Name": "proj-data",
+        "Version": "4.9.3-1",
+        "Size": 15141888
+      },
+      {
+        "Name": "python",
+        "Version": "2.7.13-2",
+        "Size": 663552
+      },
+      {
+        "Name": "python-apt-common",
+        "Version": "1.4.0~beta2",
+        "Size": 258048
+      },
+      {
+        "Name": "python-attr",
+        "Version": "16.3.0-1",
+        "Size": 77824
+      },
+      {
+        "Name": "python-autobahn",
+        "Version": "0.14.1 dfsg1-2",
+        "Size": 1038336
+      },
+      {
+        "Name": "python-backports-shutil-get-terminal-size",
+        "Version": "1.0.0-3",
+        "Size": 26624
+      },
+      {
+        "Name": "python-cairo",
+        "Version": "1.8.8-2.1",
+        "Size": 172032
+      },
+      {
+        "Name": "python-cbor",
+        "Version": "0.1.24-1",
+        "Size": 81920
+      },
+      {
+        "Name": "python-cffi",
+        "Version": "1.9.1-2",
+        "Size": 374784
+      },
+      {
+        "Name": "python-cffi-backend",
+        "Version": "1.9.1-2",
+        "Size": 183296
+      },
+      {
+        "Name": "python-chardet",
+        "Version": "2.3.0-2",
+        "Size": 507904
+      },
+      {
+        "Name": "python-concurrent.futures",
+        "Version": "3.0.5-3",
+        "Size": 203776
+      },
+      {
+        "Name": "python-constantly",
+        "Version": "15.1.0-1",
+        "Size": 40960
+      },
+      {
+        "Name": "python-cryptography",
+        "Version": "1.7.1-2",
+        "Size": 1514496
+      },
+      {
+        "Name": "python-cycler",
+        "Version": "0.10.0-1",
+        "Size": 34816
+      },
+      {
+        "Name": "python-dateutil",
+        "Version": "2.5.3-2",
+        "Size": 237568
+      },
+      {
+        "Name": "python-decorator",
+        "Version": "4.0.11-1",
+        "Size": 39936
+      },
+      {
+        "Name": "python-dev",
+        "Version": "2.7.13-2",
+        "Size": 18432
+      },
+      {
+        "Name": "python-dijitso",
+        "Version": "2017.1.0-1~ppa1~zesty1",
+        "Size": 118784
+      },
+      {
+        "Name": "python-dolfin",
+        "Version": "2017.1.0-1~ppa6~zesty1",
+        "Size": 7177216
+      },
+      {
+        "Name": "python-enum34",
+        "Version": "1.1.6-1",
+        "Size": 223232
+      },
+      {
+        "Name": "python-ffc",
+        "Version": "2017.1.0-1~ppa2~zesty1",
+        "Size": 1602560
+      },
+      {
+        "Name": "python-fiat",
+        "Version": "2017.1.0-1~ppa1~zesty1",
+        "Size": 312320
+      },
+      {
+        "Name": "python-functools32",
+        "Version": "3.2.3.2-3",
+        "Size": 46080
+      },
+      {
+        "Name": "python-glade2",
+        "Version": "2.24.0-5.1ubuntu1",
+        "Size": 72704
+      },
+      {
+        "Name": "python-gobject-2",
+        "Version": "2.28.6-12ubuntu2",
+        "Size": 923648
+      },
+      {
+        "Name": "python-gtk2",
+        "Version": "2.24.0-5.1ubuntu1",
+        "Size": 3487744
+      },
+      {
+        "Name": "python-h5py",
+        "Version": "2.7.0-1ubuntu1",
+        "Size": 2767872
+      },
+      {
+        "Name": "python-idna",
+        "Version": "2.2-1",
+        "Size": 275456
+      },
+      {
+        "Name": "python-imaging",
+        "Version": "4.0.0-4",
+        "Size": 86016
+      },
+      {
+        "Name": "python-incremental",
+        "Version": "16.10.1-3",
+        "Size": 97280
+      },
+      {
+        "Name": "python-instant",
+        "Version": "2017.1.0-1~ppa1~zesty1",
+        "Size": 196608
+      },
+      {
+        "Name": "python-ipaddress",
+        "Version": "1.0.17-1",
+        "Size": 103424
+      },
+      {
+        "Name": "python-ipython",
+        "Version": "5.1.0-3",
+        "Size": 1908736
+      },
+      {
+        "Name": "python-ipython-genutils",
+        "Version": "0.1.0-2",
+        "Size": 86016
+      },
+      {
+        "Name": "python-lz4",
+        "Version": "0.8.2 dfsg-2",
+        "Size": 30720
+      },
+      {
+        "Name": "python-matplotlib",
+        "Version": "2.0.0 dfsg1-2ubuntu1",
+        "Size": 7600128
+      },
+      {
+        "Name": "python-matplotlib-data",
+        "Version": "2.0.0 dfsg1-2ubuntu1",
+        "Size": 11164672
+      },
+      {
+        "Name": "python-minimal",
+        "Version": "2.7.13-2",
+        "Size": 148480
+      },
+      {
+        "Name": "python-mpi4py",
+        "Version": "2.0.0-2.1",
+        "Size": 1703936
+      },
+      {
+        "Name": "python-mpmath",
+        "Version": "0.19-3",
+        "Size": 1944576
+      },
+      {
+        "Name": "python-msgpack",
+        "Version": "0.4.8-1",
+        "Size": 237568
+      },
+      {
+        "Name": "python-mshr",
+        "Version": "2017.1.0-1~ppa1~zesty1",
+        "Size": 579584
+      },
+      {
+        "Name": "python-nacl",
+        "Version": "1.0.1-2",
+        "Size": 111616
+      },
+      {
+        "Name": "python-numpy",
+        "Version": "1:1.12.1-1ubuntu1",
+        "Size": 10939392
+      },
+      {
+        "Name": "python-openssl",
+        "Version": "16.2.0-1",
+        "Size": 202752
+      },
+      {
+        "Name": "python-pathlib2",
+        "Version": "2.2.0 really2.1.0-1",
+        "Size": 72704
+      },
+      {
+        "Name": "python-petsc4py",
+        "Version": "3.7.0-3~ppa1~zesty1",
+        "Size": 3138560
+      },
+      {
+        "Name": "python-pexpect",
+        "Version": "4.2.1-1",
+        "Size": 186368
+      },
+      {
+        "Name": "python-pickleshare",
+        "Version": "0.7.4-1",
+        "Size": 30720
+      },
+      {
+        "Name": "python-pil",
+        "Version": "4.0.0-4",
+        "Size": 1418240
+      },
+      {
+        "Name": "python-pip",
+        "Version": "9.0.1-2",
+        "Size": 670720
+      },
+      {
+        "Name": "python-pip-whl",
+        "Version": "9.0.1-2",
+        "Size": 1631232
+      },
+      {
+        "Name": "python-pkg-resources",
+        "Version": "33.1.1-1",
+        "Size": 552960
+      },
+      {
+        "Name": "python-ply",
+        "Version": "3.9-1",
+        "Size": 274432
+      },
+      {
+        "Name": "python-prompt-toolkit",
+        "Version": "1.0.9-1",
+        "Size": 898048
+      },
+      {
+        "Name": "python-ptyprocess",
+        "Version": "0.5.1-1",
+        "Size": 54272
+      },
+      {
+        "Name": "python-pyasn1",
+        "Version": "0.1.9-2",
+        "Size": 342016
+      },
+      {
+        "Name": "python-pyasn1-modules",
+        "Version": "0.0.7-0.1",
+        "Size": 173056
+      },
+      {
+        "Name": "python-pycparser",
+        "Version": "2.17-2",
+        "Size": 441344
+      },
+      {
+        "Name": "python-pygments",
+        "Version": "2.2.0 dfsg-1",
+        "Size": 3231744
+      },
+      {
+        "Name": "python-pyparsing",
+        "Version": "2.1.10 dfsg1-1",
+        "Size": 260096
+      },
+      {
+        "Name": "python-qrcode",
+        "Version": "5.3-1",
+        "Size": 119808
+      },
+      {
+        "Name": "python-scipy",
+        "Version": "0.18.1-2",
+        "Size": 39113728
+      },
+      {
+        "Name": "python-service-identity",
+        "Version": "16.0.0-2",
+        "Size": 46080
+      },
+      {
+        "Name": "python-setuptools",
+        "Version": "33.1.1-1",
+        "Size": 1037312
+      },
+      {
+        "Name": "python-simplegeneric",
+        "Version": "0.8.1-1",
+        "Size": 62464
+      },
+      {
+        "Name": "python-six",
+        "Version": "1.10.0-3",
+        "Size": 54272
+      },
+      {
+        "Name": "python-slepc4py",
+        "Version": "3.7.0-3~ppa1~zesty1",
+        "Size": 806912
+      },
+      {
+        "Name": "python-snappy",
+        "Version": "0.5-1.1",
+        "Size": 38912
+      },
+      {
+        "Name": "python-subprocess32",
+        "Version": "3.2.7-2",
+        "Size": 115712
+      },
+      {
+        "Name": "python-sympy",
+        "Version": "1.0-3",
+        "Size": 15141888
+      },
+      {
+        "Name": "python-tk",
+        "Version": "2.7.13-1",
+        "Size": 95232
+      },
+      {
+        "Name": "python-traitlets",
+        "Version": "4.3.1-1",
+        "Size": 335872
+      },
+      {
+        "Name": "python-trollius",
+        "Version": "2.1~b1-4",
+        "Size": 475136
+      },
+      {
+        "Name": "python-twisted",
+        "Version": "16.6.0-2ubuntu1",
+        "Size": 25600
+      },
+      {
+        "Name": "python-twisted-bin",
+        "Version": "16.6.0-2ubuntu1",
+        "Size": 71680
+      },
+      {
+        "Name": "python-twisted-core",
+        "Version": "16.6.0-2ubuntu1",
+        "Size": 12968960
+      },
+      {
+        "Name": "python-txaio",
+        "Version": "2.5.1 2016.10.03.git.623ef68776-1",
+        "Size": 81920
+      },
+      {
+        "Name": "python-tz",
+        "Version": "2014.10~dfsg1-0ubuntu2",
+        "Size": 130048
+      },
+      {
+        "Name": "python-ufl",
+        "Version": "2017.1.0-1~ppa1~zesty1",
+        "Size": 932864
+      },
+      {
+        "Name": "python-ufl-doc",
+        "Version": "2017.1.0-1~ppa1~zesty1",
+        "Size": 81920
+      },
+      {
+        "Name": "python-vtk6",
+        "Version": "6.3.0 dfsg1-3",
+        "Size": 1946624
+      },
+      {
+        "Name": "python-wcwidth",
+        "Version": "0.1.7 dfsg1-1",
+        "Size": 72704
+      },
+      {
+        "Name": "python-zope.interface",
+        "Version": "4.3.2-1",
+        "Size": 678912
+      },
+      {
+        "Name": "python2.7",
+        "Version": "2.7.13-2ubuntu0.1",
+        "Size": 367616
+      },
+      {
+        "Name": "python2.7-dev",
+        "Version": "2.7.13-2ubuntu0.1",
+        "Size": 290816
+      },
+      {
+        "Name": "python2.7-minimal",
+        "Version": "2.7.13-2ubuntu0.1",
+        "Size": 3901440
+      },
+      {
+        "Name": "python3",
+        "Version": "3.5.3-1",
+        "Size": 68608
+      },
+      {
+        "Name": "python3-apt",
+        "Version": "1.4.0~beta2",
+        "Size": 646144
+      },
+      {
+        "Name": "python3-chardet",
+        "Version": "2.3.0-2",
+        "Size": 507904
+      },
+      {
+        "Name": "python3-dbus",
+        "Version": "1.2.4-1",
+        "Size": 386048
+      },
+      {
+        "Name": "python3-gi",
+        "Version": "3.22.0-2",
+        "Size": 652288
+      },
+      {
+        "Name": "python3-minimal",
+        "Version": "3.5.3-1",
+        "Size": 122880
+      },
+      {
+        "Name": "python3-pkg-resources",
+        "Version": "33.1.1-1",
+        "Size": 523264
+      },
+      {
+        "Name": "python3-requests",
+        "Version": "2.10.0-2",
+        "Size": 259072
+      },
+      {
+        "Name": "python3-six",
+        "Version": "1.10.0-3",
+        "Size": 54272
+      },
+      {
+        "Name": "python3-software-properties",
+        "Version": "0.96.24.13",
+        "Size": 120832
+      },
+      {
+        "Name": "python3-urllib3",
+        "Version": "1.15.1-2",
+        "Size": 282624
+      },
+      {
+        "Name": "python3.5",
+        "Version": "3.5.3-1ubuntu0~17.04.2",
+        "Size": 326656
+      },
+      {
+        "Name": "python3.5-minimal",
+        "Version": "3.5.3-1ubuntu0~17.04.2",
+        "Size": 9638912
+      },
+      {
+        "Name": "rdmacm-utils",
+        "Version": "1.1.0-2",
+        "Size": 242688
+      },
+      {
+        "Name": "readline-common",
+        "Version": "7.0-0ubuntu2",
+        "Size": 79872
+      },
+      {
+        "Name": "rsync",
+        "Version": "3.1.2-1",
+        "Size": 715776
+      },
+      {
+        "Name": "sed",
+        "Version": "4.4-1",
+        "Size": 327680
+      },
+      {
+        "Name": "sensible-utils",
+        "Version": "0.0.9",
+        "Size": 112640
+      },
+      {
+        "Name": "sgml-base",
+        "Version": "1.29",
+        "Size": 70656
+      },
+      {
+        "Name": "shared-mime-info",
+        "Version": "1.8-1",
+        "Size": 2674688
+      },
+      {
+        "Name": "software-properties-common",
+        "Version": "0.96.24.13",
+        "Size": 192512
+      },
+      {
+        "Name": "srptools",
+        "Version": "1.0.3-1",
+        "Size": 95232
+      },
+      {
+        "Name": "ssh",
+        "Version": "1:7.4p1-10",
+        "Size": 101376
+      },
+      {
+        "Name": "ssh-import-id",
+        "Version": "5.6-0ubuntu1",
+        "Size": 52224
+      },
+      {
+        "Name": "sudo",
+        "Version": "1.8.19p1-1ubuntu1.2",
+        "Size": 1691648
+      },
+      {
+        "Name": "swig",
+        "Version": "3.0.10-1.1",
+        "Size": 318464
+      },
+      {
+        "Name": "swig3.0",
+        "Version": "3.0.10-1.1",
+        "Size": 5338112
+      },
+      {
+        "Name": "systemd",
+        "Version": "232-21ubuntu7.1",
+        "Size": 10207232
+      },
+      {
+        "Name": "systemd-sysv",
+        "Version": "232-21ubuntu7.1",
+        "Size": 108544
+      },
+      {
+        "Name": "sysvinit-utils",
+        "Version": "2.88dsf-59.8git1",
+        "Size": 61440
+      },
+      {
+        "Name": "tar",
+        "Version": "1.29b-1.1",
+        "Size": 884736
+      },
+      {
+        "Name": "tcl",
+        "Version": "8.6.0 9",
+        "Size": 21504
+      },
+      {
+        "Name": "tcl-dev",
+        "Version": "8.6.0 9",
+        "Size": 38912
+      },
+      {
+        "Name": "tcl-vtk6",
+        "Version": "6.3.0 dfsg1-3",
+        "Size": 668672
+      },
+      {
+        "Name": "tcl8.6",
+        "Version": "8.6.6 dfsg-1",
+        "Size": 39936
+      },
+      {
+        "Name": "tcl8.6-dev",
+        "Version": "8.6.6 dfsg-1",
+        "Size": 4573184
+      },
+      {
+        "Name": "tcpd",
+        "Version": "7.6.q-26",
+        "Size": 94208
+      },
+      {
+        "Name": "tk",
+        "Version": "8.6.0 9",
+        "Size": 21504
+      },
+      {
+        "Name": "tk-dev",
+        "Version": "8.6.0 9",
+        "Size": 22528
+      },
+      {
+        "Name": "tk8.6",
+        "Version": "8.6.6-1",
+        "Size": 40960
+      },
+      {
+        "Name": "tk8.6-blt2.5",
+        "Version": "2.5.3 dfsg-3",
+        "Size": 1998848
+      },
+      {
+        "Name": "tk8.6-dev",
+        "Version": "8.6.6-1",
+        "Size": 3162112
+      },
+      {
+        "Name": "ttf-bitstream-vera",
+        "Version": "1.10-8",
+        "Size": 700416
+      },
+      {
+        "Name": "tzdata",
+        "Version": "2017c-0ubuntu0.17.04",
+        "Size": 3081216
+      },
+      {
+        "Name": "ubuntu-keyring",
+        "Version": "2016.10.27",
+        "Size": 39936
+      },
+      {
+        "Name": "ubuntu-mono",
+        "Version": "16.10 17.04.20170406-0ubuntu1",
+        "Size": 5758976
+      },
+      {
+        "Name": "ucf",
+        "Version": "3.0036",
+        "Size": 195584
+      },
+      {
+        "Name": "unixodbc-dev",
+        "Version": "2.3.4-1",
+        "Size": 1762304
+      },
+      {
+        "Name": "unzip",
+        "Version": "6.0-20ubuntu1",
+        "Size": 530432
+      },
+      {
+        "Name": "util-linux",
+        "Version": "2.29-1ubuntu2.1",
+        "Size": 3625984
+      },
+      {
+        "Name": "uuid-dev",
+        "Version": "2.29-1ubuntu2.1",
+        "Size": 147456
+      },
+      {
+        "Name": "vim",
+        "Version": "2:8.0.0095-1ubuntu3",
+        "Size": 2540544
+      },
+      {
+        "Name": "vim-common",
+        "Version": "2:8.0.0095-1ubuntu3",
+        "Size": 291840
+      },
+      {
+        "Name": "vim-runtime",
+        "Version": "2:8.0.0095-1ubuntu3",
+        "Size": 28239872
+      },
+      {
+        "Name": "vlan",
+        "Version": "1.9-3.2ubuntu2.17.04.3",
+        "Size": 119808
+      },
+      {
+        "Name": "vtk6",
+        "Version": "6.3.0 dfsg1-3",
+        "Size": 896000
+      },
+      {
+        "Name": "wget",
+        "Version": "1.18-2ubuntu1.1",
+        "Size": 933888
+      },
+      {
+        "Name": "x11-common",
+        "Version": "1:7.7 16ubuntu3",
+        "Size": 316416
+      },
+      {
+        "Name": "x11proto-core-dev",
+        "Version": "7.0.31-1",
+        "Size": 1819648
+      },
+      {
+        "Name": "x11proto-damage-dev",
+        "Version": "1:1.2.1-2",
+        "Size": 69632
+      },
+      {
+        "Name": "x11proto-dri2-dev",
+        "Version": "2.8-2",
+        "Size": 62464
+      },
+      {
+        "Name": "x11proto-fixes-dev",
+        "Version": "1:5.0-2ubuntu2",
+        "Size": 75776
+      },
+      {
+        "Name": "x11proto-gl-dev",
+        "Version": "1.4.17-1",
+        "Size": 150528
+      },
+      {
+        "Name": "x11proto-input-dev",
+        "Version": "2.3.2-1",
+        "Size": 464896
+      },
+      {
+        "Name": "x11proto-kb-dev",
+        "Version": "1.0.7-1",
+        "Size": 1254400
+      },
+      {
+        "Name": "x11proto-render-dev",
+        "Version": "2:0.11.1-2",
+        "Size": 90112
+      },
+      {
+        "Name": "x11proto-scrnsaver-dev",
+        "Version": "1.2.2-1",
+        "Size": 106496
+      },
+      {
+        "Name": "x11proto-xext-dev",
+        "Version": "7.3.0-1",
+        "Size": 958464
+      },
+      {
+        "Name": "x11proto-xf86vidmode-dev",
+        "Version": "2.3.1-2",
+        "Size": 81920
+      },
+      {
+        "Name": "xauth",
+        "Version": "1:1.0.9-1ubuntu2",
+        "Size": 88064
+      },
+      {
+        "Name": "xkb-data",
+        "Version": "2.19-1ubuntu1",
+        "Size": 3161088
+      },
+      {
+        "Name": "xml-core",
+        "Version": "0.17",
+        "Size": 119808
+      },
+      {
+        "Name": "xorg-sgml-doctools",
+        "Version": "1:1.11-1",
+        "Size": 103424
+      },
+      {
+        "Name": "xtrans-dev",
+        "Version": "1.3.5-1",
+        "Size": 382976
+      },
+      {
+        "Name": "xxd",
+        "Version": "2:8.0.0095-1ubuntu3",
+        "Size": 181248
+      },
+      {
+        "Name": "xz-utils",
+        "Version": "5.2.2-1.2",
+        "Size": 438272
+      },
+      {
+        "Name": "zip",
+        "Version": "3.0-11",
+        "Size": 586752
+      },
+      {
+        "Name": "zlib1g",
+        "Version": "1:1.2.11.dfsg-0ubuntu1",
+        "Size": 168960
+      },
+      {
+        "Name": "zlib1g-dev",
+        "Version": "1:1.2.11.dfsg-0ubuntu1",
+        "Size": 443392
+      }
+    ]
+  }
+]

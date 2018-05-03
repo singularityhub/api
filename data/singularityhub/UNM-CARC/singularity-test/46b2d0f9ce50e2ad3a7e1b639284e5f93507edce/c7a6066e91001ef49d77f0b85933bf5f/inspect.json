@@ -1,0 +1,22 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "# MPI Ubuntu Package for running on CARC Wheeler - derived from initial UUtah CHPC \n# package specification at:\n# https://github.com/CHPC-UofU/Singularity-ubuntu-mpi/blob/master/Singularity\n\nBootstrap: docker\nFrom: ubuntu:latest\n\n%post\n\t# Wheeler mount points\n    mkdir -p /wheeler/scratch\n    mkdir -p /nfs/scratch\n\n# Install the necessary packages (from repo)\n    apt-get update && apt-get install -y --no-install-recommends \\\n        apt-utils \\\n        build-essential \\\n        curl \\\n        git \\\n        libopenblas-dev \\\n        libcurl4-openssl-dev \\\n        libfreetype6-dev \\\n        libpng-dev \\\n        libzmq3-dev \\\n        python-pip \\\n        pkg-config \\\n        python-dev \\\n        python-setuptools \\\n        rsync \\\n        software-properties-common \\\n        unzip \\\n        vim \\\n        zip \\\n        zlib1g-dev\n    apt-get clean\n\n    # Set up some required environment defaults\n    #MC issue with locale (LC_ALL, LANGUAGE), to get it right:\n    apt-get install -y language-pack-en\n    locale-gen \"en_US.UTF-8\"\n    dpkg-reconfigure locales\n    export LANGUAGE=\"en_US.UTF-8\"\n    echo 'LANGUAGE=\"en_US.UTF-8\"' >> /etc/default/locale\n    echo 'LC_ALL=\"en_US.UTF-8\"' >> /etc/default/locale\n\n    # Update to the latest pip (newer than repo)\n    pip install --no-cache-dir --upgrade pip\n    \n    # Install other commonly-needed packages\n    pip install --no-cache-dir --upgrade \\\n        future \\\n        matplotlib \\\n        scipy \n\n    # IB stuff, based on https://community.mellanox.com/docs/DOC-2431\n    apt-get install -y dkms infiniband-diags libibverbs* ibacm librdmacm* libmlx4* libmlx5* mstflint libibcm.* libibmad.* libibumad* opensm srptools libmlx4-dev librdmacm-dev rdmacm-utils ibverbs-utils perftest vlan ibutils\n    apt-get install -y libtool autoconf automake build-essential ibutils ibverbs-utils rdmacm-utils infiniband-diags perftest librdmacm-dev libibverbs-dev libmlx4-1 numactl libnuma-dev autoconf automake gcc g++ git libtool pkg-config\n    apt-get install -y libnl-3-200 libnl-route-3-200 libnl-route-3-dev libnl-utils\n\n    # git, wget, ncurses\n    apt-get install -y git wget libncurses5-dev \n\n    # openmpi\n    echo \"Get and Build openmpi\"\n    mkdir -p /usr/local/src\n    cd /usr/local/src\n    wget https://www.open-mpi.org/software/ompi/v2.1/downloads/openmpi-2.1.1.tar.bz2\n    tar -xjf openmpi-2.1.1.tar.bz2\n    cd openmpi-2.1.1\n    ./configure --prefix=/usr/local --with-hwloc\n    make -j4\n    make install\n\n%environment    \n    # path to mlx IB libraries and openmpi in Ubuntu\nLD_LIBRARY_PATH=/usr/local/lib:/usr/lib/libibverbs:$LD_LIBRARY_PATH\nPATH=/usr/local/bin:$PATH\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "org.label-schema.usage.singularity.deffile": "Singularity.ubuntu-ompi",
+                "org.label-schema.usage.singularity.deffile._https": "//github.com/CHPC-UofU/Singularity-ubuntu-mpi/blob/master/Singularity",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.from": "ubuntu:latest",
+                "org.label-schema.build-date": "2017-11-28T02:02:09+00:00",
+                "org.label-schema.usage.singularity.version": "2.4-feature-squashbuild-secbuild.g818b648",
+                "org.label-schema.build-size": "1325MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n    # path to mlx IB libraries and openmpi in Ubuntu\nLD_LIBRARY_PATH=/usr/local/lib:/usr/lib/libibverbs:$LD_LIBRARY_PATH\nPATH=/usr/local/bin:$PATH\n",
+            "runscript": "#!/bin/sh\n\nexec \"/bin/bash\"\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

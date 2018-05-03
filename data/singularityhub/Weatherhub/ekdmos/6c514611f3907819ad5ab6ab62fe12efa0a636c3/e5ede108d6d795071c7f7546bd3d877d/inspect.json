@@ -1,0 +1,23 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "BootStrap: docker\nFrom: weatherlab/centos6.6_intel\n\n%labels\nMAINTAINER Xin Zhang\nSPECIES EKDMOS\n\n%runscript\n    echo \"Welcome, this is Singularity container for Intel\"\n\n%environments\n    DISPLAY=:0.0\n    export DISPLAY\n    PATH=/usr/local/bin:${PATH}\n    export PATH\n    LD_LIBRARY_PATH=/opt/intel/composer_xe_2013.2.146/compiler/lib/intel64:/usr/local/lib:${LD_LIBRARY_PATH}\n    export LD_LIBRARY_PATH\n\n%post\n    echo \"Hello from inside the container\"\n    source /opt/intel/bin/compilervars.sh intel64\n    yum update\n    curl -s https://packagecloud.io/install/repositories/github/git-lfs/script.rpm.sh | bash\n    yum -y install wget tar git-lfs\n    cd /usr/local/src\n    wget --no-check-certificate https://www.open-mpi.org/software/ompi/v2.1/downloads/openmpi-2.1.0.tar.gz\n    tar xf openmpi-2.1.0.tar.gz\n    rm -f openmpi-2.1.0.tar.gz\n    cd openmpi-2.1.0\n    export FC=ifort\n    export CC=icc\n    export CXX=icpc\n    opal_check_cma_happy=0 ./configure --enable-mpi-cxx\n    make -j2 all && make install\n    cd /usr/local/src\n    rm -rf openmpi-2.1.0\n    source /opt/intel/bin/compilervars.sh intel64\n\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "MAINTAINER": "Xin Zhang",
+                "org.label-schema.usage.singularity.deffile": "Singularity",
+                "org.label-schema.schema-version": "1.0",
+                "SPECIES": "EKDMOS",
+                "org.label-schema.usage.singularity.deffile.from": "weatherlab/centos6.6_intel",
+                "org.label-schema.build-date": "Thu,_22_Feb_2018_02:59:52_+0000",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "org.label-schema.build-size": "7132MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n    DISPLAY=:0.0\n    export DISPLAY\n    PATH=/usr/local/bin:${PATH}\n    export PATH\n    LD_LIBRARY_PATH=/opt/intel/composer_xe_2013.2.146/compiler/lib/intel64:/usr/local/lib:${LD_LIBRARY_PATH}\n    export LD_LIBRARY_PATH\n\n",
+            "runscript": "#!/bin/sh \n\n    echo \"Welcome, this is Singularity container for Intel\"\n\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

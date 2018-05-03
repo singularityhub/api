@@ -1,0 +1,26 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap: debootstrap\nOSVersion: xenial\nMirrorURL: http://us.archive.ubuntu.com/ubuntu/\n\n###############################################################\n# Command used to build:\n# sudo singularity build lahontan.simg Singularity\n###############################################################\n\n%labels\n    MAINTAINER Alberto Nava\n    VERSION v1.0\n\n%post\n    locale-gen en_US.UTF-8\n\n    echo \"Installing necessary packages...\"\n    echo \"deb http://us.archive.ubuntu.com/ubuntu/ xenial universe\" >> /etc/apt/sources.list\n    apt-get update && apt-get install --yes git cmake gcc g++ libncurses-dev libhdf5-cpp-11 libhdf5-dev python3-docopt vim unzip openjdk-8-jdk-headless wget gfortran libbz2-dev liblzma-dev libpcre++-dev libcurl4-openssl-dev libssl-dev pandoc texlive-latex-extra libxml2-dev libmariadb-client-lgpl-dev libreadline6-dev libreadline6 libtbb-dev bzip2\n\n    cd /opt\n    wget https://cran.r-project.org/src/base/R-3/R-3.4.3.tar.gz\n    tar xzf R-3.4.3.tar.gz\n    cd R-3.4.3\n    ./configure --with-x=no \n    make && make install\n    R -e 'source(\"https://bioconductor.org/biocLite.R\");biocLite(ask=FALSE);biocLite(c(\"devtools\",\"DESeq2\",\"edgeR\",\"ReportingTools\",\"regionReport\",\"pachterlab/sleuth\",\"ballgown\",\"DT\",\"pheatmap\"));devtools::install_github(c(\"docopt/docopt.R\",\"alyssafrazee/RSkittleBrewer\"))'\n    \n    echo \"Cloning repository...\"\n    git clone --recursive https://github.com/UNR-CFB/lahontan.git /lahontan\n\n    echo \"Installing pipeline...\"\n    cd /lahontan\n    echo 'export RNASEQDIR=/lahontan/bin' >> $SINGULARITY_ENVIRONMENT\n    /lahontan/lib/autoSetup.sh\n\n    ln -s /usr/local/bin/R /lahontan/bin/R\n    ln -s /usr/local/bin/Rscript /lahontan/bin/Rscript\n\n%environment\n    RNASEQDIR=/lahontan/bin\n    PATH=\"${PATH}:/lahontan/bin:/lahontan/lib\"\n    LANG=en_US.UTF-8\n    LANGUAGE=en_US\n    export RNASEQDIR PATH LANG LANGUAGE\n\n%help\n    Go to https://github.com/UNR-CFB/lahontan for more help OR try \"./lahontan.simg -h\" for pipeline help\n\n%runscript\n    exec /lahontan/lib/lahontan \"$@\"\n",
+            "help": "\n\n    Go to https://github.com/UNR-CFB/lahontan for more help OR try \"./lahontan.simg -h\" for pipeline help\n\n",
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "debootstrap",
+                "MAINTAINER": "Alberto Nava",
+                "org.label-schema.usage.singularity.deffile": "Singularity",
+                "org.label-schema.usage": "/.singularity.d/runscript.help",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.osversion": "xenial",
+                "VERSION": "v1.0",
+                "org.label-schema.build-date": "Tue,_09_Jan_2018_23:29:14_+0000",
+                "org.label-schema.usage.singularity.deffile.mirrorurl": "http://us.archive.ubuntu.com/ubuntu/",
+                "org.label-schema.usage.singularity.runscript.help": "/.singularity.d/runscript.help",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.gaa08d4d",
+                "org.label-schema.build-size": "6102MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n    RNASEQDIR=/lahontan/bin\n    PATH=\"${PATH}:/lahontan/bin:/lahontan/lib\"\n    LANG=en_US.UTF-8\n    LANGUAGE=en_US\n    export RNASEQDIR PATH LANG LANGUAGE\n\n",
+            "runscript": "#!/bin/sh \n\n    exec /lahontan/lib/lahontan \"$@\"\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

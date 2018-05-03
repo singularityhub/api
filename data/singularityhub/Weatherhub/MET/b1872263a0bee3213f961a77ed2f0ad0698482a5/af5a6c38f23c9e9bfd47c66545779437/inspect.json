@@ -1,0 +1,27 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "BootStrap: docker\nFrom: weatherhub/met-v7.0\n\n%labels\nMAINTAINER Xin Zhang\nSPECIES JCSDA\n\n%runscript\n    echo \"Welcome, this is Singularity container for NCAR DTC MET V7.0\"\n\n%environments\n    DISPLAY=:0.0 \\\n    export DISPLAY\n\n%post\n    echo \"Hello from inside the container\"\n    echo \"Install additional software here\"\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "MAINTAINER": "Xin Zhang",
+                "name": "CentOS Base Image",
+                "license": "GPLv2",
+                "org.label-schema.schema-version": "1.0",
+                "SPECIES": "JCSDA",
+                "org.label-schema.usage.singularity.deffile.from": "weatherhub/met-v7.0",
+                "org.label-schema.build-date": "Mon,_09_Apr_2018_15:28:09_+0000",
+                "vendor": "CentOS",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "build-date": "20180302",
+                "org.label-schema.build-size": "1793MB",
+                "org.label-schema.usage.singularity.deffile": "Singularity"
+            },
+            "environment": "# Custom environment shell code should follow\n\n    DISPLAY=:0.0 \\\n    export DISPLAY\n\n",
+            "runscript": "#!/bin/sh \n\n    echo \"Welcome, this is Singularity container for NCAR DTC MET V7.0\"\n\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}
