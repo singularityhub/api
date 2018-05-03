@@ -1,0 +1,25 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "BootStrap: yum\nOSVersion: 7\nMirrorURL: http://mirror.centos.org/centos-%{OSVERSION}/%{OSVERSION}/os/$basearch/\n\nInclude: yum\n\n%help\nThis is a container to run AMREX binarie on SKL machine. just type ./amrex.img and it should run\n\n%setup\n\t#Create a working directory \n        mkdir -p $SINGULARITY_ROOTFS/tempdir\n        if [ ! -x \"$SINGULARITY_ROOTFS/tempdir\" ]; then\n           echo \"failed to create tempdir directory...\"\n           exit 1\n        fi\n\t\n\twget https://github.com/Smahane/Intel-HPC-Container/blob/master/containers/amrex/Nyx3d.intel.MPI.OMP.SKLAVX512.ex\n\twget https://github.com/Smahane/Intel-HPC-Container/blob/master/containers/amrex/inputs\n\twget https://github.com/Smahane/Intel-HPC-Container/blob/master/containers/amrex/runlog\n\twget https://github.com/Smahane/Intel-HPC-Container/blob/master/containers/amrex/probin\n\t\n\t cp -rf Nyx3d.intel.MPI.OMP.SKLAVX512.ex $SINGULARITY_ROOTFS/tempdir\n\t cp -rf inputs $SINGULARITY_ROOTFS/tempdir  \n\t cp -rf runlog $SINGULARITY_ROOTFS/tempdir \n\t cp -rf probin $SINGULARITY_ROOTFS/tempdir \n\t    \n        if [ \"$(ls -A $SINGULARITY_ROOTFS/tempdir/)\" ]; then\n                   echo \"Files are copies here $SINGULARITY_ROOTFS/tempdir\"\n                   ls $SINGULARITY_ROOTFS/tempdir/\n        fi\n\n        chmod -R 777 $SINGULARITY_ROOTFS/tempdir/*\n\n        exit 0\n\t\n\t\n%post\n\tyum install wget -y\n       \t\t\n\t#installing runtime libs for virtual machines\n        rpm --import https://yum.repos.intel.com/2018/setup/RPM-GPG-KEY-intel-psxe-runtime-2018\n\trpm -Uhv https://yum.repos.intel.com/2018/setup/intel-psxe-runtime-2018-reposetup-1-0.noarch.rpm\n\tyum install intel-psxe-runtime -y\n\n\t#installing gcc\n        yum install gcc -y\n        yum install bc -y\n\n%environment\n#\texport OMP_NUM_THREADS=40\n\t\n%runscript \n        echo \"This is what happens when you run the container...\"\n\t\n\tcd $SINGULARITY_ROOTFS/tempdir/\n\tpwd\n\tsource /opt/intel/psxe_runtime/linux/bin/psxevars.sh\n\tls -l Nyx3d.intel.MPI.OMP.SKLAVX512.ex\n\tresult=\"$SINGULARITY_ROOTFS/tempdir/Nyx3d.intel.MPI.OMP.SKLAVX512.log\"\n\t./Nyx3d.intel.MPI.OMP.SKLAVX512.ex inputs |tee $result\n\techo \"find results in /tmp/Nyx3d.intel.MPI.OMP.SKLAVX512.ex.log\"\n",
+            "help": "\n\nThis is a container to run AMREX binarie on SKL machine. just type ./amrex.img and it should run\n\n",
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.osversion": "7",
+                "org.label-schema.usage.singularity.deffile": "Singularity",
+                "org.label-schema.usage": "/.singularity.d/runscript.help",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.include": "yum",
+                "org.label-schema.usage.singularity.deffile.bootstrap": "yum",
+                "org.label-schema.build-date": "Wed,_02_May_2018_21:58:15_+0000",
+                "org.label-schema.usage.singularity.deffile.mirrorurl": "http://mirror.centos.org/centos-%{OSVERSION}/%{OSVERSION}/os/$basearch/",
+                "org.label-schema.usage.singularity.runscript.help": "/.singularity.d/runscript.help",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "org.label-schema.build-size": "2709MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n#\texport OMP_NUM_THREADS=40\n\t\n",
+            "runscript": "#!/bin/sh \n\n        echo \"This is what happens when you run the container...\"\n\t\n\tcd $SINGULARITY_ROOTFS/tempdir/\n\tpwd\n\tsource /opt/intel/psxe_runtime/linux/bin/psxevars.sh\n\tls -l Nyx3d.intel.MPI.OMP.SKLAVX512.ex\n\tresult=\"$SINGULARITY_ROOTFS/tempdir/Nyx3d.intel.MPI.OMP.SKLAVX512.log\"\n\t./Nyx3d.intel.MPI.OMP.SKLAVX512.ex inputs |tee $result\n\techo \"find results in /tmp/Nyx3d.intel.MPI.OMP.SKLAVX512.ex.log\"\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap: docker\nFrom: tensorflow/tensorflow:1.3.0-gpu-py3\n\n%post\n    apt-get update && apt-get -y install locales\n    locale-gen en_US.UTF-8\n    apt-get install -y git wget python3-dev python3-pip\n    apt-get clean\n    apt-get install -y build-essential automake autoconf libtool\n\n    apt-get install -y libcupti-dev\n    apt-get install -y cuda-drivers\n    pip3 install --upgrade pip\n    pip3 install keras\n    \n    pip3 --no-cache-dir install \\\n            h5py \\\n            ipykernel \\\n            jupyter \\\n            matplotlib \\\n            bokeh \\\n            cython \\\n            numpy \\\n            pandas \\\n            Pillow \\\n            scipy \\\n            sklearn \\\n            odl\n    python3 -m ipykernel.kernelspec\n\n    #############################\n    # install astra-toolbox\n    apt-get install -y libboost-all-dev\n    wget https://github.com/astra-toolbox/astra-toolbox/archive/v1.8.3.tar.gz\n    tar xzf v1.8.3.tar.gz\n    rm v1.8.3.tar.gz\n    cd astra-toolbox-1.8.3\n    cd build/linux\n    ./autogen.sh   # when building a git version\n    ./configure --with-cuda=/usr/local/cuda \\\n            --with-python=/usr/bin/python3 \\\n            --with-install-type=module\n    make\n    make install\n\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "maintainer": "NVIDIA CORPORATION <cudatools@nvidia.com>",
+                "org.label-schema.usage.singularity.deffile": "Singularity",
+                "org.label-schema.schema-version": "1.0",
+                "com.nvidia.volumes.needed": "nvidia_driver",
+                "org.label-schema.usage.singularity.deffile.from": "tensorflow/tensorflow:1.3.0-gpu-py3",
+                "com.nvidia.build.id": "29071360",
+                "org.label-schema.build-date": "Thu,_15_Feb_2018_17:18:01_+0000",
+                "com.nvidia.cuda.version": "8.0.61",
+                "com.nvidia.build.ref": "836d5387f8888c3924aff7a011f9b2cd9956d3db",
+                "com.nvidia.cudnn.version": "6.0.21",
+                "org.label-schema.build-size": "4932MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n",
+            "runscript": "#!/bin/sh\n\nexec \"/run_jupyter.sh\" \"--allow-root\" \"$@\"\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

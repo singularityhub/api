@@ -1,0 +1,26 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "# MPI Ubuntu Package for running on CARC Wheeler - derived from initial UUtah CHPC \n# package specification at:\n# https://github.com/CHPC-UofU/Singularity-ubuntu-mpi/blob/master/Singularity\n\nBootstrap: docker\nFrom: centos:7.3.1611\n\n%post\n    # Wheeler mount points\n    mkdir -p /wheeler/scratch\n    mkdir -p /nfs/scratch\n    yum -y update && yum clean all\n    yum groupinstall -y \"Development Tools\"\n    yum install -y \\\n\twhich \\\n        curl \\\n        git\n    yum install -y epel-release\n    yum install -y python-pip python-devel\n    pip install --upgrade pip\n    pip install setuptools\n\n    # Set up some required environment defaults\n    #MC issue with locale (LC_ALL, LANGUAGE), to get it right:\n    export LANGUAGE=\"en_US.UTF-8\"\n    echo 'LANGUAGE=\"en_US.UTF-8\"' >> /etc/default/locale\n    echo 'LC_ALL=\"en_US.UTF-8\"' >> /etc/default/locale\n\n    # Update to the latest pip (newer than repo)\n    pip install --no-cache-dir --upgrade pip\n    \n    # Install other commonly-needed packages\n    pip install --no-cache-dir --upgrade \\\n        future \\\n        matplotlib \\\n        scipy \n\n    # IB stuff, based on https://community.mellanox.com/docs/DOC-2431\n    yum -y install dapl dapl-utils ibacm infiniband-diags libibverbs libibverbs-devel libibverbs-utils libmlx4 librdmacm librdmacm-utils mstflint opensm-libs perftest qperf rdma\n    yum clean all\n\n%environment    \n    # path to mlx IB libraries in Ubuntu\nLD_LIBRARY_PATH=/usr/lib/libibverbs:$LD_LIBRARY_PATH\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "vendor": "CentOS",
+                "name": "CentOS Base Image",
+                "license": "GPLv2",
+                "org.label-schema.usage.singularity.deffile._https": "//github.com/CHPC-UofU/Singularity-ubuntu-mpi/blob/master/Singularity",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.from": "centos:7.3.1611",
+                "org.label-schema.build-date": "2017-11-28T01:27:40+00:00",
+                "org.label-schema.usage.singularity.version": "2.4-feature-squashbuild-secbuild.g818b648",
+                "build-date": "20161214",
+                "org.label-schema.build-size": "944MB",
+                "org.label-schema.usage.singularity.deffile": "Singularity.centos"
+            },
+            "environment": "# Custom environment shell code should follow\n\n    # path to mlx IB libraries in Ubuntu\nLD_LIBRARY_PATH=/usr/lib/libibverbs:$LD_LIBRARY_PATH\n",
+            "runscript": "#!/bin/sh\n\nexec \"/bin/bash\"\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

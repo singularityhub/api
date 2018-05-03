@@ -1,0 +1,21 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap: docker\nFrom: quay.io/fenicsproject/stable:current\n\n%post\n    # Wheeler mount points\n    mkdir -p /wheeler/scratch\n    mkdir -p /nfs/scratch\n\n    # Update apt-get\n    apt-get update\n\n    # IB stuff, based on https://community.mellanox.com/docs/DOC-2431\n    apt-get install -y dkms infiniband-diags libibverbs* ibacm librdmacm* libmlx4* libmlx5* mstflint libibcm.* libibmad.* libibumad* opensm srptools libmlx4-dev librdmacm-dev rdmacm-utils ibverbs-utils perftest vlan ibutils\n    apt-get install -y libtool autoconf automake build-essential ibutils ibverbs-utils rdmacm-utils infiniband-diags perftest librdmacm-dev libibverbs-dev libmlx4-1 numactl libnuma-dev autoconf automake gcc g++ git libtool pkg-config\n    apt-get install -y libnl-3-200 libnl-route-3-200 libnl-route-3-dev libnl-utils\n    \n    # Make sure all of the libraries are indexed right\n    ldconfig\n\n#environment\n    # path to mlx IB libraries and openmpi in Ubuntu\n    export LD_LIBRARY_PATH=/usr/lib/libibverbs:/use/local/lib:$LD_LIBRARY_PATH\n    export FENICS_PREFIX=/home/fenics\n    export SLEPC_DIR=${FENICS_PREFIX}\n    export PETSC_DIR=${FENICS_PREFIX}\n    export PYBIND11_DIR=${FENICS_PREFIX}\n\n%runscript\n    exec /bin/bash -i\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "org.label-schema.usage.singularity.deffile": "Singularity.docker",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.from": "quay.io/fenicsproject/stable:current",
+                "org.label-schema.build-date": "Tue,_28_Nov_2017_06:15:24_+0000",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.gaa08d4d",
+                "org.label-schema.build-size": "2134MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n",
+            "runscript": "#!/bin/sh \n\n    exec /bin/bash -i\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

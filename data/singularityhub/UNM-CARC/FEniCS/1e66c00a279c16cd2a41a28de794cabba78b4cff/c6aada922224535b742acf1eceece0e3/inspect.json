@@ -1,0 +1,21 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "# MPI Ubuntu Package for running FEniCS on CARC Wheeler - derived from initial UUtah \n# CHPC package specification at:\n# https://github.com/CHPC-UofU/Singularity-ubuntu-mpi/blob/master/Singularity\n# Rebuild trigger edit...\n#\nBootstrap: docker\nFrom: ubuntu:17.04\n\n%post\n\t# Wheeler mount points\n    mkdir -p /wheeler/scratch\n    mkdir -p /nfs/scratch\n\n# Install the necessary packages (from repo)\n    apt-get update && apt-get install -y --no-install-recommends \\\n        apt-utils \\\n        build-essential \\\n        curl \\\n        git \\\n        libopenblas-dev \\\n        libcurl4-openssl-dev \\\n        libfreetype6-dev \\\n        libpng-dev \\\n        libzmq3-dev \\\n        python-pip \\\n        pkg-config \\\n        python-dev \\\n        python-setuptools \\\n        rsync \\\n        software-properties-common \\\n        unzip \\\n        vim \\\n        zip \\\n        zlib1g-dev\n    apt-get clean\n\n    # Set up some required environment defaults\n    #MC issue with locale (LC_ALL, LANGUAGE), to get it right:\n    apt-get install -y language-pack-en\n    locale-gen \"en_US.UTF-8\"\n    dpkg-reconfigure locales\n    export LANGUAGE=\"en_US.UTF-8\"\n    echo 'LANGUAGE=\"en_US.UTF-8\"' >> /etc/default/locale\n    echo 'LC_ALL=\"en_US.UTF-8\"' >> /etc/default/locale\n\n    # Update to the latest pip (newer than repo)\n    #pip install --no-cache-dir --upgrade pip\n    \n    # Install other commonly-needed packages\n    #pip install --no-cache-dir --upgrade \\\n    #    future \\\n    #    matplotlib \\\n    #    scipy \n\n    # IB stuff, based on https://community.mellanox.com/docs/DOC-2431\n    apt-get install -y dkms infiniband-diags libibverbs* ibacm librdmacm* libmlx4* libmlx5* mstflint libibcm.* libibmad.* libibumad* opensm srptools libmlx4-dev librdmacm-dev rdmacm-utils ibverbs-utils perftest vlan ibutils\n    apt-get install -y libtool autoconf automake build-essential ibutils ibverbs-utils rdmacm-utils infiniband-diags perftest librdmacm-dev libibverbs-dev libmlx4-1 numactl libnuma-dev autoconf automake gcc g++ git libtool pkg-config\n    apt-get install -y libnl-3-200 libnl-route-3-200 libnl-route-3-dev libnl-utils\n\n    # git, wget, ncurses, ssh (openmpi requires ssh...)\n    apt-get install -y git wget ssh\n\n    # fenics\n    add-apt-repository ppa:fenics-packages/fenics\n    apt-get update\n    apt-get -y install python-numpy python-scipy python-matplotlib ipython python-h5py\n    apt-get -y --no-install-recommends install fenics\n    apt-get -y -o Dpkg::Options::=\"--force-confold\"  dist-upgrade\n\n    # Clean up\n    apt-get clean\n    rm -rf /tmp/* /var/tmp/*\n\n%environment    \n    # path to mlx IB libraries and openmpi in Ubuntu\nLD_LIBRARY_PATH=/usr/lib/libibverbs:$LD_LIBRARY_PATH\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "org.label-schema.usage.singularity.deffile": "Singularity.ubuntu",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.from": "ubuntu:17.04",
+                "org.label-schema.build-date": "Tue,_28_Nov_2017_22:33:24_+0000",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.gaa08d4d",
+                "org.label-schema.build-size": "2421MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n    # path to mlx IB libraries and openmpi in Ubuntu\nLD_LIBRARY_PATH=/usr/lib/libibverbs:$LD_LIBRARY_PATH\n",
+            "runscript": "#!/bin/sh\n\nexec \"/bin/bash\" \"$@\"\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}
