@@ -1,0 +1,28 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap: shub\nFrom: ISU-HPC/centos7-base\n\n%help\nCentOS 7 with base perl and CPAN\n\n\n%labels\n    Maintainer Iowa State University High-Performance Computing Group\n    Version  v1.0\n\n\n%setup\n\n\n%files\n\n\n%post\n    # Install Perl prerequisites\n    yum install -y epel-release\n    yum install -y perl perl-CPAN perl-App-cpanminus perl-Archive-Tar perl-Want perl-TermReadKey\n\n",
+            "help": "\n\nCentOS 7 with base perl and CPAN\n\n\n",
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "shub",
+                "MAINTAINER": "Iowa State University High-Performance Computing Group",
+                "org.label-schema.usage.singularity.deffile": "Singularity.centos7-perl",
+                "org.label-schema.usage": "/.singularity.d/runscript.help",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.osversion": "7",
+                "org.label-schema.usage.singularity.deffile.include": "yum",
+                "VERSION": "v1.0",
+                "org.label-schema.usage.singularity.deffile.from": "ISU-HPC/centos7-base",
+                "org.label-schema.build-date": "Thu,_03_May_2018_16:50:58_+0000",
+                "org.label-schema.usage.singularity.deffile.mirrorurl": "http://mirror.centos.org/centos-%{OSVERSION}/%{OSVERSION}/os/$basearch/",
+                "org.label-schema.usage.singularity.runscript.help": "/.singularity.d/runscript.help",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "org.label-schema.build-size": "481MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n",
+            "runscript": "#!/bin/sh\n\necho \"There is no runscript defined for this container\\n\";\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

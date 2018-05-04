@@ -1,0 +1,25 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "# mindboggle\n\nBootStrap: docker\nFrom: nipy/mindboggle:latest\n\n%labels\nAuthor zhifang.ye.fghm@gmail.com\nBuild-date 08/4/2018\nVendor Ubuntu:Xenial\nVersion 1.2.4\n\n%runscript\n    exec mindboggle \"$@\"\n\n%environment\n\n%post\n    #------------------------------------------------------------------------------\n    # Change timezone to Shanghai\n    #------------------------------------------------------------------------------\n    ln -fs /usr/share/zoneinfo/Asia/Shanghai /etc/localtime\n    dpkg-reconfigure --frontend noninteractive tzdata\n    #------------------------------------------------------------------------------\n    # Create local binding point for our HPC\n    #------------------------------------------------------------------------------\n    mkdir /seastor\n    mkdir /lustre",
+            "help": null,
+            "labels": {
+                "BUILD_DATE": "08/4/2018",
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "VENDOR": "Ubuntu:Xenial",
+                "org.label-schema.usage.singularity.deffile": "Singularity",
+                "AUTHOR": "zhifang.ye.fghm@gmail.com",
+                "org.label-schema.schema-version": "1.0",
+                "VERSION": "1.2.4",
+                "org.label-schema.usage.singularity.deffile.from": "nipy/mindboggle:latest",
+                "org.label-schema.build-date": "Sun,_08_Apr_2018_07:51:43_+0000",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.gaa08d4d",
+                "org.label-schema.build-size": "6124MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n\n",
+            "runscript": "#!/bin/sh \n\n    exec mindboggle \"$@\"\n\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}
