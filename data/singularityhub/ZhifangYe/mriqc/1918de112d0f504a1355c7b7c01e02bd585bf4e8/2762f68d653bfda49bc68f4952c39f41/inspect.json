@@ -1,0 +1,31 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "# MRIQC from poldracklab\n\nBootStrap: docker\nFrom: poldracklab/mriqc:latest\n\n%runscript\n    exec /usr/local/miniconda/bin/mriqc \"$@\"\n\n%environment\n\n%labels\nAuthor zhifang.ye.fghm@gmail.com\nBuild-date 11/4/2018\nVendor Ubuntu\nVersion 0.10.4\n\n%post\n    #------------------------------------------------------------------------------\n    # Change timezone to Shanghai\n    #------------------------------------------------------------------------------\n    ln -fs /usr/share/zoneinfo/Asia/Shanghai /etc/localtime\n    dpkg-reconfigure --frontend noninteractive tzdata\n    #------------------------------------------------------------------------------\n    # Fix possible permission issue, from docker2singularity.sh code\n    #------------------------------------------------------------------------------\n    chmod -R a+rX /usr/local/miniconda\n    chmod +x /usr/local/miniconda/bin/*\n    #------------------------------------------------------------------------------\n    # Create local binding point for our HPC\n    #------------------------------------------------------------------------------\n    mkdir /seastor\n    mkdir /lustre\n",
+            "help": null,
+            "labels": {
+                "BUILD_DATE": "11/4/2018",
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "VENDOR": "Ubuntu",
+                "org.label-schema.usage.singularity.deffile": "Singularity",
+                "AUTHOR": "zhifang.ye.fghm@gmail.com",
+                "org.label-schema.version": "0.10.4",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.vcs-ref": "47e0c23",
+                "VERSION": "0.10.4",
+                "org.label-schema.vcs-url": "https://github.com/poldracklab/mriqc",
+                "org.label-schema.build-date": "Wed,_11_Apr_2018_04:04:11_+0000",
+                "org.label-schema.name": "MRIQC",
+                "org.label-schema.usage.singularity.deffile.from": "poldracklab/mriqc:latest",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.gaa08d4d",
+                "org.label-schema.url": "http://mriqc.readthedocs.io",
+                "org.label-schema.build-size": "7307MB",
+                "org.label-schema.description": "MRIQC - Automated Quality Control and visual reports for Quality Assesment of structural (T1w, T2w) and functional MRI of the brain"
+            },
+            "environment": "# Custom environment shell code should follow\n\n\n",
+            "runscript": "#!/bin/sh \n\n    exec /usr/local/miniconda/bin/mriqc \"$@\"\n\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

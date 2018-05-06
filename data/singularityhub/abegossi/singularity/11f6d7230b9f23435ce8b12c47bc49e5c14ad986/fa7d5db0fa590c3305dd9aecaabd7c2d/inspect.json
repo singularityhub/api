@@ -1,0 +1,21 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap: docker\nFrom: fedora:latest\n\n%runscript\n\nexec echo \"I can put here whatever i want to happen when the user runs my container!\"\n\texec echo \"Hello\" \"$@\"\n\n%post\n\tmkdir test\n        touch test/test.txt \n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "org.label-schema.usage.singularity.deffile": "Singularity",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.from": "fedora:latest",
+                "org.label-schema.build-date": "Wed,_11_Apr_2018_14:01:58_+0000",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "org.label-schema.build-size": "257MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n",
+            "runscript": "#!/bin/sh \n\n\nexec echo \"I can put here whatever i want to happen when the user runs my container!\"\n\texec echo \"Hello\" \"$@\"\n\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

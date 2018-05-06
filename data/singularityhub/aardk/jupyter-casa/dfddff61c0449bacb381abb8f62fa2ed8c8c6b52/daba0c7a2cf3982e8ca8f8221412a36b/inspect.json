@@ -1,0 +1,22 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "# Singularity bootstrap based on the jupyter-casa docker. \n# We use this on singularity hub, because it currently\n# doesn't have enough resources to build casa.\nBootstrap: docker\nFrom: penngwyn/jupytercasa\nIncludeCmd: no\n\n%runscript\n    echo \"Starting Jupyter\"\n    cd $HOME\n    jupyter notebook\n\n%post\n    # Remove Juputer user imported from Docker\n    sed -i '/jupyter/d' /etc/passwd\n    sed -i '/jupyter/d' /etc/shadow\n\n%environment\n  unset XDG_RUNTIME_DIR \n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "org.label-schema.usage.singularity.deffile": "Singularity.docker",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.includecmd": "no",
+                "org.label-schema.usage.singularity.deffile.from": "penngwyn/jupytercasa",
+                "org.label-schema.build-date": "2018-01-24T14:22:16+00:00",
+                "org.label-schema.usage.singularity.version": "2.4-feature-squashbuild-secbuild.g818b648",
+                "org.label-schema.build-size": "2708MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n  unset XDG_RUNTIME_DIR \n",
+            "runscript": "#!/bin/sh \n\n    echo \"Starting Jupyter\"\n    cd $HOME\n    jupyter notebook\n\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}
