@@ -1,0 +1,26 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "\nBootstrap: docker\nFrom: boutroslab/crispranalyzer:latest\n\n%post\n    mkdir /athena\n    mkdir /scratchLocal\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "maintainer": "Carl Boettiger <cboettig@ropensci.org>",
+                "org.label-schema.license": "GPL-2.0",
+                "org.label-schema.schema-version": "1.0",
+                "crispranalyzer": "",
+                "org.label-schema.usage.singularity.deffile.from": "boutroslab/crispranalyzer:latest",
+                "org.label-schema.build-date": "Fri,_04_May_2018_18:14:33_+0000",
+                "org.label-schema.vendor": "Rocker Project",
+                "org.label-schema.vcs-url": "https://github.com/rocker-org/rocker-versioned",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "org.label-schema.build-size": "5925MB",
+                "org.label-schema.usage.singularity.deffile": "Singularity"
+            },
+            "environment": "# Custom environment shell code should follow\n\n",
+            "runscript": "#!/bin/sh\n\nexec \"crispranalyzer\" \"$@\"\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}
