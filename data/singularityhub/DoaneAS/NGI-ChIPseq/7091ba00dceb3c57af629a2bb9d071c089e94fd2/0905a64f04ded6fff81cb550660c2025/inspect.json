@@ -1,0 +1,24 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap: docker\nFrom: scilifelab/ngi-chipseq:latest\n\n%post\n    mkdir -p /athena\n    echo \"All Set!\"\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "maintainer": "phil.ewels@scilifelab.se",
+                "description": "Docker image containing all requirements for NGI-ChIPseq pipeline",
+                "author": "Phil Ewels",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.from": "scilifelab/ngi-chipseq:latest",
+                "org.label-schema.build-date": "Fri,_11_May_2018_00:25:55_+0000",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.gaa08d4d",
+                "org.label-schema.build-size": "5095MB",
+                "org.label-schema.usage.singularity.deffile": "Singularity"
+            },
+            "environment": "# Custom environment shell code should follow\n\n",
+            "runscript": "#!/bin/sh\n\nexec \"bash\" \"$@\"\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

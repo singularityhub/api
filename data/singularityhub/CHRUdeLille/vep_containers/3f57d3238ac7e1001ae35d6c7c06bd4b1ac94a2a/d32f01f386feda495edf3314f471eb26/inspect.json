@@ -1,0 +1,25 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "#!/bin/bash\n#\n# Christophe Demay <christophe.demay@chru-lille.fr>\n# 2018/05/11: initial version\nBootStrap: docker\nFrom: phusion/baseimage:0.10.1\n%labels\n  MAINTAINER christophe.demay@chru-lille.fr\n  VERSION 75\n\n%environment\n  PATH=/opt/vep/src/ensembl-tools-release-75/scripts/variant_effect_predictor/:$PATH\n  LC_ALL=en_US.UTF-8\n  LANGUAGE=en_US.UTF-8\n\n%help\n  __     _______ ____    _____ ____  \n  \\ \\   / / ____|  _ \\  |___  | ___| \n   \\ \\ / /|  _| | |_) |    / /|___ \\ \n    \\ V / | |___|  __/    / /  ___) |\n     \\_/  |_____|_|      /_/  |____/ \n\n     Singularity container for VEP 75 <https://github.com/Ensembl/ensembl-tools/archive/release/75.zip> application. Documentation available at http://grch37.ensembl.org/info/docs/tools/vep/index.html\n     Cache folder is not included in the container. You have to bind folder containing the cache and add it with the '--cache' option.\n\n%post\n       apt-get update\n       apt-get -y install \\\n         build-essential \\\n         cpanminus \\\n         curl \\\n         wget \\\n         unzip \\\n         perl \\\n         perl-base \\\n         locales\n         \n       locale-gen en_US.UTF-8\n       export LANGUAGE=en_US.UTF-8\n       export LANG=en_US.UTF-8\n       export LC_ALL=en_US.UTF-8\n       locale-gen en_US.UTF-8\n       dpkg-reconfigure locales\n       # \n       # cpanm DBI DBD::mysql\n       # \n       mkdir -p /opt/vep/src\n       \n       \n       \n       cpanm Archive::Extract Archive::Zip CGI Bio::PrimarySeqI DBI\n       #LWP::Simple Bio::Perl LWP::Protocol::https\n       \n       cd /opt/vep/src\n       wget https://github.com/Ensembl/ensembl-tools/archive/release/75.zip\n       unzip 75.zip\n       \n       cd /opt/vep/src/ensembl-tools-release-75/scripts/variant_effect_predictor/\n       ln -s variant_effect_predictor.pl vep\n       chmod u+x *.pl\n       ./INSTALL.pl -a a -b 'https://github.com/bioperl/bioperl-live/archive/bioperl-release-1-6-1.tar.gz'\n       \n       rm /opt/vep/src/75.zip",
+            "help": "\n\n  __     _______ ____    _____ ____  \n  \\ \\   / / ____|  _ \\  |___  | ___| \n   \\ \\ / /|  _| | |_) |    / /|___ \\ \n    \\ V / | |___|  __/    / /  ___) |\n     \\_/  |_____|_|      /_/  |____/ \n\n     Singularity container for VEP 75 <https://github.com/Ensembl/ensembl-tools/archive/release/75.zip> application. Documentation available at http://grch37.ensembl.org/info/docs/tools/vep/index.html\n     Cache folder is not included in the container. You have to bind folder containing the cache and add it with the '--cache' option.\n\n",
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "MAINTAINER": "christophe.demay@chru-lille.fr",
+                "org.label-schema.usage.singularity.deffile": "Singularity.75",
+                "org.label-schema.usage": "/.singularity.d/runscript.help",
+                "org.label-schema.schema-version": "1.0",
+                "VERSION": "75",
+                "org.label-schema.usage.singularity.deffile.from": "phusion/baseimage:0.10.1",
+                "org.label-schema.build-date": "Wed,_16_May_2018_12:16:46_+0000",
+                "org.label-schema.usage.singularity.runscript.help": "/.singularity.d/runscript.help",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "org.label-schema.build-size": "595MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n  PATH=/opt/vep/src/ensembl-tools-release-75/scripts/variant_effect_predictor/:$PATH\n  LC_ALL=en_US.UTF-8\n  LANGUAGE=en_US.UTF-8\n\n",
+            "runscript": "#!/bin/sh\n\nexec \"/sbin/my_init\" \"$@\"\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}
