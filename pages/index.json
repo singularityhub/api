@@ -7,8 +7,8 @@ permalink: /
     "links": {
 
              "all": "{{ site.github_pages }}{{ site.baseurl }}/all",
-             "inspect": "{{ site.github_pages }}{{ site.baseurl }}/files",
-             "files": "{{ site.github_pages }}{{ site.baseurl }}/inspect",
+             "inspect": "{{ site.github_pages }}{{ site.baseurl }}/inspect",
+             "files": "{{ site.github_pages }}{{ site.baseurl }}/files",
              "packages": "{{ site.github_pages }}{{ site.baseurl }}/packages",
              "selfLink": "{{ site.github_pages }}{{ site.baseurl }}"
     }
