@@ -10,5 +10,4 @@ permalink: /inspect/
         "hash": "{{ pieces[6] }}",
         "name": "{{ c.name }}",
         "url": "{{ site.github_pages }}{{ site.baseurl }}{{ c.path }}",
-  }{% if forloop.last %}{% else %},{% endif %}{% endif %}
-{% endfor %}]
+  }{% if forloop.last %}{% else %},{% endif %}{% endif %}{% endfor %}{}]
