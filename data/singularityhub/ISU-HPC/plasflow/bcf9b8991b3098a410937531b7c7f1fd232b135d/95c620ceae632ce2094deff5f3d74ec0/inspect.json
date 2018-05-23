@@ -1,0 +1,26 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "bootstrap: docker\nFROM: bioconductor/release_core2\n\n%labels\nAUTHOR Yasasvy Nanyam ynanyam@iastate.edu\n\n%post\napt install -y python3-pip libreadline-dev libpcre3 libpcre3-dev lzma lzma-dev liblzma-dev bzip2 libbz2-dev\npip3 install --no-cache-dir https://storage.googleapis.com/tensorflow/linux/cpu/tensorflow-0.10.0rc0-cp35-cp35m-linux_x86_64.whl\npip3 install --no-cache-dir plasFlow\npip3 install --no-cache-dir biopython\n# Setting required library paths\necho 'export LD_LIBRARY_PATH=/usr/local/lib/R/lib' >>$SINGULARITY_ENVIRONMENT\necho 'export TMPDIR=/local/scratch' >>$SINGULARITY_ENVIRONMENT\n\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "maintainer": "Carl Boettiger <cboettig@ropensci.org>",
+                "org.label-schema.license": "GPL-2.0",
+                "AUTHOR": "Yasasvy Nanyam ynanyam@iastate.edu",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.from": "bioconductor/release_core2",
+                "org.label-schema.build-date": "Wed,_09_May_2018_20:03:36_+0000",
+                "org.label-schema.vendor": "Rocker Project",
+                "org.label-schema.vcs-url": "https://github.com/rocker-org/rocker-versioned",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "org.label-schema.build-size": "2409MB",
+                "org.label-schema.usage.singularity.deffile": "Singularity"
+            },
+            "environment": "# Custom environment shell code should follow\n\n",
+            "runscript": "#!/bin/sh\n\nexec \"/init\" \"$@\"\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

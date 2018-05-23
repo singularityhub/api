@@ -1,0 +1,29 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "bootstrap: shub\nFROM: ISU-HPC/centos7-base\n\n%labels\nAUTHOR Yasasvy Nanyam ynanyam@iastate.edu\n\n%post\nyum install -y epel-release\nyum install -y python2-devel boost boost-devel\nyum install -y python-pip\nyum install -y git\nyum clean all\nrm -rf /var/yum/cache\n\n# Install pip package Networkx v 1.1 and numpy\npip2 --no-cache-dir install numpy networkx==1.1\n\n# SALSA\ncd /\ngit clone https://github.com/machinegun/SALSA.git\ncd SALSA\nfor FILE_NAME in `ls -1 /SALSA/*.py`; do\necho '#!/usr/bin/env python' | cat - $FILE_NAME > temp && mv temp $FILE_NAME\ndone\necho 'export PATH=/SALSA:$PATH' >>$SINGULARITY_ENVIRONMENT\nchmod a+x *.py\n",
+            "help": "\n\nCentOS 7 base\n\n\n",
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "shub",
+                "MAINTAINER": "Iowa State University High-Performance Computing Group",
+                "org.label-schema.usage.singularity.deffile": "Singularity",
+                "org.label-schema.usage": "/.singularity.d/runscript.help",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.osversion": "7",
+                "org.label-schema.usage.singularity.deffile.include": "yum",
+                "org.label-schema.build-size": "687MB",
+                "VERSION": "v1.0",
+                "org.label-schema.usage.singularity.deffile.from": "ISU-HPC/centos7-base",
+                "org.label-schema.build-date": "Mon,_14_May_2018_16:53:36_+0000",
+                "org.label-schema.usage.singularity.deffile.mirrorurl": "http://mirror.centos.org/centos-%{OSVERSION}/%{OSVERSION}/os/$basearch/",
+                "org.label-schema.usage.singularity.runscript.help": "/.singularity.d/runscript.help",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "AUTHOR": "Yasasvy Nanyam ynanyam@iastate.edu"
+            },
+            "environment": "# Custom environment shell code should follow\n\n",
+            "runscript": "#!/bin/sh\n\necho \"There is no runscript defined for this container\\n\";\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

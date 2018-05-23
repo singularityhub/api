@@ -1,0 +1,29 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "BootStrap: docker\nFrom: ubuntu:xenial\n\n%setup\n\n%help\n    OpenMPI 1.10.7 Ring test application in Ubuntu Xenial OS\n\n%labels\n    App ring\n    MPI_Family OpenMPI\n    MPI_Version v1.10.7\n    OS Ubuntu\n    OS_Version Xenial\n    Maintainer V\u00edctor Sande\n\n%files\n\n%environment\n\n%post\n    #------------------\n    # REQUERIMENTS\n    #------------------\n\n    REQUERIMENTS=\"wget \\\n                  gcc \\\n                  openmpi-bin \\\n                  openmpi-common \\\n                  libopenmpi-dev \\\n                  dapl2-utils \\\n                  libdapl-dev \\\n                  libdapl2 \\\n                  libibverbs1 \\\n                  librdmacm1 \\\n                  libcxgb3-1 \\\n                  libipathverbs1 \\\n                  libmlx4-1 \\\n                  libmlx5-1 \\\n                  libmthca1 \\\n                  libnes1 \\\n                  libpmi0 \\\n                  libpmi0-dev\"\n\n\n    echo \"Installing $REQUERIMENTS ...\"\n    apt-get update\n    apt -y --allow-unauthenticated install $REQUERIMENTS\n\n    mkdir -p /mnt\n    mkdir -p /scratch\n\n    #------------------\n    # USER INSTALL\n    #------------------\n\n    cd /tmp\n    wget https://raw.githubusercontent.com/open-mpi/ompi/master/examples/ring_c.c -O ring_c.c\n    mpicc ring_c.c -o /usr/bin/ring\n\n    #------------------\n    # CLEAN APT files\n    #------------------\n    apt-get clean\n    rm -rf /var/lib/apt/lists/*\n    rm -rf /var/tmp/*\n\n%runscript\n    exec echo \"Running ring\"\n    exec ring\n\n%test\n    exec echo \"Testing ring\"\n    exec ring\n\n##############################\n# Ring App\n##############################\n\n%apphelp ring\n    OpenMPI 1.10.7 Ring test application in Ubuntu Xenial OS\n\n%applabels ring\n    App ring\n    MPI_Family OpenMPI\n    MPI_Version v1.10.7\n\n%appenv ring\n\n%appfiles foo\n\n%appinstall ring\n\n%apprun ring\n    exec echo \"Running ring app\"\n    exec ring\n",
+            "help": "\n\n    OpenMPI 1.10.7 Ring test application in Ubuntu Xenial OS\n\n",
+            "labels": {
+                "MPI_VERSION": "v1.10.7",
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "MAINTAINER": "V\u00edctor Sande",
+                "MPI_FAMILY": "OpenMPI",
+                "org.label-schema.usage": "/.singularity.d/runscript.help",
+                "org.label-schema.schema-version": "1.0",
+                "APP": "ring",
+                "OS_VERSION": "Xenial",
+                "org.label-schema.usage.singularity.deffile.from": "ubuntu:xenial",
+                "org.label-schema.build-date": "Wed,_16_May_2018_08:04:26_+0000",
+                "org.label-schema.usage.singularity.runscript.help": "/.singularity.d/runscript.help",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.gaa08d4d",
+                "OS": "Ubuntu",
+                "org.label-schema.build-size": "261MB",
+                "org.label-schema.usage.singularity.deffile": "Singularity.ring_1.10.7"
+            },
+            "environment": "# Custom environment shell code should follow\n\n\n",
+            "runscript": "#!/bin/sh \n\n    exec echo \"Running ring\"\n    exec ring\n\n",
+            "test": "#!/bin/sh\n\n    exec echo \"Testing ring\"\n    exec ring\n\n##############################\n# Ring App\n##############################\n\n"
+        },
+        "type": "container"
+    }
+}
