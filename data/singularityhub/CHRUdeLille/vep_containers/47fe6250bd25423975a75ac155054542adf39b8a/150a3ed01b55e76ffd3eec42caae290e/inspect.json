@@ -1,0 +1,25 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "#!/bin/bash\n#\n# Christophe Demay <christophe.demay@chru-lille.fr>\n# 2018/04/24: initial version\nBootStrap: docker\nFrom: phusion/baseimage:0.10.1\n%labels\n  MAINTAINER christophe.demay@chru-lille.fr\n  VERSION 92.1\n\n%environment\n  PATH=/opt/vep/src/ensembl-vep:$PATH\n  LC_ALL=en_US.UTF-8\n  LANGUAGE=en_US.UTF-8\n\n%help\n    __     _______ ____     ___ ____    _ \n    \\ \\   / / ____|  _ \\   / _ \\___ \\  / |\n     \\ \\ / /|  _| | |_) | | (_) |__) | | |\n      \\ V / | |___|  __/   \\__, / __/ _| |\n       \\_/  |_____|_|        /_/_____(_)_|\n\n  Singularity container for VEP 92.1 <https://github.com/Ensembl/ensembl-vep> application. Documentation available at http://www.ensembl.org/info/docs/tools/vep/script/index.html\n  Cache folder is not included in the container. You have to bind folder containing the cache and add it with the '--cache' option.\n\n%post\n\n  apt-get update\n  apt-get -y install  apache2 \\\n    build-essential \\\n    cpanminus \\\n    curl \\\n    git \\\n    libmysqlclient-dev \\\n    libpng12-dev \\\n    libssl-dev \\\n    locales \\\n    manpages \\\n    mysql-client \\\n    openssl \\\n    perl \\\n    perl-base \\\n    unzip \\\n    wget\n\n  locale-gen en_US.UTF-8\n  export LANGUAGE=en_US.UTF-8\n  export LANG=en_US.UTF-8\n  export LC_ALL=en_US.UTF-8\n  locale-gen en_US.UTF-8\n  dpkg-reconfigure locales\n  \n  cpanm DBI DBD::mysql\n  \n  git config --global http.postBuffer 524288000\n  \n  mkdir -p /opt/vep/src\n  \n  cd /opt/vep/src\n  git clone -b release/92 https://github.com/Ensembl/ensembl.git\n  git clone -b release/92 https://github.com/Ensembl/ensembl-vep.git \n  \n  ensembl-vep/travisci/get_dependencies.sh\n  export PERL5LIB=$PERL5LIB:/opt/vep/src/bioperl-live-release-1-6-924\n  export KENT_SRC=/opt/vep/src/kent-335_base/src\n  KENT_SRC=/opt/vep/src/kent-335_base/src\n  export HTSLIB_DIR=/opt/vep/src/htslib\n  export MACHTYPE=x86_64\n  export CFLAGS=\"-fPIC\"\n  export DEPS=/opt/vep/src\n  \n  cd /opt/vep/src\n  ensembl-vep/travisci/build_c.sh\n  \n  cd $HTSLIB_DIR\n  make install\n  \n  cd /opt/vep/src\n  git clone https://github.com/bioperl/bioperl-ext.git\n  cd bioperl-ext\n  git reset --hard 1b59725\n  cd Bio/Ext/Align/\n  perl -pi -e\"s|(cd libs.+)CFLAGS=\\\\\\'|\\$1CFLAGS=\\\\\\'-fPIC |\" Makefile.PL\n  perl Makefile.PL\n  make\n  make install\n  \n  cd /opt/vep/src\n  cpanm --installdeps --with-recommends --notest --cpanfile ensembl/cpanfile .\n  cpanm --installdeps --with-recommends --notest --cpanfile ensembl-vep/cpanfile .\n  \n  echo \"en_US.UTF-8 UTF-8\" >> /etc/locale.gen && \\\n    locale-gen en_US.utf8 && \\\n    /usr/sbin/update-locale LANG=en_US.UTF-8\n  \n  cd /opt/vep/src/ensembl-vep\n  chmod u+x *.pl\n  ./INSTALL.pl -a a -l\n  \n",
+            "help": "\n\n    __     _______ ____     ___ ____    _ \n    \\ \\   / / ____|  _ \\   / _ \\___ \\  / |\n     \\ \\ / /|  _| | |_) | | (_) |__) | | |\n      \\ V / | |___|  __/   \\__, / __/ _| |\n       \\_/  |_____|_|        /_/_____(_)_|\n\n  Singularity container for VEP 92.1 <https://github.com/Ensembl/ensembl-vep> application. Documentation available at http://www.ensembl.org/info/docs/tools/vep/script/index.html\n  Cache folder is not included in the container. You have to bind folder containing the cache and add it with the '--cache' option.\n\n",
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "MAINTAINER": "christophe.demay@chru-lille.fr",
+                "org.label-schema.usage.singularity.deffile": "Singularity.92",
+                "org.label-schema.usage": "/.singularity.d/runscript.help",
+                "org.label-schema.schema-version": "1.0",
+                "VERSION": "92.1",
+                "org.label-schema.usage.singularity.deffile.from": "phusion/baseimage:0.10.1",
+                "org.label-schema.build-date": "Fri,_25_May_2018_08:26:38_+0000",
+                "org.label-schema.usage.singularity.runscript.help": "/.singularity.d/runscript.help",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "org.label-schema.build-size": "1627MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n  PATH=/opt/vep/src/ensembl-vep:$PATH\n  LC_ALL=en_US.UTF-8\n  LANGUAGE=en_US.UTF-8\n\n",
+            "runscript": "#!/bin/sh\n\nexec \"/sbin/my_init\" \"$@\"\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

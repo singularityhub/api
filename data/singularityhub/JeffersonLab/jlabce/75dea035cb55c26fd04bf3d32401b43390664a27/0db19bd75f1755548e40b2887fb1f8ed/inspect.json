@@ -1,0 +1,26 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap: docker\nFrom: jeffersonlab/jlabce:2.2\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "vendor": "CentOS",
+                "name": "CentOS Base Image",
+                "license": "GPLv2",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.from": "jeffersonlab/jlabce:2.2",
+                "org.label-schema.build-date": "Wed,_23_May_2018_04:24:36_+0000",
+                "maintainer": "David Lawrence <davidl@jlab.org>",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.gaa08d4d",
+                "build-date": "20170406",
+                "org.label-schema.build-size": "4425MB",
+                "org.label-schema.usage.singularity.deffile": "Singularity.2.2"
+            },
+            "environment": "# Custom environment shell code should follow\n\n",
+            "runscript": "#!/bin/sh\n\nexec \"/bin/sh\" \"-c\" \"source $JLAB_ROOT/$JLAB_VERSION/ce/jlab.sh && /bin/tcsh\" \"$@\"\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}
