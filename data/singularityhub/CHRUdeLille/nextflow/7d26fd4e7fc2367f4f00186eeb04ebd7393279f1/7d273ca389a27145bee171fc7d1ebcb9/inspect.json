@@ -1,0 +1,27 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "# =====================================\n# HEADER\n# =====================================\nBootstrap: docker\nFrom: nextflow/nextflow:0.29.1\n\n%labels\n  MAINTAINER christophe.demay@chru-lille.fr\n  CONTAINER_VERSION 0.0.1\n  SINGULARITY_VERSION 2.5.1\n  NEXTFLOW_VERSION 0.29.1\n\n%setup\n\n%files\n\n%environment\n  NXF_OPTS='-XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap' \n  NXF_HOME=/.nextflow\n  \n%help\n\n%post\n  # =====================================\n  # INSTALL DEPENDENCIES\n  # =====================================\n  apk update && apk upgrade \n  apk add --no-cache coreutils \n  apk add --no-cache curl bash \n  apk add --no-cache wget \n  apk add --no-cache build-base \n  apk add --no-cache python\n  apk add --no-cache --upgrade tar\n  apk add --no-cache linux-headers\n  apk add --no-cache libarchive-dev\n  apk add --no-cache squashfs-tools\n  apk add --no-cache sudo\n  \n  \n  # =====================================\n  # INSTALL SINGULARITY\n  # =====================================\n\n  mkdir -p /opt/singularity && cd /opt/singularity\n\n  SINGULARITY_VERSION=2.5.1\n  wget https://github.com/singularityware/singularity/releases/download/$SINGULARITY_VERSION/singularity-$SINGULARITY_VERSION.tar.gz\n  tar xvf singularity-$SINGULARITY_VERSION.tar.gz\n  cd singularity-$SINGULARITY_VERSION\n  ./configure --prefix=/usr/local\n  make\n  sudo make install\n   ",
+            "help": "\n\n\n",
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "MAINTAINER": "christophe.demay@chru-lille.fr",
+                "org.label-schema.usage.singularity.deffile": "Singularity.0.29.1",
+                "org.label-schema.usage": "/.singularity.d/runscript.help",
+                "org.label-schema.schema-version": "1.0",
+                "SINGULARITY_VERSION": "2.5.1",
+                "CONTAINER_VERSION": "0.0.1",
+                "NEXTFLOW_VERSION": "0.29.1",
+                "org.label-schema.usage.singularity.deffile.from": "nextflow/nextflow:0.29.1",
+                "org.label-schema.build-date": "Mon,_28_May_2018_16:53:51_+0000",
+                "org.label-schema.usage.singularity.runscript.help": "/.singularity.d/runscript.help",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "org.label-schema.build-size": "371MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n  NXF_OPTS='-XX:+UnlockExperimentalVMOptions -XX:+UseCGroupMemoryLimitForHeap' \n  NXF_HOME=/.nextflow\n  \n",
+            "runscript": "#!/bin/sh\n\nexec \"/usr/local/bin/entry.sh\" \"$@\"\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

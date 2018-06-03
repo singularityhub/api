@@ -1,0 +1,23 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap: yum\nOSVersion: 7\nMirrorURL: http://mirror.centos.org/centos-%{OSVERSION}/%{OSVERSION}/os/$basearch/ \nInclude: yum\n\n%environment\nexport PATH=/opt/eman2/bin:$PATH\n\n%post\nyum update -y\nyum install -y @\"Development Tools\"\nyum install -y epel-release\nyum install -y libgomp cmake3 vim wget mesa mesa-libGL coreutils libSM mesa-libGLU libXrender dejavu-sans-fonts mesa-dri-drivers\nwget --no-check-certificate https://cryoem.bcm.edu/cryoem/static/software/release-2.21/eman2.21.linux64.centos7.sh\nbash eman2.21.linux64.centos7.sh -b -p /opt/eman2\n\n%runscript\nexec \"$@\"\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "yum",
+                "org.label-schema.usage.singularity.deffile": "Singularity2.21a",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.include": "yum",
+                "org.label-schema.build-date": "Tue,_29_May_2018_17:24:42_+0000",
+                "org.label-schema.usage.singularity.deffile.mirrorurl": "http://mirror.centos.org/centos-%{OSVERSION}/%{OSVERSION}/os/$basearch/",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "org.label-schema.build-size": "3669MB",
+                "org.label-schema.usage.singularity.deffile.osversion": "7"
+            },
+            "environment": "# Custom environment shell code should follow\n\nexport PATH=/opt/eman2/bin:$PATH\n\n",
+            "runscript": "#!/bin/sh \n\nexec \"$@\"\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}
