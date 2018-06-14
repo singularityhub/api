@@ -1,0 +1,588 @@
+[
+  {
+    "Image": "/tmp/tmp.rs82LVRvEJ/7173a0371cf904e2b161b42fbb18d247a3912d0e94c029cb0c0e4d201ef4f136.tar",
+    "AnalyzeType": "Apt",
+    "Analysis": [
+      {
+        "Name": "adduser",
+        "Version": "3.115",
+        "Size": 869376
+      },
+      {
+        "Name": "apt",
+        "Version": "1.4.8",
+        "Size": 3623936
+      },
+      {
+        "Name": "base-files",
+        "Version": "9.9 deb9u3",
+        "Size": 340992
+      },
+      {
+        "Name": "base-passwd",
+        "Version": "3.5.43",
+        "Size": 234496
+      },
+      {
+        "Name": "bash",
+        "Version": "4.4-5",
+        "Size": 5937152
+      },
+      {
+        "Name": "binutils",
+        "Version": "2.28-5",
+        "Size": 23913472
+      },
+      {
+        "Name": "bsdutils",
+        "Version": "1:2.29.2-1",
+        "Size": 243712
+      },
+      {
+        "Name": "ca-certificates",
+        "Version": "20161130 nmu1",
+        "Size": 479232
+      },
+      {
+        "Name": "coreutils",
+        "Version": "8.26-3",
+        "Size": 15465472
+      },
+      {
+        "Name": "cpp",
+        "Version": "4:6.3.0-4",
+        "Size": 41984
+      },
+      {
+        "Name": "cpp-6",
+        "Version": "6.3.0-18 deb9u1",
+        "Size": 23208960
+      },
+      {
+        "Name": "dash",
+        "Version": "0.5.8-2.4",
+        "Size": 208896
+      },
+      {
+        "Name": "debconf",
+        "Version": "1.5.61",
+        "Size": 571392
+      },
+      {
+        "Name": "debian-archive-keyring",
+        "Version": "2017.5",
+        "Size": 120832
+      },
+      {
+        "Name": "debianutils",
+        "Version": "4.8.1.1",
+        "Size": 218112
+      },
+      {
+        "Name": "diffutils",
+        "Version": "1:3.5-3",
+        "Size": 1358848
+      },
+      {
+        "Name": "dpkg",
+        "Version": "1.18.24",
+        "Size": 6906880
+      },
+      {
+        "Name": "e2fslibs",
+        "Version": "1.43.4-2",
+        "Size": 459776
+      },
+      {
+        "Name": "e2fsprogs",
+        "Version": "1.43.4-2",
+        "Size": 4118528
+      },
+      {
+        "Name": "findutils",
+        "Version": "4.6.0 git+20161106-2",
+        "Size": 1898496
+      },
+      {
+        "Name": "g++",
+        "Version": "4:6.3.0-4",
+        "Size": 15360
+      },
+      {
+        "Name": "g++-6",
+        "Version": "6.3.0-18 deb9u1",
+        "Size": 24504320
+      },
+      {
+        "Name": "gcc",
+        "Version": "4:6.3.0-4",
+        "Size": 44032
+      },
+      {
+        "Name": "gcc-6",
+        "Version": "6.3.0-18 deb9u1",
+        "Size": 25716736
+      },
+      {
+        "Name": "gcc-6-base",
+        "Version": "6.3.0-18 deb9u1",
+        "Size": 214016
+      },
+      {
+        "Name": "gfortran",
+        "Version": "4:6.3.0-4",
+        "Size": 16384
+      },
+      {
+        "Name": "gfortran-6",
+        "Version": "6.3.0-18 deb9u1",
+        "Size": 24044544
+      },
+      {
+        "Name": "gpgv",
+        "Version": "2.1.18-8~deb9u1",
+        "Size": 738304
+      },
+      {
+        "Name": "grep",
+        "Version": "2.27-2",
+        "Size": 1158144
+      },
+      {
+        "Name": "gzip",
+        "Version": "1.6-5 b1",
+        "Size": 236544
+      },
+      {
+        "Name": "hostname",
+        "Version": "3.18 b1",
+        "Size": 48128
+      },
+      {
+        "Name": "init-system-helpers",
+        "Version": "1.48",
+        "Size": 134144
+      },
+      {
+        "Name": "libacl1",
+        "Version": "2.2.52-3 b1",
+        "Size": 63488
+      },
+      {
+        "Name": "libapt-pkg5.0",
+        "Version": "1.4.8",
+        "Size": 3129344
+      },
+      {
+        "Name": "libasan3",
+        "Version": "6.3.0-18 deb9u1",
+        "Size": 1289216
+      },
+      {
+        "Name": "libatomic1",
+        "Version": "6.3.0-18 deb9u1",
+        "Size": 41984
+      },
+      {
+        "Name": "libattr1",
+        "Version": "1:2.4.47-2 b2",
+        "Size": 43008
+      },
+      {
+        "Name": "libaudit-common",
+        "Version": "1:2.6.7-2",
+        "Size": 30720
+      },
+      {
+        "Name": "libaudit1",
+        "Version": "1:2.6.7-2",
+        "Size": 153600
+      },
+      {
+        "Name": "libblkid1",
+        "Version": "2.29.2-1",
+        "Size": 375808
+      },
+      {
+        "Name": "libbz2-1.0",
+        "Version": "1.0.6-8.1",
+        "Size": 98304
+      },
+      {
+        "Name": "libc-bin",
+        "Version": "2.24-11 deb9u1",
+        "Size": 3445760
+      },
+      {
+        "Name": "libc-dev-bin",
+        "Version": "2.24-11 deb9u3",
+        "Size": 386048
+      },
+      {
+        "Name": "libc6",
+        "Version": "2.24-11 deb9u3",
+        "Size": 10940416
+      },
+      {
+        "Name": "libc6-dev",
+        "Version": "2.24-11 deb9u3",
+        "Size": 16003072
+      },
+      {
+        "Name": "libcap-ng0",
+        "Version": "0.7.7-3 b1",
+        "Size": 44032
+      },
+      {
+        "Name": "libcc1-0",
+        "Version": "6.3.0-18 deb9u1",
+        "Size": 89088
+      },
+      {
+        "Name": "libcilkrts5",
+        "Version": "6.3.0-18 deb9u1",
+        "Size": 146432
+      },
+      {
+        "Name": "libcomerr2",
+        "Version": "1.43.4-2",
+        "Size": 84992
+      },
+      {
+        "Name": "libdb5.3",
+        "Version": "5.3.28-12 deb9u1",
+        "Size": 1857536
+      },
+      {
+        "Name": "libdebconfclient0",
+        "Version": "0.227",
+        "Size": 68608
+      },
+      {
+        "Name": "libfdisk1",
+        "Version": "2.29.2-1",
+        "Size": 480256
+      },
+      {
+        "Name": "libgcc-6-dev",
+        "Version": "6.3.0-18 deb9u1",
+        "Size": 13072384
+      },
+      {
+        "Name": "libgcc1",
+        "Version": "1:6.3.0-18 deb9u1",
+        "Size": 110592
+      },
+      {
+        "Name": "libgcrypt20",
+        "Version": "1.7.6-2 deb9u2",
+        "Size": 1296384
+      },
+      {
+        "Name": "libgfortran-6-dev",
+        "Version": "6.3.0-18 deb9u1",
+        "Size": 2947072
+      },
+      {
+        "Name": "libgfortran3",
+        "Version": "6.3.0-18 deb9u1",
+        "Size": 1269760
+      },
+      {
+        "Name": "libgmp10",
+        "Version": "2:6.1.2 dfsg-1",
+        "Size": 581632
+      },
+      {
+        "Name": "libgomp1",
+        "Version": "6.3.0-18 deb9u1",
+        "Size": 207872
+      },
+      {
+        "Name": "libgpg-error0",
+        "Version": "1.26-2",
+        "Size": 585728
+      },
+      {
+        "Name": "libgssapi-krb5-2",
+        "Version": "1.15-1 deb9u1",
+        "Size": 433152
+      },
+      {
+        "Name": "libisl15",
+        "Version": "0.18-1",
+        "Size": 1908736
+      },
+      {
+        "Name": "libitm1",
+        "Version": "6.3.0-18 deb9u1",
+        "Size": 130048
+      },
+      {
+        "Name": "libldap-common",
+        "Version": "2.4.44 dfsg-5+deb9u1",
+        "Size": 110592
+      },
+      {
+        "Name": "liblsan0",
+        "Version": "6.3.0-18 deb9u1",
+        "Size": 315392
+      },
+      {
+        "Name": "liblz4-1",
+        "Version": "0.0~r131-2 b1",
+        "Size": 95232
+      },
+      {
+        "Name": "liblzma5",
+        "Version": "5.2.2-1.2 b1",
+        "Size": 347136
+      },
+      {
+        "Name": "libmount1",
+        "Version": "2.29.2-1",
+        "Size": 412672
+      },
+      {
+        "Name": "libmpc3",
+        "Version": "1.0.3-1 b2",
+        "Size": 113664
+      },
+      {
+        "Name": "libmpfr4",
+        "Version": "3.1.5-1",
+        "Size": 843776
+      },
+      {
+        "Name": "libmpx2",
+        "Version": "6.3.0-18 deb9u1",
+        "Size": 47104
+      },
+      {
+        "Name": "libncursesw5",
+        "Version": "6.0 20161126-1+deb9u1",
+        "Size": 355328
+      },
+      {
+        "Name": "libpam-modules",
+        "Version": "1.1.8-3.6",
+        "Size": 894976
+      },
+      {
+        "Name": "libpam-modules-bin",
+        "Version": "1.1.8-3.6",
+        "Size": 225280
+      },
+      {
+        "Name": "libpam-runtime",
+        "Version": "1.1.8-3.6",
+        "Size": 1040384
+      },
+      {
+        "Name": "libpam0g",
+        "Version": "1.1.8-3.6",
+        "Size": 234496
+      },
+      {
+        "Name": "libpcre3",
+        "Version": "2:8.39-3",
+        "Size": 684032
+      },
+      {
+        "Name": "libquadmath0",
+        "Version": "6.3.0-18 deb9u1",
+        "Size": 271360
+      },
+      {
+        "Name": "libsasl2-modules",
+        "Version": "2.1.27~101-g0780600 dfsg-3",
+        "Size": 265216
+      },
+      {
+        "Name": "libselinux1",
+        "Version": "2.6-3 b3",
+        "Size": 214016
+      },
+      {
+        "Name": "libsemanage-common",
+        "Version": "2.6-2",
+        "Size": 39936
+      },
+      {
+        "Name": "libsemanage1",
+        "Version": "2.6-2",
+        "Size": 297984
+      },
+      {
+        "Name": "libsepol1",
+        "Version": "2.6-2",
+        "Size": 668672
+      },
+      {
+        "Name": "libsmartcols1",
+        "Version": "2.29.2-1",
+        "Size": 263168
+      },
+      {
+        "Name": "libss2",
+        "Version": "1.43.4-2",
+        "Size": 97280
+      },
+      {
+        "Name": "libssl1.1",
+        "Version": "1.1.0f-3 deb9u2",
+        "Size": 3609600
+      },
+      {
+        "Name": "libstdc++-6-dev",
+        "Version": "6.3.0-18 deb9u1",
+        "Size": 15251456
+      },
+      {
+        "Name": "libstdc++6",
+        "Version": "6.3.0-18 deb9u1",
+        "Size": 2045952
+      },
+      {
+        "Name": "libsystemd0",
+        "Version": "232-25 deb9u1",
+        "Size": 667648
+      },
+      {
+        "Name": "libtinfo5",
+        "Version": "6.0 20161126-1+deb9u1",
+        "Size": 489472
+      },
+      {
+        "Name": "libtsan0",
+        "Version": "6.3.0-18 deb9u1",
+        "Size": 929792
+      },
+      {
+        "Name": "libubsan0",
+        "Version": "6.3.0-18 deb9u1",
+        "Size": 299008
+      },
+      {
+        "Name": "libudev1",
+        "Version": "232-25 deb9u1",
+        "Size": 227328
+      },
+      {
+        "Name": "libustr-1.0-1",
+        "Version": "1.0.4-6",
+        "Size": 264192
+      },
+      {
+        "Name": "libuuid1",
+        "Version": "2.29.2-1",
+        "Size": 109568
+      },
+      {
+        "Name": "linux-libc-dev",
+        "Version": "4.9.88-1 deb9u1",
+        "Size": 4602880
+      },
+      {
+        "Name": "login",
+        "Version": "1:4.4-4.1",
+        "Size": 2812928
+      },
+      {
+        "Name": "lsb-base",
+        "Version": "9.20161125",
+        "Size": 50176
+      },
+      {
+        "Name": "make",
+        "Version": "4.1-9.1",
+        "Size": 1240064
+      },
+      {
+        "Name": "manpages",
+        "Version": "4.10-2",
+        "Size": 1456128
+      },
+      {
+        "Name": "manpages-dev",
+        "Version": "4.10-2",
+        "Size": 3823616
+      },
+      {
+        "Name": "mawk",
+        "Version": "1.3.3-17 b3",
+        "Size": 187392
+      },
+      {
+        "Name": "mount",
+        "Version": "2.29.2-1",
+        "Size": 454656
+      },
+      {
+        "Name": "multiarch-support",
+        "Version": "2.24-11 deb9u1",
+        "Size": 225280
+      },
+      {
+        "Name": "ncurses-base",
+        "Version": "6.0 20161126-1+deb9u1",
+        "Size": 348160
+      },
+      {
+        "Name": "ncurses-bin",
+        "Version": "6.0 20161126-1+deb9u1",
+        "Size": 548864
+      },
+      {
+        "Name": "openssl",
+        "Version": "1.1.0f-3 deb9u2",
+        "Size": 1273856
+      },
+      {
+        "Name": "passwd",
+        "Version": "1:4.4-4.1",
+        "Size": 2537472
+      },
+      {
+        "Name": "perl-base",
+        "Version": "5.24.1-3 deb9u2",
+        "Size": 7724032
+      },
+      {
+        "Name": "sed",
+        "Version": "4.4-1",
+        "Size": 818176
+      },
+      {
+        "Name": "sensible-utils",
+        "Version": "0.0.9 deb9u1",
+        "Size": 63488
+      },
+      {
+        "Name": "sysvinit-utils",
+        "Version": "2.88dsf-59.9",
+        "Size": 112640
+      },
+      {
+        "Name": "tar",
+        "Version": "1.29b-1.1",
+        "Size": 2836480
+      },
+      {
+        "Name": "tzdata",
+        "Version": "2018c-0 deb9u1",
+        "Size": 3083264
+      },
+      {
+        "Name": "util-linux",
+        "Version": "2.29.2-1",
+        "Size": 3643392
+      },
+      {
+        "Name": "zlib1g",
+        "Version": "1:1.2.8.dfsg-5",
+        "Size": 159744
+      }
+    ]
+  }
+]

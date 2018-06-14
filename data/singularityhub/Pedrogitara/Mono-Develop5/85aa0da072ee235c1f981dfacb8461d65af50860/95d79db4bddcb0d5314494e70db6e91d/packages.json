@@ -1,0 +1,2843 @@
+[
+  {
+    "Image": "/tmp/tmp.EM4HnrsN2S/2538ef62ed300b4feb326620ef64f4d872b27e496c1a809bf94815178abfb323.tar",
+    "AnalyzeType": "Apt",
+    "Analysis": [
+      {
+        "Name": "acl",
+        "Version": "2.2.52-3",
+        "Size": 204800
+      },
+      {
+        "Name": "adduser",
+        "Version": "3.113 nmu3ubuntu4",
+        "Size": 663552
+      },
+      {
+        "Name": "adwaita-icon-theme",
+        "Version": "3.18.0-2ubuntu3",
+        "Size": 6420480
+      },
+      {
+        "Name": "apt",
+        "Version": "1.2.10ubuntu1",
+        "Size": 3369984
+      },
+      {
+        "Name": "apt-transport-https",
+        "Version": "1.2.10ubuntu1",
+        "Size": 210944
+      },
+      {
+        "Name": "at-spi2-core",
+        "Version": "2.18.3-4ubuntu1",
+        "Size": 164864
+      },
+      {
+        "Name": "base-files",
+        "Version": "9.4ubuntu4",
+        "Size": 319488
+      },
+      {
+        "Name": "base-passwd",
+        "Version": "3.5.39",
+        "Size": 224256
+      },
+      {
+        "Name": "bash",
+        "Version": "4.3-14ubuntu1",
+        "Size": 1536000
+      },
+      {
+        "Name": "binfmt-support",
+        "Version": "2.1.6-1",
+        "Size": 205824
+      },
+      {
+        "Name": "binutils",
+        "Version": "2.26-8ubuntu2",
+        "Size": 13651968
+      },
+      {
+        "Name": "bsdutils",
+        "Version": "1:2.27.1-6ubuntu3",
+        "Size": 231424
+      },
+      {
+        "Name": "build-essential",
+        "Version": "12.1ubuntu2",
+        "Size": 20480
+      },
+      {
+        "Name": "bzip2",
+        "Version": "1.0.6-8",
+        "Size": 116736
+      },
+      {
+        "Name": "ca-certificates",
+        "Version": "20160104ubuntu1",
+        "Size": 496640
+      },
+      {
+        "Name": "ca-certificates-mono",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 78848
+      },
+      {
+        "Name": "cli-common",
+        "Version": "0.9 xamarin7+ubuntu1604b1",
+        "Size": 272384
+      },
+      {
+        "Name": "colord",
+        "Version": "1.2.12-1ubuntu1",
+        "Size": 862208
+      },
+      {
+        "Name": "colord-data",
+        "Version": "1.2.12-1ubuntu1",
+        "Size": 884736
+      },
+      {
+        "Name": "coreutils",
+        "Version": "8.25-2ubuntu2",
+        "Size": 6414336
+      },
+      {
+        "Name": "cpp",
+        "Version": "4:5.3.1-1ubuntu1",
+        "Size": 63488
+      },
+      {
+        "Name": "cpp-5",
+        "Version": "5.3.1-14ubuntu2",
+        "Size": 21905408
+      },
+      {
+        "Name": "dash",
+        "Version": "0.5.8-2.1ubuntu2",
+        "Size": 247808
+      },
+      {
+        "Name": "dbus",
+        "Version": "1.10.6-1ubuntu3",
+        "Size": 548864
+      },
+      {
+        "Name": "dconf-gsettings-backend",
+        "Version": "0.24.0-2",
+        "Size": 113664
+      },
+      {
+        "Name": "dconf-service",
+        "Version": "0.24.0-2",
+        "Size": 147456
+      },
+      {
+        "Name": "debconf",
+        "Version": "1.5.58ubuntu1",
+        "Size": 560128
+      },
+      {
+        "Name": "debianutils",
+        "Version": "4.7",
+        "Size": 218112
+      },
+      {
+        "Name": "diffutils",
+        "Version": "1:3.3-3",
+        "Size": 425984
+      },
+      {
+        "Name": "dpkg",
+        "Version": "1.18.4ubuntu1",
+        "Size": 6814720
+      },
+      {
+        "Name": "dpkg-dev",
+        "Version": "1.18.4ubuntu1",
+        "Size": 1756160
+      },
+      {
+        "Name": "e2fslibs",
+        "Version": "1.42.13-1ubuntu1",
+        "Size": 398336
+      },
+      {
+        "Name": "e2fsprogs",
+        "Version": "1.42.13-1ubuntu1",
+        "Size": 3092480
+      },
+      {
+        "Name": "fakeroot",
+        "Version": "1.20.2-1ubuntu1",
+        "Size": 262144
+      },
+      {
+        "Name": "findutils",
+        "Version": "4.6.0 git+20160126-2",
+        "Size": 573440
+      },
+      {
+        "Name": "fontconfig",
+        "Version": "2.11.94-0ubuntu1",
+        "Size": 552960
+      },
+      {
+        "Name": "fontconfig-config",
+        "Version": "2.11.94-0ubuntu1",
+        "Size": 375808
+      },
+      {
+        "Name": "fonts-dejavu-core",
+        "Version": "2.35-1",
+        "Size": 3034112
+      },
+      {
+        "Name": "fsharp",
+        "Version": "4.1.33-0xamarin4 ubuntu1604b1",
+        "Size": 15630336
+      },
+      {
+        "Name": "g++",
+        "Version": "4:5.3.1-1ubuntu1",
+        "Size": 16384
+      },
+      {
+        "Name": "g++-5",
+        "Version": "5.3.1-14ubuntu2",
+        "Size": 23403520
+      },
+      {
+        "Name": "gcc",
+        "Version": "4:5.3.1-1ubuntu1",
+        "Size": 45056
+      },
+      {
+        "Name": "gcc-5",
+        "Version": "5.3.1-14ubuntu2",
+        "Size": 24223744
+      },
+      {
+        "Name": "gcc-5-base",
+        "Version": "5.3.1-14ubuntu2",
+        "Size": 64512
+      },
+      {
+        "Name": "gcc-6-base",
+        "Version": "6.0.1-0ubuntu1",
+        "Size": 61440
+      },
+      {
+        "Name": "glib-networking",
+        "Version": "2.48.0-1",
+        "Size": 174080
+      },
+      {
+        "Name": "glib-networking-common",
+        "Version": "2.48.0-1",
+        "Size": 57344
+      },
+      {
+        "Name": "glib-networking-services",
+        "Version": "2.48.0-1",
+        "Size": 44032
+      },
+      {
+        "Name": "gnome-icon-theme",
+        "Version": "3.12.0-1ubuntu3",
+        "Size": 15793152
+      },
+      {
+        "Name": "gnupg",
+        "Version": "1.4.20-1ubuntu3",
+        "Size": 1720320
+      },
+      {
+        "Name": "gpgv",
+        "Version": "1.4.20-1ubuntu3",
+        "Size": 440320
+      },
+      {
+        "Name": "grep",
+        "Version": "2.24-1",
+        "Size": 487424
+      },
+      {
+        "Name": "gsettings-desktop-schemas",
+        "Version": "3.18.1-1ubuntu1",
+        "Size": 274432
+      },
+      {
+        "Name": "gzip",
+        "Version": "1.6-4ubuntu1",
+        "Size": 245760
+      },
+      {
+        "Name": "hicolor-icon-theme",
+        "Version": "0.15-0ubuntu1",
+        "Size": 1564672
+      },
+      {
+        "Name": "hostname",
+        "Version": "3.16ubuntu2",
+        "Size": 51200
+      },
+      {
+        "Name": "humanity-icon-theme",
+        "Version": "0.6.10",
+        "Size": 21241856
+      },
+      {
+        "Name": "ifupdown",
+        "Version": "0.8.10ubuntu1",
+        "Size": 201728
+      },
+      {
+        "Name": "init",
+        "Version": "1.29ubuntu1",
+        "Size": 16384
+      },
+      {
+        "Name": "init-system-helpers",
+        "Version": "1.29ubuntu1",
+        "Size": 112640
+      },
+      {
+        "Name": "initscripts",
+        "Version": "2.88dsf-59.3ubuntu2",
+        "Size": 173056
+      },
+      {
+        "Name": "insserv",
+        "Version": "1.14.0-5ubuntu3",
+        "Size": 187392
+      },
+      {
+        "Name": "iproute2",
+        "Version": "4.3.0-1ubuntu3",
+        "Size": 1521664
+      },
+      {
+        "Name": "isc-dhcp-client",
+        "Version": "4.3.3-5ubuntu12",
+        "Size": 612352
+      },
+      {
+        "Name": "isc-dhcp-common",
+        "Version": "4.3.3-5ubuntu12",
+        "Size": 151552
+      },
+      {
+        "Name": "krb5-locales",
+        "Version": "1.13.2 dfsg-5",
+        "Size": 2830336
+      },
+      {
+        "Name": "libacl1",
+        "Version": "2.2.52-3",
+        "Size": 58368
+      },
+      {
+        "Name": "libalgorithm-diff-perl",
+        "Version": "1.19.03-1",
+        "Size": 139264
+      },
+      {
+        "Name": "libalgorithm-diff-xs-perl",
+        "Version": "0.04-4build1",
+        "Size": 43008
+      },
+      {
+        "Name": "libalgorithm-merge-perl",
+        "Version": "0.08-3",
+        "Size": 43008
+      },
+      {
+        "Name": "libapparmor1",
+        "Version": "2.10.95-0ubuntu2",
+        "Size": 128000
+      },
+      {
+        "Name": "libapt-pkg5.0",
+        "Version": "1.2.10ubuntu1",
+        "Size": 2816000
+      },
+      {
+        "Name": "libasan2",
+        "Version": "5.3.1-14ubuntu2",
+        "Size": 1096704
+      },
+      {
+        "Name": "libasn1-8-heimdal",
+        "Version": "1.7~git20150920 dfsg-4ubuntu1",
+        "Size": 800768
+      },
+      {
+        "Name": "libatk-bridge2.0-0",
+        "Version": "2.18.1-2ubuntu1",
+        "Size": 218112
+      },
+      {
+        "Name": "libatk1.0-0",
+        "Version": "2.18.0-1",
+        "Size": 228352
+      },
+      {
+        "Name": "libatk1.0-data",
+        "Version": "2.18.0-1",
+        "Size": 98304
+      },
+      {
+        "Name": "libatm1",
+        "Version": "1:2.5.1-1.5",
+        "Size": 125952
+      },
+      {
+        "Name": "libatomic1",
+        "Version": "5.3.1-14ubuntu2",
+        "Size": 41984
+      },
+      {
+        "Name": "libatspi2.0-0",
+        "Version": "2.18.3-4ubuntu1",
+        "Size": 214016
+      },
+      {
+        "Name": "libattr1",
+        "Version": "1:2.4.47-2",
+        "Size": 57344
+      },
+      {
+        "Name": "libaudit-common",
+        "Version": "1:2.4.5-1ubuntu2",
+        "Size": 21504
+      },
+      {
+        "Name": "libaudit1",
+        "Version": "1:2.4.5-1ubuntu2",
+        "Size": 141312
+      },
+      {
+        "Name": "libavahi-client3",
+        "Version": "0.6.32~rc dfsg-1ubuntu2",
+        "Size": 123904
+      },
+      {
+        "Name": "libavahi-common-data",
+        "Version": "0.6.32~rc dfsg-1ubuntu2",
+        "Size": 118784
+      },
+      {
+        "Name": "libavahi-common3",
+        "Version": "0.6.32~rc dfsg-1ubuntu2",
+        "Size": 104448
+      },
+      {
+        "Name": "libblkid1",
+        "Version": "2.27.1-6ubuntu3",
+        "Size": 364544
+      },
+      {
+        "Name": "libboost-filesystem1.58.0",
+        "Version": "1.58.0 dfsg-5ubuntu3",
+        "Size": 141312
+      },
+      {
+        "Name": "libboost-system1.58.0",
+        "Version": "1.58.0 dfsg-5ubuntu3",
+        "Size": 59392
+      },
+      {
+        "Name": "libbsd0",
+        "Version": "0.8.2-1",
+        "Size": 162816
+      },
+      {
+        "Name": "libbz2-1.0",
+        "Version": "1.0.6-8",
+        "Size": 111616
+      },
+      {
+        "Name": "libc-bin",
+        "Version": "2.23-0ubuntu3",
+        "Size": 3560448
+      },
+      {
+        "Name": "libc-dev-bin",
+        "Version": "2.23-0ubuntu3",
+        "Size": 396288
+      },
+      {
+        "Name": "libc6",
+        "Version": "2.23-0ubuntu3",
+        "Size": 11209728
+      },
+      {
+        "Name": "libc6-dev",
+        "Version": "2.23-0ubuntu3",
+        "Size": 13544448
+      },
+      {
+        "Name": "libcairo-gobject2",
+        "Version": "1.14.6-1",
+        "Size": 193536
+      },
+      {
+        "Name": "libcairo2",
+        "Version": "1.14.6-1",
+        "Size": 1296384
+      },
+      {
+        "Name": "libcap-ng0",
+        "Version": "0.7.7-1",
+        "Size": 35840
+      },
+      {
+        "Name": "libcap2",
+        "Version": "1:2.24-12",
+        "Size": 47104
+      },
+      {
+        "Name": "libcap2-bin",
+        "Version": "1:2.24-12",
+        "Size": 87040
+      },
+      {
+        "Name": "libcc1-0",
+        "Version": "5.3.1-14ubuntu2",
+        "Size": 105472
+      },
+      {
+        "Name": "libcilkrts5",
+        "Version": "5.3.1-14ubuntu2",
+        "Size": 142336
+      },
+      {
+        "Name": "libcolord2",
+        "Version": "1.2.12-1ubuntu1",
+        "Size": 384000
+      },
+      {
+        "Name": "libcolorhug2",
+        "Version": "1.2.12-1ubuntu1",
+        "Size": 121856
+      },
+      {
+        "Name": "libcomerr2",
+        "Version": "1.42.13-1ubuntu1",
+        "Size": 88064
+      },
+      {
+        "Name": "libcroco3",
+        "Version": "0.6.11-1",
+        "Size": 338944
+      },
+      {
+        "Name": "libcryptsetup4",
+        "Version": "2:1.6.6-5ubuntu2",
+        "Size": 224256
+      },
+      {
+        "Name": "libcups2",
+        "Version": "2.1.3-4",
+        "Size": 667648
+      },
+      {
+        "Name": "libcurl3-gnutls",
+        "Version": "7.47.0-1ubuntu2",
+        "Size": 553984
+      },
+      {
+        "Name": "libdatrie1",
+        "Version": "0.2.10-2",
+        "Size": 57344
+      },
+      {
+        "Name": "libdb5.3",
+        "Version": "5.3.28-11",
+        "Size": 1787904
+      },
+      {
+        "Name": "libdbus-1-3",
+        "Version": "1.10.6-1ubuntu3",
+        "Size": 446464
+      },
+      {
+        "Name": "libdconf1",
+        "Version": "0.24.0-2",
+        "Size": 106496
+      },
+      {
+        "Name": "libdebconfclient0",
+        "Version": "0.198ubuntu1",
+        "Size": 68608
+      },
+      {
+        "Name": "libdevmapper1.02.1",
+        "Version": "2:1.02.110-1ubuntu10",
+        "Size": 435200
+      },
+      {
+        "Name": "libdns-export162",
+        "Version": "1:9.10.3.dfsg.P4-8",
+        "Size": 1976320
+      },
+      {
+        "Name": "libdpkg-perl",
+        "Version": "1.18.4ubuntu1",
+        "Size": 1822720
+      },
+      {
+        "Name": "libdrm-amdgpu1",
+        "Version": "2.4.67-1",
+        "Size": 69632
+      },
+      {
+        "Name": "libdrm-intel1",
+        "Version": "2.4.67-1",
+        "Size": 174080
+      },
+      {
+        "Name": "libdrm-nouveau2",
+        "Version": "2.4.67-1",
+        "Size": 72704
+      },
+      {
+        "Name": "libdrm-radeon1",
+        "Version": "2.4.67-1",
+        "Size": 86016
+      },
+      {
+        "Name": "libdrm2",
+        "Version": "2.4.67-1",
+        "Size": 102400
+      },
+      {
+        "Name": "libedit2",
+        "Version": "3.1-20150325-1ubuntu2",
+        "Size": 250880
+      },
+      {
+        "Name": "libegl1-mesa",
+        "Version": "11.2.0-1ubuntu2",
+        "Size": 281600
+      },
+      {
+        "Name": "libelf1",
+        "Version": "0.165-3ubuntu1",
+        "Size": 176128
+      },
+      {
+        "Name": "libepoxy0",
+        "Version": "1.3.1-1",
+        "Size": 1147904
+      },
+      {
+        "Name": "libexif12",
+        "Version": "0.6.21-2",
+        "Size": 364544
+      },
+      {
+        "Name": "libexpat1",
+        "Version": "2.1.0-7",
+        "Size": 372736
+      },
+      {
+        "Name": "libfakeroot",
+        "Version": "1.20.2-1ubuntu1",
+        "Size": 179200
+      },
+      {
+        "Name": "libfdisk1",
+        "Version": "2.27.1-6ubuntu3",
+        "Size": 458752
+      },
+      {
+        "Name": "libffi6",
+        "Version": "3.2.1-4",
+        "Size": 53248
+      },
+      {
+        "Name": "libfile-fcntllock-perl",
+        "Version": "0.22-3",
+        "Size": 125952
+      },
+      {
+        "Name": "libfontconfig1",
+        "Version": "2.11.94-0ubuntu1",
+        "Size": 524288
+      },
+      {
+        "Name": "libfontenc1",
+        "Version": "1:1.1.3-1",
+        "Size": 48128
+      },
+      {
+        "Name": "libfreetype6",
+        "Version": "2.6.1-0.1ubuntu2",
+        "Size": 927744
+      },
+      {
+        "Name": "libfsharp-core4.3-cil",
+        "Version": "4.1.33-0xamarin4 ubuntu1604b1",
+        "Size": 29914112
+      },
+      {
+        "Name": "libgbm1",
+        "Version": "11.2.0-1ubuntu2",
+        "Size": 126976
+      },
+      {
+        "Name": "libgcc-5-dev",
+        "Version": "5.3.1-14ubuntu2",
+        "Size": 12549120
+      },
+      {
+        "Name": "libgcc1",
+        "Version": "1:6.0.1-0ubuntu1",
+        "Size": 107520
+      },
+      {
+        "Name": "libgcrypt20",
+        "Version": "1.6.5-2",
+        "Size": 990208
+      },
+      {
+        "Name": "libgd3",
+        "Version": "2.1.1-4build2",
+        "Size": 473088
+      },
+      {
+        "Name": "libgdbm3",
+        "Version": "1.8.3-13.1",
+        "Size": 76800
+      },
+      {
+        "Name": "libgdiplus",
+        "Version": "5.6-0xamarin5 ubuntu1604b1",
+        "Size": 446464
+      },
+      {
+        "Name": "libgdk-pixbuf2.0-0",
+        "Version": "2.32.2-1ubuntu1",
+        "Size": 524288
+      },
+      {
+        "Name": "libgdk-pixbuf2.0-common",
+        "Version": "2.32.2-1ubuntu1",
+        "Size": 65536
+      },
+      {
+        "Name": "libgif7",
+        "Version": "5.1.2-0.2",
+        "Size": 69632
+      },
+      {
+        "Name": "libgl1-mesa-dri",
+        "Version": "11.2.0-1ubuntu2",
+        "Size": 110759936
+      },
+      {
+        "Name": "libgl1-mesa-glx",
+        "Version": "11.2.0-1ubuntu2",
+        "Size": 568320
+      },
+      {
+        "Name": "libglade2-0",
+        "Version": "1:2.6.4-2",
+        "Size": 203776
+      },
+      {
+        "Name": "libglade2.0-cil",
+        "Version": "2.12.45-0xamarin10 ubuntu1604b1",
+        "Size": 219136
+      },
+      {
+        "Name": "libglapi-mesa",
+        "Version": "11.2.0-1ubuntu2",
+        "Size": 251904
+      },
+      {
+        "Name": "libglib2.0-0",
+        "Version": "2.48.0-1ubuntu4",
+        "Size": 5072896
+      },
+      {
+        "Name": "libglib2.0-cil",
+        "Version": "2.12.45-0xamarin10 ubuntu1604b1",
+        "Size": 290816
+      },
+      {
+        "Name": "libglib2.0-cil-dev",
+        "Version": "2.12.45-0xamarin10 ubuntu1604b1",
+        "Size": 152576
+      },
+      {
+        "Name": "libglib2.0-data",
+        "Version": "2.48.0-1ubuntu4",
+        "Size": 1626112
+      },
+      {
+        "Name": "libgmp10",
+        "Version": "2:6.1.0 dfsg-2",
+        "Size": 567296
+      },
+      {
+        "Name": "libgnutls30",
+        "Version": "3.4.10-4ubuntu1",
+        "Size": 1507328
+      },
+      {
+        "Name": "libgomp1",
+        "Version": "5.3.1-14ubuntu2",
+        "Size": 159744
+      },
+      {
+        "Name": "libgpg-error0",
+        "Version": "1.21-2ubuntu1",
+        "Size": 159744
+      },
+      {
+        "Name": "libgphoto2-6",
+        "Version": "2.5.9-3",
+        "Size": 3772416
+      },
+      {
+        "Name": "libgphoto2-l10n",
+        "Version": "2.5.9-3",
+        "Size": 106496
+      },
+      {
+        "Name": "libgphoto2-port12",
+        "Version": "2.5.9-3",
+        "Size": 299008
+      },
+      {
+        "Name": "libgraphite2-3",
+        "Version": "1.3.6-1ubuntu1",
+        "Size": 179200
+      },
+      {
+        "Name": "libgssapi-krb5-2",
+        "Version": "1.13.2 dfsg-5",
+        "Size": 421888
+      },
+      {
+        "Name": "libgssapi3-heimdal",
+        "Version": "1.7~git20150920 dfsg-4ubuntu1",
+        "Size": 319488
+      },
+      {
+        "Name": "libgtk-3-0",
+        "Version": "3.18.9-1ubuntu3",
+        "Size": 9222144
+      },
+      {
+        "Name": "libgtk-3-bin",
+        "Version": "3.18.9-1ubuntu3",
+        "Size": 289792
+      },
+      {
+        "Name": "libgtk-3-common",
+        "Version": "3.18.9-1ubuntu3",
+        "Size": 417792
+      },
+      {
+        "Name": "libgtk2.0-0",
+        "Version": "2.24.30-1ubuntu1",
+        "Size": 5879808
+      },
+      {
+        "Name": "libgtk2.0-bin",
+        "Version": "2.24.30-1ubuntu1",
+        "Size": 81920
+      },
+      {
+        "Name": "libgtk2.0-cil",
+        "Version": "2.12.45-0xamarin10 ubuntu1604b1",
+        "Size": 2441216
+      },
+      {
+        "Name": "libgtk2.0-cil-dev",
+        "Version": "2.12.45-0xamarin10 ubuntu1604b1",
+        "Size": 1717248
+      },
+      {
+        "Name": "libgtk2.0-common",
+        "Version": "2.24.30-1ubuntu1",
+        "Size": 282624
+      },
+      {
+        "Name": "libgudev-1.0-0",
+        "Version": "1:230-2",
+        "Size": 77824
+      },
+      {
+        "Name": "libgusb2",
+        "Version": "0.2.9-0ubuntu1",
+        "Size": 80896
+      },
+      {
+        "Name": "libharfbuzz0b",
+        "Version": "1.0.1-1build2",
+        "Size": 414720
+      },
+      {
+        "Name": "libhcrypto4-heimdal",
+        "Version": "1.7~git20150920 dfsg-4ubuntu1",
+        "Size": 262144
+      },
+      {
+        "Name": "libheimbase1-heimdal",
+        "Version": "1.7~git20150920 dfsg-4ubuntu1",
+        "Size": 108544
+      },
+      {
+        "Name": "libheimntlm0-heimdal",
+        "Version": "1.7~git20150920 dfsg-4ubuntu1",
+        "Size": 80896
+      },
+      {
+        "Name": "libhogweed4",
+        "Version": "3.2-1",
+        "Size": 228352
+      },
+      {
+        "Name": "libhx509-5-heimdal",
+        "Version": "1.7~git20150920 dfsg-4ubuntu1",
+        "Size": 360448
+      },
+      {
+        "Name": "libice6",
+        "Version": "2:1.0.9-1",
+        "Size": 131072
+      },
+      {
+        "Name": "libicu55",
+        "Version": "55.1-7",
+        "Size": 30816256
+      },
+      {
+        "Name": "libidn11",
+        "Version": "1.32-3ubuntu1",
+        "Size": 244736
+      },
+      {
+        "Name": "libieee1284-3",
+        "Version": "0.2.11-12",
+        "Size": 94208
+      },
+      {
+        "Name": "libisc-export160",
+        "Version": "1:9.10.3.dfsg.P4-8",
+        "Size": 444416
+      },
+      {
+        "Name": "libisl15",
+        "Version": "0.16.1-1",
+        "Size": 1714176
+      },
+      {
+        "Name": "libitm1",
+        "Version": "5.3.1-14ubuntu2",
+        "Size": 129024
+      },
+      {
+        "Name": "libjbig0",
+        "Version": "2.1-3.1",
+        "Size": 95232
+      },
+      {
+        "Name": "libjpeg-turbo8",
+        "Version": "1.4.2-0ubuntu3",
+        "Size": 395264
+      },
+      {
+        "Name": "libjpeg8",
+        "Version": "8c-2ubuntu8",
+        "Size": 26624
+      },
+      {
+        "Name": "libjson-glib-1.0-0",
+        "Version": "1.1.2-0ubuntu1",
+        "Size": 302080
+      },
+      {
+        "Name": "libjson-glib-1.0-common",
+        "Version": "1.1.2-0ubuntu1",
+        "Size": 155648
+      },
+      {
+        "Name": "libk5crypto3",
+        "Version": "1.13.2 dfsg-5",
+        "Size": 296960
+      },
+      {
+        "Name": "libkeyutils1",
+        "Version": "1.5.9-8ubuntu1",
+        "Size": 36864
+      },
+      {
+        "Name": "libkmod2",
+        "Version": "22-1ubuntu4",
+        "Size": 120832
+      },
+      {
+        "Name": "libkrb5-26-heimdal",
+        "Version": "1.7~git20150920 dfsg-4ubuntu1",
+        "Size": 648192
+      },
+      {
+        "Name": "libkrb5-3",
+        "Version": "1.13.2 dfsg-5",
+        "Size": 1014784
+      },
+      {
+        "Name": "libkrb5support0",
+        "Version": "1.13.2 dfsg-5",
+        "Size": 153600
+      },
+      {
+        "Name": "liblcms2-2",
+        "Version": "2.6-3ubuntu2",
+        "Size": 409600
+      },
+      {
+        "Name": "libldap-2.4-2",
+        "Version": "2.4.42 dfsg-2ubuntu3",
+        "Size": 518144
+      },
+      {
+        "Name": "libllvm3.8",
+        "Version": "1:3.8-2ubuntu1",
+        "Size": 41635840
+      },
+      {
+        "Name": "liblsan0",
+        "Version": "5.3.1-14ubuntu2",
+        "Size": 293888
+      },
+      {
+        "Name": "libltdl7",
+        "Version": "2.4.6-0.1",
+        "Size": 84992
+      },
+      {
+        "Name": "liblz4-1",
+        "Version": "0.0~r131-2ubuntu2",
+        "Size": 118784
+      },
+      {
+        "Name": "liblzma5",
+        "Version": "5.1.1alpha 20120614-2ubuntu2",
+        "Size": 312320
+      },
+      {
+        "Name": "libmirclient9",
+        "Version": "0.21.0 16.04.20160330-0ubuntu1",
+        "Size": 606208
+      },
+      {
+        "Name": "libmircommon5",
+        "Version": "0.21.0 16.04.20160330-0ubuntu1",
+        "Size": 276480
+      },
+      {
+        "Name": "libmirprotobuf3",
+        "Version": "0.21.0 16.04.20160330-0ubuntu1",
+        "Size": 472064
+      },
+      {
+        "Name": "libmnl0",
+        "Version": "1.0.3-5",
+        "Size": 61440
+      },
+      {
+        "Name": "libmono-2.0-1",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 52224
+      },
+      {
+        "Name": "libmono-2.0-dev",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 260096
+      },
+      {
+        "Name": "libmono-accessibility4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 69632
+      },
+      {
+        "Name": "libmono-btls-interface4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 83968
+      },
+      {
+        "Name": "libmono-cairo4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 117760
+      },
+      {
+        "Name": "libmono-cecil-private-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 665600
+      },
+      {
+        "Name": "libmono-cil-dev",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 66560
+      },
+      {
+        "Name": "libmono-codecontracts4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 718848
+      },
+      {
+        "Name": "libmono-compilerservices-symbolwriter4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 101376
+      },
+      {
+        "Name": "libmono-corlib4.5-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 4030464
+      },
+      {
+        "Name": "libmono-cscompmgd0.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 75776
+      },
+      {
+        "Name": "libmono-csharp4.0c-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 1401856
+      },
+      {
+        "Name": "libmono-custommarshalers4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 71680
+      },
+      {
+        "Name": "libmono-data-tds4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 157696
+      },
+      {
+        "Name": "libmono-db2-1.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 129024
+      },
+      {
+        "Name": "libmono-debugger-soft4.0a-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 212992
+      },
+      {
+        "Name": "libmono-http4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 84992
+      },
+      {
+        "Name": "libmono-i18n-cjk4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 738304
+      },
+      {
+        "Name": "libmono-i18n-mideast4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 90112
+      },
+      {
+        "Name": "libmono-i18n-other4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 94208
+      },
+      {
+        "Name": "libmono-i18n-rare4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 239616
+      },
+      {
+        "Name": "libmono-i18n-west4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 130048
+      },
+      {
+        "Name": "libmono-i18n4.0-all",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 49152
+      },
+      {
+        "Name": "libmono-i18n4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 96256
+      },
+      {
+        "Name": "libmono-ldap4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 305152
+      },
+      {
+        "Name": "libmono-management4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 70656
+      },
+      {
+        "Name": "libmono-messaging-rabbitmq4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 92160
+      },
+      {
+        "Name": "libmono-messaging4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 92160
+      },
+      {
+        "Name": "libmono-microsoft-build-engine4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 293888
+      },
+      {
+        "Name": "libmono-microsoft-build-framework4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 90112
+      },
+      {
+        "Name": "libmono-microsoft-build-tasks-v4.0-4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 231424
+      },
+      {
+        "Name": "libmono-microsoft-build-utilities-v4.0-4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 113664
+      },
+      {
+        "Name": "libmono-microsoft-build4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 336896
+      },
+      {
+        "Name": "libmono-microsoft-csharp4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 377856
+      },
+      {
+        "Name": "libmono-microsoft-visualc10.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 68608
+      },
+      {
+        "Name": "libmono-microsoft-web-infrastructure1.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 74752
+      },
+      {
+        "Name": "libmono-oracle4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 230400
+      },
+      {
+        "Name": "libmono-parallel4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 87040
+      },
+      {
+        "Name": "libmono-peapi4.0a-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 157696
+      },
+      {
+        "Name": "libmono-posix4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 270336
+      },
+      {
+        "Name": "libmono-profiler",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 680960
+      },
+      {
+        "Name": "libmono-rabbitmq4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 515072
+      },
+      {
+        "Name": "libmono-relaxng4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 288768
+      },
+      {
+        "Name": "libmono-security4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 371712
+      },
+      {
+        "Name": "libmono-sharpzip4.84-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 182272
+      },
+      {
+        "Name": "libmono-simd4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 124928
+      },
+      {
+        "Name": "libmono-smdiagnostics0.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 96256
+      },
+      {
+        "Name": "libmono-sqlite4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 224256
+      },
+      {
+        "Name": "libmono-system-componentmodel-composition4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 315392
+      },
+      {
+        "Name": "libmono-system-componentmodel-dataannotations4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 142336
+      },
+      {
+        "Name": "libmono-system-configuration-install4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 81920
+      },
+      {
+        "Name": "libmono-system-configuration4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 180224
+      },
+      {
+        "Name": "libmono-system-core4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 1073152
+      },
+      {
+        "Name": "libmono-system-data-datasetextensions4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 87040
+      },
+      {
+        "Name": "libmono-system-data-entity4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 3396608
+      },
+      {
+        "Name": "libmono-system-data-linq4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 550912
+      },
+      {
+        "Name": "libmono-system-data-services-client4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 476160
+      },
+      {
+        "Name": "libmono-system-data-services4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 113664
+      },
+      {
+        "Name": "libmono-system-data4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 2168832
+      },
+      {
+        "Name": "libmono-system-deployment4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 68608
+      },
+      {
+        "Name": "libmono-system-design4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 332800
+      },
+      {
+        "Name": "libmono-system-drawing-design4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 88064
+      },
+      {
+        "Name": "libmono-system-drawing4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 541696
+      },
+      {
+        "Name": "libmono-system-dynamic4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 144384
+      },
+      {
+        "Name": "libmono-system-enterpriseservices4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 104448
+      },
+      {
+        "Name": "libmono-system-identitymodel-selectors4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 74752
+      },
+      {
+        "Name": "libmono-system-identitymodel4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 196608
+      },
+      {
+        "Name": "libmono-system-io-compression-filesystem4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 80896
+      },
+      {
+        "Name": "libmono-system-io-compression4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 156672
+      },
+      {
+        "Name": "libmono-system-json-microsoft4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 111616
+      },
+      {
+        "Name": "libmono-system-json4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 88064
+      },
+      {
+        "Name": "libmono-system-ldap-protocols4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 119808
+      },
+      {
+        "Name": "libmono-system-ldap4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 151552
+      },
+      {
+        "Name": "libmono-system-management4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 106496
+      },
+      {
+        "Name": "libmono-system-messaging4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 133120
+      },
+      {
+        "Name": "libmono-system-net-http-formatting4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 576512
+      },
+      {
+        "Name": "libmono-system-net-http-webrequest4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 66560
+      },
+      {
+        "Name": "libmono-system-net-http4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 173056
+      },
+      {
+        "Name": "libmono-system-net4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 70656
+      },
+      {
+        "Name": "libmono-system-numerics-vectors4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 160768
+      },
+      {
+        "Name": "libmono-system-numerics4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 181248
+      },
+      {
+        "Name": "libmono-system-reactive-core2.2-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 153600
+      },
+      {
+        "Name": "libmono-system-reactive-debugger2.2-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 62464
+      },
+      {
+        "Name": "libmono-system-reactive-experimental2.2-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 86016
+      },
+      {
+        "Name": "libmono-system-reactive-interfaces2.2-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 65536
+      },
+      {
+        "Name": "libmono-system-reactive-linq2.2-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 740352
+      },
+      {
+        "Name": "libmono-system-reactive-observable-aliases0.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 66560
+      },
+      {
+        "Name": "libmono-system-reactive-platformservices2.2-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 79872
+      },
+      {
+        "Name": "libmono-system-reactive-providers2.2-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 301056
+      },
+      {
+        "Name": "libmono-system-reactive-runtime-remoting2.2-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 66560
+      },
+      {
+        "Name": "libmono-system-reactive-windows-forms2.2-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 67584
+      },
+      {
+        "Name": "libmono-system-reactive-windows-threading2.2-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 70656
+      },
+      {
+        "Name": "libmono-system-reflection-context4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 70656
+      },
+      {
+        "Name": "libmono-system-runtime-caching4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 130048
+      },
+      {
+        "Name": "libmono-system-runtime-durableinstancing4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 164864
+      },
+      {
+        "Name": "libmono-system-runtime-serialization-formatters-soap4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 96256
+      },
+      {
+        "Name": "libmono-system-runtime-serialization4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 989184
+      },
+      {
+        "Name": "libmono-system-runtime4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 177152
+      },
+      {
+        "Name": "libmono-system-security4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 240640
+      },
+      {
+        "Name": "libmono-system-servicemodel-activation4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 70656
+      },
+      {
+        "Name": "libmono-system-servicemodel-discovery4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 198656
+      },
+      {
+        "Name": "libmono-system-servicemodel-internals0.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 272384
+      },
+      {
+        "Name": "libmono-system-servicemodel-routing4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 94208
+      },
+      {
+        "Name": "libmono-system-servicemodel-web4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 137216
+      },
+      {
+        "Name": "libmono-system-servicemodel4.0a-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 1529856
+      },
+      {
+        "Name": "libmono-system-serviceprocess4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 104448
+      },
+      {
+        "Name": "libmono-system-threading-tasks-dataflow4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 220160
+      },
+      {
+        "Name": "libmono-system-transactions4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 91136
+      },
+      {
+        "Name": "libmono-system-web-abstractions4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 70656
+      },
+      {
+        "Name": "libmono-system-web-applicationservices4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 91136
+      },
+      {
+        "Name": "libmono-system-web-dynamicdata4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 126976
+      },
+      {
+        "Name": "libmono-system-web-extensions-design4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 72704
+      },
+      {
+        "Name": "libmono-system-web-extensions4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 803840
+      },
+      {
+        "Name": "libmono-system-web-http-selfhost4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 145408
+      },
+      {
+        "Name": "libmono-system-web-http-webhost4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 113664
+      },
+      {
+        "Name": "libmono-system-web-http4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 384000
+      },
+      {
+        "Name": "libmono-system-web-mobile4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 68608
+      },
+      {
+        "Name": "libmono-system-web-mvc3.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 478208
+      },
+      {
+        "Name": "libmono-system-web-razor2.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 312320
+      },
+      {
+        "Name": "libmono-system-web-regularexpressions4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 68608
+      },
+      {
+        "Name": "libmono-system-web-routing4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 69632
+      },
+      {
+        "Name": "libmono-system-web-services4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 789504
+      },
+      {
+        "Name": "libmono-system-web-webpages-deployment2.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 97280
+      },
+      {
+        "Name": "libmono-system-web-webpages-razor2.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 95232
+      },
+      {
+        "Name": "libmono-system-web-webpages2.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 253952
+      },
+      {
+        "Name": "libmono-system-web4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 3087360
+      },
+      {
+        "Name": "libmono-system-windows-forms-datavisualization4.0a-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 203776
+      },
+      {
+        "Name": "libmono-system-windows-forms4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 2955264
+      },
+      {
+        "Name": "libmono-system-windows4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 69632
+      },
+      {
+        "Name": "libmono-system-workflow-activities4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 68608
+      },
+      {
+        "Name": "libmono-system-workflow-componentmodel4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 68608
+      },
+      {
+        "Name": "libmono-system-workflow-runtime4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 68608
+      },
+      {
+        "Name": "libmono-system-xaml4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 246784
+      },
+      {
+        "Name": "libmono-system-xml-linq4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 177152
+      },
+      {
+        "Name": "libmono-system-xml-serialization4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 68608
+      },
+      {
+        "Name": "libmono-system-xml4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 3209216
+      },
+      {
+        "Name": "libmono-system4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 2819072
+      },
+      {
+        "Name": "libmono-tasklets4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 68608
+      },
+      {
+        "Name": "libmono-webbrowser4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 225280
+      },
+      {
+        "Name": "libmono-webmatrix-data4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 74752
+      },
+      {
+        "Name": "libmono-windowsbase4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 219136
+      },
+      {
+        "Name": "libmono-xbuild-tasks4.0-cil",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 94208
+      },
+      {
+        "Name": "libmonoboehm-2.0-1",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 4285440
+      },
+      {
+        "Name": "libmonosgen-2.0-1",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 4485120
+      },
+      {
+        "Name": "libmonosgen-2.0-dev",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 8744960
+      },
+      {
+        "Name": "libmount1",
+        "Version": "2.27.1-6ubuntu3",
+        "Size": 392192
+      },
+      {
+        "Name": "libmpc3",
+        "Version": "1.0.3-1",
+        "Size": 133120
+      },
+      {
+        "Name": "libmpfr4",
+        "Version": "3.1.4-1",
+        "Size": 831488
+      },
+      {
+        "Name": "libmpx0",
+        "Version": "5.3.1-14ubuntu2",
+        "Size": 43008
+      },
+      {
+        "Name": "libncurses5",
+        "Version": "6.0 20160213-1ubuntu1",
+        "Size": 287744
+      },
+      {
+        "Name": "libncursesw5",
+        "Version": "6.0 20160213-1ubuntu1",
+        "Size": 353280
+      },
+      {
+        "Name": "libnettle6",
+        "Version": "3.2-1",
+        "Size": 358400
+      },
+      {
+        "Name": "libnunit-cil-dev",
+        "Version": "2.6.4 dfsg-1",
+        "Size": 15360
+      },
+      {
+        "Name": "libnunit-console-runner2.6.3-cil",
+        "Version": "2.6.4 dfsg-1",
+        "Size": 55296
+      },
+      {
+        "Name": "libnunit-core-interfaces2.6.3-cil",
+        "Version": "2.6.4 dfsg-1",
+        "Size": 79872
+      },
+      {
+        "Name": "libnunit-core2.6.3-cil",
+        "Version": "2.6.4 dfsg-1",
+        "Size": 173056
+      },
+      {
+        "Name": "libnunit-framework2.6.3-cil",
+        "Version": "2.6.4 dfsg-1",
+        "Size": 171008
+      },
+      {
+        "Name": "libnunit-mocks2.6.3-cil",
+        "Version": "2.6.4 dfsg-1",
+        "Size": 40960
+      },
+      {
+        "Name": "libnunit-util2.6.3-cil",
+        "Version": "2.6.4 dfsg-1",
+        "Size": 153600
+      },
+      {
+        "Name": "libp11-kit0",
+        "Version": "0.23.2-3",
+        "Size": 447488
+      },
+      {
+        "Name": "libpam-modules",
+        "Version": "1.1.8-3.2ubuntu2",
+        "Size": 940032
+      },
+      {
+        "Name": "libpam-modules-bin",
+        "Version": "1.1.8-3.2ubuntu2",
+        "Size": 276480
+      },
+      {
+        "Name": "libpam-runtime",
+        "Version": "1.1.8-3.2ubuntu2",
+        "Size": 307200
+      },
+      {
+        "Name": "libpam-systemd",
+        "Version": "229-4ubuntu4",
+        "Size": 358400
+      },
+      {
+        "Name": "libpam0g",
+        "Version": "1.1.8-3.2ubuntu2",
+        "Size": 214016
+      },
+      {
+        "Name": "libpango-1.0-0",
+        "Version": "1.38.1-1",
+        "Size": 549888
+      },
+      {
+        "Name": "libpangocairo-1.0-0",
+        "Version": "1.38.1-1",
+        "Size": 276480
+      },
+      {
+        "Name": "libpangoft2-1.0-0",
+        "Version": "1.38.1-1",
+        "Size": 315392
+      },
+      {
+        "Name": "libpciaccess0",
+        "Version": "0.13.4-1",
+        "Size": 63488
+      },
+      {
+        "Name": "libpcre3",
+        "Version": "2:8.38-3.1",
+        "Size": 670720
+      },
+      {
+        "Name": "libperl5.22",
+        "Version": "5.22.1-9",
+        "Size": 20852736
+      },
+      {
+        "Name": "libpipeline1",
+        "Version": "1.4.1-2",
+        "Size": 73728
+      },
+      {
+        "Name": "libpixman-1-0",
+        "Version": "0.33.6-1",
+        "Size": 715776
+      },
+      {
+        "Name": "libpng12-0",
+        "Version": "1.2.54-1ubuntu1",
+        "Size": 284672
+      },
+      {
+        "Name": "libpolkit-agent-1-0",
+        "Version": "0.105-14.1",
+        "Size": 64512
+      },
+      {
+        "Name": "libpolkit-backend-1-0",
+        "Version": "0.105-14.1",
+        "Size": 129024
+      },
+      {
+        "Name": "libpolkit-gobject-1-0",
+        "Version": "0.105-14.1",
+        "Size": 144384
+      },
+      {
+        "Name": "libprocps4",
+        "Version": "2:3.3.10-4ubuntu2",
+        "Size": 129024
+      },
+      {
+        "Name": "libprotobuf-lite9v5",
+        "Version": "2.6.1-1.3",
+        "Size": 221184
+      },
+      {
+        "Name": "libproxy1v5",
+        "Version": "0.4.11-5ubuntu1",
+        "Size": 154624
+      },
+      {
+        "Name": "libquadmath0",
+        "Version": "5.3.1-14ubuntu2",
+        "Size": 271360
+      },
+      {
+        "Name": "libreadline6",
+        "Version": "6.3-8ubuntu2",
+        "Size": 391168
+      },
+      {
+        "Name": "librest-0.7-0",
+        "Version": "0.7.93-1",
+        "Size": 134144
+      },
+      {
+        "Name": "libroken18-heimdal",
+        "Version": "1.7~git20150920 dfsg-4ubuntu1",
+        "Size": 141312
+      },
+      {
+        "Name": "librsvg2-2",
+        "Version": "2.40.13-3",
+        "Size": 438272
+      },
+      {
+        "Name": "librsvg2-common",
+        "Version": "2.40.13-3",
+        "Size": 222208
+      },
+      {
+        "Name": "librtmp1",
+        "Version": "2.4 20151223.gitfa8646d-1build1",
+        "Size": 134144
+      },
+      {
+        "Name": "libsane",
+        "Version": "1.0.25 git20150528-1ubuntu2",
+        "Size": 9665536
+      },
+      {
+        "Name": "libsane-common",
+        "Version": "1.0.25 git20150528-1ubuntu2",
+        "Size": 4231168
+      },
+      {
+        "Name": "libsasl2-2",
+        "Version": "2.1.26.dfsg1-14build1",
+        "Size": 150528
+      },
+      {
+        "Name": "libsasl2-modules",
+        "Version": "2.1.26.dfsg1-14build1",
+        "Size": 227328
+      },
+      {
+        "Name": "libsasl2-modules-db",
+        "Version": "2.1.26.dfsg1-14build1",
+        "Size": 61440
+      },
+      {
+        "Name": "libseccomp2",
+        "Version": "2.2.3-3ubuntu3",
+        "Size": 270336
+      },
+      {
+        "Name": "libselinux1",
+        "Version": "2.4-3build2",
+        "Size": 172032
+      },
+      {
+        "Name": "libsemanage-common",
+        "Version": "2.3-1build3",
+        "Size": 28672
+      },
+      {
+        "Name": "libsemanage1",
+        "Version": "2.3-1build3",
+        "Size": 252928
+      },
+      {
+        "Name": "libsepol1",
+        "Version": "2.4-2",
+        "Size": 568320
+      },
+      {
+        "Name": "libsm6",
+        "Version": "2:1.2.2-1",
+        "Size": 68608
+      },
+      {
+        "Name": "libsmartcols1",
+        "Version": "2.27.1-6ubuntu3",
+        "Size": 240640
+      },
+      {
+        "Name": "libsoup-gnome2.4-1",
+        "Version": "2.52.2-1",
+        "Size": 81920
+      },
+      {
+        "Name": "libsoup2.4-1",
+        "Version": "2.52.2-1",
+        "Size": 970752
+      },
+      {
+        "Name": "libsqlite3-0",
+        "Version": "3.11.0-1ubuntu1",
+        "Size": 973824
+      },
+      {
+        "Name": "libss2",
+        "Version": "1.42.13-1ubuntu1",
+        "Size": 100352
+      },
+      {
+        "Name": "libssl1.0.0",
+        "Version": "1.0.2g-1ubuntu4",
+        "Size": 3575808
+      },
+      {
+        "Name": "libstdc++-5-dev",
+        "Version": "5.3.1-14ubuntu2",
+        "Size": 15630336
+      },
+      {
+        "Name": "libstdc++6",
+        "Version": "5.3.1-14ubuntu2",
+        "Size": 2034688
+      },
+      {
+        "Name": "libsystemd0",
+        "Version": "229-4ubuntu4",
+        "Size": 629760
+      },
+      {
+        "Name": "libtasn1-6",
+        "Version": "4.7-3",
+        "Size": 113664
+      },
+      {
+        "Name": "libthai-data",
+        "Version": "0.1.24-2",
+        "Size": 584704
+      },
+      {
+        "Name": "libthai0",
+        "Version": "0.1.24-2",
+        "Size": 89088
+      },
+      {
+        "Name": "libtiff5",
+        "Version": "4.0.6-1",
+        "Size": 508928
+      },
+      {
+        "Name": "libtinfo5",
+        "Version": "6.0 20160213-1ubuntu1",
+        "Size": 479232
+      },
+      {
+        "Name": "libtsan0",
+        "Version": "5.3.1-14ubuntu2",
+        "Size": 896000
+      },
+      {
+        "Name": "libtxc-dxtn-s2tc0",
+        "Version": "0~git20131104-1.1",
+        "Size": 266240
+      },
+      {
+        "Name": "libubsan0",
+        "Version": "5.3.1-14ubuntu2",
+        "Size": 277504
+      },
+      {
+        "Name": "libudev1",
+        "Version": "229-4ubuntu4",
+        "Size": 205824
+      },
+      {
+        "Name": "libunwind8",
+        "Version": "1.1-4.1",
+        "Size": 168960
+      },
+      {
+        "Name": "libusb-0.1-4",
+        "Version": "2:0.1.12-28",
+        "Size": 57344
+      },
+      {
+        "Name": "libusb-1.0-0",
+        "Version": "2:1.0.20-1",
+        "Size": 124928
+      },
+      {
+        "Name": "libustr-1.0-1",
+        "Version": "1.0.4-5",
+        "Size": 279552
+      },
+      {
+        "Name": "libutempter0",
+        "Version": "1.1.6-3",
+        "Size": 41984
+      },
+      {
+        "Name": "libuuid1",
+        "Version": "2.27.1-6ubuntu3",
+        "Size": 114688
+      },
+      {
+        "Name": "libvpx3",
+        "Version": "1.5.0-2ubuntu1",
+        "Size": 2289664
+      },
+      {
+        "Name": "libwayland-client0",
+        "Version": "1.9.0-1",
+        "Size": 76800
+      },
+      {
+        "Name": "libwayland-cursor0",
+        "Version": "1.9.0-1",
+        "Size": 49152
+      },
+      {
+        "Name": "libwayland-egl1-mesa",
+        "Version": "11.2.0-1ubuntu2",
+        "Size": 75776
+      },
+      {
+        "Name": "libwayland-server0",
+        "Version": "1.9.0-1",
+        "Size": 91136
+      },
+      {
+        "Name": "libwind0-heimdal",
+        "Version": "1.7~git20150920 dfsg-4ubuntu1",
+        "Size": 210944
+      },
+      {
+        "Name": "libx11-6",
+        "Version": "2:1.6.3-1ubuntu2",
+        "Size": 1398784
+      },
+      {
+        "Name": "libx11-data",
+        "Version": "2:1.6.3-1ubuntu2",
+        "Size": 1532928
+      },
+      {
+        "Name": "libx11-xcb1",
+        "Version": "2:1.6.3-1ubuntu2",
+        "Size": 77824
+      },
+      {
+        "Name": "libxau6",
+        "Version": "1:1.0.8-1",
+        "Size": 51200
+      },
+      {
+        "Name": "libxaw7",
+        "Version": "2:1.0.13-1",
+        "Size": 498688
+      },
+      {
+        "Name": "libxcb-dri2-0",
+        "Version": "1.11.1-1ubuntu1",
+        "Size": 43008
+      },
+      {
+        "Name": "libxcb-dri3-0",
+        "Version": "1.11.1-1ubuntu1",
+        "Size": 32768
+      },
+      {
+        "Name": "libxcb-glx0",
+        "Version": "1.11.1-1ubuntu1",
+        "Size": 143360
+      },
+      {
+        "Name": "libxcb-present0",
+        "Version": "1.11.1-1ubuntu1",
+        "Size": 32768
+      },
+      {
+        "Name": "libxcb-render0",
+        "Version": "1.11.1-1ubuntu1",
+        "Size": 67584
+      },
+      {
+        "Name": "libxcb-shape0",
+        "Version": "1.11.1-1ubuntu1",
+        "Size": 37888
+      },
+      {
+        "Name": "libxcb-shm0",
+        "Version": "1.11.1-1ubuntu1",
+        "Size": 36864
+      },
+      {
+        "Name": "libxcb-sync1",
+        "Version": "1.11.1-1ubuntu1",
+        "Size": 51200
+      },
+      {
+        "Name": "libxcb-xfixes0",
+        "Version": "1.11.1-1ubuntu1",
+        "Size": 57344
+      },
+      {
+        "Name": "libxcb1",
+        "Version": "1.11.1-1ubuntu1",
+        "Size": 177152
+      },
+      {
+        "Name": "libxcomposite1",
+        "Version": "1:0.4.4-1",
+        "Size": 48128
+      },
+      {
+        "Name": "libxcursor1",
+        "Version": "1:1.1.14-1",
+        "Size": 80896
+      },
+      {
+        "Name": "libxdamage1",
+        "Version": "1:1.1.4-2",
+        "Size": 47104
+      },
+      {
+        "Name": "libxdmcp6",
+        "Version": "1:1.1.2-1.1",
+        "Size": 39936
+      },
+      {
+        "Name": "libxext6",
+        "Version": "2:1.3.3-1",
+        "Size": 124928
+      },
+      {
+        "Name": "libxfixes3",
+        "Version": "1:5.0.1-2",
+        "Size": 62464
+      },
+      {
+        "Name": "libxft2",
+        "Version": "2.3.2-1",
+        "Size": 128000
+      },
+      {
+        "Name": "libxi6",
+        "Version": "2:1.7.6-1",
+        "Size": 89088
+      },
+      {
+        "Name": "libxinerama1",
+        "Version": "2:1.1.3-1",
+        "Size": 50176
+      },
+      {
+        "Name": "libxkbcommon0",
+        "Version": "0.5.0-1ubuntu2",
+        "Size": 299008
+      },
+      {
+        "Name": "libxml2",
+        "Version": "2.9.3 dfsg1-1",
+        "Size": 2174976
+      },
+      {
+        "Name": "libxmu6",
+        "Version": "2:1.1.2-2",
+        "Size": 121856
+      },
+      {
+        "Name": "libxmuu1",
+        "Version": "2:1.1.2-2",
+        "Size": 33792
+      },
+      {
+        "Name": "libxpm4",
+        "Version": "1:3.5.11-1",
+        "Size": 108544
+      },
+      {
+        "Name": "libxrandr2",
+        "Version": "2:1.5.0-1",
+        "Size": 67584
+      },
+      {
+        "Name": "libxrender1",
+        "Version": "1:0.9.9-0ubuntu1",
+        "Size": 80896
+      },
+      {
+        "Name": "libxshmfence1",
+        "Version": "1.2-1",
+        "Size": 46080
+      },
+      {
+        "Name": "libxt6",
+        "Version": "1:1.1.5-0ubuntu1",
+        "Size": 482304
+      },
+      {
+        "Name": "libxtables11",
+        "Version": "1.6.0-2ubuntu3",
+        "Size": 99328
+      },
+      {
+        "Name": "libxtst6",
+        "Version": "2:1.2.2-1",
+        "Size": 65536
+      },
+      {
+        "Name": "libxv1",
+        "Version": "2:1.0.10-1",
+        "Size": 57344
+      },
+      {
+        "Name": "libxxf86dga1",
+        "Version": "2:1.1.4-1",
+        "Size": 60416
+      },
+      {
+        "Name": "libxxf86vm1",
+        "Version": "1:1.1.4-1",
+        "Size": 60416
+      },
+      {
+        "Name": "linux-headers-4.4.0-21",
+        "Version": "4.4.0-21.37",
+        "Size": 70227968
+      },
+      {
+        "Name": "linux-headers-4.4.0-21-generic",
+        "Version": "4.4.0-21.37",
+        "Size": 7237632
+      },
+      {
+        "Name": "linux-headers-4.4.0-21-lowlatency",
+        "Version": "4.4.0-21.37",
+        "Size": 7233536
+      },
+      {
+        "Name": "linux-headers-generic",
+        "Version": "4.4.0.21.22",
+        "Size": 11264
+      },
+      {
+        "Name": "linux-headers-generic-lts-utopic",
+        "Version": "4.4.0.21.22",
+        "Size": 11264
+      },
+      {
+        "Name": "linux-headers-generic-lts-vivid",
+        "Version": "4.4.0.21.22",
+        "Size": 11264
+      },
+      {
+        "Name": "linux-headers-generic-lts-wily",
+        "Version": "4.4.0.21.22",
+        "Size": 11264
+      },
+      {
+        "Name": "linux-headers-generic-lts-xenial",
+        "Version": "4.4.0.21.22",
+        "Size": 11264
+      },
+      {
+        "Name": "linux-headers-lowlatency",
+        "Version": "4.4.0.21.22",
+        "Size": 11264
+      },
+      {
+        "Name": "linux-headers-lowlatency-lts-utopic",
+        "Version": "4.4.0.21.22",
+        "Size": 11264
+      },
+      {
+        "Name": "linux-headers-lowlatency-lts-vivid",
+        "Version": "4.4.0.21.22",
+        "Size": 11264
+      },
+      {
+        "Name": "linux-headers-lowlatency-lts-wily",
+        "Version": "4.4.0.21.22",
+        "Size": 11264
+      },
+      {
+        "Name": "linux-headers-lowlatency-lts-xenial",
+        "Version": "4.4.0.21.22",
+        "Size": 11264
+      },
+      {
+        "Name": "linux-headers-virtual",
+        "Version": "4.4.0.21.22",
+        "Size": 11264
+      },
+      {
+        "Name": "linux-headers-virtual-lts-utopic",
+        "Version": "4.4.0.21.22",
+        "Size": 11264
+      },
+      {
+        "Name": "linux-headers-virtual-lts-vivid",
+        "Version": "4.4.0.21.22",
+        "Size": 11264
+      },
+      {
+        "Name": "linux-headers-virtual-lts-wily",
+        "Version": "4.4.0.21.22",
+        "Size": 11264
+      },
+      {
+        "Name": "linux-headers-virtual-lts-xenial",
+        "Version": "4.4.0.21.22",
+        "Size": 11264
+      },
+      {
+        "Name": "linux-libc-dev",
+        "Version": "4.4.0-21.37",
+        "Size": 4298752
+      },
+      {
+        "Name": "locales",
+        "Version": "2.23-0ubuntu3",
+        "Size": 14012416
+      },
+      {
+        "Name": "login",
+        "Version": "1:4.2-3.1ubuntu5",
+        "Size": 1220608
+      },
+      {
+        "Name": "lsb-base",
+        "Version": "9.20160110",
+        "Size": 59392
+      },
+      {
+        "Name": "make",
+        "Version": "4.1-6",
+        "Size": 364544
+      },
+      {
+        "Name": "makedev",
+        "Version": "2.3.1-93ubuntu1",
+        "Size": 128000
+      },
+      {
+        "Name": "manpages",
+        "Version": "4.04-2",
+        "Size": 1345536
+      },
+      {
+        "Name": "manpages-dev",
+        "Version": "4.04-2",
+        "Size": 3696640
+      },
+      {
+        "Name": "mawk",
+        "Version": "1.3.3-17ubuntu2",
+        "Size": 201728
+      },
+      {
+        "Name": "mono-4.0-gac",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 483328
+      },
+      {
+        "Name": "mono-4.0-service",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 97280
+      },
+      {
+        "Name": "mono-complete",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 49152
+      },
+      {
+        "Name": "mono-csharp-shell",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 106496
+      },
+      {
+        "Name": "mono-dbg",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 19691520
+      },
+      {
+        "Name": "mono-devel",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 96284672
+      },
+      {
+        "Name": "mono-gac",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 72704
+      },
+      {
+        "Name": "mono-jay",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 163840
+      },
+      {
+        "Name": "mono-mcs",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 1895424
+      },
+      {
+        "Name": "mono-roslyn",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 13633536
+      },
+      {
+        "Name": "mono-runtime",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 64512
+      },
+      {
+        "Name": "mono-runtime-common",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 2856960
+      },
+      {
+        "Name": "mono-runtime-sgen",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 4300800
+      },
+      {
+        "Name": "mono-utils",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 16172032
+      },
+      {
+        "Name": "mono-xbuild",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 3004416
+      },
+      {
+        "Name": "mono-xsp4",
+        "Version": "4.5-0xamarin3 ubuntu1604b1",
+        "Size": 166912
+      },
+      {
+        "Name": "mono-xsp4-base",
+        "Version": "4.5-0xamarin3 ubuntu1604b1",
+        "Size": 130048
+      },
+      {
+        "Name": "monodevelop",
+        "Version": "7.5.0.1062-0xamarin5 ubuntu1604b1",
+        "Size": 166082560
+      },
+      {
+        "Name": "monodoc-base",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 1620992
+      },
+      {
+        "Name": "monodoc-manual",
+        "Version": "5.10.1.47-0xamarin4 ubuntu1604b1",
+        "Size": 22120448
+      },
+      {
+        "Name": "mount",
+        "Version": "2.27.1-6ubuntu3",
+        "Size": 419840
+      },
+      {
+        "Name": "msbuild",
+        "Version": "1:15.6 xamarinxplat.2018.01.17.14.14-0xamarin1+ubuntu1404b1",
+        "Size": 33254400
+      },
+      {
+        "Name": "msbuild-libhostfxr",
+        "Version": "2.0.0.2017.07.06.00.01-0xamarin21 ubuntu1604b1",
+        "Size": 819200
+      },
+      {
+        "Name": "msbuild-sdkresolver",
+        "Version": "1:15.6 xamarinxplat.2018.01.17.14.14-0xamarin1+ubuntu1404b1",
+        "Size": 70656
+      },
+      {
+        "Name": "multiarch-support",
+        "Version": "2.23-0ubuntu3",
+        "Size": 227328
+      },
+      {
+        "Name": "ncurses-base",
+        "Version": "6.0 20160213-1ubuntu1",
+        "Size": 344064
+      },
+      {
+        "Name": "ncurses-bin",
+        "Version": "6.0 20160213-1ubuntu1",
+        "Size": 526336
+      },
+      {
+        "Name": "netbase",
+        "Version": "5.3",
+        "Size": 67584
+      },
+      {
+        "Name": "openssl",
+        "Version": "1.0.2g-1ubuntu4",
+        "Size": 956416
+      },
+      {
+        "Name": "passwd",
+        "Version": "1:4.2-3.1ubuntu5",
+        "Size": 2419712
+      },
+      {
+        "Name": "patch",
+        "Version": "2.7.5-1",
+        "Size": 243712
+      },
+      {
+        "Name": "perl",
+        "Version": "5.22.1-9",
+        "Size": 685056
+      },
+      {
+        "Name": "perl-base",
+        "Version": "5.22.1-9",
+        "Size": 7267328
+      },
+      {
+        "Name": "perl-modules-5.22",
+        "Version": "5.22.1-9",
+        "Size": 17674240
+      },
+      {
+        "Name": "pkg-config",
+        "Version": "0.29.1-0ubuntu1",
+        "Size": 177152
+      },
+      {
+        "Name": "policykit-1",
+        "Version": "0.105-14.1",
+        "Size": 421888
+      },
+      {
+        "Name": "procps",
+        "Version": "2:3.3.10-4ubuntu2",
+        "Size": 692224
+      },
+      {
+        "Name": "readline-common",
+        "Version": "6.3-8ubuntu2",
+        "Size": 77824
+      },
+      {
+        "Name": "referenceassemblies-pcl",
+        "Version": "2014.04.14-1xamarin5 ubuntu1604b1",
+        "Size": 28700672
+      },
+      {
+        "Name": "rename",
+        "Version": "0.20-4",
+        "Size": 69632
+      },
+      {
+        "Name": "sed",
+        "Version": "4.2.2-7",
+        "Size": 311296
+      },
+      {
+        "Name": "sensible-utils",
+        "Version": "0.0.9",
+        "Size": 112640
+      },
+      {
+        "Name": "sgml-base",
+        "Version": "1.26 nmu4ubuntu1",
+        "Size": 115712
+      },
+      {
+        "Name": "shared-mime-info",
+        "Version": "1.5-2",
+        "Size": 2494464
+      },
+      {
+        "Name": "systemd",
+        "Version": "229-4ubuntu4",
+        "Size": 19226624
+      },
+      {
+        "Name": "systemd-sysv",
+        "Version": "229-4ubuntu4",
+        "Size": 92160
+      },
+      {
+        "Name": "sysv-rc",
+        "Version": "2.88dsf-59.3ubuntu2",
+        "Size": 130048
+      },
+      {
+        "Name": "sysvinit-utils",
+        "Version": "2.88dsf-59.3ubuntu2",
+        "Size": 126976
+      },
+      {
+        "Name": "tar",
+        "Version": "1.28-2.1",
+        "Size": 823296
+      },
+      {
+        "Name": "tzdata",
+        "Version": "2016d-0ubuntu0.16.04",
+        "Size": 2835456
+      },
+      {
+        "Name": "ubuntu-keyring",
+        "Version": "2012.05.19",
+        "Size": 47104
+      },
+      {
+        "Name": "ubuntu-mono",
+        "Version": "14.04 16.04.20160415-0ubuntu1",
+        "Size": 5756928
+      },
+      {
+        "Name": "ucf",
+        "Version": "3.0036",
+        "Size": 195584
+      },
+      {
+        "Name": "util-linux",
+        "Version": "2.27.1-6ubuntu3",
+        "Size": 3314688
+      },
+      {
+        "Name": "x11-common",
+        "Version": "1:7.7 13ubuntu3",
+        "Size": 316416
+      },
+      {
+        "Name": "x11-utils",
+        "Version": "7.7 3",
+        "Size": 619520
+      },
+      {
+        "Name": "xamarin-gtk-theme",
+        "Version": "0.2017.05.24.11.51-0xamarin6 ubuntu1604b1",
+        "Size": 306176
+      },
+      {
+        "Name": "xbitmaps",
+        "Version": "1.1.1-2",
+        "Size": 228352
+      },
+      {
+        "Name": "xdg-user-dirs",
+        "Version": "0.15-2ubuntu6",
+        "Size": 550912
+      },
+      {
+        "Name": "xkb-data",
+        "Version": "2.16-1ubuntu1",
+        "Size": 3066880
+      },
+      {
+        "Name": "xml-core",
+        "Version": "0.13 nmu2",
+        "Size": 192512
+      },
+      {
+        "Name": "xterm",
+        "Version": "322-1ubuntu1",
+        "Size": 1760256
+      },
+      {
+        "Name": "xz-utils",
+        "Version": "5.1.1alpha 20120614-2ubuntu2",
+        "Size": 393216
+      },
+      {
+        "Name": "zlib1g",
+        "Version": "1:1.2.8.dfsg-2ubuntu4",
+        "Size": 160768
+      }
+    ]
+  }
+]

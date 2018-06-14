@@ -1,0 +1,1673 @@
+[
+  {
+    "Image": "/tmp/tmp.RP0olin6yS/95fd0b16c8f2f19ec58dbee95d58230e685b0eab93200d101dd1ebc8d163d825.tar",
+    "AnalyzeType": "Apt",
+    "Analysis": [
+      {
+        "Name": "adduser",
+        "Version": "3.115",
+        "Size": 869376
+      },
+      {
+        "Name": "adwaita-icon-theme",
+        "Version": "3.22.0-1 deb9u1",
+        "Size": 29100032
+      },
+      {
+        "Name": "apt",
+        "Version": "1.4.8",
+        "Size": 3623936
+      },
+      {
+        "Name": "aspell",
+        "Version": "0.60.7~20110707-3 b2",
+        "Size": 1088512
+      },
+      {
+        "Name": "aspell-en",
+        "Version": "2016.11.20-0-0.1",
+        "Size": 433152
+      },
+      {
+        "Name": "base-files",
+        "Version": "9.9 deb9u4",
+        "Size": 340992
+      },
+      {
+        "Name": "base-passwd",
+        "Version": "3.5.43",
+        "Size": 234496
+      },
+      {
+        "Name": "bash",
+        "Version": "4.4-5",
+        "Size": 5937152
+      },
+      {
+        "Name": "bc",
+        "Version": "1.06.95-9 b3",
+        "Size": 237568
+      },
+      {
+        "Name": "bsdutils",
+        "Version": "1:2.29.2-1 deb9u1",
+        "Size": 243712
+      },
+      {
+        "Name": "coreutils",
+        "Version": "8.26-3",
+        "Size": 15465472
+      },
+      {
+        "Name": "dash",
+        "Version": "0.5.8-2.4",
+        "Size": 208896
+      },
+      {
+        "Name": "dc",
+        "Version": "1.06.95-9 b3",
+        "Size": 146432
+      },
+      {
+        "Name": "dconf-gsettings-backend",
+        "Version": "0.26.0-2 b1",
+        "Size": 73728
+      },
+      {
+        "Name": "dconf-service",
+        "Version": "0.26.0-2 b1",
+        "Size": 107520
+      },
+      {
+        "Name": "debconf",
+        "Version": "1.5.61",
+        "Size": 571392
+      },
+      {
+        "Name": "debian-archive-keyring",
+        "Version": "2017.5",
+        "Size": 120832
+      },
+      {
+        "Name": "debianutils",
+        "Version": "4.8.1.1",
+        "Size": 218112
+      },
+      {
+        "Name": "dictionaries-common",
+        "Version": "1.27.2",
+        "Size": 775168
+      },
+      {
+        "Name": "diffutils",
+        "Version": "1:3.5-3",
+        "Size": 1358848
+      },
+      {
+        "Name": "dirmngr",
+        "Version": "2.1.18-8~deb9u1",
+        "Size": 1110016
+      },
+      {
+        "Name": "dpkg",
+        "Version": "1.18.24",
+        "Size": 6906880
+      },
+      {
+        "Name": "e2fslibs",
+        "Version": "1.43.4-2",
+        "Size": 459776
+      },
+      {
+        "Name": "e2fsprogs",
+        "Version": "1.43.4-2",
+        "Size": 4118528
+      },
+      {
+        "Name": "eatmydata",
+        "Version": "105-5",
+        "Size": 27648
+      },
+      {
+        "Name": "emacsen-common",
+        "Version": "2.0.8",
+        "Size": 139264
+      },
+      {
+        "Name": "file",
+        "Version": "1:5.30-1 deb9u1",
+        "Size": 98304
+      },
+      {
+        "Name": "findutils",
+        "Version": "4.6.0 git+20161106-2",
+        "Size": 1898496
+      },
+      {
+        "Name": "fontconfig",
+        "Version": "2.11.0-6.7 b1",
+        "Size": 542720
+      },
+      {
+        "Name": "fontconfig-config",
+        "Version": "2.11.0-6.7",
+        "Size": 430080
+      },
+      {
+        "Name": "fonts-dejavu-core",
+        "Version": "2.37-1",
+        "Size": 3024896
+      },
+      {
+        "Name": "fsl-5.0-core",
+        "Version": "5.0.9-4~nd90 1",
+        "Size": 39724032
+      },
+      {
+        "Name": "fsl-mni152-templates",
+        "Version": "5.0.7-2",
+        "Size": 57915392
+      },
+      {
+        "Name": "gcc-6-base",
+        "Version": "6.3.0-18 deb9u1",
+        "Size": 214016
+      },
+      {
+        "Name": "gconf-service",
+        "Version": "3.2.6-4 b1",
+        "Size": 564224
+      },
+      {
+        "Name": "gconf2-common",
+        "Version": "3.2.6-4",
+        "Size": 6524928
+      },
+      {
+        "Name": "gir1.2-atk-1.0",
+        "Version": "2.22.0-1",
+        "Size": 118784
+      },
+      {
+        "Name": "gir1.2-atspi-2.0",
+        "Version": "2.22.0-6 deb9u1",
+        "Size": 69632
+      },
+      {
+        "Name": "gir1.2-evince-3.0",
+        "Version": "3.22.1-3 deb9u1",
+        "Size": 721920
+      },
+      {
+        "Name": "gir1.2-freedesktop",
+        "Version": "1.50.0-1 b1",
+        "Size": 37888
+      },
+      {
+        "Name": "gir1.2-gconf-2.0",
+        "Version": "3.2.6-4 b1",
+        "Size": 387072
+      },
+      {
+        "Name": "gir1.2-gdkpixbuf-2.0",
+        "Version": "2.36.5-2 deb9u2",
+        "Size": 44032
+      },
+      {
+        "Name": "gir1.2-glib-2.0",
+        "Version": "1.50.0-1 b1",
+        "Size": 636928
+      },
+      {
+        "Name": "gir1.2-gtk-3.0",
+        "Version": "3.22.11-1",
+        "Size": 1017856
+      },
+      {
+        "Name": "gir1.2-javascriptcoregtk-4.0",
+        "Version": "2.18.6-1~deb9u1",
+        "Size": 164864
+      },
+      {
+        "Name": "gir1.2-pango-1.0",
+        "Version": "1.40.5-1",
+        "Size": 264192
+      },
+      {
+        "Name": "gir1.2-rsvg-2.0",
+        "Version": "2.40.16-1 b1",
+        "Size": 206848
+      },
+      {
+        "Name": "gir1.2-soup-2.4",
+        "Version": "2.56.0-2 deb9u1",
+        "Size": 122880
+      },
+      {
+        "Name": "gir1.2-sugarext-1.0",
+        "Version": "0.110.0-4",
+        "Size": 54272
+      },
+      {
+        "Name": "gir1.2-webkit2-4.0",
+        "Version": "2.18.6-1~deb9u1",
+        "Size": 438272
+      },
+      {
+        "Name": "glib-networking",
+        "Version": "2.50.0-1 b1",
+        "Size": 178176
+      },
+      {
+        "Name": "glib-networking-common",
+        "Version": "2.50.0-1",
+        "Size": 425984
+      },
+      {
+        "Name": "glib-networking-services",
+        "Version": "2.50.0-1 b1",
+        "Size": 38912
+      },
+      {
+        "Name": "gnupg",
+        "Version": "2.1.18-8~deb9u1",
+        "Size": 2138112
+      },
+      {
+        "Name": "gnupg-agent",
+        "Version": "2.1.18-8~deb9u1",
+        "Size": 1394688
+      },
+      {
+        "Name": "gpgv",
+        "Version": "2.1.18-8~deb9u1",
+        "Size": 738304
+      },
+      {
+        "Name": "grep",
+        "Version": "2.27-2",
+        "Size": 1158144
+      },
+      {
+        "Name": "gsettings-desktop-schemas",
+        "Version": "3.22.0-1",
+        "Size": 3900416
+      },
+      {
+        "Name": "gstreamer1.0-plugins-base",
+        "Version": "1.10.4-1",
+        "Size": 2801664
+      },
+      {
+        "Name": "gtk-update-icon-cache",
+        "Version": "3.22.11-1",
+        "Size": 142336
+      },
+      {
+        "Name": "gzip",
+        "Version": "1.6-5 b1",
+        "Size": 236544
+      },
+      {
+        "Name": "hicolor-icon-theme",
+        "Version": "0.15-1",
+        "Size": 423936
+      },
+      {
+        "Name": "hostname",
+        "Version": "3.18 b1",
+        "Size": 48128
+      },
+      {
+        "Name": "init-system-helpers",
+        "Version": "1.48",
+        "Size": 134144
+      },
+      {
+        "Name": "iproute2",
+        "Version": "4.9.0-1 deb9u1",
+        "Size": 1799168
+      },
+      {
+        "Name": "iputils-ping",
+        "Version": "3:20161105-1",
+        "Size": 113664
+      },
+      {
+        "Name": "iso-codes",
+        "Version": "3.75-1",
+        "Size": 17914880
+      },
+      {
+        "Name": "libacl1",
+        "Version": "2.2.52-3 b1",
+        "Size": 63488
+      },
+      {
+        "Name": "libapt-pkg5.0",
+        "Version": "1.4.8",
+        "Size": 3129344
+      },
+      {
+        "Name": "libarchive13",
+        "Version": "3.2.2-2",
+        "Size": 792576
+      },
+      {
+        "Name": "libasound2",
+        "Version": "1.1.3-5",
+        "Size": 1334272
+      },
+      {
+        "Name": "libasound2-data",
+        "Version": "1.1.3-5",
+        "Size": 647168
+      },
+      {
+        "Name": "libaspell15",
+        "Version": "0.60.7~20110707-3 b2",
+        "Size": 2197504
+      },
+      {
+        "Name": "libassuan0",
+        "Version": "2.4.3-2",
+        "Size": 108544
+      },
+      {
+        "Name": "libatk-bridge2.0-0",
+        "Version": "2.22.0-2",
+        "Size": 218112
+      },
+      {
+        "Name": "libatk1.0-0",
+        "Version": "2.22.0-1",
+        "Size": 217088
+      },
+      {
+        "Name": "libatk1.0-data",
+        "Version": "2.22.0-1",
+        "Size": 1250304
+      },
+      {
+        "Name": "libatspi2.0-0",
+        "Version": "2.22.0-6 deb9u1",
+        "Size": 222208
+      },
+      {
+        "Name": "libattr1",
+        "Version": "1:2.4.47-2 b2",
+        "Size": 43008
+      },
+      {
+        "Name": "libaudit-common",
+        "Version": "1:2.6.7-2",
+        "Size": 30720
+      },
+      {
+        "Name": "libaudit1",
+        "Version": "1:2.6.7-2",
+        "Size": 153600
+      },
+      {
+        "Name": "libavahi-client3",
+        "Version": "0.6.32-2",
+        "Size": 122880
+      },
+      {
+        "Name": "libavahi-common-data",
+        "Version": "0.6.32-2",
+        "Size": 773120
+      },
+      {
+        "Name": "libavahi-common3",
+        "Version": "0.6.32-2",
+        "Size": 107520
+      },
+      {
+        "Name": "libblkid1",
+        "Version": "2.29.2-1 deb9u1",
+        "Size": 375808
+      },
+      {
+        "Name": "libbsd0",
+        "Version": "0.8.3-1",
+        "Size": 166912
+      },
+      {
+        "Name": "libbz2-1.0",
+        "Version": "1.0.6-8.1",
+        "Size": 98304
+      },
+      {
+        "Name": "libc-bin",
+        "Version": "2.24-11 deb9u3",
+        "Size": 3445760
+      },
+      {
+        "Name": "libc-l10n",
+        "Version": "2.24-11 deb9u3",
+        "Size": 4311040
+      },
+      {
+        "Name": "libc6",
+        "Version": "2.24-11 deb9u3",
+        "Size": 10940416
+      },
+      {
+        "Name": "libcairo-gobject2",
+        "Version": "1.14.8-1",
+        "Size": 396288
+      },
+      {
+        "Name": "libcairo2",
+        "Version": "1.14.8-1",
+        "Size": 1499136
+      },
+      {
+        "Name": "libcap-ng0",
+        "Version": "0.7.7-3 b1",
+        "Size": 44032
+      },
+      {
+        "Name": "libcap2",
+        "Version": "1:2.25-1",
+        "Size": 48128
+      },
+      {
+        "Name": "libcap2-bin",
+        "Version": "1:2.25-1",
+        "Size": 87040
+      },
+      {
+        "Name": "libcdparanoia0",
+        "Version": "3.10.2 debian-11",
+        "Size": 111616
+      },
+      {
+        "Name": "libcolord2",
+        "Version": "1.3.3-2",
+        "Size": 537600
+      },
+      {
+        "Name": "libcomerr2",
+        "Version": "1.43.4-2",
+        "Size": 84992
+      },
+      {
+        "Name": "libcroco3",
+        "Version": "0.6.11-3",
+        "Size": 336896
+      },
+      {
+        "Name": "libcups2",
+        "Version": "2.2.1-8 deb9u1",
+        "Size": 705536
+      },
+      {
+        "Name": "libcupsimage2",
+        "Version": "2.2.1-8 deb9u1",
+        "Size": 158720
+      },
+      {
+        "Name": "libdatrie1",
+        "Version": "0.2.10-4 b1",
+        "Size": 73728
+      },
+      {
+        "Name": "libdb5.3",
+        "Version": "5.3.28-12 deb9u1",
+        "Size": 1857536
+      },
+      {
+        "Name": "libdbus-1-3",
+        "Version": "1.10.26-0 deb9u1",
+        "Size": 458752
+      },
+      {
+        "Name": "libdbus-glib-1-2",
+        "Version": "0.108-2",
+        "Size": 343040
+      },
+      {
+        "Name": "libdconf1",
+        "Version": "0.26.0-2 b1",
+        "Size": 93184
+      },
+      {
+        "Name": "libdebconfclient0",
+        "Version": "0.227",
+        "Size": 68608
+      },
+      {
+        "Name": "libdjvulibre-text",
+        "Version": "3.5.27.1-7",
+        "Size": 356352
+      },
+      {
+        "Name": "libdjvulibre21",
+        "Version": "3.5.27.1-7",
+        "Size": 1709056
+      },
+      {
+        "Name": "libdrm2",
+        "Version": "2.4.74-1",
+        "Size": 107520
+      },
+      {
+        "Name": "libeatmydata1",
+        "Version": "105-5",
+        "Size": 38912
+      },
+      {
+        "Name": "libegl1-mesa",
+        "Version": "13.0.6-1 b2",
+        "Size": 281600
+      },
+      {
+        "Name": "libelf1",
+        "Version": "0.168-1",
+        "Size": 956416
+      },
+      {
+        "Name": "libenchant1c2a",
+        "Version": "1.6.0-11 b1",
+        "Size": 236544
+      },
+      {
+        "Name": "libepoxy0",
+        "Version": "1.3.1-2",
+        "Size": 1150976
+      },
+      {
+        "Name": "libevdocument3-4",
+        "Version": "3.22.1-3 deb9u1",
+        "Size": 1367040
+      },
+      {
+        "Name": "libevview3-3",
+        "Version": "3.22.1-3 deb9u1",
+        "Size": 1006592
+      },
+      {
+        "Name": "libexpat1",
+        "Version": "2.2.0-2 deb9u1",
+        "Size": 377856
+      },
+      {
+        "Name": "libfdisk1",
+        "Version": "2.29.2-1 deb9u1",
+        "Size": 480256
+      },
+      {
+        "Name": "libffi6",
+        "Version": "3.2.1-6",
+        "Size": 57344
+      },
+      {
+        "Name": "libfontconfig1",
+        "Version": "2.11.0-6.7 b1",
+        "Size": 497664
+      },
+      {
+        "Name": "libfreetype6",
+        "Version": "2.6.3-3.2",
+        "Size": 919552
+      },
+      {
+        "Name": "libgbm1",
+        "Version": "13.0.6-1 b2",
+        "Size": 118784
+      },
+      {
+        "Name": "libgcc1",
+        "Version": "1:6.3.0-18 deb9u1",
+        "Size": 110592
+      },
+      {
+        "Name": "libgconf-2-4",
+        "Version": "3.2.6-4 b1",
+        "Size": 589824
+      },
+      {
+        "Name": "libgcrypt20",
+        "Version": "1.7.6-2 deb9u2",
+        "Size": 1296384
+      },
+      {
+        "Name": "libgd3",
+        "Version": "2.2.4-2 deb9u2",
+        "Size": 457728
+      },
+      {
+        "Name": "libgdchart-gd2-noxpm",
+        "Version": "0.11.5-8 b1",
+        "Size": 107520
+      },
+      {
+        "Name": "libgdk-pixbuf2.0-0",
+        "Version": "2.36.5-2 deb9u2",
+        "Size": 546816
+      },
+      {
+        "Name": "libgdk-pixbuf2.0-common",
+        "Version": "2.36.5-2 deb9u2",
+        "Size": 2599936
+      },
+      {
+        "Name": "libgiftiio0",
+        "Version": "1.0.9-2~nd90 1",
+        "Size": 162816
+      },
+      {
+        "Name": "libgirepository-1.0-1",
+        "Version": "1.50.0-1 b1",
+        "Size": 248832
+      },
+      {
+        "Name": "libgl1-mesa-glx",
+        "Version": "13.0.6-1 b2",
+        "Size": 564224
+      },
+      {
+        "Name": "libglapi-mesa",
+        "Version": "13.0.6-1 b2",
+        "Size": 251904
+      },
+      {
+        "Name": "libglib2.0-0",
+        "Version": "2.50.3-2",
+        "Size": 5118976
+      },
+      {
+        "Name": "libglu1-mesa",
+        "Version": "9.0.0-2.1",
+        "Size": 475136
+      },
+      {
+        "Name": "libgmp10",
+        "Version": "2:6.1.2 dfsg-1",
+        "Size": 581632
+      },
+      {
+        "Name": "libgnutls30",
+        "Version": "3.5.8-5 deb9u3",
+        "Size": 2487296
+      },
+      {
+        "Name": "libgpg-error0",
+        "Version": "1.26-2",
+        "Size": 585728
+      },
+      {
+        "Name": "libgraphite2-3",
+        "Version": "1.3.10-1",
+        "Size": 217088
+      },
+      {
+        "Name": "libgs9",
+        "Version": "9.20~dfsg-3.2 deb9u1",
+        "Size": 16281600
+      },
+      {
+        "Name": "libgs9-common",
+        "Version": "9.20~dfsg-3.2 deb9u1",
+        "Size": 7550976
+      },
+      {
+        "Name": "libgssapi-krb5-2",
+        "Version": "1.15-1 deb9u1",
+        "Size": 433152
+      },
+      {
+        "Name": "libgstreamer-plugins-bad1.0-0",
+        "Version": "1.10.4-1",
+        "Size": 2884608
+      },
+      {
+        "Name": "libgstreamer-plugins-base1.0-0",
+        "Version": "1.10.4-1",
+        "Size": 3713024
+      },
+      {
+        "Name": "libgstreamer1.0-0",
+        "Version": "1.10.4-1",
+        "Size": 4855808
+      },
+      {
+        "Name": "libgtk-3-0",
+        "Version": "3.22.11-1",
+        "Size": 9221120
+      },
+      {
+        "Name": "libgtk-3-common",
+        "Version": "3.22.11-1",
+        "Size": 24763392
+      },
+      {
+        "Name": "libgxps2",
+        "Version": "0.2.4-1 b1",
+        "Size": 171008
+      },
+      {
+        "Name": "libharfbuzz-icu0",
+        "Version": "1.4.2-1",
+        "Size": 485376
+      },
+      {
+        "Name": "libharfbuzz0b",
+        "Version": "1.4.2-1",
+        "Size": 1097728
+      },
+      {
+        "Name": "libhogweed4",
+        "Version": "3.3-1 b2",
+        "Size": 237568
+      },
+      {
+        "Name": "libhunspell-1.4-0",
+        "Version": "1.4.1-2 b2",
+        "Size": 502784
+      },
+      {
+        "Name": "libhyphen0",
+        "Version": "2.8.8-5",
+        "Size": 79872
+      },
+      {
+        "Name": "libice6",
+        "Version": "2:1.0.9-2",
+        "Size": 137216
+      },
+      {
+        "Name": "libicu57",
+        "Version": "57.1-6 deb9u2",
+        "Size": 30758912
+      },
+      {
+        "Name": "libidn11",
+        "Version": "1.33-1",
+        "Size": 313344
+      },
+      {
+        "Name": "libijs-0.35",
+        "Version": "0.35-12",
+        "Size": 49152
+      },
+      {
+        "Name": "libjavascriptcoregtk-4.0-18",
+        "Version": "2.18.6-1~deb9u1",
+        "Size": 17093632
+      },
+      {
+        "Name": "libjbig0",
+        "Version": "2.1-3.1 b2",
+        "Size": 79872
+      },
+      {
+        "Name": "libjbig2dec0",
+        "Version": "0.13-4.1",
+        "Size": 165888
+      },
+      {
+        "Name": "libjpeg62-turbo",
+        "Version": "1:1.5.1-2",
+        "Size": 488448
+      },
+      {
+        "Name": "libjs-excanvas",
+        "Version": "0.r3-4",
+        "Size": 142336
+      },
+      {
+        "Name": "libjson-glib-1.0-0",
+        "Version": "1.2.6-1",
+        "Size": 307200
+      },
+      {
+        "Name": "libjson-glib-1.0-common",
+        "Version": "1.2.6-1",
+        "Size": 538624
+      },
+      {
+        "Name": "libk5crypto3",
+        "Version": "1.15-1 deb9u1",
+        "Size": 318464
+      },
+      {
+        "Name": "libkeyutils1",
+        "Version": "1.5.9-9",
+        "Size": 36864
+      },
+      {
+        "Name": "libkpathsea6",
+        "Version": "2016.20160513.41080.dfsg-2",
+        "Size": 246784
+      },
+      {
+        "Name": "libkrb5-3",
+        "Version": "1.15-1 deb9u1",
+        "Size": 1050624
+      },
+      {
+        "Name": "libkrb5support0",
+        "Version": "1.15-1 deb9u1",
+        "Size": 162816
+      },
+      {
+        "Name": "libksba8",
+        "Version": "1.3.5-2",
+        "Size": 270336
+      },
+      {
+        "Name": "liblcms2-2",
+        "Version": "2.8-4",
+        "Size": 413696
+      },
+      {
+        "Name": "libldap-2.4-2",
+        "Version": "2.4.44 dfsg-5+deb9u1",
+        "Size": 521216
+      },
+      {
+        "Name": "libldap-common",
+        "Version": "2.4.44 dfsg-5+deb9u1",
+        "Size": 110592
+      },
+      {
+        "Name": "liblz4-1",
+        "Version": "0.0~r131-2 b1",
+        "Size": 95232
+      },
+      {
+        "Name": "liblzma5",
+        "Version": "5.2.2-1.2 b1",
+        "Size": 347136
+      },
+      {
+        "Name": "liblzo2-2",
+        "Version": "2.08-1.2 b2",
+        "Size": 166912
+      },
+      {
+        "Name": "libmagic-mgc",
+        "Version": "1:5.30-1 deb9u1",
+        "Size": 4947968
+      },
+      {
+        "Name": "libmagic1",
+        "Version": "1:5.30-1 deb9u1",
+        "Size": 219136
+      },
+      {
+        "Name": "libmnl0",
+        "Version": "1.0.4-2",
+        "Size": 47104
+      },
+      {
+        "Name": "libmount1",
+        "Version": "2.29.2-1 deb9u1",
+        "Size": 412672
+      },
+      {
+        "Name": "libncursesw5",
+        "Version": "6.0 20161126-1+deb9u2",
+        "Size": 355328
+      },
+      {
+        "Name": "libnettle6",
+        "Version": "3.3-1 b2",
+        "Size": 366592
+      },
+      {
+        "Name": "libnewmat10ldbl",
+        "Version": "1.10.4-6",
+        "Size": 541696
+      },
+      {
+        "Name": "libnifti2",
+        "Version": "2.0.0-2 b2",
+        "Size": 296960
+      },
+      {
+        "Name": "libnotify4",
+        "Version": "0.7.7-2",
+        "Size": 59392
+      },
+      {
+        "Name": "libnpth0",
+        "Version": "1.3-1",
+        "Size": 44032
+      },
+      {
+        "Name": "libnspr4",
+        "Version": "2:4.12-6",
+        "Size": 338944
+      },
+      {
+        "Name": "libnss3",
+        "Version": "2:3.26.2-1.1 deb9u1",
+        "Size": 3856384
+      },
+      {
+        "Name": "libogg0",
+        "Version": "1.3.2-1",
+        "Size": 77824
+      },
+      {
+        "Name": "libopenjp2-7",
+        "Version": "2.1.2-1.1 deb9u2",
+        "Size": 313344
+      },
+      {
+        "Name": "libopus0",
+        "Version": "1.2~alpha2-1",
+        "Size": 340992
+      },
+      {
+        "Name": "liborc-0.4-0",
+        "Version": "1:0.4.26-2",
+        "Size": 574464
+      },
+      {
+        "Name": "libp11-kit0",
+        "Version": "0.23.3-2",
+        "Size": 448512
+      },
+      {
+        "Name": "libpam-modules",
+        "Version": "1.1.8-3.6",
+        "Size": 894976
+      },
+      {
+        "Name": "libpam-modules-bin",
+        "Version": "1.1.8-3.6",
+        "Size": 225280
+      },
+      {
+        "Name": "libpam-runtime",
+        "Version": "1.1.8-3.6",
+        "Size": 1040384
+      },
+      {
+        "Name": "libpam0g",
+        "Version": "1.1.8-3.6",
+        "Size": 234496
+      },
+      {
+        "Name": "libpango-1.0-0",
+        "Version": "1.40.5-1",
+        "Size": 560128
+      },
+      {
+        "Name": "libpangocairo-1.0-0",
+        "Version": "1.40.5-1",
+        "Size": 242688
+      },
+      {
+        "Name": "libpangoft2-1.0-0",
+        "Version": "1.40.5-1",
+        "Size": 281600
+      },
+      {
+        "Name": "libpangoxft-1.0-0",
+        "Version": "1.40.5-1",
+        "Size": 225280
+      },
+      {
+        "Name": "libpaper1",
+        "Version": "1.1.24 nmu5",
+        "Size": 62464
+      },
+      {
+        "Name": "libpcre3",
+        "Version": "2:8.39-3",
+        "Size": 684032
+      },
+      {
+        "Name": "libpixman-1-0",
+        "Version": "0.34.0-1",
+        "Size": 1007616
+      },
+      {
+        "Name": "libpng16-16",
+        "Version": "1.6.28-1",
+        "Size": 422912
+      },
+      {
+        "Name": "libpoppler-glib8",
+        "Version": "0.48.0-2 deb9u2",
+        "Size": 446464
+      },
+      {
+        "Name": "libpoppler64",
+        "Version": "0.48.0-2 deb9u2",
+        "Size": 3296256
+      },
+      {
+        "Name": "libproxy1v5",
+        "Version": "0.4.14-2",
+        "Size": 162816
+      },
+      {
+        "Name": "libpython-stdlib",
+        "Version": "2.7.13-2",
+        "Size": 37888
+      },
+      {
+        "Name": "libpython2.7-minimal",
+        "Version": "2.7.13-2 deb9u2",
+        "Size": 2833408
+      },
+      {
+        "Name": "libpython2.7-stdlib",
+        "Version": "2.7.13-2 deb9u2",
+        "Size": 8755200
+      },
+      {
+        "Name": "libreadline7",
+        "Version": "7.0-3",
+        "Size": 425984
+      },
+      {
+        "Name": "librest-0.7-0",
+        "Version": "0.8.0-2",
+        "Size": 113664
+      },
+      {
+        "Name": "librsvg2-2",
+        "Version": "2.40.16-1 b1",
+        "Size": 439296
+      },
+      {
+        "Name": "librsvg2-common",
+        "Version": "2.40.16-1 b1",
+        "Size": 216064
+      },
+      {
+        "Name": "libsasl2-2",
+        "Version": "2.1.27~101-g0780600 dfsg-3",
+        "Size": 187392
+      },
+      {
+        "Name": "libsasl2-modules-db",
+        "Version": "2.1.27~101-g0780600 dfsg-3",
+        "Size": 98304
+      },
+      {
+        "Name": "libsecret-1-0",
+        "Version": "0.18.5-3.1",
+        "Size": 362496
+      },
+      {
+        "Name": "libsecret-common",
+        "Version": "0.18.5-3.1",
+        "Size": 214016
+      },
+      {
+        "Name": "libselinux1",
+        "Version": "2.6-3 b3",
+        "Size": 214016
+      },
+      {
+        "Name": "libsemanage-common",
+        "Version": "2.6-2",
+        "Size": 39936
+      },
+      {
+        "Name": "libsemanage1",
+        "Version": "2.6-2",
+        "Size": 297984
+      },
+      {
+        "Name": "libsepol1",
+        "Version": "2.6-2",
+        "Size": 668672
+      },
+      {
+        "Name": "libsm6",
+        "Version": "2:1.2.2-1 b3",
+        "Size": 65536
+      },
+      {
+        "Name": "libsmartcols1",
+        "Version": "2.29.2-1 deb9u1",
+        "Size": 263168
+      },
+      {
+        "Name": "libsoup-gnome2.4-1",
+        "Version": "2.56.0-2 deb9u1",
+        "Size": 34816
+      },
+      {
+        "Name": "libsoup2.4-1",
+        "Version": "2.56.0-2 deb9u1",
+        "Size": 1074176
+      },
+      {
+        "Name": "libspectre1",
+        "Version": "0.2.8-1",
+        "Size": 104448
+      },
+      {
+        "Name": "libsqlite3-0",
+        "Version": "3.16.2-5 deb9u1",
+        "Size": 1189888
+      },
+      {
+        "Name": "libss2",
+        "Version": "1.43.4-2",
+        "Size": 97280
+      },
+      {
+        "Name": "libssl1.1",
+        "Version": "1.1.0f-3 deb9u2",
+        "Size": 3609600
+      },
+      {
+        "Name": "libstdc++6",
+        "Version": "6.3.0-18 deb9u1",
+        "Size": 2045952
+      },
+      {
+        "Name": "libsugarext0",
+        "Version": "0.110.0-4",
+        "Size": 185344
+      },
+      {
+        "Name": "libsystemd0",
+        "Version": "232-25 deb9u3",
+        "Size": 668672
+      },
+      {
+        "Name": "libtasn1-6",
+        "Version": "4.10-1.1 deb9u1",
+        "Size": 114688
+      },
+      {
+        "Name": "libtcl8.6",
+        "Version": "8.6.6 dfsg-1+b1",
+        "Size": 4146176
+      },
+      {
+        "Name": "libtext-iconv-perl",
+        "Version": "1.7-5 b4",
+        "Size": 51200
+      },
+      {
+        "Name": "libthai-data",
+        "Version": "0.1.26-1",
+        "Size": 615424
+      },
+      {
+        "Name": "libthai0",
+        "Version": "0.1.26-1",
+        "Size": 96256
+      },
+      {
+        "Name": "libtheora0",
+        "Version": "1.1.1 dfsg.1-14+b1",
+        "Size": 748544
+      },
+      {
+        "Name": "libtiff5",
+        "Version": "4.0.8-2 deb9u2",
+        "Size": 601088
+      },
+      {
+        "Name": "libtinfo5",
+        "Version": "6.0 20161126-1+deb9u2",
+        "Size": 489472
+      },
+      {
+        "Name": "libtk8.6",
+        "Version": "8.6.6-1 b1",
+        "Size": 2386944
+      },
+      {
+        "Name": "libudev1",
+        "Version": "232-25 deb9u3",
+        "Size": 228352
+      },
+      {
+        "Name": "libustr-1.0-1",
+        "Version": "1.0.4-6",
+        "Size": 264192
+      },
+      {
+        "Name": "libuuid1",
+        "Version": "2.29.2-1 deb9u1",
+        "Size": 109568
+      },
+      {
+        "Name": "libvisual-0.4-0",
+        "Version": "0.4.0-10",
+        "Size": 389120
+      },
+      {
+        "Name": "libvorbis0a",
+        "Version": "1.3.5-4 deb9u2",
+        "Size": 209920
+      },
+      {
+        "Name": "libvorbisenc2",
+        "Version": "1.3.5-4 deb9u2",
+        "Size": 715776
+      },
+      {
+        "Name": "libwayland-client0",
+        "Version": "1.12.0-1",
+        "Size": 81920
+      },
+      {
+        "Name": "libwayland-cursor0",
+        "Version": "1.12.0-1",
+        "Size": 50176
+      },
+      {
+        "Name": "libwayland-egl1-mesa",
+        "Version": "13.0.6-1 b2",
+        "Size": 71680
+      },
+      {
+        "Name": "libwayland-server0",
+        "Version": "1.12.0-1",
+        "Size": 100352
+      },
+      {
+        "Name": "libwebkit2gtk-4.0-37",
+        "Version": "2.18.6-1~deb9u1",
+        "Size": 46072832
+      },
+      {
+        "Name": "libwebp6",
+        "Version": "0.5.2-1",
+        "Size": 473088
+      },
+      {
+        "Name": "libx11-6",
+        "Version": "2:1.6.4-3",
+        "Size": 1584128
+      },
+      {
+        "Name": "libx11-data",
+        "Version": "2:1.6.4-3",
+        "Size": 1704960
+      },
+      {
+        "Name": "libx11-xcb1",
+        "Version": "2:1.6.4-3",
+        "Size": 238592
+      },
+      {
+        "Name": "libxau6",
+        "Version": "1:1.0.8-1",
+        "Size": 62464
+      },
+      {
+        "Name": "libxcb-dri2-0",
+        "Version": "1.12-1",
+        "Size": 125952
+      },
+      {
+        "Name": "libxcb-dri3-0",
+        "Version": "1.12-1",
+        "Size": 115712
+      },
+      {
+        "Name": "libxcb-glx0",
+        "Version": "1.12-1",
+        "Size": 236544
+      },
+      {
+        "Name": "libxcb-present0",
+        "Version": "1.12-1",
+        "Size": 115712
+      },
+      {
+        "Name": "libxcb-render0",
+        "Version": "1.12-1",
+        "Size": 171008
+      },
+      {
+        "Name": "libxcb-shm0",
+        "Version": "1.12-1",
+        "Size": 119808
+      },
+      {
+        "Name": "libxcb-sync1",
+        "Version": "1.12-1",
+        "Size": 135168
+      },
+      {
+        "Name": "libxcb-xfixes0",
+        "Version": "1.12-1",
+        "Size": 140288
+      },
+      {
+        "Name": "libxcb1",
+        "Version": "1.12-1",
+        "Size": 289792
+      },
+      {
+        "Name": "libxcomposite1",
+        "Version": "1:0.4.4-2",
+        "Size": 36864
+      },
+      {
+        "Name": "libxcursor1",
+        "Version": "1:1.1.14-1 deb9u1",
+        "Size": 74752
+      },
+      {
+        "Name": "libxdamage1",
+        "Version": "1:1.1.4-2 b3",
+        "Size": 35840
+      },
+      {
+        "Name": "libxdmcp6",
+        "Version": "1:1.1.2-3",
+        "Size": 54272
+      },
+      {
+        "Name": "libxext6",
+        "Version": "2:1.3.3-1 b2",
+        "Size": 126976
+      },
+      {
+        "Name": "libxfixes3",
+        "Version": "1:5.0.3-1",
+        "Size": 54272
+      },
+      {
+        "Name": "libxft2",
+        "Version": "2.3.2-1 b2",
+        "Size": 124928
+      },
+      {
+        "Name": "libxi6",
+        "Version": "2:1.7.9-1",
+        "Size": 139264
+      },
+      {
+        "Name": "libxinerama1",
+        "Version": "2:1.1.3-1 b3",
+        "Size": 39936
+      },
+      {
+        "Name": "libxkbcommon0",
+        "Version": "0.7.1-2~deb9u1",
+        "Size": 307200
+      },
+      {
+        "Name": "libxml2",
+        "Version": "2.9.4 dfsg1-2.2+deb9u2",
+        "Size": 2181120
+      },
+      {
+        "Name": "libxpm4",
+        "Version": "1:3.5.12-1",
+        "Size": 106496
+      },
+      {
+        "Name": "libxrandr2",
+        "Version": "2:1.5.1-1",
+        "Size": 83968
+      },
+      {
+        "Name": "libxrender1",
+        "Version": "1:0.9.10-1",
+        "Size": 71680
+      },
+      {
+        "Name": "libxshmfence1",
+        "Version": "1.2-1 b2",
+        "Size": 26624
+      },
+      {
+        "Name": "libxslt1.1",
+        "Version": "1.1.29-2.1",
+        "Size": 492544
+      },
+      {
+        "Name": "libxss1",
+        "Version": "1:1.2.2-1",
+        "Size": 57344
+      },
+      {
+        "Name": "libxxf86vm1",
+        "Version": "1:1.1.4-1 b2",
+        "Size": 51200
+      },
+      {
+        "Name": "locales",
+        "Version": "2.24-11 deb9u3",
+        "Size": 9466880
+      },
+      {
+        "Name": "login",
+        "Version": "1:4.4-4.1",
+        "Size": 2812928
+      },
+      {
+        "Name": "lsb-base",
+        "Version": "9.20161125",
+        "Size": 50176
+      },
+      {
+        "Name": "mawk",
+        "Version": "1.3.3-17 b3",
+        "Size": 187392
+      },
+      {
+        "Name": "mime-support",
+        "Version": "3.60",
+        "Size": 112640
+      },
+      {
+        "Name": "mount",
+        "Version": "2.29.2-1 deb9u1",
+        "Size": 454656
+      },
+      {
+        "Name": "multiarch-support",
+        "Version": "2.24-11 deb9u3",
+        "Size": 225280
+      },
+      {
+        "Name": "ncurses-base",
+        "Version": "6.0 20161126-1+deb9u2",
+        "Size": 348160
+      },
+      {
+        "Name": "ncurses-bin",
+        "Version": "6.0 20161126-1+deb9u2",
+        "Size": 548864
+      },
+      {
+        "Name": "neurodebian-popularity-contest",
+        "Version": "0.37.6",
+        "Size": 27648
+      },
+      {
+        "Name": "passwd",
+        "Version": "1:4.4-4.1",
+        "Size": 2537472
+      },
+      {
+        "Name": "perl-base",
+        "Version": "5.24.1-3 deb9u3",
+        "Size": 7732224
+      },
+      {
+        "Name": "pinentry-curses",
+        "Version": "1.0.0-2",
+        "Size": 101376
+      },
+      {
+        "Name": "poppler-data",
+        "Version": "0.4.7-8",
+        "Size": 12413952
+      },
+      {
+        "Name": "popularity-contest",
+        "Version": "1.64",
+        "Size": 179200
+      },
+      {
+        "Name": "python",
+        "Version": "2.7.13-2",
+        "Size": 663552
+      },
+      {
+        "Name": "python-cairo",
+        "Version": "1.8.8-2.2",
+        "Size": 172032
+      },
+      {
+        "Name": "python-dateutil",
+        "Version": "2.5.3-2",
+        "Size": 237568
+      },
+      {
+        "Name": "python-dbus",
+        "Version": "1.2.4-1 b1",
+        "Size": 480256
+      },
+      {
+        "Name": "python-decorator",
+        "Version": "4.0.11-1",
+        "Size": 44032
+      },
+      {
+        "Name": "python-gi",
+        "Version": "3.22.0-2",
+        "Size": 997376
+      },
+      {
+        "Name": "python-gi-cairo",
+        "Version": "3.22.0-2",
+        "Size": 349184
+      },
+      {
+        "Name": "python-minimal",
+        "Version": "2.7.13-2",
+        "Size": 148480
+      },
+      {
+        "Name": "python-six",
+        "Version": "1.10.0-3",
+        "Size": 57344
+      },
+      {
+        "Name": "python-sugar3",
+        "Version": "0.110.0-4",
+        "Size": 723968
+      },
+      {
+        "Name": "python-telepathy",
+        "Version": "0.15.19-3",
+        "Size": 624640
+      },
+      {
+        "Name": "python2.7",
+        "Version": "2.7.13-2 deb9u2",
+        "Size": 367616
+      },
+      {
+        "Name": "python2.7-minimal",
+        "Version": "2.7.13-2 deb9u2",
+        "Size": 3907584
+      },
+      {
+        "Name": "readline-common",
+        "Version": "7.0-3",
+        "Size": 91136
+      },
+      {
+        "Name": "sed",
+        "Version": "4.4-1",
+        "Size": 818176
+      },
+      {
+        "Name": "sensible-utils",
+        "Version": "0.0.9 deb9u1",
+        "Size": 63488
+      },
+      {
+        "Name": "shared-mime-info",
+        "Version": "1.8-1",
+        "Size": 4777984
+      },
+      {
+        "Name": "sugar-browse-activity",
+        "Version": "200 20170502-1",
+        "Size": 2018304
+      },
+      {
+        "Name": "sysvinit-utils",
+        "Version": "2.88dsf-59.9",
+        "Size": 112640
+      },
+      {
+        "Name": "tar",
+        "Version": "1.29b-1.1",
+        "Size": 2836480
+      },
+      {
+        "Name": "tcl",
+        "Version": "8.6.0 9",
+        "Size": 21504
+      },
+      {
+        "Name": "tcl8.6",
+        "Version": "8.6.6 dfsg-1+b1",
+        "Size": 146432
+      },
+      {
+        "Name": "tcsh",
+        "Version": "6.20.00-7",
+        "Size": 1337344
+      },
+      {
+        "Name": "tk",
+        "Version": "8.6.0 9",
+        "Size": 21504
+      },
+      {
+        "Name": "tk8.6",
+        "Version": "8.6.6-1 b1",
+        "Size": 99328
+      },
+      {
+        "Name": "tzdata",
+        "Version": "2018d-0 deb9u1",
+        "Size": 3085312
+      },
+      {
+        "Name": "ucf",
+        "Version": "3.0036",
+        "Size": 195584
+      },
+      {
+        "Name": "util-linux",
+        "Version": "2.29.2-1 deb9u1",
+        "Size": 3643392
+      },
+      {
+        "Name": "x11-common",
+        "Version": "1:7.7 19",
+        "Size": 312320
+      },
+      {
+        "Name": "xkb-data",
+        "Version": "2.19-1 deb9u1",
+        "Size": 5912576
+      },
+      {
+        "Name": "zlib1g",
+        "Version": "1:1.2.8.dfsg-5",
+        "Size": 159744
+      }
+    ]
+  }
+]

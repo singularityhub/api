@@ -1,0 +1,21 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap: docker\nFrom: ubuntu:16.04\n\n# Maintained by:\n\n# Jan-Bernard Marsman, PhD\n# Cognitive Neuroscience Center\n# Department of Neuroscience\n# University Medical Center Groningen\n#\n# Contact: j.b.c.marsman [at] umcg.nl\n#\n# March 2018 :version 1.1\n\n%environment\n    SINGULARITY_SHELL=\"/bin/bash\"\n    PATH=$PATH:/usr/bin/cnc\n\n%setup\n    mkdir -p  $SINGULARITY_ROOTFS/root/.irods\n    mkdir $SINGULARITY_ROOTFS/usr/bin/cnc\n\n    # bind point for data directory\n    mkdir $SINGULARITY_ROOTFS/data\n\n%files\n    scripts/* /usr/bin/cnc\n    #irods_environment.json /root/.irods/\n    \n%post\n    # make imported scripts executable\n    chmod 755 /usr/bin/cnc/*\n    \n    \n    apt-get update\n    apt-get install -y wget \n    apt-get install -y apt-transport-https\n    apt-get install -y progress\n    apt-get install -y emacs\n    \n    apt-get install -y environment-modules lmod\n    \n    # add neurodebian repository\n    wget -O- http://neuro.debian.net/lists/xenial.de-md.libre | tee /etc/apt/sources.list.d/neurodebian.sources.list\n    apt-key adv --recv-keys --keyserver hkp://pool.sks-keyservers.net:80 0xA5D32F012649A5A9\n\n    # add irods icommands \n    wget -qO - https://packages.irods.org/irods-signing-key.asc | apt-key add -\n    echo \"deb [arch=amd64] https://packages.irods.org/apt/ xenial main\" | tee /etc/apt/sources.list.d/renci-irods.list\n\n    apt-get update\n        \n    # add datalad\n    apt-get install -y datalad\n\n    # install dependencies (cmake)\n    apt-get install -y cmake pkg-config\n\n    # install dcm2niix\n    apt-get install -y dcm2niix\n\n    # install icommands\n    apt-get install -y irods-icommands\n\n    mkdir /software\n\n%runscript\n    exec cnc_convert \"$@\" \n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "org.label-schema.usage.singularity.deffile": "Singularity",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.from": "ubuntu:16.04",
+                "org.label-schema.build-date": "Sun,_03_Jun_2018_22:11:40_+0000",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "org.label-schema.build-size": "1548MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n    SINGULARITY_SHELL=\"/bin/bash\"\n    PATH=$PATH:/usr/bin/cnc\n\n",
+            "runscript": "#!/bin/sh \n\n    exec cnc_convert \"$@\" \n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

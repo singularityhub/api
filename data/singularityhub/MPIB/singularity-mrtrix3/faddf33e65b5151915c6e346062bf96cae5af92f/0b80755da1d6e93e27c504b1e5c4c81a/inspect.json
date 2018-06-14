@@ -1,0 +1,23 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap: docker\nFROM: debian:9.3-slim\n# Debian Stretch without manpages and other files\n# usually not needed in containers\n\n%help\nThis image contains mrtrix3 version 3.0_RC3.\nThe mrtrix3 binaries are at /opt/mrtrix3/bin/\n\n%post\nexport BUILD_SOFTWARE=\"git\"\nexport CONTAINER_SOFTWARE=\"g++ python python-numpy libeigen3-dev zlib1g-dev libqt4-opengl-dev libgl1-mesa-dev libfftw3-dev libtiff5-dev qt4-default\"\nexport CLONE_DIR=/opt\nexport MRTRIX_BUILD_DIR=${CLONE_DIR}/mrtrix3\nexport GITHUB_REPO=\"https://github.com/MRtrix3/mrtrix3.git\"\nexport MRTRIX_VERSION=\"3.0_RC3\"\n\napt-get update\napt-get install $BUILD_SOFTWARE $CONTAINER_SOFTWARE -y\ncd $CLONE_DIR\n\ngit clone $GITHUB_REPO\ncd $MRTRIX_BUILD_DIR\ngit checkout $MRTRIX_VERSION\npython configure\npython build\n\necho \"export PATH=${MRTRIX_BUILD_DIR}/bin:$PATH\" >> $SINGULARITY_ENVIRONMENT\n\n# Cleanup\napt-get purge $BUILD_SOFTWARE -y\napt-get autoclean -y\napt-get autoremove -y\nrm -rf /var/lib/apt/lists/*\n",
+            "help": "\n\nThis image contains mrtrix3 version 3.0_RC3.\nThe mrtrix3 binaries are at /opt/mrtrix3/bin/\n\n",
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "org.label-schema.usage.singularity.deffile": "Singularity.3.0_RC3",
+                "org.label-schema.usage": "/.singularity.d/runscript.help",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.from": "debian:9.3-slim",
+                "org.label-schema.build-date": "Mon,_11_Jun_2018_22:05:29_+0000",
+                "org.label-schema.usage.singularity.runscript.help": "/.singularity.d/runscript.help",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "org.label-schema.build-size": "741MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n",
+            "runscript": "#!/bin/sh\n\nexec \"bash\" \"$@\"\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

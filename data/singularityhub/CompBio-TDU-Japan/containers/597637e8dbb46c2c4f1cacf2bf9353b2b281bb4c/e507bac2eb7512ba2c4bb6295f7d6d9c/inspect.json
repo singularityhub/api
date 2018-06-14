@@ -1,0 +1,21 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap:docker\nFrom:alpine\n\n%post\n    apk add --update --no-cache --virtual build-deps build-base zlib-dev ca-certificates\n    wget http://cole-trapnell-lab.github.io/cufflinks/assets/downloads/cufflinks-2.2.1.Linux_x86_64.tar.gz\n    wget -q -O /etc/apk/keys/sgerrand.rsa.pub https://raw.githubusercontent.com/sgerrand/alpine-pkg-glibc/master/sgerrand.rsa.pub\n    wget https://github.com/sgerrand/alpine-pkg-glibc/releases/download/2.27-r0/glibc-2.27-r0.apk\n    wget https://github.com/sgerrand/alpine-pkg-glibc/releases/download/2.27-r0/glibc-bin-2.27-r0.apk\n    apk --no-cache add -v glibc-2.27-r0.apk\n    apk --no-cache add -v glibc-bin-2.27-r0.apk\n    rm glibc*.apk\n    tar -zxvf cufflinks-2.2.1.Linux_x86_64.tar.gz\n    mv cufflinks-2.2.1.Linux_x86_64/cuff* /usr/local/bin/\n    rm cufflinks-2.2.1.Linux_x86_64.tar.gz\n    rm -r cufflinks-2.2.1.Linux_x86_64\n    rm \"/etc/apk/keys/sgerrand.rsa.pub\"\n    apk del build-deps\n    rm -r /usr/glibc-compat/bin\n    rm -r /usr/glibc-compat/sbin\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "org.label-schema.usage.singularity.deffile": "Singularity.cufflinks",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.from": "alpine",
+                "org.label-schema.build-date": "Mon,_11_Jun_2018_14:49:06_+0000",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "org.label-schema.build-size": "144MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n",
+            "runscript": "#!/bin/sh\n\nexec \"/bin/sh\" \"$@\"\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}
