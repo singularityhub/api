@@ -1,0 +1,27 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap:shub\nFrom:ResearchIT/spack-singularity:openmpi\n\n%labels\nMAINTAINER severin@iastate.edu\n\n$help\necho \"This container contains a runscript for snpPhylo\"\n\n%environment\nSPACK_ROOT=/opt/spack\nexport SPACK_ROOT\nexport PATH=$SPACK_ROOT/bin:$PATH\nsource /etc/profile.d/modules.sh\nsource $SPACK_ROOT/share/spack/setup-env.sh\nexport PATH=$SPACK_ROOT/isugif/snpPhylo/bin:$SPACK_ROOT/isugif/snpPhylo/wrappers:$PATH\nfor d in /opt/spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/*/bin; do export PATH=\"$PATH:$d\"; done\n\n%post\nexport SPACK_ROOT=/opt/spack\nexport SPACK_ROOT\nexport PATH=$SPACK_ROOT/bin:$PATH\n\nyum -y install git python \\\ngcc gcc-c++ gcc-gfortran curl \\\ngnupg2 sed patch \\\nunzip gzip bzip2 \\\nfindutils make vim \\\nenvironment-modules\n\nyum clean all\n\n\nif [ ! -d \"$SPACK_ROOT\" ]; then\n  git clone https://github.com/spack/spack.git $SPACK_ROOT\n  spack compiler find $(which gcc)\n  spack compiler find $(which g++)\n  spack compiler find $(which gfortran)\n\n  #because i'm buildiing as root\n  export FORCE_UNSAFE_CONFIGURE=1\n\n  source $SPACK_ROOT/share/spack/setup-env.sh\n  spack install vcftools\n  spack install snphylo\nfi\n\n\n# export BUSCODIR=$SPACK_ROOT/opt/spack/linux-centos7-x86_64/gcc-4.8.5/busco-3.0.1-cafwtkz5ryvlwnup3xzntotjwlrqsiui\n# cp $BUSCODIR/config/config.ini.default $BUSCODIR/config/config.ini\n\ncd $SPACK_ROOT\nmkdir isugif\ncd isugif\ngit clone https://github.com/ISUGIFsingularity/snpPhylo.git\ncd snpPhylo\nchmod 755 bin/*\n\n%runscript\necho \"This container contains a runscript for snpPhylo\"\nexec runSNPphylo.sh \"$@\"\n",
+            "help": null,
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "shub",
+                "MAINTAINER": "severin@iastate.edu",
+                "name": "CentOS Base Image",
+                "license": "GPLv2",
+                "org.label-schema.schema-version": "1.0",
+                "ECHO": "\"This container contains a runscript for snpPhylo\"",
+                "org.label-schema.usage.singularity.deffile.from": "ResearchIT/spack-singularity:openmpi",
+                "org.label-schema.build-date": "Wed,_20_Jun_2018_15:48:30_+0000",
+                "vendor": "CentOS",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "build-date": "20180302",
+                "org.label-schema.build-size": "696MB",
+                "org.label-schema.usage.singularity.deffile": "Singularity.1.0.0"
+            },
+            "environment": "# Custom environment shell code should follow\n\nSPACK_ROOT=/opt/spack\nexport SPACK_ROOT\nexport PATH=$SPACK_ROOT/bin:$PATH\nsource /etc/profile.d/modules.sh\nsource $SPACK_ROOT/share/spack/setup-env.sh\n\nsource /etc/profile.d/modules.sh\nmodule load openmpi\n\nSPACK_ROOT=/opt/spack\nexport SPACK_ROOT\nexport PATH=$SPACK_ROOT/bin:$PATH\nsource /etc/profile.d/modules.sh\nsource $SPACK_ROOT/share/spack/setup-env.sh\nexport PATH=$SPACK_ROOT/isugif/snpPhylo/bin:$SPACK_ROOT/isugif/snpPhylo/wrappers:$PATH\nfor d in /opt/spack/opt/spack/linux-centos7-x86_64/gcc-4.8.5/*/bin; do export PATH=\"$PATH:$d\"; done\n\n",
+            "runscript": "#!/bin/sh \n\necho \"This container contains a runscript for snpPhylo\"\nexec runSNPphylo.sh \"$@\"\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}
