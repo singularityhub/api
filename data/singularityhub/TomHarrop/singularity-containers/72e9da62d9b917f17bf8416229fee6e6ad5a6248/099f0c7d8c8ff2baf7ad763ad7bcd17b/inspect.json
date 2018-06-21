@@ -1,0 +1,27 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap: debootstrap\nOSVersion: bionic\nMirrorURL: http://archive.ubuntu.com/ubuntu/\nInclude: build-essential language-pack-en wget zlib1g-dev\n\n%help\n\n    Container for stacks 2.0b\n    http://catchenlab.life.illinois.edu/stacks\n\n%labels\n\n    MAINTAINER \"Tom Harrop\"\n    VERSION \"stacks 2.0b\"\n\n%post\n\n    # install stacks\n    wget -O \"stacks.tar.gz\" \\\n        http://catchenlab.life.illinois.edu/stacks/source/stacks-2.0b.tar.gz\n    mkdir stacks-install\n    tar -zxf stacks.tar.gz \\\n        -C stacks-install \\\n        --strip-components 1\n    cd stacks-install || exit 1\n    ./configure \\\n    && make \\\n    && make install\n    cd ~ || exit 1\n    rm -rf stacks-install stacks.tar.gz\n",
+            "help": "\n\n\n    Container for stacks 2.0b\n    http://catchenlab.life.illinois.edu/stacks\n\n",
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "debootstrap",
+                "MAINTAINER": "\"Tom Harrop\"",
+                "org.label-schema.usage.singularity.deffile": "Singularity.stacks_2.0b",
+                "org.label-schema.usage": "/.singularity.d/runscript.help",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.osversion": "bionic",
+                "org.label-schema.usage.singularity.deffile.include": "build-essential language-pack-en wget zlib1g-dev",
+                "VERSION": "\"stacks 2.0b\"",
+                "org.label-schema.build-date": "Thu,_17_May_2018_21:33:20_+0000",
+                "org.label-schema.usage.singularity.deffile.mirrorurl": "http://archive.ubuntu.com/ubuntu/",
+                "org.label-schema.usage.singularity.runscript.help": "/.singularity.d/runscript.help",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "org.label-schema.build-size": "724MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n",
+            "runscript": "#!/bin/sh\n\necho \"There is no runscript defined for this container\\n\";\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

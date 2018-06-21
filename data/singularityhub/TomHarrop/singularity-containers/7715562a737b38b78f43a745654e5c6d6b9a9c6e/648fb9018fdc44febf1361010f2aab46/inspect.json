@@ -1,0 +1,27 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap: debootstrap\nOSVersion: bionic\nMirrorURL: http://archive.ubuntu.com/ubuntu/\nInclude: build-essential language-pack-en software-properties-common wget\n\n%help\n\n    Container for mummer 4.0.0beta2\n    https://github.com/mummer4/mummer/releases\n\n%labels\n\n    MAINTAINER \"Tom Harrop\"\n    VERSION \"mummer 4.0.0beta2\"\n\n%runscript\n\n    exec mummer \"$@\"\n\n%post\n\n    # add apt repos\n    add-apt-repository \\\n        \"deb http://archive.ubuntu.com/ubuntu bionic main universe restricted multiverse\"\n    add-apt-repository \\\n        \"deb http://archive.canonical.com/ubuntu bionic partner\"\n    apt update\n\n    # install apt packages\n    apt install -y \\\n        fig2dev \\\n        gnuplot \\\n        xfig\n\n    # build mummer\n    wget -O \"mummer.tar.gz\" \\\n        --no-check-certificate \\\n        https://github.com/mummer4/mummer/releases/download/v4.0.0beta2/mummer-4.0.0beta2.tar.gz\n    mkdir mummer-install\n    tar -zxf mummer.tar.gz \\\n        -C mummer-install \\\n        --strip-components 1\n    cd mummer-install || exit 1\n    ./configure && make && make install\n    cd .. || exit 1\n    rm -rf mummer.tar.gz mummer-install\n\n    # rebuild libraries\n    ldconfig\n",
+            "help": "\n\n\n    Container for mummer 4.0.0beta2\n    https://github.com/mummer4/mummer/releases\n\n",
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "debootstrap",
+                "MAINTAINER": "\"Tom Harrop\"",
+                "org.label-schema.usage.singularity.deffile": "Singularity.mummer_4.0.0beta2",
+                "org.label-schema.usage": "/.singularity.d/runscript.help",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.osversion": "bionic",
+                "org.label-schema.usage.singularity.deffile.include": "build-essential language-pack-en software-properties-common wget",
+                "VERSION": "\"mummer 4.0.0beta2\"",
+                "org.label-schema.build-date": "Thu,_07_Jun_2018_06:00:19_+0000",
+                "org.label-schema.usage.singularity.deffile.mirrorurl": "http://archive.ubuntu.com/ubuntu/",
+                "org.label-schema.usage.singularity.runscript.help": "/.singularity.d/runscript.help",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "org.label-schema.build-size": "953MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n",
+            "runscript": "#!/bin/sh \n\n\n    exec mummer \"$@\"\n\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

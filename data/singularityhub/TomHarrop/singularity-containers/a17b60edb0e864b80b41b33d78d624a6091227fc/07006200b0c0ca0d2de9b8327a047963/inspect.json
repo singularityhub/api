@@ -1,0 +1,24 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap: docker\nFrom: trinityrnaseq/trinityrnaseq:2.6.6\n\n%help\n\n    Container for Trinity 2.6.6\n    https://github.com/trinityrnaseq/trinityrnaseq/releases\n\n%labels\n\n    VERSION \"Trinity 2.6.6\"\n\n%post\n    \n    apt-get update \\\n        && apt-get install -y \\\n        language-pack-en\n\n    # install RSEM\n    mkdir rsem-install\n    wget -O \"rsem.tar.gz\" \\\n        https://github.com/deweylab/RSEM/archive/v1.3.0.tar.gz\n    tar -zxf rsem.tar.gz \\\n        -C rsem-install \\\n        --strip-components 1\n    cd rsem-install\n    make && make install\n    cd ..\n    rm -rf rsem.tar.gz rsem-install\n\n%environment\n\n    PATH=\"${PATH}:/usr/local/bin/trinityrnaseq/util:/usr/local/bin/trinityrnaseq/util/support_scripts\"\n\n%runscript\n\n    exec /usr/local/bin/trinityrnaseq/Trinity \"$@\"\n",
+            "help": "\n\n\n    Container for Trinity 2.6.6\n    https://github.com/trinityrnaseq/trinityrnaseq/releases\n\n",
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "org.label-schema.usage.singularity.deffile": "Singularity.trinity_2.6.6",
+                "org.label-schema.usage": "/.singularity.d/runscript.help",
+                "org.label-schema.schema-version": "1.0",
+                "VERSION": "\"Trinity 2.6.6\"",
+                "org.label-schema.usage.singularity.deffile.from": "trinityrnaseq/trinityrnaseq:2.6.6",
+                "org.label-schema.build-date": "Tue,_29_May_2018_01:55:17_+0000",
+                "org.label-schema.usage.singularity.runscript.help": "/.singularity.d/runscript.help",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "org.label-schema.build-size": "4785MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n\n    PATH=\"${PATH}:/usr/local/bin/trinityrnaseq/util:/usr/local/bin/trinityrnaseq/util/support_scripts\"\n\n",
+            "runscript": "#!/bin/sh \n\n\n    exec /usr/local/bin/trinityrnaseq/Trinity \"$@\"\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

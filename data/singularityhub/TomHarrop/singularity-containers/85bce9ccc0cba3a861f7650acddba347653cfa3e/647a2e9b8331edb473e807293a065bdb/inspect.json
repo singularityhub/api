@@ -1,0 +1,29 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap: docker\nFrom: rocker/verse:latest\n\n%help\n\n    Container for plotting with R data.table and ggplot2\n\n%labels\n\n    MAINTAINER \"Tom Harrop\"\n    VERSION \"R 3.5.0\"\n\n%post\n\n    # install packages from bioconductor\n    Rscript -e \"source('https://bioconductor.org/biocLite.R') ; \\\n        biocLite(c('data.table'), \\\n            type='source', ask=FALSE)\"\n",
+            "help": "\n\n\n    Container for plotting with R data.table and ggplot2\n\n",
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "MAINTAINER": "\"Tom Harrop\"",
+                "org.label-schema.license": "GPL-2.0",
+                "maintainer": "Carl Boettiger <cboettig@ropensci.org>",
+                "org.label-schema.usage": "/.singularity.d/runscript.help",
+                "org.label-schema.schema-version": "1.0",
+                "VERSION": "\"R 3.5.0\"",
+                "org.label-schema.usage.singularity.deffile.from": "rocker/verse:latest",
+                "org.label-schema.build-date": "Wed,_23_May_2018_05:38:35_+0000",
+                "org.label-schema.vendor": "Rocker Project",
+                "org.label-schema.usage.singularity.runscript.help": "/.singularity.d/runscript.help",
+                "org.label-schema.vcs-url": "https://github.com/rocker-org/rocker-versioned",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "org.label-schema.build-size": "2458MB",
+                "org.label-schema.usage.singularity.deffile": "Singularity.R_3.5.0"
+            },
+            "environment": "# Custom environment shell code should follow\n\n",
+            "runscript": "#!/bin/sh\n\nexec \"/init\" \"$@\"\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

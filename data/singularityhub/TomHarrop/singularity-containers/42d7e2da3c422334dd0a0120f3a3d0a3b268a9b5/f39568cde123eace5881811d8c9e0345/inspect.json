@@ -1,0 +1,25 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap: docker\nFrom: bioperl/bioperl:latest\n\n%help\n\n    Container for SCRMshaw 05142018\n    http://halfonlab.ccr.buffalo.edu/scrmshaw.html\n\n%labels\n\n    MAINTAINER \"Tom Harrop\"\n    VERSION \"SCRMshaw 05142018\"\n\n%post\n\n    export DEBIAN_FRONTEND=noninteractive\n\n    # install apt packages\n    apt-get update \\\n        && apt-get install -y \\\n        language-pack-en \\\n        wget\n\n    # download scrmshaw\n    wget -O \"scrmshaw.tar.gz\" \\\n        http://halfonlab.ccr.buffalo.edu/scrmshaw/SCRMshaw.05142018.tar.gz\n    mkdir scrmshaw\n    tar -zxf scrmshaw.tar.gz \\\n        -C scrmshaw \\\n        --strip-components 1\n\n    # build\n    cd scrmshaw || exit 1\n    make\n    chmod -R a+r /scrmshaw\n    chmod -R a+x /scrmshaw\n\n    # fix the example data\n    printf \"/scrmshaw/example/test_data/mapping0.ap\\n\" \\\n        > /scrmshaw/example/test_data/trainingSet.lst     \n\n    # tidy up\n    cd .. || exit 1\n    rm scrmshaw.tar.gz\n\n%runscript\n\n    exec /scrmshaw/code/scrm.pl \"$@\"\n\n%environment\n\n    PATH=\"/scrmshaw/code:/scrmshaw/bin:${PATH}\"\n",
+            "help": "\n\n\n    Container for SCRMshaw 05142018\n    http://halfonlab.ccr.buffalo.edu/scrmshaw.html\n\n",
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "docker",
+                "MAINTAINER": "\"Tom Harrop\"",
+                "org.label-schema.usage.singularity.deffile": "Singularity.scrmshaw_20180523",
+                "org.label-schema.usage": "/.singularity.d/runscript.help",
+                "org.label-schema.schema-version": "1.0",
+                "VERSION": "\"SCRMshaw 05142018\"",
+                "org.label-schema.usage.singularity.deffile.from": "bioperl/bioperl:latest",
+                "org.label-schema.build-date": "Thu,_24_May_2018_20:41:17_+0000",
+                "org.label-schema.usage.singularity.runscript.help": "/.singularity.d/runscript.help",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "org.label-schema.build-size": "775MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n\n    PATH=\"/scrmshaw/code:/scrmshaw/bin:${PATH}\"\n",
+            "runscript": "#!/bin/sh \n\n\n    exec /scrmshaw/code/scrm.pl \"$@\"\n\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "data": {
+        "attributes": {
+            "deffile": "Bootstrap: debootstrap\nOSVersion: bionic\nMirrorURL: http://archive.ubuntu.com/ubuntu/\nInclude: default-jre wget\n\n%help\n\n    Container for BBMap 38.00\n    https://jgi.doe.gov/data-and-tools/bbtools/\n\n%labels\n\n    MAINTAINER \"Tom Harrop\"\n    VERSION \"BBMap 38.00\"\n\n%post\n\n    wget -O \"bbmap.tar.gz\" \\\n        \"https://sourceforge.net/projects/bbmap/files/BBMap_38.00.tar.gz\"\n    mkdir bbmap-install\n    tar -zxf bbmap.tar.gz \\\n        -C bbmap-install \\\n        --strip-components 1\n    cp -r bbmap-install/resources/* /\n    cp -r bbmap-install/* /usr/local/bin/\n    rm -rf bbmap.tar.gz bbmap-install\n",
+            "help": "\n\n\n    Container for BBMap 38.00\n    https://jgi.doe.gov/data-and-tools/bbtools/\n\n",
+            "labels": {
+                "org.label-schema.usage.singularity.deffile.bootstrap": "debootstrap",
+                "MAINTAINER": "\"Tom Harrop\"",
+                "org.label-schema.usage.singularity.deffile": "Singularity.bbmap_38.00",
+                "org.label-schema.usage": "/.singularity.d/runscript.help",
+                "org.label-schema.schema-version": "1.0",
+                "org.label-schema.usage.singularity.deffile.osversion": "bionic",
+                "org.label-schema.usage.singularity.deffile.include": "default-jre wget",
+                "VERSION": "\"BBMap 38.00\"",
+                "org.label-schema.build-date": "Thu,_17_May_2018_21:23:01_+0000",
+                "org.label-schema.usage.singularity.deffile.mirrorurl": "http://archive.ubuntu.com/ubuntu/",
+                "org.label-schema.usage.singularity.runscript.help": "/.singularity.d/runscript.help",
+                "org.label-schema.usage.singularity.version": "2.4.1-feature-squashbuild-secbuild-2.4.1.g220f8e0",
+                "org.label-schema.build-size": "637MB"
+            },
+            "environment": "# Custom environment shell code should follow\n\n",
+            "runscript": "#!/bin/sh\n\necho \"There is no runscript defined for this container\\n\";\n",
+            "test": null
+        },
+        "type": "container"
+    }
+}
