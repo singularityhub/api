@@ -1,7 +1,8 @@
 # Container API
 
 [![DOI](https://zenodo.org/badge/131761241.svg)](https://zenodo.org/badge/latestdoi/131761241)
-The tagged versions of this data are also [available on Kaggle](https://www.kaggle.com/stanfordcompute/singularity-guts).
+The tagged versions of this data are also [available on Kaggle](https://www.kaggle.com/stanfordcompute/singularity-guts)
+as a [Dinosaur Dataset](https://vsoch.github.io/datasets/singularity-guts).
 
 This is a Docker image to do the following:
 
