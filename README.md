@@ -1,5 +1,7 @@
 # Container API
 
+[![DOI](https://zenodo.org/badge/131761241.svg)](https://zenodo.org/badge/latestdoi/131761241)
+
 This is a Docker image to do the following:
 
  - Connect to a Google Storage Singularity Registry
